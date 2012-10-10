@@ -1,6 +1,9 @@
 Meta-beagleboard
 ================================
 
+Introduction
+-------------------------
+
 The official OpenEmbedded/Yocto BSP layer for Beagleboard.org platforms.
 
 It is hosted on https://github.com/beagleboard/meta-beagleboard with the source repository at git://github.com/beagleboard/meta-beagleboard.git
