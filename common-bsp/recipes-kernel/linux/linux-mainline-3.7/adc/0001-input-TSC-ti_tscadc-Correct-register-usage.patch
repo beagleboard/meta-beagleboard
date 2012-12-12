@@ -1,4 +1,4 @@
-From e3150ab6640f6effe5eb504159204fb2fce39ead Mon Sep 17 00:00:00 2001
+From 843044ea4e9d7fd960b6ec792c7a45d8829c440a Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Tue, 16 Oct 2012 07:25:38 +0000
 Subject: [PATCH 01/13] input: TSC: ti_tscadc: Correct register usage

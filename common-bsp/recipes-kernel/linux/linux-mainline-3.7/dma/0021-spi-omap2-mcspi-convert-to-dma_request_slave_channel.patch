@@ -1,4 +1,4 @@
-From c7f8239573589b097660904782730f03eab0e4ad Mon Sep 17 00:00:00 2001
+From ef5923354152219c823c61fa37b8c14c147beae2 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 20 Sep 2012 00:37:54 -0400
 Subject: [PATCH 21/31] spi: omap2-mcspi: convert to

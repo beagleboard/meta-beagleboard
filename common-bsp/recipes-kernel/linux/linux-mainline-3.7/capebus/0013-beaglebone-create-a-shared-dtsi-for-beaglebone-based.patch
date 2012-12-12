@@ -1,7 +1,7 @@
-From d7cad92f4afec2199477c35e8473ae47404b8dc8 Mon Sep 17 00:00:00 2001
+From 6068cf2292fcf55d5f672a8671af6cf77e3cbea9 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 30 Oct 2012 12:30:18 +0100
-Subject: [PATCH 13/20] beaglebone: create a shared dtsi for beaglebone based
+Subject: [PATCH 13/32] beaglebone: create a shared dtsi for beaglebone based
  boards and add a new dts for bonelt
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>

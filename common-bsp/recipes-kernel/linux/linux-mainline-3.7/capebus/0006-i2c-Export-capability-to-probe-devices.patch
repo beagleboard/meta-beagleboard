@@ -1,7 +1,7 @@
-From 6cb271c44bd9b3ab5c98d1ed85bdbc1634240671 Mon Sep 17 00:00:00 2001
+From ece491e332fa16c4bd23d81e18a6892265b9f9ab Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 20 Oct 2012 14:08:17 +0300
-Subject: [PATCH 06/20] i2c: Export capability to probe devices
+Subject: [PATCH 06/32] i2c: Export capability to probe devices
 
 Probe devices for a node other that the adapter node.
 ---

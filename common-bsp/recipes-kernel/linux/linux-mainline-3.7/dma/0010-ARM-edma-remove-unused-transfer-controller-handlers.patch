@@ -1,4 +1,4 @@
-From 20e1223cc361430b43c6bb866f3edb4c758a3142 Mon Sep 17 00:00:00 2001
+From 794f2487b26974150635263a4c7e4e11143060ee Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 22 Aug 2012 09:31:49 -0400
 Subject: [PATCH 10/31] ARM: edma: remove unused transfer controller handlers

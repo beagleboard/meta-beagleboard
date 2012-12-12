@@ -1,4 +1,4 @@
-From f3fc41cad7ad5ff76953819bf2c5f8d9ab045b0f Mon Sep 17 00:00:00 2001
+From 3ac5d7d440d7e06ded5637638536daca7f81532e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 24 Oct 2012 11:34:54 +0200
 Subject: [PATCH 20/20] f2fs: compile fix

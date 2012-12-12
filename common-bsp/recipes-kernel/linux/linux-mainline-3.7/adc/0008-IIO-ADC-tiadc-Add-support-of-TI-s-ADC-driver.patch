@@ -1,4 +1,4 @@
-From 65144337ec54598312f8e5b9373ffaaf13d37ca3 Mon Sep 17 00:00:00 2001
+From 56696daf2b07249bb824c50d4d9c787045458775 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Tue, 16 Oct 2012 07:25:45 +0000
 Subject: [PATCH 08/13] IIO : ADC: tiadc: Add support of TI's ADC driver

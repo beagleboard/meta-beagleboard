@@ -1,4 +1,4 @@
-From f54a2b820b5425658885f679835f2ce5d84cf85b Mon Sep 17 00:00:00 2001
+From 50762fd4d32b22c0b7a99292237e47d4e293b95f Mon Sep 17 00:00:00 2001
 From: Vaibhav Hiremath <hvaibhav@ti.com>
 Date: Mon, 3 Sep 2012 21:25:38 +0530
 Subject: [PATCH 3/4] net: cpsw: Add parent<->child relation support between

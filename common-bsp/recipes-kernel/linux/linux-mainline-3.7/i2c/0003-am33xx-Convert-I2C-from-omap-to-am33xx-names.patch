@@ -1,4 +1,4 @@
-From e7ff659477c9f01062b3e0780e73fe2a1032d258 Mon Sep 17 00:00:00 2001
+From e40c2b9e2ebe80b9b91641be19c4341455afd271 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 15 Sep 2012 14:49:11 +0300
 Subject: [PATCH 3/4] am33xx: Convert I2C from omap to am33xx names
@@ -62,10 +62,10 @@ index 43e23a8..6032648 100644
  			clock-frequency = <400000>;
  
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index 433065e..535a66c 100644
+index 8484559..a2270aa 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -225,33 +225,33 @@
+@@ -229,33 +229,33 @@
  			status = "disabled";
  		};
  

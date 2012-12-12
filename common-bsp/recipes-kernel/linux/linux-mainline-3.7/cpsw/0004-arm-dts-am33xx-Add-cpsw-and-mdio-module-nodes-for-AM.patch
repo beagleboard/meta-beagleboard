@@ -1,4 +1,4 @@
-From 71e8666d744c19808d60d01a01b4db5d442677d0 Mon Sep 17 00:00:00 2001
+From e79b0aa0d2f48d8b7765c2d90f72a6971b53ba29 Mon Sep 17 00:00:00 2001
 From: Mugunthan V N <mugunthanvnm@ti.com>
 Date: Sun, 29 Jul 2012 20:56:29 +0530
 Subject: [PATCH 4/4] arm/dts: am33xx: Add cpsw and mdio module nodes for

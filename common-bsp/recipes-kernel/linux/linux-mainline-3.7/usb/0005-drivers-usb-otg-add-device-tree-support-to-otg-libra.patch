@@ -1,4 +1,4 @@
-From 9b6d9eac67dc937422b8ceef571aa5a16430097a Mon Sep 17 00:00:00 2001
+From 6bf285bf39c1295a2ee77eda87dbf53d647c066a Mon Sep 17 00:00:00 2001
 From: Ajay Kumar Gupta <ajay.gupta@ti.com>
 Date: Tue, 10 Jul 2012 14:10:38 +0530
 Subject: [PATCH 5/9] drivers: usb: otg: add device tree support to otg

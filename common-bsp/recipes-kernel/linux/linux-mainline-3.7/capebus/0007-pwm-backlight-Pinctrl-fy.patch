@@ -1,7 +1,7 @@
-From 2bc340f1e63492bc8c9e6303fe1086c5c860f105 Mon Sep 17 00:00:00 2001
+From f0ce8a75767125cca46209665fb22221187438af Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 23 Oct 2012 11:48:58 +0300
-Subject: [PATCH 07/20] pwm-backlight: Pinctrl-fy
+Subject: [PATCH 07/32] pwm-backlight: Pinctrl-fy
 
 ---
  drivers/video/backlight/pwm_bl.c |    7 +++++++

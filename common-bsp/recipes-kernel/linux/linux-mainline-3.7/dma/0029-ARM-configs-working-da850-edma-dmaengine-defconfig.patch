@@ -1,4 +1,4 @@
-From 5c2e8595db47716a4ba015121b61ac151a736b7d Mon Sep 17 00:00:00 2001
+From 1902eb5a04b5f2d7028d6706df9d501296f68db7 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Mon, 15 Oct 2012 10:17:43 -0400
 Subject: [PATCH 29/31] ARM: configs: working da850 edma dmaengine defconfig

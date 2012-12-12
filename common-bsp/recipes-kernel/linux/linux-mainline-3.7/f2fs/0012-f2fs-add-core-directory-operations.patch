@@ -1,4 +1,4 @@
-From 54f2c86f5534c945a789d8b36130d4bb2c6bd597 Mon Sep 17 00:00:00 2001
+From ee8e7c16b9d4f2f4589c23bb9acc082c2cdea2f7 Mon Sep 17 00:00:00 2001
 From: ??? <jaegeuk.kim@samsung.com>
 Date: Tue, 23 Oct 2012 02:31:34 +0000
 Subject: [PATCH 12/20] f2fs: add core directory operations

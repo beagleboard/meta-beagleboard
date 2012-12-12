@@ -1,7 +1,7 @@
-From a1e784c75212493ec12bf5681bb10e87a9614ec9 Mon Sep 17 00:00:00 2001
+From 573ce94c8f6eddbf231cd9b5844aeed0a712b2d7 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 17 Oct 2012 11:32:24 +0200
-Subject: [PATCH 7/7] da8xx-fb: add panel definition for beaglebone LCD7 cape
+Subject: [PATCH 7/9] da8xx-fb: add panel definition for beaglebone LCD7 cape
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

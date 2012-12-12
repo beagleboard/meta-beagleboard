@@ -1,4 +1,4 @@
-From 529e57cffe77e9ea2dff7c866716ab3e269ae979 Mon Sep 17 00:00:00 2001
+From 1c968042bde774612ad5f68042ec4cc3c0808a45 Mon Sep 17 00:00:00 2001
 From: ??? <jaegeuk.kim@samsung.com>
 Date: Tue, 23 Oct 2012 02:28:47 +0000
 Subject: [PATCH 07/20] f2fs: add segment operations

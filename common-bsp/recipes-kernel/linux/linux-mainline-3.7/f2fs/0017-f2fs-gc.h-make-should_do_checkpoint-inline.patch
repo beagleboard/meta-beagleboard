@@ -1,4 +1,4 @@
-From 13e666f1f371f4f607b323b05c2e56d50fb82f5e Mon Sep 17 00:00:00 2001
+From 6a55416cd8d51ed8e88808345d88ffc8cf709a7f Mon Sep 17 00:00:00 2001
 From: "gregkh@linuxfoundation.org" <gregkh@linuxfoundation.org>
 Date: Tue, 23 Oct 2012 18:21:46 +0000
 Subject: [PATCH 17/20] f2fs: gc.h: make should_do_checkpoint() inline

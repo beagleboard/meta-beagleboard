@@ -1,7 +1,7 @@
-From fd3133e399e83114bae6d7bf0f7a52a899ef574d Mon Sep 17 00:00:00 2001
+From f00bab8f005bb70996522aa4fdad4b3daeebf373 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 26 Oct 2012 16:11:46 +0300
-Subject: [PATCH 11/20] arm-dt: Enable DT proc updates.
+Subject: [PATCH 11/32] arm-dt: Enable DT proc updates.
 
 ---
  arch/arm/include/asm/prom.h |    2 ++

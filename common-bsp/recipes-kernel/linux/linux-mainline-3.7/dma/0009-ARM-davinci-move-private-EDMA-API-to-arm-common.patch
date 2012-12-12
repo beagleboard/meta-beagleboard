@@ -1,4 +1,4 @@
-From 13c55b71215bbab6abeb6c2a78bd864f71abc937 Mon Sep 17 00:00:00 2001
+From 0066cb778c3381d9fcfc29be350eca17541d3990 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 22 Aug 2012 09:24:24 -0400
 Subject: [PATCH 09/31] ARM: davinci: move private EDMA API to arm/common
@@ -42,10 +42,10 @@ Signed-off-by: Matt Porter <mporter@ti.com>
  create mode 100644 include/linux/platform_data/edma.h
 
 diff --git a/arch/arm/Kconfig b/arch/arm/Kconfig
-index ade7e92..6737b69 100644
+index 9759fec..be22f68 100644
 --- a/arch/arm/Kconfig
 +++ b/arch/arm/Kconfig
-@@ -924,6 +924,7 @@ config ARCH_DAVINCI
+@@ -925,6 +925,7 @@ config ARCH_DAVINCI
  	select GENERIC_IRQ_CHIP
  	select HAVE_IDE
  	select NEED_MACH_GPIO_H
@@ -1796,7 +1796,7 @@ index b680c83..a611716 100644
  #include <mach/mux.h>
  #include <mach/irqs.h>
 diff --git a/arch/arm/mach-davinci/dm644x.c b/arch/arm/mach-davinci/dm644x.c
-index cd0c8b1..90f5639 100644
+index 14e9947b..5b0a263 100644
 --- a/arch/arm/mach-davinci/dm644x.c
 +++ b/arch/arm/mach-davinci/dm644x.c
 @@ -12,11 +12,11 @@

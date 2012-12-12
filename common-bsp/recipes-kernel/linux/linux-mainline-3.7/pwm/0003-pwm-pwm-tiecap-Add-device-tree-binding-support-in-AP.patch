@@ -1,8 +1,8 @@
-From eafb4bab48f645ceca8d465a49f8ed6243cff581 Mon Sep 17 00:00:00 2001
+From 0251fe52c8af1a885a0a1aac617dba5dd2a77948 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Fri, 29 Jun 2012 10:52:57 +0530
-Subject: [PATCH 3/9] pwm: pwm-tiecap: Add device-tree binding support in APWM
- driver
+Subject: [PATCH 03/10] pwm: pwm-tiecap: Add device-tree binding support in
+ APWM driver
 
 Adds support for device-tree binding in ECAP APWM driver and custom
 of_xlate support. In custom of_xlate support, support for configuring

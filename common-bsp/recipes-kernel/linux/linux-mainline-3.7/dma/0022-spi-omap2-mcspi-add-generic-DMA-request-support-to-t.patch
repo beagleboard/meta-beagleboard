@@ -1,4 +1,4 @@
-From f19ebb1d7ffc33bda5459142b2860118f956192f Mon Sep 17 00:00:00 2001
+From 09282748f0cdae8646820916115aff1a2ac00f34 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 20 Sep 2012 09:21:16 -0400
 Subject: [PATCH 22/31] spi: omap2-mcspi: add generic DMA request support to

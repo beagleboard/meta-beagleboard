@@ -1,4 +1,4 @@
-From 63cae9df9e0b491e897fa568df6e8bd63c078a3e Mon Sep 17 00:00:00 2001
+From 90eef0de770eab0163dbacc7089bfcb59b77b87e Mon Sep 17 00:00:00 2001
 From: ??? <jaegeuk.kim@samsung.com>
 Date: Tue, 23 Oct 2012 02:33:28 +0000
 Subject: [PATCH 16/20] f2fs: update Kconfig and Makefile

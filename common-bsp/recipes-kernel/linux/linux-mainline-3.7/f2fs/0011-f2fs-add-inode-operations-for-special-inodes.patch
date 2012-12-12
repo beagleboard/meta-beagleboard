@@ -1,4 +1,4 @@
-From 5bcf80d96b12ee20e6172781333a63871b0aac4f Mon Sep 17 00:00:00 2001
+From 016df0766fdaf8ef67f3cf1e9fdd8f5384465a67 Mon Sep 17 00:00:00 2001
 From: ??? <jaegeuk.kim@samsung.com>
 Date: Tue, 23 Oct 2012 02:30:45 +0000
 Subject: [PATCH 11/20] f2fs: add inode operations for special inodes

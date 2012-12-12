@@ -1,4 +1,4 @@
-From 13904d75efd2d1578f87b80a41d7741cb6663123 Mon Sep 17 00:00:00 2001
+From 50ec01a8da015e87f4b4679aa84e02d78d8d43bc Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Wed, 17 Oct 2012 16:39:00 +0200
 Subject: [PATCH 9/9] ARM: am33xx: fix mem regions in USB hwmod

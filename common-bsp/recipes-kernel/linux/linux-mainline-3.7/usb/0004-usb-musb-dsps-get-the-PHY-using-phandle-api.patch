@@ -1,4 +1,4 @@
-From 6c242e3212307f6006fa0160dc2a65dcbd61797e Mon Sep 17 00:00:00 2001
+From 7136c1ca96b422ea9bfabf3f8f90db950cd16de1 Mon Sep 17 00:00:00 2001
 From: Ravi Babu <ravibabu@ti.com>
 Date: Thu, 2 Aug 2012 16:13:32 +0530
 Subject: [PATCH 4/9] usb: musb: dsps: get the PHY using phandle api

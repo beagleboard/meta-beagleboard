@@ -1,4 +1,4 @@
-From b73ba8927781472d477f5666ceea006499f9afbe Mon Sep 17 00:00:00 2001
+From c7a9a3677122508736e81e21e2d3cca93e6a1c07 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 20 Sep 2012 08:55:41 -0400
 Subject: [PATCH 18/31] mmc: omap_hsmmc: limit max_segs with the EDMA DMAC

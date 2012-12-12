@@ -1,7 +1,7 @@
-From d7e983ac16e7ff6682a24f0b921a8286badb3f12 Mon Sep 17 00:00:00 2001
+From 215bf1fc2e543f1596fcb4e561a724ddc5f78c00 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 23 Oct 2012 13:23:14 +0300
-Subject: [PATCH 08/20] spi: Export OF interfaces for capebus use.
+Subject: [PATCH 08/32] spi: Export OF interfaces for capebus use.
 
 ---
  drivers/spi/spi.c       |   31 +++++++++++++++++++++++--------

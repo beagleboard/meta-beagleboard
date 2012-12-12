@@ -1,4 +1,4 @@
-From 00b8f0fdc8cc54782a5e7b1edde07954d4692619 Mon Sep 17 00:00:00 2001
+From 35e2475b81904b6ddeb88f7ecba9415a930a0948 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 18 Sep 2012 11:23:47 +0200
 Subject: [PATCH 4/4] beaglebone: fix backlight entry in DT

@@ -1,4 +1,4 @@
-From 5904dd3f910bc9dda22bcc5d4884a2e1eef76f31 Mon Sep 17 00:00:00 2001
+From bf670b1cb1a9c332321e9380ad65e0cbbc301822 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 15 Oct 2012 16:53:28 +0200
 Subject: [PATCH 4/4] beaglebone: add a cpu led trigger

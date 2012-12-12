@@ -1,4 +1,4 @@
-From 987460441a1e858f1ebb699603d5fe47cbb8add9 Mon Sep 17 00:00:00 2001
+From 5d3c7e9a8cb2329f5c51c3ac06b8d8f1315f56be Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Wed, 17 Oct 2012 15:34:24 +0200
 Subject: [PATCH 3/9] musb: revert parts of 032ec49f

@@ -1,4 +1,4 @@
-From 94e943767bdf0177b6c0db37c4b98af98a53c34f Mon Sep 17 00:00:00 2001
+From 33db31ab60e10e712e84ee3e29da69b0537a3bac Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Mon, 22 Oct 2012 10:15:16 +0000
 Subject: [PATCH 09/13] input: ti_am335x_tsc: Make steps enable configurable

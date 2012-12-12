@@ -1,8 +1,9 @@
-From 414d2ccf482b840180f439aef9695d0b8c9e2e41 Mon Sep 17 00:00:00 2001
+From 2bf636db8b875ba670c509f8df034abefe663c7f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 30 Oct 2012 21:17:39 +0200
-Subject: [PATCH 20/20] beaglebone: Update default config for capebus
+Subject: [PATCH 24/32] beaglebone: Update default config for capebus
 
+Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---
  defconfig | 3893 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  1 files changed, 3893 insertions(+), 0 deletions(-)

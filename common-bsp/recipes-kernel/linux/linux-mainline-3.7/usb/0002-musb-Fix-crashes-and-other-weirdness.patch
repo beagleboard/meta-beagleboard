@@ -1,4 +1,4 @@
-From aacaacedeb7d3608f6ba63a68b731f004335ee5c Mon Sep 17 00:00:00 2001
+From 0239837bed5924b096d8afa9f873d4543b5029b9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 4 Oct 2012 17:53:53 +0300
 Subject: [PATCH 2/9] musb: Fix crashes, and other weirdness.
@@ -8,10 +8,10 @@ Subject: [PATCH 2/9] musb: Fix crashes, and other weirdness.
  1 files changed, 26 insertions(+), 0 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index 535a66c..9bb71cb 100644
+index a2270aa..0b53cde 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -285,6 +285,32 @@
+@@ -289,6 +289,32 @@
  			status = "disabled";
  		};
  

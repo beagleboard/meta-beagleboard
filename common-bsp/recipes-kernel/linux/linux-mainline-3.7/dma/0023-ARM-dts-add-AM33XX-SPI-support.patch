@@ -1,4 +1,4 @@
-From 6ec86b46cec406047c45929a638ba82f47bdba38 Mon Sep 17 00:00:00 2001
+From aeaba1b2a00ffa87326b2118910458ccf3adabe4 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 11 Oct 2012 08:51:46 -0400
 Subject: [PATCH 23/31] ARM: dts: add AM33XX SPI support

@@ -1,4 +1,4 @@
-From 071c5c2669070d677546ecd9f7e0562ebcbf4aa0 Mon Sep 17 00:00:00 2001
+From c6b5095c1aab78be1086bfa78a5894ed90bfc1ff Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Tue, 16 Oct 2012 07:25:39 +0000
 Subject: [PATCH 02/13] input: TSC: ti_tscadc: Add Step configuration as

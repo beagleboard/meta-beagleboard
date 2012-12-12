@@ -1,4 +1,4 @@
-From 0b1c20138580bf99a4c28ef20647777da33859ea Mon Sep 17 00:00:00 2001
+From 6879cc266e5d380f264be4a1d2d6a9c03ee3e47d Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Tue, 16 Oct 2012 07:25:41 +0000
 Subject: [PATCH 04/13] input: TSC: ti_tscadc: Remove definition of End Of

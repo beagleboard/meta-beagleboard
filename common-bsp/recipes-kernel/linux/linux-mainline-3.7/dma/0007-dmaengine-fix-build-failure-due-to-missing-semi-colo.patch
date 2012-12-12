@@ -1,4 +1,4 @@
-From 06377870621b051169e30847ac82d828bb17109d Mon Sep 17 00:00:00 2001
+From a1e26a1402e578fec5702842d23f8190d8affde2 Mon Sep 17 00:00:00 2001
 From: Vinod Koul <vinod.koul@linux.intel.com>
 Date: Tue, 25 Sep 2012 16:18:55 +0530
 Subject: [PATCH 07/31] dmaengine: fix build failure due to missing semi-colon

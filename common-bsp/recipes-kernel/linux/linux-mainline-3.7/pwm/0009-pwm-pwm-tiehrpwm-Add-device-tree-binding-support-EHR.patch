@@ -1,7 +1,7 @@
-From 68ad9beba25becf70b13d7e050ba845b391c9ed5 Mon Sep 17 00:00:00 2001
+From ce42b8b62f65e2d9d05752f398fd027deda48ff2 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Mon, 2 Jul 2012 14:03:53 +0530
-Subject: [PATCH 9/9] pwm: pwm-tiehrpwm: Add device-tree binding support
+Subject: [PATCH 09/10] pwm: pwm-tiehrpwm: Add device-tree binding support
  EHRPWM driver
 
 Adds device-tree binding support in EHRWPM driver and custom of_xlate

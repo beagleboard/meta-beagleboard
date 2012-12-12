@@ -1,4 +1,4 @@
-From 412894c32e06d554d388bcfafb423aa29159cf9a Mon Sep 17 00:00:00 2001
+From 7c32bd9a6e567e06383c0f15a2df318282468156 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Fri, 12 Oct 2012 16:52:55 -0400
 Subject: [PATCH 28/31] ARM: configs: working AM33XX edma dmaengine defconfig

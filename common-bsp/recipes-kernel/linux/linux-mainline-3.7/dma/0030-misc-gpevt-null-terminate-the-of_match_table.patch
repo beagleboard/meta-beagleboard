@@ -1,4 +1,4 @@
-From a4405c2cdb7ecfd7d500b615fe29c034a2a1f89d Mon Sep 17 00:00:00 2001
+From eeff0f7b341c3a057fad5a3c8b6912e46f80a461 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 18 Oct 2012 10:29:57 -0400
 Subject: [PATCH 30/31] misc: gpevt: null terminate the of_match_table

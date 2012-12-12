@@ -1,4 +1,4 @@
-From fab578e4a1e21c1c17723c044efe0d9a995f38e5 Mon Sep 17 00:00:00 2001
+From 19c1ce22f9e127dc5208faa9bf2f788c7226ddbb Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 6 Sep 2012 17:42:35 -0400
 Subject: [PATCH 13/31] dmaengine: edma: enable build for AM33XX

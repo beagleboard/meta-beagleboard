@@ -1,7 +1,7 @@
-From 57d40ccbd692a1332f79fc561e3d6d008411be0c Mon Sep 17 00:00:00 2001
+From 388c63dbacec31bd17d00b751d58f13a23b5857d Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 11 Jul 2012 11:01:33 +0530
-Subject: [PATCH 8/9] arm/dts: DT support for EHRPWM and ECAP device.
+Subject: [PATCH 08/10] arm/dts: DT support for EHRPWM and ECAP device.
 
 Adds DT support for EHRPWM and ECAP APWM device. Also sets size of
 pwm-cells to 3 to support -  <PWM instance number>, <PWM period> in
@@ -13,10 +13,10 @@ Signed-off-by: Philip, Avinash <avinashphilip@ti.com>
  1 files changed, 60 insertions(+), 0 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am33xx.dtsi b/arch/arm/boot/dts/am33xx.dtsi
-index 9755276..433065e 100644
+index ce429a0..8484559 100644
 --- a/arch/arm/boot/dts/am33xx.dtsi
 +++ b/arch/arm/boot/dts/am33xx.dtsi
-@@ -376,5 +376,65 @@
+@@ -380,5 +380,65 @@
  			};
  
  		};

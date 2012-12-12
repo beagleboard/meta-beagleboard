@@ -1,8 +1,8 @@
-From 89f62c0bc0be4c7f5bde4260e4a8e6eee6cd958d Mon Sep 17 00:00:00 2001
+From 22904a02e9f283783283b48783f1ceb1f6cde202 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Mon, 16 Jul 2012 14:59:41 +0530
-Subject: [PATCH 2/9] pwm_backlight: Add device tree support for Low Threshold
- Brightness
+Subject: [PATCH 02/10] pwm_backlight: Add device tree support for Low
+ Threshold Brightness
 
 Low Threshold Brightness should be configured to have a linear relation
 in brightness scale. This patch adds device tree support for low

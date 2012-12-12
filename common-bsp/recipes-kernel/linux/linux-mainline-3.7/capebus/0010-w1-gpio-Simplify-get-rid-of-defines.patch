@@ -1,7 +1,7 @@
-From 13f79e96a0d348c7130186303ef95fd358012ebf Mon Sep 17 00:00:00 2001
+From 830f36f73fd5d60517fdf54349ff0dfd2478bb3b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 24 Oct 2012 16:49:53 +0300
-Subject: [PATCH 10/20] w1-gpio: Simplify & get rid of defines
+Subject: [PATCH 10/32] w1-gpio: Simplify & get rid of defines
 
 ---
  drivers/w1/masters/w1-gpio.c |   58 ++++++++++++++++++-----------------------

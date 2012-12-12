@@ -1,4 +1,4 @@
-From 1d1df97ae15231fe187c5755ce7c082892ba88db Mon Sep 17 00:00:00 2001
+From 9ee0d6654e12c7a7fde6c0914c7d746decb2ef77 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Tue, 16 Oct 2012 07:25:43 +0000
 Subject: [PATCH 06/13] MFD: ti_tscadc: Add support for TI's TSC/ADC MFDevice

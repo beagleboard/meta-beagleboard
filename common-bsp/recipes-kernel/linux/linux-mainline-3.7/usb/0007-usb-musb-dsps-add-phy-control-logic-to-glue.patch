@@ -1,4 +1,4 @@
-From 80dce33ea83a69c60a7dbb3f15937eb2f4ba9852 Mon Sep 17 00:00:00 2001
+From 9db829bc6e1278ab123a64b4ce0ba9643491ca8b Mon Sep 17 00:00:00 2001
 From: Ajay Kumar Gupta <ajay.gupta@ti.com>
 Date: Thu, 5 Jul 2012 14:06:42 +0530
 Subject: [PATCH 7/9] usb: musb: dsps: add phy control logic to glue

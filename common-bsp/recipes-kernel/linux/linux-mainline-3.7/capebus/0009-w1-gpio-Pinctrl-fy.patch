@@ -1,7 +1,7 @@
-From 7f6d23dd32371429b03927e331bd53fad2a0fb07 Mon Sep 17 00:00:00 2001
+From 7a720735c8612c041b04ffeadd61a5c53e5d6ca4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 24 Oct 2012 09:54:37 +0300
-Subject: [PATCH 09/20] w1-gpio: Pinctrl-fy
+Subject: [PATCH 09/32] w1-gpio: Pinctrl-fy
 
 ---
  drivers/w1/masters/w1-gpio.c |    7 +++++++

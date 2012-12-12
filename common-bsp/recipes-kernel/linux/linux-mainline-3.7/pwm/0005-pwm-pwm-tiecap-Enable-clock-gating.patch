@@ -1,7 +1,7 @@
-From 20a3198ec131646f2dd4beee0e3b6a95faab47f4 Mon Sep 17 00:00:00 2001
+From 0ff8e109e1319c14ba291dfe83920d87b42b4d2a Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Tue, 24 Jul 2012 14:58:09 +0530
-Subject: [PATCH 5/9] pwm: pwm-tiecap: Enable clock gating
+Subject: [PATCH 05/10] pwm: pwm-tiecap: Enable clock gating
 
 In AM335x SOC, clock to PWM modules is gated in common config space.
 This commit adds support for enabling clock gating in the driver and

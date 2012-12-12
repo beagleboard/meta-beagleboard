@@ -1,4 +1,4 @@
-From 96c1b5139c81eaff070ac71e1cb3c6646660139c Mon Sep 17 00:00:00 2001
+From 8df78a5ae48c71c1155b02aa1e239fba865024c4 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Fri, 14 Sep 2012 17:41:56 -0500
 Subject: [PATCH 04/31] of: Add generic device tree DMA helpers

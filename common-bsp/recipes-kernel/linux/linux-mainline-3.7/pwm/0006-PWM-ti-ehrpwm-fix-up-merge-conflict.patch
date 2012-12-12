@@ -1,7 +1,7 @@
-From c09e4fa52b81abb6904a4c04ed9afd04893e45e1 Mon Sep 17 00:00:00 2001
+From 15fa7717f0f37c5020ae08718b725e9035d85849 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 17 Sep 2012 10:34:22 +0200
-Subject: [PATCH 6/9] PWM: ti-ehrpwm: fix up merge conflict
+Subject: [PATCH 06/10] PWM: ti-ehrpwm: fix up merge conflict
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

@@ -1,4 +1,4 @@
-From 42821f3818dc421ceb42f0dfed0e2c16f9eafd1e Mon Sep 17 00:00:00 2001
+From 0ea1a75ab95f5234706dc74b7ff399ce0b91f970 Mon Sep 17 00:00:00 2001
 From: ??? <jaegeuk.kim@samsung.com>
 Date: Tue, 23 Oct 2012 02:26:49 +0000
 Subject: [PATCH 03/20] f2fs: add superblock and major in-memory structure

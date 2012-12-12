@@ -1,4 +1,4 @@
-From d1ac9c490f872c912b1df9581a0bd9ce43e2b227 Mon Sep 17 00:00:00 2001
+From 1c69d28f3564d129ae032d4e0471146ddee9c013 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 19 Sep 2012 10:49:48 -0400
 Subject: [PATCH 06/31] of: dma: fix typos in generic dma binding definition

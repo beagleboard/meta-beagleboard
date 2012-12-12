@@ -1,4 +1,4 @@
-From 833a4bc1356c44f44a10ca1368cb75a9b320915b Mon Sep 17 00:00:00 2001
+From 5f2bacd1ed2c0551505f5c328f09ceec02d16fee Mon Sep 17 00:00:00 2001
 From: Ajay Kumar Gupta <ajay.gupta@ti.com>
 Date: Tue, 10 Jul 2012 14:51:53 +0530
 Subject: [PATCH 6/9] usb: otg: nop: add dt support

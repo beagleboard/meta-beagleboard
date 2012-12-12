@@ -15,7 +15,7 @@ S = "${WORKDIR}/git"
 PV = "3.7.0"
 
 
-SRCREV_pn-${PN} = "9924a1992a86ebdb7ca36ef790d2ba0da506296c"
+SRCREV_pn-${PN} = "29594404d7fe73cd80eaa4ee8c43dcc53970c60e"
 
 SRC_URI = " \
 	git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;branch=master \
@@ -59,6 +59,7 @@ SRC_URI = " \
 	file://pinctrl/0003-beaglebone-DT-set-default-triggers-for-LEDS.patch \
 	file://pinctrl/0004-beaglebone-add-a-cpu-led-trigger.patch \
 	file://cpufreq/0001-arm-dts-AM33XX-Add-device-tree-OPP-table.patch \
+	file://cpufreq/0002-am33xx-DT-add-commented-out-OPP-values-for-ES2.0.patch \
 	file://adc/0001-input-TSC-ti_tscadc-Correct-register-usage.patch \
 	file://adc/0002-input-TSC-ti_tscadc-Add-Step-configuration-as-platfo.patch \
 	file://adc/0003-input-TSC-ti_tscadc-set-FIFO0-threshold-Interrupt.patch \
@@ -81,6 +82,7 @@ SRC_URI = " \
 	file://pwm/0007-pwm-pwm_test-Driver-support-for-PWM-module-testing.patch \
 	file://pwm/0008-arm-dts-DT-support-for-EHRPWM-and-ECAP-device.patch \
 	file://pwm/0009-pwm-pwm-tiehrpwm-Add-device-tree-binding-support-EHR.patch \
+	file://pwm/0010-ARM-OMAP2-PWM-limit-am33xx_register_ehrpwm-to-soc_is.patch \
 	file://i2c/0001-pinctrl-pinctrl-single-must-be-initialized-early.patch \
 	file://i2c/0002-Bone-DTS-working-i2c2-i2c3-in-the-tree.patch \
 	file://i2c/0003-am33xx-Convert-I2C-from-omap-to-am33xx-names.patch \
@@ -101,6 +103,8 @@ SRC_URI = " \
 	file://da8xx-fb/0005-da8xx-Add-standard-panel-definition.patch \
 	file://da8xx-fb/0006-da8xx-Add-CDTech_S035Q01-panel-used-by-LCD3-bone-cap.patch \
 	file://da8xx-fb/0007-da8xx-fb-add-panel-definition-for-beaglebone-LCD7-ca.patch \
+	file://da8xx-fb/0008-video-da8xx-fb-fb_check_var-enhancement.patch \
+	file://da8xx-fb/0009-video-da8xx-fb-clk_get-on-connection-id-fck.patch \
 	file://mmc/0001-mmc-omap_hsmmc-Enable-HSPE-bit-for-high-speed-cards.patch \
 	file://mmc/0002-am33xx.dtsi-enable-MMC-HSPE-bit-for-all-3-controller.patch \
 	file://mmc/0003-omap-hsmmc-Correct-usage-of-of_find_node_by_name.patch \
@@ -125,6 +129,22 @@ SRC_URI = " \
 	file://f2fs/0018-f2fs-move-statistics-code-into-one-file.patch \
 	file://f2fs/0019-f2fs-move-proc-files-to-debugfs.patch \
 	file://f2fs/0020-f2fs-compile-fix.patch \
+	file://6lowpan/0001-6lowpan-lowpan_is_iid_16_bit_compressable-does-not-d.patch \
+	file://6lowpan/0002-6lowpan-next-header-is-not-properly-set-upon-decompr.patch \
+	file://6lowpan/0003-6lowpan-always-enable-link-layer-acknowledgments.patch \
+	file://6lowpan/0004-mac802154-turn-on-ACK-when-enabled-by-the-upper-laye.patch \
+	file://6lowpan/0005-6lowpan-use-short-IEEE-802.15.4-addresses-for-broadc.patch \
+	file://6lowpan/0006-6lowpan-fix-first-fragment-FRAG1-handling.patch \
+	file://6lowpan/0007-6lowpan-store-fragment-tag-values-per-device-instead.patch \
+	file://6lowpan/0008-6lowpan-obtain-IEEE802.15.4-sequence-number-from-the.patch \
+	file://6lowpan/0009-6lowpan-add-a-new-parameter-in-sysfs-to-turn-on-off-.patch \
+	file://6lowpan/0010-6lowpan-use-the-PANID-provided-by-the-device-instead.patch \
+	file://6lowpan/0011-6lowpan-modify-udp-compression-uncompression-to-matc.patch \
+	file://6lowpan/0012-6lowpan-make-memory-allocation-atomic-during-6lowpan.patch \
+	file://6lowpan/0013-mac802154-make-mem-alloc-ATOMIC-to-prevent-schedulin.patch \
+	file://6lowpan/0014-mac802154-remove-unnecessary-spinlocks.patch \
+	file://6lowpan/0015-mac802154-re-introduce-MAC-primitives-required-to-se.patch \
+	file://6lowpan/0016-serial-initial-import-of-the-IEEE-802.15.4-serial-dr.patch \
 	file://capebus/0001-i2c-EEPROM-Export-memory-accessor.patch \
 	file://capebus/0002-omap-Export-omap_hwmod_lookup-omap_device_build-omap.patch \
 	file://capebus/0003-gpio-keys-Pinctrl-fy.patch \
@@ -139,11 +159,66 @@ SRC_URI = " \
 	file://capebus/0012-ARM-CUSTOM-Build-a-uImage-with-dtb-already-appended.patch \
 	file://capebus/0013-beaglebone-create-a-shared-dtsi-for-beaglebone-based.patch \
 	file://capebus/0014-beaglebone-enable-emmc-for-bonelt.patch \
-	file://capebus/0015-capebus-Core-capebus-support.patch \
-	file://capebus/0016-capebus-Add-beaglebone-board-support.patch \
-	file://capebus/0017-capebus-Beaglebone-generic-board.patch \
-	file://capebus/0018-capebus-Add-beaglebone-geiger-cape.patch \
-	file://capebus/0019-capebus-Beaglebone-capebus-DT-update.patch \
-	file://capebus/0020-beaglebone-Update-default-config-for-capebus.patch \
+	file://capebus/0015-da8xx-dt-Create-da8xx-DT-adapter-device.patch \
+	file://capebus/0016-ti-tscadc-dt-Create-ti-tscadc-dt-DT-adapter-device.patch \
+	file://capebus/0017-capebus-Core-capebus-support.patch \
+	file://capebus/0018-capebus-Add-beaglebone-board-support.patch \
+	file://capebus/0019-capebus-Beaglebone-generic-cape-support.patch \
+	file://capebus/0020-capebus-Beaglebone-geiger-cape-support.patch \
+	file://capebus/0021-capebus-Beaglebone-capebus-DT-update.patch \
+	file://capebus/0022-capebus-Document-DT-bindings.patch \
+	file://capebus/0023-capebus-Documentation-capebus-summary.patch \
+	file://capebus/0024-beaglebone-Update-default-config-for-capebus.patch \
+	file://capebus/0025-capebus-Geiger-Cape-config-bugfixs.patch \
+	file://capebus/0026-am335x-bone-Add-spi0-pins-defines.patch \
+	file://capebus/0027-Allow-more-than-one-instance-of-generic-devices.patch \
+	file://capebus/0028-Mark-the-device-as-PRIVATE.patch \
+	file://capebus/0029-DT-overlay.patch \
+	file://capebus/0030-Bug-fixes-pinctl-gpio-reset.patch \
+	file://capebus/0031-ARM-HSMMC-fix-error-path-when-no-gpio_reset.patch \
+	file://capebus/0032-capebus-Add-PRUSS-DT-bindings.patch \
+	file://hdmi/0001-Import-working-HDMI-driver-from-3.2-kernel.patch \
+	file://hdmi/0002-Added-DT-binding-to-NXP-driver.patch \
+	file://hdmi/0003-da8xx-fb-Add-timings-for-720x480-60.patch \
+	file://hdmi/0004-Add-capebus-override-and-pinmux-for-da8xx-dt.patch \
+	file://hdmi/0005-video-Kconfig-Makefile-Add-new-Kconfig-for-old-drive.patch \
+	file://hdmi/0006-am335x-bonelt-dts-Add-DT-node-to-probe-NXP-driver.patch \
+	file://hdmi/0007-tda-driver-enable-1280x720.patch \
+	file://hdmi/0008-Makefile-Disable-CEC.patch \
+	file://pruss/0001-uio-uio_pruss-port-to-AM33xx.patch \
+	file://pruss/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
+	file://pruss/0003-ARM-dts-AM33xx-PRUSS-support.patch \
+	file://arm/0001-kbuild-deb-pkg-set-host-machine-after-dpkg-gencontro.patch \
+	file://arm/0002-arm-add-definition-of-strstr-to-decompress.c.patch \
+	file://omap/0001-mach-omap2-board-igep0020.c-Fix-reboot-problem.patch \
+	file://omap_sakoman/0001-OMAP-DSS2-add-bootarg-for-selecting-svideo.patch \
+	file://omap_sakoman/0002-video-add-timings-for-hd720.patch \
+	file://omap_beagle_expansion/0001-Beagle-expansion-add-buddy-param-for-expansionboard-.patch \
+	file://omap_beagle_expansion/0002-Beagle-expansion-add-zippy.patch \
+	file://omap_beagle_expansion/0003-Beagle-expansion-add-zippy2.patch \
+	file://omap_beagle_expansion/0004-Beagle-expansion-add-trainer.patch \
+	file://omap_beagle_expansion/0005-Beagle-expansion-add-CircuitCo-ulcd-Support.patch \
+	file://omap_beagle_expansion/0006-Beagle-expansion-add-wifi.patch \
+	file://omap_beagle_expansion/0007-Beagle-expansion-add-beaglefpga.patch \
+	file://omap_beagle_expansion/0008-Beagle-expansion-add-spidev.patch \
+	file://omap_beagle_expansion/0009-Beagle-expansion-add-Aptina-li5m03-camera.patch \
+	file://omap_beagle_expansion/0010-Beagle-expansion-add-LSR-COM6L-Adapter-Board.patch \
+	file://omap_beagle/0001-meego-modedb-add-Toshiba-LTA070B220F-800x480-support.patch \
+	file://omap_beagle/0002-backlight-Add-TLC59108-backlight-control-driver.patch \
+	file://omap_beagle/0003-tlc59108-adjust-for-beagleboard-uLCD7.patch \
+	file://omap_beagle/0004-zeroMAP-Open-your-eyes.patch \
+	file://omap_beagle/0005-TEMP-Beagle-xM-cpufreq-disable-800Mhz-opp.patch \
+	file://omap_beagle/0006-ARM-OMAP-Beagle-C4-fix-reboot-problem.patch \
+	file://omap_panda/0001-panda-fix-wl12xx-regulator.patch \
+	file://omap_panda/0002-ti-st-st-kim-fixing-firmware-path.patch \
+	file://omap_sgx/0001-Revert-drm-kill-drm_sman.patch \
+	file://omap_fixes/0001-omap3-Increase-limit-on-bootarg-mpurate.patch \
+	file://omap_thermal/0001-staging-omap-thermal-fix-compilation.patch \
+	file://omap_thermal/0002-staging-omap-thermal-remove-platform-data-nomenclatu.patch \
+	file://omap_thermal/0003-staging-omap-thermal-remove-freq_clip-table.patch \
+	file://omap_thermal/0004-staging-omap-thermal-add-IRQ-debugging-messaging.patch \
+	file://omap_thermal/0005-staging-omap-thermal-fix-context-restore-function.patch \
+	file://net/0001-Attempted-SMC911x-BQL-patch.patch \
+	file://spi/0001-spi-spidev-Add-device-tree-bindings.patch \
 	file://defconfig \
 "

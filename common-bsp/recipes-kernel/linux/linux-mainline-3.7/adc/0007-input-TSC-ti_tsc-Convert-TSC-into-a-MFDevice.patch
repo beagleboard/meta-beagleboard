@@ -1,4 +1,4 @@
-From a71fd518e1ea9882fa15fd8b7c23b5e0fd64111d Mon Sep 17 00:00:00 2001
+From 0f531b35e8761645ad12fc78f96a7f056a5521c3 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Tue, 16 Oct 2012 07:25:44 +0000
 Subject: [PATCH 07/13] input: TSC: ti_tsc: Convert TSC into a MFDevice

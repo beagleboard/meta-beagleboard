@@ -1,4 +1,4 @@
-From d2408bc68660285261a11e6569c53113476a4570 Mon Sep 17 00:00:00 2001
+From 1b72f729e88f0da5b64c34e40273d2d963a8ffcf Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 17 Oct 2012 16:13:17 -0400
 Subject: [PATCH 12/31] ARM: edma: add AM33XX crossbar event support
