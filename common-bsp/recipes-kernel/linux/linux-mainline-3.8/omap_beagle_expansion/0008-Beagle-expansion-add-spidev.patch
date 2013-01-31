@@ -1,0 +1,33 @@
+From 9f76c123f02791c463df4cd1bbd70bfa4f2b449a Mon Sep 17 00:00:00 2001
+From: Russell Hay <russell.hay@gmail.com>
+Date: Tue, 11 Dec 2012 06:53:58 -0600
+Subject: [PATCH 08/10] Beagle: expansion: add spidev
+
+Signed-off-by: Russell Hay <russell.hay@gmail.com>
+Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
+---
+ arch/arm/mach-omap2/board-omap3beagle.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/arch/arm/mach-omap2/board-omap3beagle.c b/arch/arm/mach-omap2/board-omap3beagle.c
+index 3b939eb..598e4d6 100644
+--- a/arch/arm/mach-omap2/board-omap3beagle.c
++++ b/arch/arm/mach-omap2/board-omap3beagle.c
+@@ -1084,6 +1084,14 @@ static void __init omap3_beagle_init(void)
+ 		spi_register_board_info(beagle_mcspi_board_info, ARRAY_SIZE(beagle_mcspi_board_info));
+ 	}
+ 
++	if (!strcmp(expansionboard_name, "spidev"))
++	{
++		pr_info("Beagle expansionboard: registering spidev\n");
++		omap3_beagle_config_mcspi3_mux();
++		omap3_beagle_config_mcspi4_mux();
++		spi_register_board_info(beagle_mcspi_board_info, ARRAY_SIZE(beagle_mcspi_board_info));
++	}
++
+ 	if (!strcmp(expansionboard2_name, "bbtoys-ulcd"))
+ 	{
+ 	#if defined(CONFIG_TOUCHSCREEN_TSC2007) || defined(CONFIG_TOUCHSCREEN_TSC2007_MODULE)
+-- 
+1.8.1
+
