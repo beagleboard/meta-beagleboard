@@ -229,6 +229,10 @@ EXTRA_OEMAKE = "${PARALLEL_MAKE} "
 
 do_install_append() {
 	oe_runmake headers_install INSTALL_HDR_PATH=${D}${exec_prefix}/src/linux-${KERNEL_VERSION} ARCH=$ARCH
+	oe_runmake firmware_install INSTALL_MOD_PATH=${D} ARCH=$ARCH
+	install -d ${D}/boot
+	make dtbs || true
+	install -m 0644 ${S}/arch/arm/boot/dtb/*.dtb ${D}/boot || true
 }
 
 PACKAGES =+ "kernel-headers"
