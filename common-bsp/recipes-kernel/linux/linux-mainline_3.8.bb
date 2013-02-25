@@ -15,7 +15,7 @@ S = "${WORKDIR}/git"
 PV = "3.8.0"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;branch=master"
-SRCREV_pn-${PN} = "124b69b6cc1020fff589312c62fcaf360abd8d12"
+SRCREV_pn-${PN} = "19f949f52599ba7c3f67a5897ac6be14bfcb1200"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
