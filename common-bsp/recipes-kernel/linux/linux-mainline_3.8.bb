@@ -338,6 +338,11 @@ SRC_URI += " \
 	file://not-capebus/0096-tilcdc-tfp410-Rework-power-down-GPIO-logic.patch \
 	file://not-capebus/0097-tilcdc-Add-reduced-blanking-mode-checks.patch \
 	file://not-capebus/0098-cape-dvi-Switch-all-DVI-capes-to-using-the-TFTP410-p.patch \
+	file://not-capebus/0099-beaglebone-switch-eMMC-to-8bit-mode.patch \
+	file://not-capebus/0100-Pinmux-helper-driver.patch \
+	file://not-capebus/0101-OF-Clear-detach-flag-on-attach.patch \
+	file://not-capebus/0102-OF-overlay-Fix-overlay-revert-failure.patch \
+	file://not-capebus/0103-bone-capemgr-Make-sure-cape-removal-works.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -358,6 +363,11 @@ SRC_URI += " \
 	file://iio/0004-iio-magnetometer-Add-STMicroelectronics-magnetometer.patch \
 	file://iio/0005-iio-magn-Add-sensors_supported-in-st_magn_sensors.patch \
 	file://iio/0006-pwm-pca9685-skeleton-i2c-client-driver-for-PCA9685-1.patch \
+	file://w1/0001-W1-w1-gpio-fix-incorrect-__init-__exit-markups.patch \
+	file://w1/0002-W1-w1-gpio-switch-to-using-dev_pm_ops.patch \
+	file://w1/0003-W1-w1-gpio-guard-DT-IDs-with-CONFIG_OF.patch \
+	file://w1/0004-W1-w1-gpio-rework-handling-of-platform-data.patch \
+	file://w1/0005-W1-w1-gpio-switch-to-using-managed-resources-devm.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
 "
