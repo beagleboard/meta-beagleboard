@@ -1,0 +1,546 @@
+From 8a7da795aecc4dd8616d9530a0203ff3a8b99c42 Mon Sep 17 00:00:00 2001
+From: Pantelis Antoniou <panto@antoniou-consulting.com>
+Date: Fri, 30 Nov 2012 08:01:12 +0000
+Subject: [PATCH 13/15] dfu: Support larger than memory transfers.
+
+We didn't support upload/download larger than available memory.
+This is pretty bad when you have to update your root filesystem for
+example.
+
+This patch removes the limitation (and the crashes when you transfered
+any file larger than 4MB).
+On top of that reduces the huge dfu buffer from 4MB to just 64K, which
+was over the top.
+
+The sequence number is a 16 bit counter; make sure we
+handle rollover correctly. This fixes the wrong transfers for
+large (> 256MB) images.
+
+Also utilize a variable to handle initialization, so that we
+don't rely on just the counter sent by the host.
+
+Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
+---
+ drivers/dfu/dfu.c     | 244 +++++++++++++++++++++++++++++++++++++++-----------
+ drivers/dfu/dfu_mmc.c |  82 +++++++++++------
+ include/dfu.h         |  21 ++++-
+ 3 files changed, 264 insertions(+), 83 deletions(-)
+
+diff --git a/drivers/dfu/dfu.c b/drivers/dfu/dfu.c
+index e8477fb..fb9b417 100644
+--- a/drivers/dfu/dfu.c
++++ b/drivers/dfu/dfu.c
+@@ -44,90 +44,228 @@ static int dfu_find_alt_num(const char *s)
+ static unsigned char __aligned(CONFIG_SYS_CACHELINE_SIZE)
+ 				     dfu_buf[DFU_DATA_BUF_SIZE];
+ 
++static int dfu_write_buffer_flush(struct dfu_entity *dfu)
++{
++	long w_size;
++	int ret;
++
++	/* flush size? */
++	w_size = dfu->i_buf - dfu->i_buf_start;
++	if (w_size == 0)
++		return 0;
++
++	/* update CRC32 */
++	dfu->crc = crc32(dfu->crc, dfu->i_buf_start, w_size);
++
++	ret = dfu->write_medium(dfu, dfu->offset, dfu->i_buf_start, &w_size);
++	if (ret)
++		debug("%s: Write error!\n", __func__);
++
++	/* point back */
++	dfu->i_buf = dfu->i_buf_start;
++
++	/* update offset */
++	dfu->offset += w_size;
++
++	puts("#");
++
++	return ret;
++}
++
+ int dfu_write(struct dfu_entity *dfu, void *buf, int size, int blk_seq_num)
+ {
+-	static unsigned char *i_buf;
+-	static int i_blk_seq_num;
+-	long w_size = 0;
+ 	int ret = 0;
++	int tret;
++
++	debug("%s: name: %s buf: 0x%p size: 0x%x p_num: 0x%x "
++			"offset: 0x%llx bufoffset: 0x%x\n",
++	       __func__, dfu->name, buf, size, blk_seq_num, dfu->offset,
++	       dfu->i_buf - dfu->i_buf_start);
++
++	if (!dfu->inited) {
++		/* initial state */
++		dfu->crc = 0;
++		dfu->offset = 0;
++		dfu->i_blk_seq_num = 0;
++		dfu->i_buf_start = dfu_buf;
++		dfu->i_buf_end = dfu_buf + sizeof(dfu_buf);
++		dfu->i_buf = dfu->i_buf_start;
++
++		dfu->inited = 1;
++	}
+ 
+-	debug("%s: name: %s buf: 0x%p size: 0x%x p_num: 0x%x i_buf: 0x%p\n",
+-	       __func__, dfu->name, buf, size, blk_seq_num, i_buf);
++	if (dfu->i_blk_seq_num != blk_seq_num) {
++		printf("%s: Wrong sequence number! [%d] [%d]\n",
++		       __func__, dfu->i_blk_seq_num, blk_seq_num);
++		return -1;
++	}
+ 
+-	if (blk_seq_num == 0) {
+-		i_buf = dfu_buf;
+-		i_blk_seq_num = 0;
++	/* DFU 1.1 standard says:
++	 * The wBlockNum field is a block sequence number. It increments each
++	 * time a block is transferred, wrapping to zero from 65,535. It is used
++	 * to provide useful context to the DFU loader in the device."
++	 *
++	 * This means that it's a 16 bit counter that roll-overs at
++	 * 0xffff -> 0x0000. By having a typical 4K transfer block
++	 * we roll-over at exactly 256MB. Not very fun to debug.
++	 *
++	 * Handling rollover, and having an inited variable,
++	 * makes things work.
++	 */
++
++	/* handle rollover */
++	dfu->i_blk_seq_num = (dfu->i_blk_seq_num + 1) & 0xffff;
++
++	/* flush buffer if overflow */
++	if ((dfu->i_buf + size) > dfu->i_buf_end) {
++		tret = dfu_write_buffer_flush(dfu);
++		if (ret == 0)
++			ret = tret;
+ 	}
+ 
+-	if (i_blk_seq_num++ != blk_seq_num) {
+-		printf("%s: Wrong sequence number! [%d] [%d]\n",
+-		       __func__, i_blk_seq_num, blk_seq_num);
++	/* we should be in buffer now (if not then size too large) */
++	if ((dfu->i_buf + size) > dfu->i_buf_end) {
++		printf("%s: Wrong size! [%d] [%d] - %d\n",
++		       __func__, dfu->i_blk_seq_num, blk_seq_num, size);
+ 		return -1;
+ 	}
+ 
+-	memcpy(i_buf, buf, size);
+-	i_buf += size;
++	memcpy(dfu->i_buf, buf, size);
++	dfu->i_buf += size;
+ 
++	/* if end or if buffer full flush */
++	if (size == 0 || (dfu->i_buf + size) > dfu->i_buf_end) {
++		tret = dfu_write_buffer_flush(dfu);
++		if (ret == 0)
++			ret = tret;
++	}
++
++	/* end? */
+ 	if (size == 0) {
+-		/* Integrity check (if needed) */
+-		debug("%s: %s %d [B] CRC32: 0x%x\n", __func__, dfu->name,
+-		       i_buf - dfu_buf, crc32(0, dfu_buf, i_buf - dfu_buf));
++		debug("%s: DFU complete CRC32: 0x%x\n", __func__, dfu->crc);
+ 
+-		w_size = i_buf - dfu_buf;
+-		ret = dfu->write_medium(dfu, dfu_buf, &w_size);
+-		if (ret)
+-			debug("%s: Write error!\n", __func__);
++		printf("\nDownload complete (CRC32 0x%04x)\n", dfu->crc);
++
++		/* clear everything */
++		dfu->crc = 0;
++		dfu->offset = 0;
++		dfu->i_blk_seq_num = 0;
++		dfu->i_buf_start = dfu_buf;
++		dfu->i_buf_end = dfu_buf + sizeof(dfu_buf);
++		dfu->i_buf = dfu->i_buf_start;
++
++		dfu->inited = 0;
+ 
+-		i_blk_seq_num = 0;
+-		i_buf = NULL;
+-		return ret;
+ 	}
+ 
+-	return ret;
++	return ret = 0 ? size : ret;
++}
++
++static int dfu_read_buffer_fill(struct dfu_entity *dfu, void *buf, int size)
++{
++	long chunk;
++	int ret, readn;
++
++	readn = 0;
++	while (size > 0) {
++
++		/* get chunk that can be read */
++		chunk = min(size, dfu->b_left);
++		/* consume */
++		if (chunk > 0) {
++			memcpy(buf, dfu->i_buf, chunk);
++			dfu->crc = crc32(dfu->crc, buf, chunk);
++			dfu->i_buf += chunk;
++			dfu->b_left -= chunk;
++			size -= chunk;
++			buf += chunk;
++			readn += chunk;
++		}
++
++		/* all done */
++		if (size > 0) {
++			/* no more to read */
++			if (dfu->r_left == 0)
++				break;
++
++			dfu->i_buf = dfu->i_buf_start;
++			dfu->b_left = dfu->i_buf_end - dfu->i_buf_start;
++
++			/* got to read, but buffer is empty */
++			if (dfu->b_left > dfu->r_left)
++				dfu->b_left = dfu->r_left;
++			ret = dfu->read_medium(dfu, dfu->offset, dfu->i_buf,
++					&dfu->b_left);
++			if (ret != 0) {
++				debug("%s: Read error!\n", __func__);
++				return ret;
++			}
++			dfu->offset += dfu->b_left;
++			dfu->r_left -= dfu->b_left;
++
++			puts("#");
++		}
++	}
++
++	return readn;
+ }
+ 
+ int dfu_read(struct dfu_entity *dfu, void *buf, int size, int blk_seq_num)
+ {
+-	static unsigned char *i_buf;
+-	static int i_blk_seq_num;
+-	static long r_size;
+-	static u32 crc;
+ 	int ret = 0;
+ 
+ 	debug("%s: name: %s buf: 0x%p size: 0x%x p_num: 0x%x i_buf: 0x%p\n",
+-	       __func__, dfu->name, buf, size, blk_seq_num, i_buf);
+-
+-	if (blk_seq_num == 0) {
+-		i_buf = dfu_buf;
+-		ret = dfu->read_medium(dfu, i_buf, &r_size);
+-		debug("%s: %s %ld [B]\n", __func__, dfu->name, r_size);
+-		i_blk_seq_num = 0;
+-		/* Integrity check (if needed) */
+-		crc = crc32(0, dfu_buf, r_size);
++	       __func__, dfu->name, buf, size, blk_seq_num, dfu->i_buf);
++
++	if (!dfu->inited) {
++		ret = dfu->read_medium(dfu, 0, NULL, &dfu->r_left);
++		if (ret != 0) {
++			debug("%s: failed to get r_left\n", __func__);
++			return ret;
++		}
++
++		debug("%s: %s %ld [B]\n", __func__, dfu->name, dfu->r_left);
++
++		dfu->i_blk_seq_num = 0;
++		dfu->crc = 0;
++		dfu->offset = 0;
++		dfu->i_buf_start = dfu_buf;
++		dfu->i_buf_end = dfu_buf + sizeof(dfu_buf);
++		dfu->i_buf = dfu->i_buf_start;
++		dfu->b_left = 0;
++
++		dfu->inited = 1;
+ 	}
+ 
+-	if (i_blk_seq_num++ != blk_seq_num) {
++	if (dfu->i_blk_seq_num != blk_seq_num) {
+ 		printf("%s: Wrong sequence number! [%d] [%d]\n",
+-		       __func__, i_blk_seq_num, blk_seq_num);
++		       __func__, dfu->i_blk_seq_num, blk_seq_num);
+ 		return -1;
+ 	}
++	/* handle rollover */
++	dfu->i_blk_seq_num = (dfu->i_blk_seq_num + 1) & 0xffff;
+ 
+-	if (r_size >= size) {
+-		memcpy(buf, i_buf, size);
+-		i_buf += size;
+-		r_size -= size;
+-		return size;
+-	} else {
+-		memcpy(buf, i_buf, r_size);
+-		i_buf += r_size;
+-		debug("%s: %s CRC32: 0x%x\n", __func__, dfu->name, crc);
+-		puts("UPLOAD ... done\nCtrl+C to exit ...\n");
++	ret = dfu_read_buffer_fill(dfu, buf, size);
++	if (ret < 0) {
++		printf("%s: Failed to fill buffer\n", __func__);
++		return -1;
++	}
++
++	if (ret < size) {
++		debug("%s: %s CRC32: 0x%x\n", __func__, dfu->name, dfu->crc);
++		puts("\nUPLOAD ... done\nCtrl+C to exit ...\n");
+ 
+-		i_buf = NULL;
+-		i_blk_seq_num = 0;
+-		crc = 0;
+-		return r_size;
++		dfu->i_blk_seq_num = 0;
++		dfu->crc = 0;
++		dfu->offset = 0;
++		dfu->i_buf_start = dfu_buf;
++		dfu->i_buf_end = dfu_buf + sizeof(dfu_buf);
++		dfu->i_buf = dfu->i_buf_start;
++		dfu->b_left = 0;
++
++		dfu->inited = 0;
+ 	}
++
+ 	return ret;
+ }
+ 
+diff --git a/drivers/dfu/dfu_mmc.c b/drivers/dfu/dfu_mmc.c
+index 083d745..29a2c2e 100644
+--- a/drivers/dfu/dfu_mmc.c
++++ b/drivers/dfu/dfu_mmc.c
+@@ -22,6 +22,7 @@
+ #include <common.h>
+ #include <malloc.h>
+ #include <errno.h>
++#include <div64.h>
+ #include <dfu.h>
+ 
+ enum dfu_mmc_op {
+@@ -30,35 +31,48 @@ enum dfu_mmc_op {
+ };
+ 
+ static int mmc_block_op(enum dfu_mmc_op op, struct dfu_entity *dfu,
+-			void *buf, long *len)
++			u64 offset, void *buf, long *len)
+ {
+ 	char cmd_buf[DFU_CMD_BUF_SIZE];
++	u32 blk_start, blk_count;
+ 
+-	sprintf(cmd_buf, "mmc %s 0x%x %x %x",
+-		op == DFU_OP_READ ? "read" : "write",
+-		(unsigned int) buf,
+-		dfu->data.mmc.lba_start,
+-		dfu->data.mmc.lba_size);
+-
+-	if (op == DFU_OP_READ)
++	/* if buf == NULL return total size of the area */
++	if (buf == NULL) {
+ 		*len = dfu->data.mmc.lba_blk_size * dfu->data.mmc.lba_size;
++		return 0;
++	}
++
++	blk_start = dfu->data.mmc.lba_start +
++			(u32)lldiv(offset, dfu->data.mmc.lba_blk_size);
++	blk_count = *len / dfu->data.mmc.lba_blk_size;
++	if (blk_start + blk_count >
++			dfu->data.mmc.lba_start + dfu->data.mmc.lba_size) {
++		debug("%s: block_op out of bounds\n", __func__);
++		return -1;
++	}
++
++	sprintf(cmd_buf, "mmc %s %p %x %x",
++		op == DFU_OP_READ ? "read" : "write",
++		 buf, blk_start, blk_count);
+ 
+ 	debug("%s: %s 0x%p\n", __func__, cmd_buf, cmd_buf);
+ 	return run_command(cmd_buf, 0);
+ }
+ 
+-static inline int mmc_block_write(struct dfu_entity *dfu, void *buf, long *len)
++static inline int mmc_block_write(struct dfu_entity *dfu,
++		u64 offset, void *buf, long *len)
+ {
+-	return mmc_block_op(DFU_OP_WRITE, dfu, buf, len);
++	return mmc_block_op(DFU_OP_WRITE, dfu, offset, buf, len);
+ }
+ 
+-static inline int mmc_block_read(struct dfu_entity *dfu, void *buf, long *len)
++static inline int mmc_block_read(struct dfu_entity *dfu,
++		u64 offset, void *buf, long *len)
+ {
+-	return mmc_block_op(DFU_OP_READ, dfu, buf, len);
++	return mmc_block_op(DFU_OP_READ, dfu, offset, buf, len);
+ }
+ 
+ static int mmc_file_op(enum dfu_mmc_op op, struct dfu_entity *dfu,
+-			void *buf, long *len)
++			u64 offset, void *buf, long *len)
+ {
+ 	char cmd_buf[DFU_CMD_BUF_SIZE];
+ 	char *str_env;
+@@ -66,12 +80,17 @@ static int mmc_file_op(enum dfu_mmc_op op, struct dfu_entity *dfu,
+ 
+ 	switch (dfu->layout) {
+ 	case DFU_FS_FAT:
+-		sprintf(cmd_buf, "fat%s mmc %d:%d 0x%x %s %lx",
++		sprintf(cmd_buf, "fat%s mmc %d:%d 0x%x %s %lx %llx",
+ 			op == DFU_OP_READ ? "load" : "write",
+ 			dfu->data.mmc.dev, dfu->data.mmc.part,
+-			(unsigned int) buf, dfu->name, *len);
++			(unsigned int) buf, dfu->name, *len, offset);
+ 		break;
+ 	case DFU_FS_EXT4:
++		if (offset != 0) {
++			debug("%s: Offset value %llx != 0 not supported!\n",
++					__func__, offset);
++			return -1;
++		}
+ 		sprintf(cmd_buf, "ext4%s mmc %d:%d /%s 0x%x %ld",
+ 			op == DFU_OP_READ ? "load" : "write",
+ 			dfu->data.mmc.dev, dfu->data.mmc.part,
+@@ -80,6 +99,7 @@ static int mmc_file_op(enum dfu_mmc_op op, struct dfu_entity *dfu,
+ 	default:
+ 		printf("%s: Layout (%s) not (yet) supported!\n", __func__,
+ 		       dfu_get_layout(dfu->layout));
++		return -1;
+ 	}
+ 
+ 	debug("%s: %s 0x%p\n", __func__, cmd_buf, cmd_buf);
+@@ -102,27 +122,30 @@ static int mmc_file_op(enum dfu_mmc_op op, struct dfu_entity *dfu,
+ 	return ret;
+ }
+ 
+-static inline int mmc_file_write(struct dfu_entity *dfu, void *buf, long *len)
++static inline int mmc_file_write(struct dfu_entity *dfu,
++		u64 offset, void *buf, long *len)
+ {
+-	return mmc_file_op(DFU_OP_WRITE, dfu, buf, len);
++	return mmc_file_op(DFU_OP_WRITE, dfu, offset, buf, len);
+ }
+ 
+-static inline int mmc_file_read(struct dfu_entity *dfu, void *buf, long *len)
++static inline int mmc_file_read(struct dfu_entity *dfu,
++		u64 offset, void *buf, long *len)
+ {
+-	return mmc_file_op(DFU_OP_READ, dfu, buf, len);
++	return mmc_file_op(DFU_OP_READ, dfu, offset, buf, len);
+ }
+ 
+-int dfu_write_medium_mmc(struct dfu_entity *dfu, void *buf, long *len)
++int dfu_write_medium_mmc(struct dfu_entity *dfu,
++		u64 offset, void *buf, long *len)
+ {
+ 	int ret = -1;
+ 
+ 	switch (dfu->layout) {
+ 	case DFU_RAW_ADDR:
+-		ret = mmc_block_write(dfu, buf, len);
++		ret = mmc_block_write(dfu, offset, buf, len);
+ 		break;
+ 	case DFU_FS_FAT:
+ 	case DFU_FS_EXT4:
+-		ret = mmc_file_write(dfu, buf, len);
++		ret = mmc_file_write(dfu, offset, buf, len);
+ 		break;
+ 	default:
+ 		printf("%s: Layout (%s) not (yet) supported!\n", __func__,
+@@ -132,17 +155,17 @@ int dfu_write_medium_mmc(struct dfu_entity *dfu, void *buf, long *len)
+ 	return ret;
+ }
+ 
+-int dfu_read_medium_mmc(struct dfu_entity *dfu, void *buf, long *len)
++int dfu_read_medium_mmc(struct dfu_entity *dfu, u64 offset, void *buf, long *len)
+ {
+ 	int ret = -1;
+ 
+ 	switch (dfu->layout) {
+ 	case DFU_RAW_ADDR:
+-		ret = mmc_block_read(dfu, buf, len);
++		ret = mmc_block_read(dfu, offset, buf, len);
+ 		break;
+ 	case DFU_FS_FAT:
+ 	case DFU_FS_EXT4:
+-		ret = mmc_file_read(dfu, buf, len);
++		ret = mmc_file_read(dfu, offset, buf, len);
+ 		break;
+ 	default:
+ 		printf("%s: Layout (%s) not (yet) supported!\n", __func__,
+@@ -181,13 +204,15 @@ int dfu_fill_entity_mmc(struct dfu_entity *dfu, char *s)
+ 
+ 		mmc = find_mmc_device(dev);
+ 		if (mmc == NULL || mmc_init(mmc)) {
+-			printf("%s: could not find mmc device #%d!\n", __func__, dev);
++			printf("%s: could not find mmc device #%d!\n",
++					__func__, dev);
+ 			return -ENODEV;
+ 		}
+ 
+ 		blk_dev = &mmc->block_dev;
+ 		if (get_partition_info(blk_dev, part, &partinfo) != 0) {
+-			printf("%s: could not find partition #%d on mmc device #%d!\n",
++			printf("%s: could not find partition #%d "
++					"on mmc device #%d!\n",
+ 					__func__, part, dev);
+ 			return -ENODEV;
+ 		}
+@@ -209,5 +234,8 @@ int dfu_fill_entity_mmc(struct dfu_entity *dfu, char *s)
+ 	dfu->read_medium = dfu_read_medium_mmc;
+ 	dfu->write_medium = dfu_write_medium_mmc;
+ 
++	/* initial state */
++	dfu->inited = 0;
++
+ 	return 0;
+ }
+diff --git a/include/dfu.h b/include/dfu.h
+index 5350d79..2847ef8 100644
+--- a/include/dfu.h
++++ b/include/dfu.h
+@@ -59,7 +59,7 @@ static inline unsigned int get_mmc_blk_size(int dev)
+ 
+ #define DFU_NAME_SIZE 32
+ #define DFU_CMD_BUF_SIZE 128
+-#define DFU_DATA_BUF_SIZE (1024*1024*4) /* 4 MiB */
++#define DFU_DATA_BUF_SIZE (1024*64) /* 64 KB (the huge buffer is overkill) */
+ 
+ struct dfu_entity {
+ 	char			name[DFU_NAME_SIZE];
+@@ -73,10 +73,25 @@ struct dfu_entity {
+ 		struct mmc_internal_data mmc;
+ 	} data;
+ 
+-	int (*read_medium)(struct dfu_entity *dfu, void *buf, long *len);
+-	int (*write_medium)(struct dfu_entity *dfu, void *buf, long *len);
++	int (*read_medium)(struct dfu_entity *dfu,
++			u64 offset, void *buf, long *len);
++
++	int (*write_medium)(struct dfu_entity *dfu,
++			u64 offset, void *buf, long *len);
+ 
+ 	struct list_head list;
++
++	/* on the fly state */
++	u32 crc;
++	u64 offset;
++	int i_blk_seq_num;
++	u8 *i_buf;
++	u8 *i_buf_start;
++	u8 *i_buf_end;
++	long r_left;
++	long b_left;
++
++	unsigned int inited : 1;
+ };
+ 
+ int dfu_config_entities(char *s, char *interface, int num);
+-- 
+1.8.1.4
+

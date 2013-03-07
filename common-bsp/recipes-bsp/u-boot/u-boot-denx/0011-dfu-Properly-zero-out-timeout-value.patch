@@ -1,0 +1,30 @@
+From edec6e04652bf9c81916590a9bda9492d675d535 Mon Sep 17 00:00:00 2001
+From: Pantelis Antoniou <panto@antoniou-consulting.com>
+Date: Fri, 30 Nov 2012 08:01:10 +0000
+Subject: [PATCH 11/15] dfu: Properly zero out timeout value
+
+Zero out timeout value; letting it filled with undefined values
+ends up with the dfu host hanging.
+
+Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
+---
+ drivers/usb/gadget/f_dfu.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/drivers/usb/gadget/f_dfu.c b/drivers/usb/gadget/f_dfu.c
+index 6494f5e..c15585c 100644
+--- a/drivers/usb/gadget/f_dfu.c
++++ b/drivers/usb/gadget/f_dfu.c
+@@ -164,6 +164,9 @@ static void handle_getstatus(struct usb_request *req)
+ 
+ 	/* send status response */
+ 	dstat->bStatus = f_dfu->dfu_status;
++	dstat->bwPollTimeout[0] = 0;
++	dstat->bwPollTimeout[1] = 0;
++	dstat->bwPollTimeout[2] = 0;
+ 	dstat->bState = f_dfu->dfu_state;
+ 	dstat->iString = 0;
+ }
+-- 
+1.8.1.4
+

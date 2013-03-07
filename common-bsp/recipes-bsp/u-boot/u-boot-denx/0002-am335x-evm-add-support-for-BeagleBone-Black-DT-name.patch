@@ -1,0 +1,26 @@
+From 34402ffde36265409eab6ba0d6fd6bee8a3180b4 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Fri, 8 Feb 2013 15:29:37 +0100
+Subject: [PATCH 02/15] am335x-evm: add support for BeagleBone Black DT name
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 8ad25fb..81d849f 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -87,6 +87,8 @@
+ 	"findfdt="\
+ 		"if test $board_name = A335BONE; then " \
+ 			"setenv fdtfile am335x-bone.dtb; fi; " \
++		"if test $board_name = A335BNLT; then " \
++			"setenv fdtfile am335x-bonelt.dtb; fi; " \
+ 		"if test $board_name = A33515BB; then " \
+ 			"setenv fdtfile am335x-evm.dtb; fi; " \
+ 		"if test $board_name = A335X_SK; then " \
+-- 
+1.8.1.4
+

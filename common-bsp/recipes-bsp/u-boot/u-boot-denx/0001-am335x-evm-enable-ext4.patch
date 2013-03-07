@@ -1,0 +1,27 @@
+From 0cb29808b0c66066d03a3b95fc60fc25aade7912 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Tue, 23 Oct 2012 16:57:58 +0200
+Subject: [PATCH 01/15] am335x-evm: enable ext4
+
+The kernel is loaded from an ext4 partition, not ext2 on beaglebone boards.
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 33ee2c4..8ad25fb 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -145,6 +145,7 @@
+ #define CONFIG_DOS_PARTITION
+ #define CONFIG_CMD_FAT
+ #define CONFIG_CMD_EXT2
++#define CONFIG_CMD_EXT4
+ 
+ #define CONFIG_SPI
+ #define CONFIG_OMAP3_SPI
+-- 
+1.8.1.4
+

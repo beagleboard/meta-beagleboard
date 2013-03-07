@@ -1,0 +1,29 @@
+From 654b1a7e8113f8d09c7183dcd73375b6562801e3 Mon Sep 17 00:00:00 2001
+From: Pantelis Antoniou <panto@antoniou-consulting.com>
+Date: Wed, 28 Nov 2012 21:34:39 +0000
+Subject: [PATCH 05/15] am335x_evm: Define CONFIG_SYS_CACHELINE_SIZE
+
+drivers/usb/gadget/composite.c requires that this is defined early.
+
+Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
+Acked-by: Tom Rini <trini@ti.com>
+---
+ include/configs/am335x_evm.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 68ccf11..5d10313 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -39,6 +39,8 @@
+ #define CONFIG_SETUP_MEMORY_TAGS
+ #define CONFIG_INITRD_TAG
+ 
++#define CONFIG_SYS_CACHELINE_SIZE       64
++
+ /* commands to include */
+ #include <config_cmd_default.h>
+ 
+-- 
+1.8.1.4
+

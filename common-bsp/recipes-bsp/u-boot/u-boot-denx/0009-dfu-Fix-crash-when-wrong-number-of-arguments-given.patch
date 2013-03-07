@@ -1,0 +1,29 @@
+From 7fc86a86a2b3ac2ee1ad3086249b4eb30f5df25e Mon Sep 17 00:00:00 2001
+From: Pantelis Antoniou <panto@antoniou-consulting.com>
+Date: Fri, 30 Nov 2012 08:01:08 +0000
+Subject: [PATCH 09/15] dfu: Fix crash when wrong number of arguments given
+
+Fix obvious crash when not enough arguments are given to the dfu
+command.
+
+Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
+---
+ common/cmd_dfu.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/common/cmd_dfu.c b/common/cmd_dfu.c
+index 327c738..83ef324 100644
+--- a/common/cmd_dfu.c
++++ b/common/cmd_dfu.c
+@@ -50,7 +50,7 @@ static int do_dfu(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+ 	if (ret)
+ 		return CMD_RET_FAILURE;
+ 
+-	if (strcmp(argv[3], "list") == 0) {
++	if (argc > 3 && strcmp(argv[3], "list") == 0) {
+ 		dfu_show_entities();
+ 		goto done;
+ 	}
+-- 
+1.8.1.4
+
