@@ -6,16 +6,16 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "b"
+MACHINE_KERNEL_PR_append = "a"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.0"
+PV = "3.8.2"
 
-SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;branch=master"
-SRCREV_pn-${PN} = "19f949f52599ba7c3f67a5897ac6be14bfcb1200"
+SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
+SRCREV_pn-${PN} = "19b00d2dc9bedf0856e366cb7b9c7733ded659e4"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -26,39 +26,38 @@ do_configure_prepend() {
 SRC_URI += " \
 	file://dma/0001-Without-MACH_-option-Early-printk-DEBUG_LL.patch \
 	file://dma/0002-ARM-OMAP-Hack-AM33xx-clock-data-to-allow-JTAG-use.patch \
-	file://dma/0003-fb-Rework-locking-to-fix-lock-ordering-on-takeover.patch \
-	file://dma/0004-video-st7735fb-add-st7735-framebuffer-driver.patch \
-	file://dma/0005-dmaengine-add-helper-function-to-request-a-slave-DMA.patch \
-	file://dma/0006-of-Add-generic-device-tree-DMA-helpers.patch \
-	file://dma/0007-of-dma-fix-build-break-for-CONFIG_OF.patch \
-	file://dma/0008-of-dma-fix-typos-in-generic-dma-binding-definition.patch \
-	file://dma/0009-dmaengine-fix-build-failure-due-to-missing-semi-colo.patch \
-	file://dma/0010-dmaengine-edma-fix-slave-config-dependency-on-direct.patch \
-	file://dma/0011-dmaengine-add-dma_get_channel_caps.patch \
-	file://dma/0012-dma-edma-add-device_channel_caps-support.patch \
-	file://dma/0013-mmc-davinci-get-SG-segment-limits-with-dma_get_chann.patch \
-	file://dma/0014-ARM-davinci-move-private-EDMA-API-to-arm-common.patch \
-	file://dma/0015-ARM-edma-remove-unused-transfer-controller-handlers.patch \
-	file://dma/0016-ARM-edma-add-AM33XX-support-to-the-private-EDMA-API.patch \
-	file://dma/0017-dmaengine-edma-enable-build-for-AM33XX.patch \
-	file://dma/0018-dmaengine-edma-Add-TI-EDMA-device-tree-binding.patch \
-	file://dma/0019-ARM-dts-add-AM33XX-EDMA-support.patch \
-	file://dma/0020-dmaengine-add-dma_request_slave_channel_compat.patch \
-	file://dma/0021-mmc-omap_hsmmc-convert-to-dma_request_slave_channel_.patch \
-	file://dma/0022-mmc-omap_hsmmc-set-max_segs-based-on-dma-engine-limi.patch \
-	file://dma/0023-mmc-omap_hsmmc-add-generic-DMA-request-support-to-th.patch \
-	file://dma/0024-ARM-dts-add-AM33XX-MMC-support.patch \
-	file://dma/0025-spi-omap2-mcspi-convert-to-dma_request_slave_channel.patch \
-	file://dma/0026-spi-omap2-mcspi-add-generic-DMA-request-support-to-t.patch \
-	file://dma/0027-ARM-dts-add-AM33XX-SPI-DMA-support.patch \
-	file://dma/0028-ARM-dts-Add-SPI-Flash-support-to-am335x-evm.patch \
-	file://dma/0029-Documentation-bindings-add-spansion.patch \
-	file://dma/0030-ARM-dts-enable-spi1-node-and-pinmux-on-BeagleBone.patch \
-	file://dma/0031-ARM-dts-add-BeagleBone-Adafruit-1.8-LCD-support.patch \
-	file://dma/0032-misc-add-gpevt-driver.patch \
-	file://dma/0033-ARM-dts-add-BeagleBone-gpevt-support.patch \
-	file://dma/0034-ARM-configs-working-dmaengine-configs-for-da8xx-and-.patch \
-	file://dma/0035-ARM-dts-Add-UART4-support-to-BeagleBone.patch \
+	file://dma/0003-video-st7735fb-add-st7735-framebuffer-driver.patch \
+	file://dma/0004-dmaengine-add-helper-function-to-request-a-slave-DMA.patch \
+	file://dma/0005-of-Add-generic-device-tree-DMA-helpers.patch \
+	file://dma/0006-of-dma-fix-build-break-for-CONFIG_OF.patch \
+	file://dma/0007-of-dma-fix-typos-in-generic-dma-binding-definition.patch \
+	file://dma/0008-dmaengine-fix-build-failure-due-to-missing-semi-colo.patch \
+	file://dma/0009-dmaengine-edma-fix-slave-config-dependency-on-direct.patch \
+	file://dma/0010-dmaengine-add-dma_get_channel_caps.patch \
+	file://dma/0011-dma-edma-add-device_channel_caps-support.patch \
+	file://dma/0012-mmc-davinci-get-SG-segment-limits-with-dma_get_chann.patch \
+	file://dma/0013-ARM-davinci-move-private-EDMA-API-to-arm-common.patch \
+	file://dma/0014-ARM-edma-remove-unused-transfer-controller-handlers.patch \
+	file://dma/0015-ARM-edma-add-AM33XX-support-to-the-private-EDMA-API.patch \
+	file://dma/0016-dmaengine-edma-enable-build-for-AM33XX.patch \
+	file://dma/0017-dmaengine-edma-Add-TI-EDMA-device-tree-binding.patch \
+	file://dma/0018-ARM-dts-add-AM33XX-EDMA-support.patch \
+	file://dma/0019-dmaengine-add-dma_request_slave_channel_compat.patch \
+	file://dma/0020-mmc-omap_hsmmc-convert-to-dma_request_slave_channel_.patch \
+	file://dma/0021-mmc-omap_hsmmc-set-max_segs-based-on-dma-engine-limi.patch \
+	file://dma/0022-mmc-omap_hsmmc-add-generic-DMA-request-support-to-th.patch \
+	file://dma/0023-ARM-dts-add-AM33XX-MMC-support.patch \
+	file://dma/0024-spi-omap2-mcspi-convert-to-dma_request_slave_channel.patch \
+	file://dma/0025-spi-omap2-mcspi-add-generic-DMA-request-support-to-t.patch \
+	file://dma/0026-ARM-dts-add-AM33XX-SPI-DMA-support.patch \
+	file://dma/0027-ARM-dts-Add-SPI-Flash-support-to-am335x-evm.patch \
+	file://dma/0028-Documentation-bindings-add-spansion.patch \
+	file://dma/0029-ARM-dts-enable-spi1-node-and-pinmux-on-BeagleBone.patch \
+	file://dma/0030-ARM-dts-add-BeagleBone-Adafruit-1.8-LCD-support.patch \
+	file://dma/0031-misc-add-gpevt-driver.patch \
+	file://dma/0032-ARM-dts-add-BeagleBone-gpevt-support.patch \
+	file://dma/0033-ARM-configs-working-dmaengine-configs-for-da8xx-and-.patch \
+	file://dma/0034-ARM-dts-Add-UART4-support-to-BeagleBone.patch \
 	file://rtc/0001-ARM-OMAP2-am33xx-hwmod-Fix-register-offset-NULL-chec.patch \
 	file://rtc/0002-rtc-OMAP-Add-system-pm_power_off-to-rtc-driver.patch \
 	file://rtc/0003-ARM-dts-AM33XX-Set-pmic-shutdown-controller-for-Beag.patch \
@@ -144,7 +143,6 @@ SRC_URI += " \
 	file://pwm/0008-HACK-am33xx.dtsi-turn-on-all-PWMs.patch \
 	file://mmc/0001-am33xx.dtsi-enable-MMC-HSPE-bit-for-all-3-controller.patch \
 	file://mmc/0002-omap-hsmmc-Correct-usage-of-of_find_node_by_name.patch \
-	file://mmc/0003-mmc-core-expose-RPMB-partition-only-for-CMD23-capabl.patch \
 	file://crypto/0001-ARM-OMAP2xxx-hwmod-Convert-SHAM-crypto-device-data-t.patch \
 	file://crypto/0002-ARM-OMAP2xxx-hwmod-Add-DMA-support-for-SHAM-module.patch \
 	file://crypto/0003-ARM-OMAP3xxx-hwmod-Convert-SHAM-crypto-device-data-t.patch \
@@ -343,6 +341,21 @@ SRC_URI += " \
 	file://not-capebus/0101-OF-Clear-detach-flag-on-attach.patch \
 	file://not-capebus/0102-OF-overlay-Fix-overlay-revert-failure.patch \
 	file://not-capebus/0103-bone-capemgr-Make-sure-cape-removal-works.patch \
+	file://not-capebus/0104-bone-capemgr-Fix-crash-when-trying-to-remove-non-exi.patch \
+	file://not-capebus/0105-beaglebone-LCD7-cape-enable-PWM-and-allow-the-specif.patch \
+	file://not-capebus/0106-bone-capemgr-Introduce-pinmux-helper.patch \
+	file://not-capebus/0107-bone-geiger-Fix-comment-to-match-the-contents.patch \
+	file://not-capebus/0108-of-overlay-Handle-I2C-devices-already-registered-by-.patch \
+	file://not-capebus/0109-pinmux-helper-Add-runtime-configuration-capability.patch \
+	file://not-capebus/0110-pinmux-helper-Switch-to-using-kmalloc.patch \
+	file://not-capebus/0111-i2c-DTify-pca954x-driver.patch \
+	file://not-capebus/0112-tty-Add-JHD629-I2C-LCD-Keypad-TTY-driver.patch \
+	file://not-capebus/0113-grove-i2c-Add-rudimentary-grove-i2c-motor-control-dr.patch \
+	file://not-capebus/0114-tty-jhd629-i2c-Clean-keypad-buffer-when-starting.patch \
+	file://not-capebus/0115-am335x-bone-common-Remove-SPI-unused-pinmux-config.patch \
+	file://not-capebus/0116-bone-capemgr-Force-a-slot-to-load-unconditionally.patch \
+	file://not-capebus/0117-beaglebone-Added-Adafruit-prototype-cape.patch \
+	file://not-capebus/0118-tilcdc-Enable-reduced-blanking-check-only-on-DVI-sla.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \

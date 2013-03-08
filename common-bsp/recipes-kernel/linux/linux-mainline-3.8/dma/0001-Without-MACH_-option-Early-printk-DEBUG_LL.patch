@@ -1,7 +1,7 @@
-From bd482582e5d2de6f34d1424b60ea1b4c65969877 Mon Sep 17 00:00:00 2001
+From 1f1239dfea2cdb499467654e13257a34d333cee2 Mon Sep 17 00:00:00 2001
 From: "hvaibhav@ti.com" <hvaibhav@ti.com>
 Date: Fri, 31 Aug 2012 16:47:12 +0000
-Subject: [PATCH 01/35] Without MACH_ option Early printk (DEBUG_LL)
+Subject: [PATCH 01/34] Without MACH_ option Early printk (DEBUG_LL)
 
 On Fri, Aug 31, 2012 at 22:07:37, Hiremath, Vaibhav wrote:
 > On Fri, Aug 31, 2012 at 21:41:22, Tony Lindgren wrote:
@@ -117,5 +117,5 @@ index 41b581f..ce05b87 100644
  	bool
  	depends on ARCH_OMAP2 && SOC_OMAP2420
 -- 
-1.8.1
+1.8.1.4
 
