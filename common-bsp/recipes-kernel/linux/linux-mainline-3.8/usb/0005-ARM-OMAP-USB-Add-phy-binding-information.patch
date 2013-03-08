@@ -1,4 +1,4 @@
-From af063563a4d90bc925e57a7ef5d2b63db14902a8 Mon Sep 17 00:00:00 2001
+From 0676d01d023682ac2207934c8df9683b1b8aa24c Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:11 +0000
 Subject: [PATCH 5/9] ARM: OMAP: USB: Add phy binding information
@@ -371,5 +371,5 @@ index 26e07ad..dc5498b 100644
  	enable_board_wakeup_source();
  	omap_serial_init();
 -- 
-1.8.1
+1.8.1.4
 

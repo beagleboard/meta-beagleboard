@@ -1,4 +1,4 @@
-From 14019398d1d70ee4fab9e6a50b1f1147433cfa0b Mon Sep 17 00:00:00 2001
+From e9f3bee828b91c5e5c4aa3b7917a1d748be2b57b Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:10 +0000
 Subject: [PATCH 4/9] usb: otg: utils: add facilities in phy lib to support
@@ -209,5 +209,5 @@ index fbeab1a..3a9ae3e 100644
  {
  }
 -- 
-1.8.1
+1.8.1.4
 

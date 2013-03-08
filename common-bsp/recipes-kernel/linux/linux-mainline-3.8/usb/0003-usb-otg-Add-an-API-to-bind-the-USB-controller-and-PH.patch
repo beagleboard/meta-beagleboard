@@ -1,4 +1,4 @@
-From b8e0f177978b2be08b844440df839297403437ef Mon Sep 17 00:00:00 2001
+From ba00453d95c88fef02829c94e6fc60567660d8ae Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:09 +0000
 Subject: [PATCH 3/9] usb: otg: Add an API to bind the USB controller and PHY
@@ -118,5 +118,5 @@ index a29ae1e..fbeab1a 100644
  
  static inline int
 -- 
-1.8.1
+1.8.1.4
 
