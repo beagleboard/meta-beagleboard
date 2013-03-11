@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "a"
+MACHINE_KERNEL_PR_append = "b"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -356,6 +356,10 @@ SRC_URI += " \
 	file://not-capebus/0116-bone-capemgr-Force-a-slot-to-load-unconditionally.patch \
 	file://not-capebus/0117-beaglebone-Added-Adafruit-prototype-cape.patch \
 	file://not-capebus/0118-tilcdc-Enable-reduced-blanking-check-only-on-DVI-sla.patch \
+	file://not-capebus/0119-cape-adafruit-Use-the-correct-spi-bus-spi1-no-spi0.patch \
+	file://not-capebus/0120-BBB-tester-Introduce-board-DTS.patch \
+	file://not-capebus/0121-BBB-tester-Introduce-cape-describing-the-contents-of.patch \
+	file://not-capebus/0122-bone-tester-Add-overrides-for-BB-BONE-TESTER.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -381,6 +385,11 @@ SRC_URI += " \
 	file://w1/0003-W1-w1-gpio-guard-DT-IDs-with-CONFIG_OF.patch \
 	file://w1/0004-W1-w1-gpio-rework-handling-of-platform-data.patch \
 	file://w1/0005-W1-w1-gpio-switch-to-using-managed-resources-devm.patch \
+	file://gpmc/0001-ARM-OMAP-gpmc-don-t-create-devices-from-initcall-on-.patch \
+	file://gpmc/0002-mtd-omap-nand-pass-device_node-in-platform-data.patch \
+	file://gpmc/0003-ARM-OMAP-gpmc-nand-drop-__init-annotation.patch \
+	file://gpmc/0004-ARM-OMAP-gpmc-enable-hwecc-for-AM33xx-SoCs.patch \
+	file://gpmc/0005-ARM-OMAP-gpmc-add-DT-bindings-for-GPMC-timings-and-N.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
 "
