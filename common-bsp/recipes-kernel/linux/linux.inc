@@ -232,7 +232,7 @@ do_install_append() {
 	oe_runmake firmware_install INSTALL_MOD_PATH=${D} ARCH=$ARCH
 	install -d ${D}/boot
 	make dtbs || true
-	install -m 0644 ${S}/arch/arm/boot/dtb/*.dtb ${D}/boot || true
+	install -m 0644 ${S}/arch/arm/boot/dts/*.dtb ${D}/boot || true
 }
 
 PACKAGES =+ "kernel-headers"
@@ -240,6 +240,7 @@ FILES_kernel-headers = "${exec_prefix}/src/linux*"
 
 PACKAGES =+ "kernel-devicetree-overlays"
 FILES_kernel-devicetree-overlays = "/lib/firmware/*.dtbo"
+FILES_kernel-image += "/boot/*.dtb"
 
 do_devicetree_image() {
     if test -n "${KERNEL_DEVICETREE}" ; then
