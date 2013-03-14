@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "c"
+MACHINE_KERNEL_PR_append = "d"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -361,6 +361,7 @@ SRC_URI += " \
 	file://not-capebus/0121-BBB-tester-Introduce-cape-describing-the-contents-of.patch \
 	file://not-capebus/0122-bone-tester-Add-overrides-for-BB-BONE-TESTER.patch \
 	file://not-capebus/0123-cape-tester-Add-uart-specific-default-pinmux-state.patch \
+	file://not-capebus/0124-cape-tester-Add-pinmux-helper-for-drvvbus-gpio.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
