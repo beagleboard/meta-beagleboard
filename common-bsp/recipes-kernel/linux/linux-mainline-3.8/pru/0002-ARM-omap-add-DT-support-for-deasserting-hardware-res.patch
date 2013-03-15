@@ -1,4 +1,4 @@
-From b1f8703b07e3dd6040286fe67640cc5d1f1d2816 Mon Sep 17 00:00:00 2001
+From 94f70765606a0fe1d9cf2ba767667e9c31688cbc Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Thu, 17 Jan 2013 16:02:48 -0800
 Subject: [PATCH 2/3] ARM: omap: add DT support for deasserting hardware reset
@@ -94,5 +94,5 @@ index 2bb1d7a..563a337 100644
  #ifdef CONFIG_ARCH_DAVINCI_DA850
  		gdev->sram_vaddr =
 -- 
-1.8.1
+1.8.1.4
 

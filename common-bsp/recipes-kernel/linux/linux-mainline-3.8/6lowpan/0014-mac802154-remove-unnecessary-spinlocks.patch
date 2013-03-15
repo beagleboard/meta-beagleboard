@@ -1,4 +1,4 @@
-From 3aa986cbc52b375d72a6b4a52ce268c848d12afe Mon Sep 17 00:00:00 2001
+From eff659c48016813d325d3f2cffbaa74c528d9c6d Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Thu, 20 Sep 2012 23:44:19 -0400
 Subject: [PATCH 14/16] mac802154: remove unnecessary spinlocks
@@ -50,5 +50,5 @@ index f47781a..2339f8d 100644
  
  void mac802154_dev_set_pan_id(struct net_device *dev, u16 val)
 -- 
-1.8.1
+1.8.1.4
 

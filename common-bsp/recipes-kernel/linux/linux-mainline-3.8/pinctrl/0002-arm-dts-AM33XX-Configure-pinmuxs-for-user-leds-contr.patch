@@ -1,4 +1,4 @@
-From c95f38626c3ac46de7d91779e40166a89bdfebff Mon Sep 17 00:00:00 2001
+From d0241232ad9fbeeaf2289808b8d9f4545fcb93d6 Mon Sep 17 00:00:00 2001
 From: "AnilKumar, Chimata" <anilkumar@ti.com>
 Date: Fri, 31 Aug 2012 09:29:18 +0000
 Subject: [PATCH 2/4] arm/dts: AM33XX: Configure pinmuxs for user leds control
@@ -69,5 +69,5 @@ index a92d7d1..4738e3f 100644
  			status = "okay";
  			clock-frequency = <400000>;
 -- 
-1.8.1
+1.8.1.4
 

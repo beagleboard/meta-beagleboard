@@ -1,4 +1,4 @@
-From 9dec8f0f4ffa719bf355a85ed43244196a7e593b Mon Sep 17 00:00:00 2001
+From a83546950bbf1aa082b3e548706ad6fe4f10135f Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 11 Oct 2012 12:58:44 -0400
 Subject: [PATCH 19/34] dmaengine: add dma_request_slave_channel_compat()

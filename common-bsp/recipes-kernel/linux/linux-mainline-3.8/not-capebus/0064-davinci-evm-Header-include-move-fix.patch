@@ -1,7 +1,7 @@
-From 3c6641de6fa4fddfba96c37ac65b305578fd2bd3 Mon Sep 17 00:00:00 2001
+From 0791589ebab9a967d53511f51734b4e6a324781c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 12:11:26 +0200
-Subject: [PATCH 64/98] davinci-evm: Header include move fix.
+Subject: [PATCH 064/124] davinci-evm: Header include move fix.
 
 Headers have been moved. Fix by including the correct header.
 
@@ -25,5 +25,5 @@ index d0fad7e..7420434 100644
  #include "davinci-pcm.h"
  #include "davinci-i2s.h"
 -- 
-1.8.1
+1.8.1.4
 

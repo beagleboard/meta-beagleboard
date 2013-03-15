@@ -1,4 +1,4 @@
-From 802b648b0d5929eb58b244fd7184ffca788cca9f Mon Sep 17 00:00:00 2001
+From 78fbf44c2b9bc3238d2f1538615ac8a3d3d73f4f Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Tue, 10 Jul 2012 11:36:28 -0400
 Subject: [PATCH 13/16] mac802154: make mem alloc ATOMIC to prevent "scheduling
@@ -25,5 +25,5 @@ index fdf482a..e0d358f 100644
  		return -ENOMEM;
  
 -- 
-1.8.1
+1.8.1.4
 

@@ -1,4 +1,4 @@
-From 870bbb3b6273c3a32791eb85b7df71501526852b Mon Sep 17 00:00:00 2001
+From ba7c82240ff210be4b65365432b6399a6ae93e82 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 2 Jan 2013 13:24:50 +0000
 Subject: [PATCH 6/8] pwm: pwm-tiehrpwm: Update the clock handling of
@@ -38,5 +38,5 @@ index 72a6dd4..af6f162 100644
  	/* Stop Time base counter */
  	ehrpwm_modify(pc->mmio_base, TBCTL, TBCTL_RUN_MASK, TBCTL_STOP_NEXT);
 -- 
-1.8.1
+1.8.1.4
 

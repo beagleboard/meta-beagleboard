@@ -1,4 +1,4 @@
-From 92dfa973066fd6c2862d313aaffeaa35f89ca28b Mon Sep 17 00:00:00 2001
+From eeba3cacd43e41c2c4e997fda429df715400cc52 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 1/6] iio:common: Add STMicroelectronics common library
@@ -1312,5 +1312,5 @@ index 0000000..d964a35
 +
 +#endif /* ST_SENSORS_SPI_H */
 -- 
-1.8.1
+1.8.1.4
 

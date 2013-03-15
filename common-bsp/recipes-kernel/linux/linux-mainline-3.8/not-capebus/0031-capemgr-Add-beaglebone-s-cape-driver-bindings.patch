@@ -1,7 +1,7 @@
-From 1434d716761a15f670cc204d61fce37b83b22694 Mon Sep 17 00:00:00 2001
+From 01af75e6985ff797ec449a774ac54d8502cc8d3a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 7 Jan 2013 19:43:11 +0200
-Subject: [PATCH 31/98] capemgr: Add beaglebone's cape driver bindings
+Subject: [PATCH 031/124] capemgr: Add beaglebone's cape driver bindings
 
 Document the beaglebone's cape driver bindings.
 
@@ -128,5 +128,5 @@ index 0000000..f73cab5
 +};
 +	
 -- 
-1.8.1
+1.8.1.4
 

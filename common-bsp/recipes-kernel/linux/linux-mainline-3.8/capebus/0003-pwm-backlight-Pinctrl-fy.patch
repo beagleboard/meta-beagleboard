@@ -1,4 +1,4 @@
-From 6d3a1465983585927f3155c7795fdc0c28231f68 Mon Sep 17 00:00:00 2001
+From 5aeaf7f2364ca715fe05b497c0041c137f767446 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 23 Oct 2012 11:48:58 +0300
 Subject: [PATCH 3/7] pwm-backlight: Pinctrl-fy
@@ -36,5 +36,5 @@ index 0c91023..f3b6194 100644
  		ret = pwm_backlight_parse_dt(&pdev->dev, &defdata);
  		if (ret < 0) {
 -- 
-1.8.1
+1.8.1.4
 

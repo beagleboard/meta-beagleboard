@@ -1,7 +1,7 @@
-From e4755995d1912158e9b2a61919327421d0ecdc85 Mon Sep 17 00:00:00 2001
+From 41d4954b29cddff1bfb7dc387861f01c2520feee Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 6 Dec 2012 13:22:49 +0200
-Subject: [PATCH 17/98] Fix util_is_printable_string
+Subject: [PATCH 017/124] Fix util_is_printable_string
 
 The method used did not account for multi-part strings.
 
@@ -50,5 +50,5 @@ index 2422c34..45f186b 100644
  	return 1;
  }
 -- 
-1.8.1
+1.8.1.4
 

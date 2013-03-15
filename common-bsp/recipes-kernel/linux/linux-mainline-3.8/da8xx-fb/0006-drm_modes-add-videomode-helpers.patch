@@ -1,4 +1,4 @@
-From a05b4094a5a6bd5b3280375794475042e792f4bf Mon Sep 17 00:00:00 2001
+From 5a11b83f45ab551dfc9ee5f1569ed95a57fb69c7 Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Wed, 19 Dec 2012 16:37:03 +0530
 Subject: [PATCH 06/48] drm_modes: add videomode helpers
@@ -96,5 +96,5 @@ index fad21c9..d5c06ff 100644
  extern void drm_vblank_pre_modeset(struct drm_device *dev, int crtc);
  extern void drm_vblank_post_modeset(struct drm_device *dev, int crtc);
 -- 
-1.8.1
+1.8.1.4
 

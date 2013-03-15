@@ -1,4 +1,4 @@
-From 6fadd167cbd45a59cc37b32366968fa3aa047a23 Mon Sep 17 00:00:00 2001
+From 005c82eddb52045b07a8b529f8006029a0b78846 Mon Sep 17 00:00:00 2001
 From: Grant Likely <grant.likely@secretlab.ca>
 Date: Tue, 2 Aug 2011 15:30:09 +0100
 Subject: [PATCH 4/7] ARM: CUSTOM: Build a uImage with dtb already appended
@@ -56,5 +56,5 @@ index abfce28..131558f 100644
  	$(Q)$(MAKE) $(build)=$(obj)/bootp $@
  	@:
 -- 
-1.8.1
+1.8.1.4
 

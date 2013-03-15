@@ -1,4 +1,4 @@
-From 23f20c527c69c805bb2e239774342393d68cc88b Mon Sep 17 00:00:00 2001
+From 49c9f92b75f1aebbd5c8c09ef452fd6b1533f1aa Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 19 Oct 2012 10:38:00 +0300
 Subject: [PATCH 5/8] pwm: export of_pwm_request
@@ -71,5 +71,5 @@ index 6d661f3..b21c020 100644
  					 const char *consumer)
  {
 -- 
-1.8.1
+1.8.1.4
 

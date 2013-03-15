@@ -1,4 +1,4 @@
-From 2f52a1a4a2bd0c55885a5532f46de65e21974a9c Mon Sep 17 00:00:00 2001
+From 0b663c9bf0d9e22bbb0f9f3eb8fe862c9ca3f184 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 2 Jan 2013 19:16:40 +0530
 Subject: [PATCH 08/48] fbmon: fix build error
@@ -33,5 +33,5 @@ index 58b9860..0ce30d1 100644
  				       struct fb_videomode *fbmode);
  
 -- 
-1.8.1
+1.8.1.4
 

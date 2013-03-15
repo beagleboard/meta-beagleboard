@@ -1,4 +1,4 @@
-From e55e0e3f842117ddd160952c0de61881a52c0d32 Mon Sep 17 00:00:00 2001
+From fa5d9001c302cf09751693bcd8962249637d437b Mon Sep 17 00:00:00 2001
 From: Paolo Pisati <paolo.pisati@canonical.com>
 Date: Wed, 12 Dec 2012 12:45:53 +0100
 Subject: [PATCH 1/2] regulator: core: if voltage scaling fails, restore
@@ -53,5 +53,5 @@ index 2785843..53abc98 100644
  EXPORT_SYMBOL_GPL(regulator_set_voltage);
  
 -- 
-1.8.1
+1.8.1.4
 

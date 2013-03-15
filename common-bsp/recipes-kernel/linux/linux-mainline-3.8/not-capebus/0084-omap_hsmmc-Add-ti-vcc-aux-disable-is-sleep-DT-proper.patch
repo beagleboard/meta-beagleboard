@@ -1,7 +1,8 @@
-From c017c07e46682cb50c46ae9fdcd99b45405d8c98 Mon Sep 17 00:00:00 2001
+From cc789cb8e93db74ffb26d5a3ee8c8b220be17569 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 18 Jan 2013 15:44:44 +0200
-Subject: [PATCH 84/98] omap_hsmmc: Add ti,vcc-aux-disable-is-sleep DT property
+Subject: [PATCH 084/124] omap_hsmmc: Add ti,vcc-aux-disable-is-sleep DT
+ property
 
 This exposes the vcc_aux_disable_is_sleep property to DT users.
 
@@ -25,5 +26,5 @@ index 1f29d67..7a35c8e 100644
  }
  #else
 -- 
-1.8.1
+1.8.1.4
 

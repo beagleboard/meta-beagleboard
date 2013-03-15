@@ -1,4 +1,4 @@
-From 0a58b29294a35f4a498f0b0ae91ac2182e22103c Mon Sep 17 00:00:00 2001
+From 74c530dfd15185f8ce4f1ad16977376342b733e6 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 11 Dec 2012 06:48:52 -0600
 Subject: [PATCH 06/10] Beagle: expansion: add wifi
@@ -176,5 +176,5 @@ index 04f06b2..f126531 100644
  	{
  	#if defined(CONFIG_TOUCHSCREEN_TSC2007) || defined(CONFIG_TOUCHSCREEN_TSC2007_MODULE)
 -- 
-1.8.1
+1.8.1.4
 

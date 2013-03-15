@@ -1,4 +1,4 @@
-From 1647ed99388fe11c5feec5ed94fc177106c31694 Mon Sep 17 00:00:00 2001
+From 90b3e2bf7f4cbb53c95196507e6d6068a825e246 Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Wed, 19 Dec 2012 16:36:54 +0530
 Subject: [PATCH 03/48] video: add of helper for display timings/videomode
@@ -545,5 +545,5 @@ index 0000000..a07efcc
 +
 +#endif /* __LINUX_OF_VIDEOMODE_H */
 -- 
-1.8.1
+1.8.1.4
 

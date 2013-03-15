@@ -1,4 +1,4 @@
-From fb47a97d2efa36c1706ed0d146534387fe62df34 Mon Sep 17 00:00:00 2001
+From 3c6cbb99ce1e99d9439bdd40804929cf4fe228fc Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 4/6] iio:magnetometer: Add STMicroelectronics magnetometers
@@ -808,5 +808,5 @@ index 0000000..94547e7
 +MODULE_DESCRIPTION("STMicroelectronics magnetometers spi driver");
 +MODULE_LICENSE("GPL v2");
 -- 
-1.8.1
+1.8.1.4
 

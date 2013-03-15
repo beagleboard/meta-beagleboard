@@ -1,7 +1,7 @@
-From abf8dc1d1f8a91ec9ec2a8192c46b51826f7f1d1 Mon Sep 17 00:00:00 2001
+From e2e8f37d06f6b6c10d594022f3991144daa61624 Mon Sep 17 00:00:00 2001
 From: "hvaibhav@ti.com" <hvaibhav@ti.com>
 Date: Fri, 31 Aug 2012 16:47:12 +0000
-Subject: [PATCH 3/3] Without MACH_ option Early printk (DEBUG_LL)
+Subject: [PATCH 2/2] Without MACH_ option Early printk (DEBUG_LL)
 
 On Fri, Aug 31, 2012 at 22:07:37, Hiremath, Vaibhav wrote:
 > On Fri, Aug 31, 2012 at 21:41:22, Tony Lindgren wrote:
@@ -105,5 +105,5 @@ index ce05b87..9cbbd2b 100644
  config OMAP_PACKAGE_ZAF
         bool
 -- 
-1.8.1
+1.8.1.4
 

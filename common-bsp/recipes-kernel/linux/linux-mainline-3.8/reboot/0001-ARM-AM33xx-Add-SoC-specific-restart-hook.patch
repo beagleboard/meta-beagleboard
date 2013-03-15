@@ -1,4 +1,4 @@
-From 21c06e8516de085024fede660a78a9efe123000c Mon Sep 17 00:00:00 2001
+From cb5ae42e68b3bc5c7b810fc10001abc6bc3c985c Mon Sep 17 00:00:00 2001
 From: "Jean-Sebastien A. Beaudry" <jsabeaudry@handyem.com>
 Date: Wed, 23 Jan 2013 21:02:40 +0000
 Subject: [PATCH] ARM: AM33xx: Add SoC specific restart hook
@@ -100,5 +100,5 @@ index 948bcaa..0c3a991 100644
  void omap3xxx_restart(char mode, const char *cmd);
  #else
 -- 
-1.8.1
+1.8.1.4
 

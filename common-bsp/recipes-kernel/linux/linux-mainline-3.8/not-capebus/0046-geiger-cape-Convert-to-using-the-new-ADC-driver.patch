@@ -1,7 +1,7 @@
-From ba45f0e89159691251089c631eeb614d1ad9fac2 Mon Sep 17 00:00:00 2001
+From 977ab496550b248cfebe528b59b940b0365cbf32 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 14:53:59 +0200
-Subject: [PATCH 46/98] geiger-cape: Convert to using the new ADC driver
+Subject: [PATCH 046/124] geiger-cape: Convert to using the new ADC driver
 
 Now that the proper driver has DT binding convert to using it.
 
@@ -47,5 +47,5 @@ index 18bf1f2..287d75c 100644
  
  			bone-cape-geiger {
 -- 
-1.8.1
+1.8.1.4
 

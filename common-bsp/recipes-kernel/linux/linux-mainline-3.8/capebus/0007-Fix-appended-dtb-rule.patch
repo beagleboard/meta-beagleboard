@@ -1,4 +1,4 @@
-From d3e65f5ce0d88ea30b1760d921ba634cf868f92f Mon Sep 17 00:00:00 2001
+From 2dace5dd554f41c85074854a831bba53bdadfa5a Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Sun, 30 Dec 2012 14:53:19 +0100
 Subject: [PATCH 7/7] Fix appended dtb rule
@@ -36,5 +36,5 @@ index 131558f..e37ebb5 100644
  
  endif
 -- 
-1.8.1
+1.8.1.4
 

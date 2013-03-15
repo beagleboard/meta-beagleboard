@@ -1,7 +1,7 @@
-From e1788f0d4e7e52231b6871a6880214dca94579a9 Mon Sep 17 00:00:00 2001
+From 9aae6c41113861ad0ecad91b1b149daa507e3ac3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 17 Jan 2013 10:26:39 +0100
-Subject: [PATCH 76/98] firmware: fix dvi a1 target
+Subject: [PATCH 076/124] firmware: fix dvi a1 target
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -23,5 +23,5 @@ index 2f14ea4..0bcacba 100644
  	cape-bone-lcd3-00A0.dtbo \
  	cape-bone-lcd3-00A2.dtbo
 -- 
-1.8.1
+1.8.1.4
 

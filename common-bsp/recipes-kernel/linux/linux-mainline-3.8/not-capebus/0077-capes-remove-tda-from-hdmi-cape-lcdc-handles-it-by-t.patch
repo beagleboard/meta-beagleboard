@@ -1,7 +1,7 @@
-From 147f088113706b983cd5ac2e02a66798c012d14e Mon Sep 17 00:00:00 2001
+From 284048731461de22ad4f5bbdb2fb959a04d3887c Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 17 Jan 2013 23:23:17 +0100
-Subject: [PATCH 77/98] capes: remove tda from hdmi cape, lcdc handles it by
+Subject: [PATCH 077/124] capes: remove tda from hdmi cape, lcdc handles it by
  the looks of it
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
@@ -37,5 +37,5 @@ index 911cbb5..b080907 100644
  		target = <&ocp>;
  		__overlay__ {
 -- 
-1.8.1
+1.8.1.4
 

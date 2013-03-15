@@ -1,7 +1,7 @@
-From 4d1afd38e47e9f7110c1ba0eed3f39135f65f907 Mon Sep 17 00:00:00 2001
+From 21edeb11c7f9d61a22277c1e29445f14788ee580 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 16 Jan 2013 15:00:17 +0100
-Subject: [PATCH 75/98] capemgr: catch up with lcdc->tilcdc rename
+Subject: [PATCH 075/124] capemgr: catch up with lcdc->tilcdc rename
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -145,5 +145,5 @@ index 4fe58d5..911cbb5 100644
  				interrupt-parent = <&intc>;
  				interrupts = <36>;
 -- 
-1.8.1
+1.8.1.4
 

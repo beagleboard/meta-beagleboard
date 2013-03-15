@@ -1,4 +1,4 @@
-From 609d550eaa46420fd0c7db73b5cfc3b0c7bf3830 Mon Sep 17 00:00:00 2001
+From 674e682061f25d297378b5756a868647bbcd258b Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 31 Dec 2012 00:02:32 +0530
 Subject: [PATCH 44/48] video: da8xx-fb: invoke platform callback safely
@@ -27,5 +27,5 @@ index 08ee8eb..0beed20 100644
  		par->panel_power_ctrl(1);
  	}
 -- 
-1.8.1
+1.8.1.4
 

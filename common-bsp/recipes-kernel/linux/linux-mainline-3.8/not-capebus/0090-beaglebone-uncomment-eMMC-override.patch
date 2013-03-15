@@ -1,7 +1,7 @@
-From a28af4cd6f993dc5b9b6984c4c26ddbce428693e Mon Sep 17 00:00:00 2001
+From 0a9f8a71e3a7767aee47452d31652b3a67432463 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 29 Jan 2013 15:06:00 +0100
-Subject: [PATCH 90/98] beaglebone: uncomment eMMC override
+Subject: [PATCH 090/124] beaglebone: uncomment eMMC override
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -36,5 +36,5 @@ index 96bce02..23a8b01 100644
  			/* geiger cape version A0 without an EEPROM */
  			slot@5 {
 -- 
-1.8.1
+1.8.1.4
 

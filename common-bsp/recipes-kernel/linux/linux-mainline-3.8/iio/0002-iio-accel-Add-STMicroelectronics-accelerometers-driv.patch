@@ -1,4 +1,4 @@
-From 7c274e175712748925703b250d4002f821e9ada5 Mon Sep 17 00:00:00 2001
+From fcf6243de2e257df6bba1be042a874bcf43c3b07 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 2/6] iio:accel: Add STMicroelectronics accelerometers driver
@@ -950,5 +950,5 @@ index 0000000..dbd45c0
 +MODULE_DESCRIPTION("STMicroelectronics accelerometers spi driver");
 +MODULE_LICENSE("GPL v2");
 -- 
-1.8.1
+1.8.1.4
 

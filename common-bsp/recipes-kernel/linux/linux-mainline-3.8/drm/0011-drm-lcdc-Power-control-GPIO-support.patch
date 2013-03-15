@@ -1,4 +1,4 @@
-From 5df6e61d1a882a586b0640a0a18de53e15a01b3d Mon Sep 17 00:00:00 2001
+From 5cd002289d27608685ac382955a4bb491913552e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 16:31:29 +0200
 Subject: [PATCH 11/11] drm: lcdc: Power control GPIO support
@@ -62,5 +62,5 @@ index c5b592d..91e8ed2 100644
  	priv->lcd_fck_rate = clk_get_rate(priv->clk);
  	priv->freq_transition.notifier_call = cpufreq_transition;
 -- 
-1.8.1
+1.8.1.4
 

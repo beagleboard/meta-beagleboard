@@ -1,4 +1,4 @@
-From 6e65da8c4166e72c87619837569d6108197b9583 Mon Sep 17 00:00:00 2001
+From dbd8001c80759b14bf837b6b060f4b4ad0f5b156 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:12 +0000
 Subject: [PATCH 08/14] arm/dts: AM335x-evm: Add TSC/ADC MFD device support
@@ -52,5 +52,5 @@ index 9059cfc..47ac3d2 100644
  	};
  };
 -- 
-1.8.1
+1.8.1.4
 

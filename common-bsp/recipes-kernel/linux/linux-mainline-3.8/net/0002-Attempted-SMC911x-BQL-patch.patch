@@ -1,4 +1,4 @@
-From 7d99f47151120347ba200ed5e7a3aa9151ffe92d Mon Sep 17 00:00:00 2001
+From a6b5a664b58a275287d4a6990af3c574f2680ca1 Mon Sep 17 00:00:00 2001
 From: "Paul E. McKenney" <paulmck@linux.vnet.ibm.com>
 Date: Thu, 29 Nov 2012 11:17:05 +0100
 Subject: [PATCH 2/3] Attempted SMC911x BQL patch
@@ -56,5 +56,5 @@ index e112877..8907fde 100644
  	skb_tx_timestamp(skb);
  	dev_kfree_skb(skb);
 -- 
-1.8.1
+1.8.1.4
 

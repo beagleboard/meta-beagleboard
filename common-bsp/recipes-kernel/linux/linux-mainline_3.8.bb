@@ -6,16 +6,16 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "d"
+MACHINE_KERNEL_PR_append = "a"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.2"
+PV = "3.8.3"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "19b00d2dc9bedf0856e366cb7b9c7733ded659e4"
+SRCREV_pn-${PN} = "1a45c310b2102c58e37f84abba67fe21d5d6edcf"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -200,9 +200,8 @@ SRC_URI += " \
 	file://capebus/0005-beaglebone-create-a-shared-dtsi-for-beaglebone-based.patch \
 	file://capebus/0006-beaglebone-enable-emmc-for-bonelt.patch \
 	file://capebus/0007-Fix-appended-dtb-rule.patch \
-	file://arm/0001-kbuild-deb-pkg-set-host-machine-after-dpkg-gencontro.patch \
-	file://arm/0002-arm-add-definition-of-strstr-to-decompress.c.patch \
-	file://arm/0003-Without-MACH_-option-Early-printk-DEBUG_LL.patch \
+	file://arm/0001-deb-pkg-Simplify-architecture-matching-for-cross-bui.patch \
+	file://arm/0002-Without-MACH_-option-Early-printk-DEBUG_LL.patch \
 	file://omap/0001-regulator-core-if-voltage-scaling-fails-restore-orig.patch \
 	file://omap/0002-omap2-twl-common-Add-default-power-configuration.patch \
 	file://omap_sakoman/0001-OMAP-DSS2-add-bootarg-for-selecting-svideo.patch \

@@ -1,7 +1,7 @@
-From 1bfd2ec3f37a53e18c29d393215d1051abd30738 Mon Sep 17 00:00:00 2001
+From 7de5bdabcb43f2506d9dfd36d9972f7fb87cd96a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 20:09:11 +0200
-Subject: [PATCH 97/98] tilcdc: Add reduced blanking mode checks
+Subject: [PATCH 097/124] tilcdc: Add reduced blanking mode checks
 
 The driver doesn't support (yet?) non-reduced blanking mode.
 So by default disable any non-reduced blanking modes, and add a switch
@@ -74,5 +74,5 @@ index 8242b5a..c858f73 100644
  	/* register contents saved across suspend/resume: */
  	u32 saved_register[12];
 -- 
-1.8.1
+1.8.1.4
 

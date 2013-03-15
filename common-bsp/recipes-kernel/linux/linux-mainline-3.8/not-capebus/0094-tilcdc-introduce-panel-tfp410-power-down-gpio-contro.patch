@@ -1,7 +1,7 @@
-From 1c1735930de1e88474e4f2b73f47b3cbceceda91 Mon Sep 17 00:00:00 2001
+From 0284cbbfb4c4788f9b32d7a1b9cc7313cb61b782 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 18:15:57 +0200
-Subject: [PATCH 94/98] tilcdc: introduce panel & tfp410 power down gpio
+Subject: [PATCH 094/124] tilcdc: introduce panel & tfp410 power down gpio
  control
 
 Introduce power down GPIO support for panels and tfp410.
@@ -116,5 +116,5 @@ index 10444ee..c9cd8f1 100644
  		}
  	}
 -- 
-1.8.1
+1.8.1.4
 

@@ -1,4 +1,4 @@
-From 6274a1b771557c8d3bf1fb3e10532285a76c620d Mon Sep 17 00:00:00 2001
+From a911cf96992a0cbfe83df7fa1eaf99b3a20f2d23 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 15:13:19 +0200
 Subject: [PATCH 14/14] am335x-tscadc: Do not use find_node_by_name, use
@@ -39,5 +39,5 @@ index 899534d..e28a31d 100644
  
  static struct platform_driver ti_tscadc_driver = {
 -- 
-1.8.1
+1.8.1.4
 

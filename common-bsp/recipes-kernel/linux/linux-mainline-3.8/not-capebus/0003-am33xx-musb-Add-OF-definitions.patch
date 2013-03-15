@@ -1,7 +1,7 @@
-From 37b136f8bd4d5d757af4abc1490945fa8316f644 Mon Sep 17 00:00:00 2001
+From 31d76cabab152da17036331e5f35e1529071dfa8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 30 Oct 2012 20:45:35 +0200
-Subject: [PATCH 03/98] am33xx-musb: Add OF definitions
+Subject: [PATCH 003/124] am33xx-musb: Add OF definitions
 
 For some reason these got dropped; reintroduce.
 
@@ -82,5 +82,5 @@ index 1b91637..5c6e272 100644
  			compatible = "ti,omap3-wdt";
  			ti,hwmods = "wd_timer2";
 -- 
-1.8.1
+1.8.1.4
 

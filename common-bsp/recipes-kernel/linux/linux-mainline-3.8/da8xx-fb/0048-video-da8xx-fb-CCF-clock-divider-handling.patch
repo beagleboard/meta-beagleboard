@@ -1,4 +1,4 @@
-From aaf59954a1fecb745a1c79ea685a03cae77c3bf4 Mon Sep 17 00:00:00 2001
+From 06fa3f2906ef3014cfc2cf1e1f5d7c3fc3c52bb8 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 16 Jan 2013 18:14:31 +0530
 Subject: [PATCH 48/48] video: da8xx-fb: CCF clock divider handling
@@ -164,5 +164,5 @@ index 5455682..6723683 100644
  	par->vram_size = lcdc_info->xres * lcdc_info->yres * lcd_cfg->bpp;
  	ulcm = lcm((lcdc_info->xres * lcd_cfg->bpp)/8, PAGE_SIZE);
 -- 
-1.8.1
+1.8.1.4
 

@@ -1,4 +1,4 @@
-From 5eb4f6ad7514071b0879864b193f9d0ce381feb9 Mon Sep 17 00:00:00 2001
+From 6d61fb7fee8dd20eea8c09d04222c6ca28f754a2 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 31 Dec 2012 14:08:54 +0530
 Subject: [PATCH 22/48] ARM: dts: AM33XX: Add am335x-evm lcdc panel timings
@@ -39,5 +39,5 @@ index d4dd1af..9415b31 100644
 +	};
 +};
 -- 
-1.8.1
+1.8.1.4
 

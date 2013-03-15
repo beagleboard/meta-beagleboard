@@ -1,4 +1,4 @@
-From ec50ab20a985fa7964afcbc310d7502f7fc07565 Mon Sep 17 00:00:00 2001
+From 8e50e9352426fef4183af3446598bd559a44f484 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 11 Dec 2012 06:33:24 -0600
 Subject: [PATCH 04/10] Beagle: expansion: add trainer
@@ -51,5 +51,5 @@ index 5241e6e..a8ca83d 100644
  	usbhs_init(&usbhs_bdata);
  	board_nand_init(omap3beagle_nand_partitions,
 -- 
-1.8.1
+1.8.1.4
 

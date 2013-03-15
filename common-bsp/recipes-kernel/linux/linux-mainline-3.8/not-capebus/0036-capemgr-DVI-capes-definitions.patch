@@ -1,7 +1,7 @@
-From a16373dd2612633c07d5b7fb1ae5d1169c452923 Mon Sep 17 00:00:00 2001
+From 638c53eb1043fa297566fd0fa3929ef093dd09be Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:08:16 +0200
-Subject: [PATCH 36/98] capemgr: DVI capes definitions
+Subject: [PATCH 036/124] capemgr: DVI capes definitions
 
 Definitions for the beaglebone DVI capes.
 
@@ -216,5 +216,5 @@ index 0000000..567d12b
 +	};
 +};
 -- 
-1.8.1
+1.8.1.4
 

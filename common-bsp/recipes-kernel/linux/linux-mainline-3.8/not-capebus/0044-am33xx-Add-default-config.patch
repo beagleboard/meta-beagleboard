@@ -1,7 +1,7 @@
-From 5e8ab302431809cf1b6d7e86ebafc4e1bc81c8b1 Mon Sep 17 00:00:00 2001
+From 89d5718750e20725bc74d52042d106bf84fa7d1c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 21:15:34 +0200
-Subject: [PATCH 44/98] am33xx: Add default config.
+Subject: [PATCH 044/124] am33xx: Add default config.
 
 ---
  defconfig | 209 +++++++++++++++++++++++++++-----------------------------------
@@ -621,5 +621,5 @@ index 5eb94b7..0817f18 100644
  CONFIG_DEFAULT_SECURITY=""
  CONFIG_CRYPTO=y
 -- 
-1.8.1
+1.8.1.4
 

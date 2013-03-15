@@ -1,7 +1,7 @@
-From 5cb5875819624f1e83d678d9cdd4eefd476fe616 Mon Sep 17 00:00:00 2001
+From dcf7122e7eea04ae28ed207c34fbdfdd7b31653a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 14:36:38 +0200
-Subject: [PATCH 09/98] am335x-bone-dtsi: Introduce new I2C entries
+Subject: [PATCH 009/124] am335x-bone-dtsi: Introduce new I2C entries
 
 Introduce I2C entries that are required for capes.
 
@@ -55,5 +55,5 @@ index b084324..312ded8 100644
  
  /include/ "tps65217.dtsi"
 -- 
-1.8.1
+1.8.1.4
 

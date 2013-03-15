@@ -1,4 +1,4 @@
-From 2b870f9d62875277dca43f062e93d141f5edd64b Mon Sep 17 00:00:00 2001
+From 4041e590e88c91ea3c53a83bbc6afec94f46d392 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:10 +0000
 Subject: [PATCH 06/14] input: ti_am335x_tsc: Add DT support
@@ -139,5 +139,5 @@ index 064d2b2..6ff5a76 100644
  	err = request_irq(ts_dev->irq, titsc_irq,
  			  0, pdev->dev.driver->name, ts_dev);
 -- 
-1.8.1
+1.8.1.4
 

@@ -1,4 +1,4 @@
-From 1fe8da0f808e2b18cf0df4f12e518abfa1edf64c Mon Sep 17 00:00:00 2001
+From 598d55134a1900731f11e63f9d80343e252dbc33 Mon Sep 17 00:00:00 2001
 From: Peter Korsgaard <jacmet@sunsite.dk>
 Date: Wed, 16 Jan 2013 21:01:13 +0000
 Subject: [PATCH 1/3] am33xx: cpsw: default to ethernet hwaddr from efuse if
@@ -151,5 +151,5 @@ index 35d17a6..12d8468 100644
  /* AM33XX CONTROL_STATUS bitfields (partial) */
  #define AM33XX_CONTROL_STATUS_SYSBOOT1_SHIFT		22
 -- 
-1.8.1
+1.8.1.4
 

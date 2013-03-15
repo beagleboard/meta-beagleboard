@@ -1,4 +1,4 @@
-From 10b5b74a34ae54f88f7337b403555f242fde8764 Mon Sep 17 00:00:00 2001
+From 0e73e2f98e08cb3ea8b4c28e333d6a210f413851 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:09 +0000
 Subject: [PATCH 05/14] MFD: ti_am335x_tscadc: Add DT support
@@ -78,5 +78,5 @@ index e9f3fb5..87b446b 100644
  	.probe	= ti_tscadc_probe,
  	.remove	= ti_tscadc_remove,
 -- 
-1.8.1
+1.8.1.4
 

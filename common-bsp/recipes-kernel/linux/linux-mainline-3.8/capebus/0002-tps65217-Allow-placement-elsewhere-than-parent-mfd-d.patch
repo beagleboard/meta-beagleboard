@@ -1,4 +1,4 @@
-From cc82273bc383b6180a1dba88e2b61d475fd1896a Mon Sep 17 00:00:00 2001
+From 556db8114f22652862c399c314cba11d3aad2719 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 17 Oct 2012 20:17:57 +0300
 Subject: [PATCH 2/7] tps65217: Allow placement elsewhere than parent mfd
@@ -195,5 +195,5 @@ index 7088163..69c1dfe 100644
  };
  
 -- 
-1.8.1
+1.8.1.4
 
