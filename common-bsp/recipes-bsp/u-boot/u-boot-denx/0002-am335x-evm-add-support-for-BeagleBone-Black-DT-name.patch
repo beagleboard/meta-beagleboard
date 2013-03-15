@@ -17,7 +17,7 @@ index 8ad25fb..81d849f 100644
  		"if test $board_name = A335BONE; then " \
  			"setenv fdtfile am335x-bone.dtb; fi; " \
 +		"if test $board_name = A335BNLT; then " \
-+			"setenv fdtfile am335x-bonelt.dtb; fi; " \
++			"setenv fdtfile am335x-boneblack.dtb; fi; " \
  		"if test $board_name = A33515BB; then " \
  			"setenv fdtfile am335x-evm.dtb; fi; " \
  		"if test $board_name = A335X_SK; then " \
