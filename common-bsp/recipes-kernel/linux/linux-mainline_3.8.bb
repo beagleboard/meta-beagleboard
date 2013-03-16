@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "a"
+MACHINE_KERNEL_PR_append = "b"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -373,6 +373,7 @@ SRC_URI += " \
 	file://usb/0007-usb-otg-add-device-tree-support-to-otg-library.patch \
 	file://usb/0008-USB-MUSB-OMAP-get-PHY-by-phandle-for-dt-boot.patch \
 	file://usb/0009-MUSB-Hack-around-to-make-host-port-to-work.patch \
+	file://usb/0010-make-sure-we-register-unregister-the-NOP-xceiver-onl.patch \
 	file://PG2/0001-beaglebone-black-1ghz-hack.patch \
 	file://reboot/0001-ARM-AM33xx-Add-SoC-specific-restart-hook.patch \
 	file://iio/0001-iio-common-Add-STMicroelectronics-common-library.patch \
