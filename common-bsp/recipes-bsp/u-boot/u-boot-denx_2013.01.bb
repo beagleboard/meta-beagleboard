@@ -5,7 +5,7 @@ UBOOT_BINARY = "u-boot.img"
 UBOOT_IMAGE = "u-boot-${MACHINE}-${PV}-${PR}.img"
 UBOOT_SYMLINK = "u-boot-${MACHINE}.img"
 
-PV = "2013.01"
+PV = "2013.01.01"
 
 # No patches for other machines yet
 COMPATIBLE_MACHINE = "(beaglebone)"
@@ -29,12 +29,13 @@ SRC_URI = "git://www.denx.de/git/u-boot.git;protocol=git \
            file://0013-dfu-Support-larger-than-memory-transfers.patch \
            file://0014-Implement-nand_extent_skip_bad.patch \
            file://0015-Implement-NAND-dfu-support.patch \
+           file://0021-am335x_evm-Add-better-timings-for-the-new-BeagleBoar.patch \
            ${FWENV} \
           "
 
 
-# v2013.01 tag + fixes
-SRCREV = "9c748e02d99476e6a08d55eadfd8776edffe1e2e"
+# v2013.01.01 tag
+SRCREV = "e8ae0fa5edd152b2b29c470b88429be4cdcd2c46"
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=1707d6db1d42237583f50183a5651ecb"
 
