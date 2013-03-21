@@ -6,16 +6,16 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "c"
+MACHINE_KERNEL_PR_append = "a"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.3"
+PV = "3.8.4"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "1a45c310b2102c58e37f84abba67fe21d5d6edcf"
+SRCREV_pn-${PN} = "405acc3402a3df8df967d1848947dc58f0059664"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -367,6 +367,7 @@ SRC_URI += " \
 	file://not-capebus/0128-capemgr-Added-module-param-descriptions.patch \
 	file://not-capebus/0129-beaglebone-Add-Adafruit-RTC-prototype-cape.patch \
 	file://not-capebus/0130-cape-vsense-scale-division-by-zero-check.patch \
+	file://not-capebus/0131-capes-add-cape-for-beaglebone-based-Hexy-robot.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -388,11 +389,10 @@ SRC_URI += " \
 	file://iio/0004-iio-magnetometer-Add-STMicroelectronics-magnetometer.patch \
 	file://iio/0005-iio-magn-Add-sensors_supported-in-st_magn_sensors.patch \
 	file://iio/0006-pwm-pca9685-skeleton-i2c-client-driver-for-PCA9685-1.patch \
-	file://w1/0001-W1-w1-gpio-fix-incorrect-__init-__exit-markups.patch \
-	file://w1/0002-W1-w1-gpio-switch-to-using-dev_pm_ops.patch \
-	file://w1/0003-W1-w1-gpio-guard-DT-IDs-with-CONFIG_OF.patch \
-	file://w1/0004-W1-w1-gpio-rework-handling-of-platform-data.patch \
-	file://w1/0005-W1-w1-gpio-switch-to-using-managed-resources-devm.patch \
+	file://w1/0001-W1-w1-gpio-switch-to-using-dev_pm_ops.patch \
+	file://w1/0002-W1-w1-gpio-guard-DT-IDs-with-CONFIG_OF.patch \
+	file://w1/0003-W1-w1-gpio-rework-handling-of-platform-data.patch \
+	file://w1/0004-W1-w1-gpio-switch-to-using-managed-resources-devm.patch \
 	file://gpmc/0001-ARM-OMAP-gpmc-don-t-create-devices-from-initcall-on-.patch \
 	file://gpmc/0002-mtd-omap-nand-pass-device_node-in-platform-data.patch \
 	file://gpmc/0003-ARM-OMAP-gpmc-nand-drop-__init-annotation.patch \

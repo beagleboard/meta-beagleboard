@@ -1,10 +1,10 @@
-From 56662092d7778d482d731c9aad3f0f73be36bbc2 Mon Sep 17 00:00:00 2001
-From: Vladimir Pantelic <vladimir@lgf.net>
-Date: Fri, 15 Mar 2013 23:33:31 +0100
+From d594251e893054c741ddeffe7c1ea77319cd7cd5 Mon Sep 17 00:00:00 2001
+From: Vladimir Pantelic <vladoman@gmail.com>
+Date: Mon, 18 Mar 2013 13:48:33 +0100
 Subject: [PATCH 10/10] make sure we register/unregister the NOP xceiver only
  once
 
-Signed-off-by: Vladimir Pantelic <vladimir@lgf.net>
+Signed-off-by: Vladimir Pantelic <vladoman@gmail.com>
 ---
  drivers/usb/musb/musb_dsps.c | 12 +++++++++---
  1 file changed, 9 insertions(+), 3 deletions(-)
