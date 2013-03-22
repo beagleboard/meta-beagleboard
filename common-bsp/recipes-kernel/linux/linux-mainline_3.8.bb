@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "a"
+MACHINE_KERNEL_PR_append = "b"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -368,6 +368,11 @@ SRC_URI += " \
 	file://not-capebus/0129-beaglebone-Add-Adafruit-RTC-prototype-cape.patch \
 	file://not-capebus/0130-cape-vsense-scale-division-by-zero-check.patch \
 	file://not-capebus/0131-capes-add-cape-for-beaglebone-based-Hexy-robot.patch \
+	file://not-capebus/0132-Extend-bone-iio-helper.patch \
+	file://not-capebus/0133-Update-iio-helper-with-more-channels.patch \
+	file://not-capebus/0134-Add-ADC-IIO-helper.patch \
+	file://not-capebus/0135-Changing-DT-data-to-make-selection-of-standard-i.e.-.patch \
+	file://not-capebus/0136-Enhancing-to-support-extra-device-tree-options-for-t.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
