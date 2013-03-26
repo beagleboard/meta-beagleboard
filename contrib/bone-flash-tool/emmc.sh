@@ -5,6 +5,13 @@
 
 export PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin
 
+cd /build
+
+if [ -e /eeprom.dump ] ; then
+	echo "Adding header to EEPROM"
+	dd if=/eeprom.dump of=/sys/devices/ocp.2/44e0b000.i2c/i2c-0/0-0050/eeprom
+fi
+
 echo "Paritioning eMMC"
 ./mkcard.sh /dev/mmcblk1
 
@@ -16,7 +23,8 @@ mount /dev/mmcblk1p2 /media/2 -o async,noatime
 
 echo "Copying bootloader files"
 cp MLO u-boot.img /media/1
-echo "optargs=quiet" > /media/1/uEnv.txt
+echo "mmcdev=1" > /media/1/uEnv.txt
+echo "optargs=quiet" >> /media/1/uEnv.txt
 
 sync
 
@@ -44,6 +52,8 @@ cpufreq-set -g ondemand
 rm /media/2/etc/pam.d/gdm-autologin
 
 umount /media/2
+
+sync
 
 echo default-on > /sys/class/leds/beaglebone\:green\:usr0/trigger
 echo default-on > /sys/class/leds/beaglebone\:green\:usr1/trigger
