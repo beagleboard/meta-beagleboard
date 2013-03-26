@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "b"
+MACHINE_KERNEL_PR_append = "c"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -373,6 +373,14 @@ SRC_URI += " \
 	file://not-capebus/0134-Add-ADC-IIO-helper.patch \
 	file://not-capebus/0135-Changing-DT-data-to-make-selection-of-standard-i.e.-.patch \
 	file://not-capebus/0136-Enhancing-to-support-extra-device-tree-options-for-t.patch \
+	file://not-capebus/0137-add-WIP-support-LCD4-rev-00A4.patch \
+	file://not-capebus/0138-add-eMMC-cape-support.patch \
+	file://not-capebus/0139-Remove-UART-pins-from-the-expansion-set.patch \
+	file://not-capebus/0140-Remove-LCD-pins-from-the-expansion-test-part.patch \
+	file://not-capebus/0141-Remove-I2C2-pins-from-expansion-test.patch \
+	file://not-capebus/0142-Add-expansion-test-cape-fragment.patch \
+	file://not-capebus/0143-tilcdc-added-some-extra-debug-and-softened-the-wordi.patch \
+	file://not-capebus/0144-Make-sure-various-timings-fit-within-the-bits-availa.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -403,6 +411,63 @@ SRC_URI += " \
 	file://gpmc/0003-ARM-OMAP-gpmc-nand-drop-__init-annotation.patch \
 	file://gpmc/0004-ARM-OMAP-gpmc-enable-hwecc-for-AM33xx-SoCs.patch \
 	file://gpmc/0005-ARM-OMAP-gpmc-add-DT-bindings-for-GPMC-timings-and-N.patch \
+	file://mxt/0001-CHROMIUM-Input-atmel_mxt_ts-refactor-i2c-error-handl.patch \
+	file://mxt/0002-CHROMIUM-Input-atmel_mxt_ts-register-input-device-be.patch \
+	file://mxt/0003-CHROMIUM-Input-atmel_mxt_ts-refactor-input-device-cr.patch \
+	file://mxt/0004-CHROMIUM-Input-atmel_mxt_ts-handle-bootloader-mode-a.patch \
+	file://mxt/0005-CHROMIUM-Input-atmel_mxt_ts-handle-errors-during-fw-.patch \
+	file://mxt/0006-CHROMIUM-Input-atmel_mxt_ts-destroy-state-before-fw-.patch \
+	file://mxt/0007-CHROMIUM-Input-atmel_mxt_ts-refactor-bootloader-entr.patch \
+	file://mxt/0008-CHROMIUM-Input-atmel_mxt_ts-wait-for-CHG-assert-in-m.patch \
+	file://mxt/0009-CHROMIUM-Input-atmel_mxt_ts-wait-for-CHG-after-bootl.patch \
+	file://mxt/0010-CHROMIUM-Input-atmel_mxt_ts-change-MXT_BOOT_LOW-to-0.patch \
+	file://mxt/0011-CHROMIUM-Input-atmel_mxt_ts-Increase-FWRESET_TIME.patch \
+	file://mxt/0012-CHROMIUM-Input-atmel_mxt_ts-add-calibrate-sysfs-entr.patch \
+	file://mxt/0013-CHROMIUM-Input-atmel_mxt_ts-add-sysfs-entry-to-read-.patch \
+	file://mxt/0014-CHROMIUM-Input-atmel_mxt_ts-add-sysfs-entry-to-read-.patch \
+	file://mxt/0015-CHROMIUM-Input-atmel_mxt_ts-verify-info-block-checks.patch \
+	file://mxt/0016-CHROMIUM-Input-atmel_mxt_tx-add-matrix_size-sysfs-en.patch \
+	file://mxt/0017-CHROMIUM-Input-atmel_mxt_ts-define-helper-functions-.patch \
+	file://mxt/0018-CHROMIUM-Input-atmel_mxt_ts-add-debugfs-infrastructu.patch \
+	file://mxt/0019-CHROMIUM-Input-atmel_mxt_ts-add-deltas-and-refs-debu.patch \
+	file://mxt/0020-CHROMIUM-Input-atmel_mxt_ts-add-device-id-for-touchp.patch \
+	file://mxt/0021-CHROMIUM-Input-atmel_mxt_ts-Read-resolution-from-dev.patch \
+	file://mxt/0022-CHROMIUM-Input-atmel_mxt_ts-Report-TOUCH-MAJOR-in-te.patch \
+	file://mxt/0023-CHROMIUM-Input-atmel_mxt_ts-add-new-object-types.patch \
+	file://mxt/0024-CHROMIUM-INPUT-atmel_mxt_ts-Increase-the-wait-times-.patch \
+	file://mxt/0025-CHROMIUM-Input-atmel_mxt_ts-dump-mxt_read-write_reg.patch \
+	file://mxt/0026-CHROMIUM-Input-atmel_mxt_ts-take-an-instance-for-mxt.patch \
+	file://mxt/0027-CHROMIUM-Input-atmel_mxt_ts-allow-writing-to-object-.patch \
+	file://mxt/0028-CHROMIUM-Input-atmel_mxt_ts-add-backupnv-sysfs-entry.patch \
+	file://mxt/0029-CHROMIUM-Input-atmel_mxt_ts-read-num-messages-then-a.patch \
+	file://mxt/0030-CHROMIUM-Input-atmel_mxt_ts-remove-mxt_make_highchg.patch \
+	file://mxt/0031-CHROMIUM-Input-atmel_mxt_ts-Remove-matrix-size-updat.patch \
+	file://mxt/0032-CHROMIUM-Input-atmel_mxt_ts-parse-vector-field-of-da.patch \
+	file://mxt/0033-CHROMIUM-Input-atmel_mxt_ts-Add-IDLE-DEEP-SLEEP-mode.patch \
+	file://mxt/0034-CHROMIUM-Input-atmel_mxt_ts-Move-object-from-sysfs-t.patch \
+	file://mxt/0035-CHROMIUM-Input-atmel_mxt_ts-Set-default-irqflags-whe.patch \
+	file://mxt/0036-CHROMIUM-Input-atmel_mxt_ts-Support-the-case-with-no.patch \
+	file://mxt/0037-CHROMIUM-Input-atmel_mxt_ts-Wait-on-auto-calibration.patch \
+	file://mxt/0038-CHROMIUM-Input-atmel_mxt_ts-Add-sysfs-entry-for-r-w-.patch \
+	file://mxt/0039-CHROMIUM-Input-atmel_mxt_ts-Add-sysfs-entry-for-r-w-.patch \
+	file://mxt/0040-CHROMIUM-Input-atmel_mxt_ts-add-sysfs-entry-for-writ.patch \
+	file://mxt/0041-CHROMIUM-Input-atmel_mxt_ts-make-mxt_initialize-asyn.patch \
+	file://mxt/0042-CHROMIUM-Input-atmel_mxt_ts-move-backup_nv-to-handle.patch \
+	file://mxt/0043-CHROMIUM-Input-atmel_mxt_ts-Add-defines-for-T9-Touch.patch \
+	file://mxt/0044-CHROMIUM-Input-atmel_mxt_ts-disable-reporting-on-sto.patch \
+	file://mxt/0045-CHROMIUM-Input-atmel_mxt_ts-Suppress-handle-messages.patch \
+	file://mxt/0046-CHROMIUM-Input-atmel_mxt_ts-save-and-restore-t9_ctrl.patch \
+	file://mxt/0047-CHROMIUM-Input-atmel_mxt_ts-enable-RPTEN-if-can-wake.patch \
+	file://mxt/0048-CHROMIUM-Input-atmel_mxt_ts-release-all-fingers-on-r.patch \
+	file://mxt/0049-CHROMIUM-Input-atmel_mxt_ts-make-suspend-power-acqui.patch \
+	file://mxt/0050-CHROMIUM-Input-atmel_mxt_ts-recalibrate-on-system-re.patch \
+	file://mxt/0051-CHROMIUM-Input-atmel_mxt_ts-Use-correct-max-touch_ma.patch \
+	file://mxt/0052-CHROMIUM-Input-atmel_mxt_ts-Add-support-for-T65-Lens.patch \
+	file://mxt/0053-CHROMIUM-Input-atmel_mxt_ts-On-Tpads-enable-T42-disa.patch \
+	file://mxt/0054-CHROMIUM-Input-atmel_mxt_ts-Set-power-wakeup-to-disa.patch \
+	file://mxt/0055-CHROMIUM-Input-atmel_mxt_ts-mxt_stop-on-lid-close.patch \
+	file://mxt/0056-CHROMIUM-Input-atmel_mxt_ts-Disable-T9-on-mxt_stop.patch \
+	file://mxt/0057-CHROMIUM-Input-atmel_mxt_ts-Set-T9-in-mxt_resume-bas.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
 "
