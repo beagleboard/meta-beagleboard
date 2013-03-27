@@ -35,7 +35,7 @@ sleep 1
 
 
 if [ -x `which kpartx` ]; then
-	kpartx -a ${DRIVE}
+	kpartx -a -v ${DRIVE}
 fi
 
 # handle various device names.
@@ -78,3 +78,6 @@ else
 	echo "Cant find rootfs partition in /dev"
 fi
 
+if [ -x `which kpartx` ]; then
+	kpartx -d -v ${DRIVE}
+fi
