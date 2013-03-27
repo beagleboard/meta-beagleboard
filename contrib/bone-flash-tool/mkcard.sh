@@ -34,7 +34,7 @@ echo ,,,-
 sleep 1
 
 
-if [ -x `which kpartx` ]; then
+if [ -x /sbin/kpartx ]; then
 	kpartx -a -v ${DRIVE}
 fi
 
@@ -78,6 +78,6 @@ else
 	echo "Cant find rootfs partition in /dev"
 fi
 
-if [ -x `which kpartx` ]; then
+if [ -x /sbin/kpartx ]; then
 	kpartx -d -v ${DRIVE}
 fi
