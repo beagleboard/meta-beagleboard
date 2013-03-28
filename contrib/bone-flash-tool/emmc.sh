@@ -24,7 +24,7 @@ echo "Mounting partitions"
 mkdir -p ${PART1MOUNT}
 mkdir -p ${PART2MOUNT}
 mount /dev/mmcblk1p1 ${PART1MOUNT} -o relatime
-mount /dev/mmcblk1p2 ${PART2MOUNT} -o relatime
+mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
 
 echo "Copying bootloader files"
 cp MLO u-boot.img ${PART1MOUNT}
@@ -53,8 +53,6 @@ if [ "${HOSTARCH}" = "armv7l" ] ; then
 	cpufreq-set -g performance
 	systemd-nspawn -D ${PART2MOUNT} /usr/bin/opkg-cl configure
 	cpufreq-set -g ondemand
-
-	sync
 
 	#echo "Setting timezone to Europe/Paris"
 	#systemd-nspawn -D ${PART2MOUNT} /usr/bin/timedatectl set-timezone Europe/Paris
