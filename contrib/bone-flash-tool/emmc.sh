@@ -8,6 +8,8 @@ export PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin
 PART1MOUNT="/media/1"
 PART2MOUNT="/media/2"
 
+HOSTARCH="$(uname -m)"
+
 cd /build
 
 if [ -e /eeprom.dump ] ; then
@@ -22,7 +24,7 @@ echo "Mounting partitions"
 mkdir -p ${PART1MOUNT}
 mkdir -p ${PART2MOUNT}
 mount /dev/mmcblk1p1 ${PART1MOUNT} -o relatime
-mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
+mount /dev/mmcblk1p2 ${PART2MOUNT} -o relatime
 
 echo "Copying bootloader files"
 cp MLO u-boot.img ${PART1MOUNT}
@@ -40,22 +42,30 @@ fi
 
 umount ${PART1MOUNT}
 
-echo "Generating machine ID"
-systemd-nspawn -D ${PART2MOUNT} /bin/systemd-machine-id-setup
+sync
 
-echo "Running Postinsts"
-cpufreq-set -g performance
-systemd-nspawn -D ${PART2MOUNT} /usr/bin/opkg-cl configure
-cpufreq-set -g ondemand
+if [ "${HOSTARCH}" = "armv7l" ] ; then
 
-#echo "Setting timezone to Europe/Paris"
-#systemd-nspawn -D ${PART2MOUNT} /usr/bin/timedatectl set-timezone Europe/Paris
+	echo "Generating machine ID"
+	systemd-nspawn -D ${PART2MOUNT} /bin/systemd-machine-id-setup
+
+	echo "Running Postinsts"
+	cpufreq-set -g performance
+	systemd-nspawn -D ${PART2MOUNT} /usr/bin/opkg-cl configure
+	cpufreq-set -g ondemand
+
+	sync
+
+	#echo "Setting timezone to Europe/Paris"
+	#systemd-nspawn -D ${PART2MOUNT} /usr/bin/timedatectl set-timezone Europe/Paris
+
+fi
 
 rm ${PART2MOUNT}/etc/pam.d/gdm-autologin
 
-umount ${PART2MOUNT}
-
 sync
+
+umount ${PART2MOUNT}
 
 if [ -e /sys/class/leds/beaglebone\:green\:usr0/trigger ] ; then
 	echo default-on > /sys/class/leds/beaglebone\:green\:usr0/trigger
