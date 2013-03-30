@@ -1,4 +1,4 @@
-From 7f43924df1efcd109e798f3132facc29b765c611 Mon Sep 17 00:00:00 2001
+From c42c49f8e88e5df24dd70805cc8b012805e8f211 Mon Sep 17 00:00:00 2001
 From: "Manjunathappa, Prakash" <prakash.pm@ti.com>
 Date: Mon, 1 Aug 2011 18:25:11 +0530
 Subject: [PATCH 2/5] backlight: Add TLC59108 backlight control driver

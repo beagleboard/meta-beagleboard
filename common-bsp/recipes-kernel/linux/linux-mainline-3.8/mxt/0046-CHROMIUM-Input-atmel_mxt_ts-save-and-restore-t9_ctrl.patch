@@ -1,4 +1,4 @@
-From 5a2a25978a941a7635b33f344675160db0e1faf8 Mon Sep 17 00:00:00 2001
+From 6ea5de28448006145c729349e0aa39d0bf1287f7 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Thu, 23 Aug 2012 15:43:55 -0700
 Subject: [PATCH 46/57] CHROMIUM: Input: atmel_mxt_ts - save and restore

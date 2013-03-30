@@ -1,7 +1,7 @@
-From 7b09cb2b65d44e6e66c5c1dd49efa5312bba765c Mon Sep 17 00:00:00 2001
+From 0a8797d4d3d09d36ff14f5ecf92056db83145835 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 30 Nov 2012 12:12:55 +0200
-Subject: [PATCH 004/131] Mark the device as PRIVATE
+Subject: [PATCH 004/149] Mark the device as PRIVATE
 
 Turns out if you enable CONFIG_NET_DMA the ip stack will try
 to grab all the available non-private DMA channels sometime late in the

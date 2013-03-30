@@ -1,7 +1,7 @@
-From ba0ed8bad7d3be88aa4e2c301f82a8d549f36878 Mon Sep 17 00:00:00 2001
+From 9cd49db3d5d24f2a18a2417fe204888749b09042 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 4 Jan 2013 11:51:06 +0200
-Subject: [PATCH 041/131] am33xx DT: Update am33xx.dsi with the new PWM DT
+Subject: [PATCH 041/149] am33xx DT: Update am33xx.dsi with the new PWM DT
  bindings
 
 Use the new bindings for the PWM subsystem.

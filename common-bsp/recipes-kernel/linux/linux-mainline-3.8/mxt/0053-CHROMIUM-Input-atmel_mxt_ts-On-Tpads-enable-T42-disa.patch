@@ -1,4 +1,4 @@
-From 5c2082c029faaef749c789fe40c219d3c2a57b29 Mon Sep 17 00:00:00 2001
+From cc2890fee3ef82c9d8bf14921d3a12dd195e5cf2 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Fri, 18 Jan 2013 17:35:19 -0800
 Subject: [PATCH 53/57] CHROMIUM: Input: atmel_mxt_ts : On Tpads, enable T42,

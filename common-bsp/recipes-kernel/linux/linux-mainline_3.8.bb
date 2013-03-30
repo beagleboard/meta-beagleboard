@@ -6,21 +6,23 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "c"
+MACHINE_KERNEL_PR_append = "a"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.4"
+PV = "3.8.5"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "405acc3402a3df8df967d1848947dc58f0059664"
+SRCREV_pn-${PN} = "aa4cfdeb17e3559fe1e80175c7338e065553dce5"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
 		cp ${WORKDIR}/am335x-pm-firmware.bin ${S}/firmware
 	fi
+
+	cp ${WORKDIR}/db.txt ${S}/net/wireless
 }
 
 SRC_URI += " \
@@ -177,22 +179,29 @@ SRC_URI += " \
 	file://crypto/0032-crypto-omap-aes-Convert-to-dma_request_slave_channel.patch \
 	file://crypto/0033-crypto-omap-aes-Add-OMAP4-AM33XX-AES-Support.patch \
 	file://crypto/0034-crypto-omap-aes-Add-CTR-algorithm-Support.patch \
-	file://6lowpan/0001-6lowpan-lowpan_is_iid_16_bit_compressable-does-not-d.patch \
-	file://6lowpan/0002-6lowpan-next-header-is-not-properly-set-upon-decompr.patch \
-	file://6lowpan/0003-6lowpan-always-enable-link-layer-acknowledgments.patch \
-	file://6lowpan/0004-mac802154-turn-on-ACK-when-enabled-by-the-upper-laye.patch \
-	file://6lowpan/0005-6lowpan-use-short-IEEE-802.15.4-addresses-for-broadc.patch \
-	file://6lowpan/0006-6lowpan-fix-first-fragment-FRAG1-handling.patch \
-	file://6lowpan/0007-6lowpan-store-fragment-tag-values-per-device-instead.patch \
-	file://6lowpan/0008-6lowpan-obtain-IEEE802.15.4-sequence-number-from-the.patch \
-	file://6lowpan/0009-6lowpan-add-a-new-parameter-in-sysfs-to-turn-on-off-.patch \
-	file://6lowpan/0010-6lowpan-use-the-PANID-provided-by-the-device-instead.patch \
-	file://6lowpan/0011-6lowpan-modify-udp-compression-uncompression-to-matc.patch \
-	file://6lowpan/0012-6lowpan-make-memory-allocation-atomic-during-6lowpan.patch \
-	file://6lowpan/0013-mac802154-make-mem-alloc-ATOMIC-to-prevent-schedulin.patch \
-	file://6lowpan/0014-mac802154-remove-unnecessary-spinlocks.patch \
-	file://6lowpan/0015-mac802154-re-introduce-MAC-primitives-required-to-se.patch \
-	file://6lowpan/0016-serial-initial-import-of-the-IEEE-802.15.4-serial-dr.patch \
+	file://6lowpan/0001-6lowpan-Refactor-packet-delivery-into-a-function.patch \
+	file://6lowpan/0002-6lowpan-Handle-uncompressed-IPv6-packets-over-6LoWPA.patch \
+	file://6lowpan/0003-wpan-whitespace-fix.patch \
+	file://6lowpan/0004-6lowpan-use-stack-buffer-instead-of-heap.patch \
+	file://6lowpan/0005-wpan-use-stack-buffer-instead-of-heap.patch \
+	file://6lowpan/0006-mrf24j40-pinctrl-support.patch \
+	file://6lowpan/0007-mrf24j40-Warn-if-transmit-interrupts-timeout.patch \
+	file://6lowpan/0008-mrf24j40-Increase-max-SPI-speed-to-10MHz.patch \
+	file://6lowpan/0009-mrf24j40-Fix-byte-order-of-IEEE-address.patch \
+	file://6lowpan/0010-6lowpan-lowpan_is_iid_16_bit_compressable-does-not-d.patch \
+	file://6lowpan/0011-6lowpan-next-header-is-not-properly-set-upon-decompr.patch \
+	file://6lowpan/0012-6lowpan-always-enable-link-layer-acknowledgments.patch \
+	file://6lowpan/0013-mac802154-turn-on-ACK-when-enabled-by-the-upper-laye.patch \
+	file://6lowpan/0014-6lowpan-use-short-IEEE-802.15.4-addresses-for-broadc.patch \
+	file://6lowpan/0015-6lowpan-fix-first-fragment-FRAG1-handling.patch \
+	file://6lowpan/0016-6lowpan-add-debug-messages-for-6LoWPAN-fragmentation.patch \
+	file://6lowpan/0017-6lowpan-store-fragment-tag-values-per-device-instead.patch \
+	file://6lowpan/0018-mac802154-add-mac802154_dev_get_dsn.patch \
+	file://6lowpan/0019-6lowpan-obtain-IEEE802.15.4-sequence-number-from-the.patch \
+	file://6lowpan/0020-6lowpan-use-the-PANID-provided-by-the-device-instead.patch \
+	file://6lowpan/0021-6lowpan-modify-udp-compression-uncompression-to-matc.patch \
+	file://6lowpan/0022-6lowpan-fix-a-small-formatting-issue.patch \
+	file://6lowpan/0023-6lowpan-use-IEEE802154_ADDR_LEN-instead-of-a-magic-n.patch \
 	file://capebus/0001-gpio-keys-Pinctrl-fy.patch \
 	file://capebus/0002-tps65217-Allow-placement-elsewhere-than-parent-mfd-d.patch \
 	file://capebus/0003-pwm-backlight-Pinctrl-fy.patch \
@@ -381,6 +390,11 @@ SRC_URI += " \
 	file://not-capebus/0142-Add-expansion-test-cape-fragment.patch \
 	file://not-capebus/0143-tilcdc-added-some-extra-debug-and-softened-the-wordi.patch \
 	file://not-capebus/0144-Make-sure-various-timings-fit-within-the-bits-availa.patch \
+	file://not-capebus/0145-fix-cape-bone-hexy.patch \
+	file://not-capebus/0146-firmware-DT-Fragment-for-MRF24J40-BeagleBone-Cape.patch \
+	file://not-capebus/0147-firmware-capes-Update-MRF24J40-cape-to-work-with-lat.patch \
+	file://not-capebus/0148-am335x-bone-common-DT-Override-for-MRF24J40-Cape.patch \
+	file://not-capebus/0149-beaglebone-black-limit-LDO3-to-1.8V.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -468,6 +482,11 @@ SRC_URI += " \
 	file://mxt/0055-CHROMIUM-Input-atmel_mxt_ts-mxt_stop-on-lid-close.patch \
 	file://mxt/0056-CHROMIUM-Input-atmel_mxt_ts-Disable-T9-on-mxt_stop.patch \
 	file://mxt/0057-CHROMIUM-Input-atmel_mxt_ts-Set-T9-in-mxt_resume-bas.patch \
+	file://ssd130x/0001-video-ssd1307fb-Add-support-for-SSD1306-OLED-control.patch \
+	file://ssd130x/0002-ssd1307fb-Rework-the-communication-functions.patch \
+	file://ssd130x/0003-ssd1307fb-Speed-up-the-communication-with-the-contro.patch \
+	file://ssd130x/0004-ssd1307fb-Make-use-of-horizontal-addressing-mode.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
+  file://db.txt \
 "

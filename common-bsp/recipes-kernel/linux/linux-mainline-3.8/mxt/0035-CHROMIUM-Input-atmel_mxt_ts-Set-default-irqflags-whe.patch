@@ -1,4 +1,4 @@
-From 50bb895c11205e9f94112602415b1791e8a27a69 Mon Sep 17 00:00:00 2001
+From 73cdf1284eb41b27ca5dadc4317f9806152f5b59 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Mon, 14 May 2012 12:06:29 -0400
 Subject: [PATCH 35/57] CHROMIUM: Input: atmel_mxt_ts - Set default irqflags

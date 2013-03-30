@@ -1,7 +1,7 @@
-From f753229cda4c51d8483e463aee39aaa82d171cff Mon Sep 17 00:00:00 2001
+From 30f7dd6cbdf3be624bd252e06f977cbe7f13a58d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 21 Mar 2013 14:32:03 +0200
-Subject: [PATCH 132/136] Extend bone-iio helper
+Subject: [PATCH 132/149] Extend bone-iio helper
 
 Allow multiple ADC entries.
 DT bindinds are extended so you can do:

@@ -1,4 +1,4 @@
-From e3e404cdd23d6f2f42ba761f68ba0ccb94e1fb07 Mon Sep 17 00:00:00 2001
+From 820f7fe5f4fc07e54186251432641b5a798687aa Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 17 Dec 2012 17:22:02 +0800
 Subject: [PATCH 17/57] CHROMIUM: Input: atmel_mxt_ts - define helper functions

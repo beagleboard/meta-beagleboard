@@ -1,4 +1,4 @@
-From 7df4e5c9a77e93394898f6a6ae246c5dc3dc4857 Mon Sep 17 00:00:00 2001
+From 03c084ca36a514de9adb10fab5d99c337d313493 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 4 Apr 2012 17:26:47 -0700
 Subject: [PATCH 10/57] CHROMIUM: Input: atmel_mxt_ts - change MXT_BOOT_LOW to

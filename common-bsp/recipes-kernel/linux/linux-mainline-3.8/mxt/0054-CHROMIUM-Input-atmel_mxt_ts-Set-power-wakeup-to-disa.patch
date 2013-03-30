@@ -1,4 +1,4 @@
-From 8ca2a6cad53b21bc98978c03fd7590362e309aff Mon Sep 17 00:00:00 2001
+From 113fe5c1ca1146c9c13e6c641b944d865218e760 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Fri, 18 Jan 2013 17:35:52 -0800
 Subject: [PATCH 54/57] CHROMIUM: Input: atmel_mxt_ts : Set power/wakeup to

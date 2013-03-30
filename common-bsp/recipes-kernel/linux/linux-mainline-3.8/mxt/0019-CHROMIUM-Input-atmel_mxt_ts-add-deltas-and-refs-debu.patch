@@ -1,4 +1,4 @@
-From bd76bca3dc2fc493bbea654e49033ceb6ed90056 Mon Sep 17 00:00:00 2001
+From c79802bb4ddf405ddfd8b177a1cc34f4d37a8735 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 17 Dec 2012 17:32:59 +0800
 Subject: [PATCH 19/57] CHROMIUM: Input: atmel_mxt_ts - add deltas and refs

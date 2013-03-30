@@ -1,4 +1,4 @@
-From 718c8fdf293272c7b5aba8b0339cb4724cd4d745 Mon Sep 17 00:00:00 2001
+From a9bb5b4b523f6cb75d8922d1bc69356bc9a7ae36 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Wed, 16 May 2012 18:38:14 -0400
 Subject: [PATCH 39/57] CHROMIUM: Input: atmel_mxt_ts - Add sysfs entry for r/w

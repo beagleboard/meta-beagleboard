@@ -1,4 +1,4 @@
-From 24e07ea38bc36fbb3b1f35896d64d7147df5a08c Mon Sep 17 00:00:00 2001
+From e827b28aaf43ac822062932fbe8cad4d57e08fd5 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 22 Jan 2013 17:52:18 +0100
 Subject: [PATCH] beaglebone black: 1ghz hack
@@ -10,10 +10,10 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  2 files changed, 17 insertions(+), 1 deletion(-)
 
 diff --git a/arch/arm/boot/dts/am335x-boneblack.dts b/arch/arm/boot/dts/am335x-boneblack.dts
-index e88723c..fdcbb60 100644
+index 3274dbd..0772f61 100644
 --- a/arch/arm/boot/dts/am335x-boneblack.dts
 +++ b/arch/arm/boot/dts/am335x-boneblack.dts
-@@ -33,3 +33,19 @@
+@@ -39,3 +39,19 @@
  	status = "okay";
  };
  

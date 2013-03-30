@@ -1,4 +1,4 @@
-From c08c34b7153e20886bfe1a205a738ae0e8232b1d Mon Sep 17 00:00:00 2001
+From 6a069ef2f43a4f707b7d2cf884ec1734ef908402 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 6 Sep 2012 17:40:42 -0400
 Subject: [PATCH 15/34] ARM: edma: add AM33XX support to the private EDMA API

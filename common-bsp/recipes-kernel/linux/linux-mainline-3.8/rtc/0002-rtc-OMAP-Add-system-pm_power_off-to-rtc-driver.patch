@@ -1,4 +1,4 @@
-From c594da5c34744efad8453a38e8c1be19e9ed5756 Mon Sep 17 00:00:00 2001
+From dd43c1e0a64338b6e0c12b7144566f17fdb0322a Mon Sep 17 00:00:00 2001
 From: Colin Foe-Parker <colin.foeparker@logicpd.com>
 Date: Mon, 15 Oct 2012 20:12:19 +0530
 Subject: [PATCH 2/4] rtc: OMAP: Add system pm_power_off to rtc driver

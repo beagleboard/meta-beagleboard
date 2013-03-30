@@ -1,4 +1,4 @@
-From 0cdbbb29c0bcc41ab2f9a41eb2f89bcf8a8ddb34 Mon Sep 17 00:00:00 2001
+From 80934ebdfb34f5ab05f17c6163ce9696bf03f077 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 22 Jan 2013 22:25:06 +0200
 Subject: [PATCH 09/10] MUSB: Hack around to make host port to work.
@@ -16,10 +16,10 @@ Crappy, I know, but at least works.
  5 files changed, 105 insertions(+), 11 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am335x-bone-common.dtsi b/arch/arm/boot/dts/am335x-bone-common.dtsi
-index 3dfbb86..3352859 100644
+index 29e72a61..0218f3f 100644
 --- a/arch/arm/boot/dts/am335x-bone-common.dtsi
 +++ b/arch/arm/boot/dts/am335x-bone-common.dtsi
-@@ -417,3 +417,9 @@
+@@ -433,3 +433,9 @@
  &aes {
  	status = "okay";
  };

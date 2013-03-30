@@ -1,4 +1,4 @@
-From fa1e6110475df55c5d1a43a8a0a1823e1bb22d6b Mon Sep 17 00:00:00 2001
+From a74bc3c28a4920066af3696db5e876f37578efef Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 1 May 2012 17:31:04 -0400
 Subject: [PATCH 31/57] CHROMIUM: Input: atmel_mxt_ts - Remove matrix size
