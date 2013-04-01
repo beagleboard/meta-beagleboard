@@ -1,4 +1,4 @@
-From 4a63cd3e37b87bc57100f636e568b6237b1fc08b Mon Sep 17 00:00:00 2001
+From fd9163a399164eb613b3191fd652719329da8a19 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 15:13:19 +0200
 Subject: [PATCH 14/14] am335x-tscadc: Do not use find_node_by_name, use

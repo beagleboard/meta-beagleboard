@@ -1,4 +1,4 @@
-From 64fc2e93a2a0fa1b1808b825fa93ad52e6f679d1 Mon Sep 17 00:00:00 2001
+From b35a038053e9edba98e94d70866527f6a5c480df Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 20 Sep 2012 07:47:47 -0400
 Subject: [PATCH 22/34] mmc: omap_hsmmc: add generic DMA request support to the

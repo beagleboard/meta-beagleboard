@@ -1,7 +1,7 @@
-From 921215194940d36c24904988925e1276579a99d0 Mon Sep 17 00:00:00 2001
+From 1743d514b78d14d9e4d9592f0a2a6924cf3a45b3 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 21 Mar 2013 14:34:24 +0200
-Subject: [PATCH 133/149] Update iio helper with more channels
+Subject: [PATCH 133/150] Update iio helper with more channels
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---

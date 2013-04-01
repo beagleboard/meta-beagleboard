@@ -1,4 +1,4 @@
-From 7b593d578049cc67da83c89db69ffd8c017c1c5f Mon Sep 17 00:00:00 2001
+From 5d726510282f86c9c056a5b9a54c54c11838f98b Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 19 Dec 2012 20:53:38 -0700
 Subject: [PATCH 12/34] ARM: OMAP2+: Only manually add hwmod data when DT not

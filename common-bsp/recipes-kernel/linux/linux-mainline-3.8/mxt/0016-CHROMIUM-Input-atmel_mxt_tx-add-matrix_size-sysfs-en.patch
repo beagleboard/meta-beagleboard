@@ -1,4 +1,4 @@
-From d1b2bc00a0279b72b6d13dc9e1684ecee0fef662 Mon Sep 17 00:00:00 2001
+From c0bed0f6a4527f949ad85327586ff80d9f53bf8c Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 30 Apr 2012 13:30:31 +0800
 Subject: [PATCH 16/57] CHROMIUM: Input: atmel_mxt_tx - add matrix_size sysfs

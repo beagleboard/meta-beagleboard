@@ -1,4 +1,4 @@
-From 6efb37968dedb0023bd763ff809974891f3304b1 Mon Sep 17 00:00:00 2001
+From 17a065daf3548bd93522c0f617bae0915dba70be Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 11:36:41 +0100
 Subject: [PATCH 2/5] mtd: omap-nand: pass device_node in platform data

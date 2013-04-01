@@ -1,4 +1,4 @@
-From baadb9e534dab26e55f277ebd4022e0a302f54bb Mon Sep 17 00:00:00 2001
+From 92c98a670b3e824fec54d97f1cca597cda47ba97 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 4 Apr 2012 19:34:52 -0700
 Subject: [PATCH 11/57] CHROMIUM: Input: atmel_mxt_ts - Increase FWRESET_TIME

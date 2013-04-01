@@ -1,7 +1,7 @@
-From 0c8c0ee3c3881aeb7538ae5c462da38e0476b32f Mon Sep 17 00:00:00 2001
+From cffd39540dadd5a5db450b895776b37ba56a4a98 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 14:34:08 +0200
-Subject: [PATCH 008/149] am335x-bone-dtsi: Clean up
+Subject: [PATCH 008/150] am335x-bone-dtsi: Clean up
 
 Clean up the common dtsi.
 

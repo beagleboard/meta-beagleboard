@@ -1,7 +1,7 @@
-From ebdb21301c891b316c3379289d5d7d37b2f9f906 Mon Sep 17 00:00:00 2001
+From 91a387ecfe2165044a84557d6e481303c0ed74a1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 20:15:52 +0200
-Subject: [PATCH 011/149] Cleanup am33xx.dtsi
+Subject: [PATCH 011/150] Cleanup am33xx.dtsi
 
 ---
  arch/arm/boot/dts/am33xx.dtsi | 54 -------------------------------------------

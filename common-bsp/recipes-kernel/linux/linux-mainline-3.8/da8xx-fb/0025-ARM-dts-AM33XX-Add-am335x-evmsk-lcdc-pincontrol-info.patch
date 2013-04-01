@@ -1,4 +1,4 @@
-From 6d31e1b19580088e7561611291afd1efcd4888e3 Mon Sep 17 00:00:00 2001
+From 0fcaf4711bf18caa8e19f5467d85fd3ff08f38c8 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Thu, 3 Jan 2013 16:24:39 +0530
 Subject: [PATCH 25/48] ARM: dts: AM33XX: Add am335x-evmsk lcdc pincontrol info

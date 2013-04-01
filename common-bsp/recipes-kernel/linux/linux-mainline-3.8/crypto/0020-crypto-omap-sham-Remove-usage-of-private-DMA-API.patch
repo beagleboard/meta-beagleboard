@@ -1,4 +1,4 @@
-From e2c5924e80b0eec742da49513d768206a7839c25 Mon Sep 17 00:00:00 2001
+From 56ab4798edcb987d482725d4202b03503fced0ee Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 17 Oct 2012 22:03:37 -0700
 Subject: [PATCH 20/34] crypto: omap-sham - Remove usage of private DMA API

@@ -1,7 +1,7 @@
-From 72709c31a6cb510fdbfb9cb2f53f6c4c9245ec4f Mon Sep 17 00:00:00 2001
+From 7c651e738fd52685629f7ace2afdaff9b2e5e070 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 15:40:50 +0200
-Subject: [PATCH 092/149] am33xx.dtsi: Update and disable status of nodes
+Subject: [PATCH 092/150] am33xx.dtsi: Update and disable status of nodes
 
 ---
  arch/arm/boot/dts/am33xx.dtsi | 19 ++++++++++---------

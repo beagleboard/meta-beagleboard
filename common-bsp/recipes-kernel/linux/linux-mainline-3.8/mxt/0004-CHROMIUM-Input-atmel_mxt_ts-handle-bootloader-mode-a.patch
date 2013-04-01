@@ -1,4 +1,4 @@
-From c5240d299e54f8e9e26eed10090ec23e067796f0 Mon Sep 17 00:00:00 2001
+From dc0695547512fc70d13e57b721d92e1e82b9dce8 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Fri, 21 Dec 2012 09:26:54 +0800
 Subject: [PATCH 04/57] CHROMIUM: Input: atmel_mxt_ts - handle bootloader mode

@@ -1,7 +1,7 @@
-From d78d923d7c47f75df921eec455a9e06b65d69f62 Mon Sep 17 00:00:00 2001
+From eb350efdf18f28cc49368f5252b23160a0c2380d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:02:14 +0200
-Subject: [PATCH 025/149] OF: Export all DT proc update functions
+Subject: [PATCH 025/150] OF: Export all DT proc update functions
 
 There are other users for the proc DT functions.
 Export them.

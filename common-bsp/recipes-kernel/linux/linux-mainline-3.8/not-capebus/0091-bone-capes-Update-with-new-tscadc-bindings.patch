@@ -1,7 +1,7 @@
-From 2ca6e5e9f9d83190222082ff032c21269503e1d6 Mon Sep 17 00:00:00 2001
+From bb24ef48026c1215fa72e6e52b3dd48f5f44a513 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 15:38:19 +0200
-Subject: [PATCH 091/149] bone-capes: Update with new tscadc bindings
+Subject: [PATCH 091/150] bone-capes: Update with new tscadc bindings
 
 Update the capes with the new driver bindings.
 

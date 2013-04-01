@@ -1,4 +1,4 @@
-From 096ed7537610d6dc04736d8c2bddb857df2ef6f6 Mon Sep 17 00:00:00 2001
+From 52a232b798d8bc09657214eaa45e0b97ac7a9a2b Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Thu, 6 Dec 2012 21:54:58 +0530
 Subject: [PATCH 12/48] video: da8xx-fb: simplify lcd_reset

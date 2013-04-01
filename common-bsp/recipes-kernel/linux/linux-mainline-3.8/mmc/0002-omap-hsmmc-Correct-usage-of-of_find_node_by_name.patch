@@ -1,4 +1,4 @@
-From d955f0d5df258ae56cc27b9fbc1c28ff8c02cf4b Mon Sep 17 00:00:00 2001
+From fb200daf4e424b65e75798fc185e0485673e470d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 26 Oct 2012 15:48:00 +0300
 Subject: [PATCH 2/2] omap-hsmmc: Correct usage of of_find_node_by_name

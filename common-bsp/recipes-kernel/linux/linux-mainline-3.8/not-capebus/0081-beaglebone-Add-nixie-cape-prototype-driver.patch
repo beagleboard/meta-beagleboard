@@ -1,7 +1,7 @@
-From f4e91290d1edb2e8259c1c3460e86c7e9e073235 Mon Sep 17 00:00:00 2001
+From 6ccf0dc4e6d6197f046d5fbe3c667dd4783d47fd Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 22 Jan 2013 10:09:47 -0800
-Subject: [PATCH 081/149] beaglebone: Add nixie cape prototype driver
+Subject: [PATCH 081/150] beaglebone: Add nixie cape prototype driver
 
 Add support for nixie cape breadboard prototype.
 

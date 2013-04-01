@@ -1,4 +1,4 @@
-From 6e08bb3775275b8f280f99e100b89db10d2d73bf Mon Sep 17 00:00:00 2001
+From 2174a1485043952b5a72544f58d164da64a17f7a Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 15 Jan 2013 08:42:55 +0000
 Subject: [PATCH 02/10] drivers: usb: start using the control module driver

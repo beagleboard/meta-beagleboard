@@ -1,4 +1,4 @@
-From 85668e9e29f7f3a882a753732ad01823dba0bb1b Mon Sep 17 00:00:00 2001
+From 5544af60afb81d188a9c81e7e551e58abc3e8c19 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 10 Oct 2012 10:12:13 -0700
 Subject: [PATCH 17/34] crypto: omap-sham - Convert to use pm_runtime API

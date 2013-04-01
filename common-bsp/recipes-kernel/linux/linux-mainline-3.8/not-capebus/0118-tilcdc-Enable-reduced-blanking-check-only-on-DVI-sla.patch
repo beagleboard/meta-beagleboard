@@ -1,7 +1,7 @@
-From 29765669bd6464514f7a43ad93a69c663edb912d Mon Sep 17 00:00:00 2001
+From 6505cb1614d15cbd5be1086bf2360007853505ae Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 8 Mar 2013 16:39:10 +0200
-Subject: [PATCH 118/149] tilcdc: Enable reduced blanking check only on
+Subject: [PATCH 118/150] tilcdc: Enable reduced blanking check only on
  DVI/slave
 
 There's no reason to enable the check for non EDID probe cases.

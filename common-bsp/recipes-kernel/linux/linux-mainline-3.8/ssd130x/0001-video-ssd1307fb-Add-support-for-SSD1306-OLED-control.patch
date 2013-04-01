@@ -1,4 +1,4 @@
-From 68b5d12936960ff8755d085283fefd4efb84c60b Mon Sep 17 00:00:00 2001
+From ce7bde8de24d691029cb2caf26cd5b6e4c83ce98 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime.ripard@free-electrons.com>
 Date: Fri, 7 Dec 2012 17:20:04 +0100
 Subject: [PATCH 1/4] video: ssd1307fb: Add support for SSD1306 OLED controller

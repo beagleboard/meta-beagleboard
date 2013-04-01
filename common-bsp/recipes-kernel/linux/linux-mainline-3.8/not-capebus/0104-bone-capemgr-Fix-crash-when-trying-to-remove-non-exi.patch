@@ -1,7 +1,7 @@
-From de50dd53de5cf740c4f85d2daebed30f86deaafc Mon Sep 17 00:00:00 2001
+From 539e64793002d4dc87d2c9b595edaef5849a2bac Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 18:35:09 +0200
-Subject: [PATCH 104/149] bone-capemgr: Fix crash when trying to remove
+Subject: [PATCH 104/150] bone-capemgr: Fix crash when trying to remove
  non-existant slot
 
 Wrong test for not-found case lead to crash. Fix.

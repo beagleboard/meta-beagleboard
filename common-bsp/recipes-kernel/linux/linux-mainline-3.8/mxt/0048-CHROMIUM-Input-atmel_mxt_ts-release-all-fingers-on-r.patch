@@ -1,4 +1,4 @@
-From 20cd2e4bc7560efe7d933592532d219b186b5108 Mon Sep 17 00:00:00 2001
+From 196ab199f966e335137f85f8948ca3571ac12d12 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 9 Oct 2012 16:51:52 -0400
 Subject: [PATCH 48/57] CHROMIUM: Input: atmel_mxt_ts - release all fingers on

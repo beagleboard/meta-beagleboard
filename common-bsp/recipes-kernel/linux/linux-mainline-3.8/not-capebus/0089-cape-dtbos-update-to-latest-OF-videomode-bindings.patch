@@ -1,7 +1,7 @@
-From 9b5b42482f8b945b745b07563aea9ac0afed054f Mon Sep 17 00:00:00 2001
+From 13d7ecb292a9ee8e0f4d6f65e062dfe34dbed626 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 28 Jan 2013 16:11:27 +0100
-Subject: [PATCH 089/149] cape dtbos: update to latest OF videomode bindings
+Subject: [PATCH 089/150] cape dtbos: update to latest OF videomode bindings
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

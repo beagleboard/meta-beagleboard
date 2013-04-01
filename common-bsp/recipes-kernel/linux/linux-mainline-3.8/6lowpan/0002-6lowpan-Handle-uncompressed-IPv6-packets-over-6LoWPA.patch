@@ -1,4 +1,4 @@
-From 373c90f6638e825cddc70e84ec7a74112b9fe9d0 Mon Sep 17 00:00:00 2001
+From c31b50d25d0d3d11471bca1e7e63ab2a8cff1d2b Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Wed, 16 Jan 2013 19:09:48 +0000
 Subject: [PATCH 02/23] 6lowpan: Handle uncompressed IPv6 packets over 6LoWPAN

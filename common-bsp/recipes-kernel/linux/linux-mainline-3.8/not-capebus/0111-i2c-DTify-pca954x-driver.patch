@@ -1,7 +1,7 @@
-From 69ad38a653c2052d8b8792f3da8b9dc000d145b3 Mon Sep 17 00:00:00 2001
+From 538565ab5994e7ba707ddd52a85c912386ad93c4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 4 Mar 2013 18:53:36 +0200
-Subject: [PATCH 111/149] i2c: DTify pca954x driver
+Subject: [PATCH 111/150] i2c: DTify pca954x driver
 
 Add some basic I2C bindings to the mux-pca954x driver.
 

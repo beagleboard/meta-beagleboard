@@ -1,4 +1,4 @@
-From 1067e61f02c285bd46aea473bad8c7df7896e7bb Mon Sep 17 00:00:00 2001
+From 0c6c13eb540ea0288279393e75bf7373c0dcd2ac Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 17 Dec 2012 15:27:44 +0530
 Subject: [PATCH 21/48] ARM: dts: AM33XX: Add lcdc node

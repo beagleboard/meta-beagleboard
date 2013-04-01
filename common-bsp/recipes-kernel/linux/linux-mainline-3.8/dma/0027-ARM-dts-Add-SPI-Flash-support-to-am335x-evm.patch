@@ -1,4 +1,4 @@
-From f92e5fcb5c45c86af5c5ffd18e2423b14820de8e Mon Sep 17 00:00:00 2001
+From 0e81a8bc6b23f17e2d65e773bb4e6498ac443031 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 10 Jan 2013 19:11:38 -0500
 Subject: [PATCH 27/34] ARM: dts: Add SPI Flash support to am335x-evm

@@ -1,4 +1,4 @@
-From d324649761d13331407a21e466c7e66d6817b37b Mon Sep 17 00:00:00 2001
+From f922e365dade089d4f3d4f59d7e6bf21b9199d2f Mon Sep 17 00:00:00 2001
 From: Dmitry Torokhov <dmitry.torokhov@gmail.com>
 Date: Sun, 24 Feb 2013 22:59:36 -0800
 Subject: [PATCH 3/4] W1: w1-gpio - rework handling of platform data

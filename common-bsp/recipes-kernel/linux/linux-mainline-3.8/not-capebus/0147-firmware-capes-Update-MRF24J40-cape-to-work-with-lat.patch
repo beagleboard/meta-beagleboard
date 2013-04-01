@@ -1,7 +1,7 @@
-From f603311e4f64056ef5d6c5a1433eca74fc10e525 Mon Sep 17 00:00:00 2001
+From c580a626e4173537e64b2af4ce8e59ebfaa76e2f Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Fri, 29 Mar 2013 16:49:27 -0400
-Subject: [PATCH 147/149] firmware: capes: Update MRF24J40 cape to work with
+Subject: [PATCH 147/150] firmware: capes: Update MRF24J40 cape to work with
  latest bone dtsi
 
 am335x-bone-common.dtsi has removed the pinmux settings for SPI1.

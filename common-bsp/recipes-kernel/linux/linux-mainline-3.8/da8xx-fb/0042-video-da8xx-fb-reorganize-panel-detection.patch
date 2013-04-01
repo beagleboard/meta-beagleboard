@@ -1,4 +1,4 @@
-From ee063989f3f857b8148a4f6bf3eaeed69fecb05b Mon Sep 17 00:00:00 2001
+From 2393b1d5f106c2be8ddd71362b03bc503c5207f3 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Sun, 30 Dec 2012 23:49:36 +0530
 Subject: [PATCH 42/48] video: da8xx-fb: reorganize panel detection

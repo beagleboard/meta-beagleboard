@@ -1,4 +1,4 @@
-From 082a763b31f0a4011a0cead29a6150dcc56a2d7d Mon Sep 17 00:00:00 2001
+From ff66fb9433d9d84025ed7d2469f5e49d96ab3920 Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:09 +0000
 Subject: [PATCH 03/10] usb: otg: Add an API to bind the USB controller and PHY

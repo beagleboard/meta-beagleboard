@@ -1,7 +1,7 @@
-From 3f21092800391b8d4a0d775d45818d38cf19276d Mon Sep 17 00:00:00 2001
+From 82286d1f592f15b6334156b5cf6a55827c28cc78 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 7 Mar 2013 09:54:38 +0200
-Subject: [PATCH 110/149] pinmux-helper: Switch to using kmalloc
+Subject: [PATCH 110/150] pinmux-helper: Switch to using kmalloc
 
 devm_kfree warned out... why? no idea.
 ---

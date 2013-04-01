@@ -1,7 +1,7 @@
-From 4f386affcd667dbef328d397d7c3f58b95034c9e Mon Sep 17 00:00:00 2001
+From 8ab8b0d4f5c073168ea6a5e5999b03206ecea28a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 14:53:59 +0200
-Subject: [PATCH 046/149] geiger-cape: Convert to using the new ADC driver
+Subject: [PATCH 046/150] geiger-cape: Convert to using the new ADC driver
 
 Now that the proper driver has DT binding convert to using it.
 

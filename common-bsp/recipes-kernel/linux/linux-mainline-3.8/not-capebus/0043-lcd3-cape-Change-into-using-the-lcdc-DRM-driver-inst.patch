@@ -1,7 +1,7 @@
-From da991213ed1feec767d70756dcdf7c608c9cf4e3 Mon Sep 17 00:00:00 2001
+From 97fd1c80a820d332a938783ef7b102ea4a53ffae Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 20:53:56 +0200
-Subject: [PATCH 043/149] lcd3-cape: Change into using the lcdc DRM driver
+Subject: [PATCH 043/150] lcd3-cape: Change into using the lcdc DRM driver
  instead of da8xx-fb
 
 Use the new DRM driver instead of the da8xx-fb driver.

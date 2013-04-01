@@ -1,4 +1,4 @@
-From 7218a43ef222d0421ef65f538f102fcd073d24e9 Mon Sep 17 00:00:00 2001
+From 80b930cf98293cf85e1cbf4a8550bba6f54621e0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 26 Oct 2012 14:01:05 +0300
 Subject: [PATCH 10/14] ti_tscadc: Match mfd sub devices to regmap interface

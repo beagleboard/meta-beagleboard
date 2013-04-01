@@ -1,7 +1,7 @@
-From c91318c52bc06bc4da9820b2be32995dd857f8d3 Mon Sep 17 00:00:00 2001
+From 16c62b740e5bbc80bb1507815eb41ba1c777dc25 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:09:48 +0200
-Subject: [PATCH 038/149] capemgr: LCD3 cape definition
+Subject: [PATCH 038/150] capemgr: LCD3 cape definition
 
 Definition for the beaglebone LCD3 cape.
 

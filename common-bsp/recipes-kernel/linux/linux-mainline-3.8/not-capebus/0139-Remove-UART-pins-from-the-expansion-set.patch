@@ -1,7 +1,7 @@
-From 2ebc9f5b3772f19a7c0bcdeffb9f4029b45e67c9 Mon Sep 17 00:00:00 2001
+From a446bf5b40675d1594f02f94167511263f5882d1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 25 Mar 2013 12:53:22 +0200
-Subject: [PATCH 139/149] Remove UART pins from the expansion set
+Subject: [PATCH 139/150] Remove UART pins from the expansion set
 
 ---
  firmware/capes/cape-bone-tester-00A0.dts | 8 ++++----

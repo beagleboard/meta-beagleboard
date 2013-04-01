@@ -1,4 +1,4 @@
-From 9bc8358142aff91b2be9b06f9a6f65b92009757f Mon Sep 17 00:00:00 2001
+From 568fc570d9cc2b0899432b3594bacac22288eac8 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Tue, 11 Sep 2012 15:30:10 -0400
 Subject: [PATCH 03/34] video: st7735fb: add st7735 framebuffer driver

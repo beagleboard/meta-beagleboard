@@ -1,4 +1,4 @@
-From b6869bdde56ce3d105874a7edcafad85c9beea77 Mon Sep 17 00:00:00 2001
+From efaa96ac7bd85e73fcfe4c41e3115853b40fea3f Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 2 May 2012 20:21:12 -0700
 Subject: [PATCH 09/57] CHROMIUM: Input: atmel_mxt_ts - wait for CHG after

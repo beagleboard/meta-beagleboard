@@ -1,7 +1,7 @@
-From 3b09e679a9be53fb84293b57ed2e7ba652c87206 Mon Sep 17 00:00:00 2001
+From 0b6d43560238b2e4775fa74fbecfc9a7d0660753 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 11:46:39 +0200
-Subject: [PATCH 024/149] OF: export of_property_notify
+Subject: [PATCH 024/150] OF: export of_property_notify
 
 of_property_notify can be utilized by other users too, export it.
 

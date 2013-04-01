@@ -1,4 +1,4 @@
-From 3a44f531634939bb8c899bc50f3f43a26a3bec62 Mon Sep 17 00:00:00 2001
+From b7d4d21af86f3f9cb02a639b73f94141f53ee269 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 9 Jan 2013 16:26:38 -0500
 Subject: [PATCH 33/34] ARM: configs: working dmaengine configs for da8xx and

@@ -1,7 +1,7 @@
-From 38be28d0681c17d242b864bbdd280b67e1fce034 Mon Sep 17 00:00:00 2001
+From 71300d4c2ceef06c36822fd2a4956c0291e6868c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 18:17:16 +0200
-Subject: [PATCH 095/149] bone-dvi: Update to new style tilcdc bindings
+Subject: [PATCH 095/150] bone-dvi: Update to new style tilcdc bindings
 
 Binding differences and place the GPIOs to the panels.
 

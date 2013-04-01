@@ -1,4 +1,4 @@
-From 33014d3f7a12260591a54d2bfb28aa680f8a660f Mon Sep 17 00:00:00 2001
+From 5d4eb30cf14832840c5f0e429a9ad8b196caeb63 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Wed, 12 Dec 2012 15:33:18 +0800
 Subject: [PATCH 20/57] CHROMIUM: Input: atmel_mxt_ts - add device id for

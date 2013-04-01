@@ -1,4 +1,4 @@
-From 502f3e8a6949a0b4eb2fddbc3be408afc864daa2 Mon Sep 17 00:00:00 2001
+From 796d9ddc43e4a8a7c881d5eb5745e2268d636e52 Mon Sep 17 00:00:00 2001
 From: Matthias Brugger <matthias.bgg@gmail.com>
 Date: Wed, 23 Jan 2013 19:50:38 +0100
 Subject: [PATCH 2/2] omap2: twl-common: Add default power configuration

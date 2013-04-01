@@ -1,7 +1,7 @@
-From 3a22f1ff51dfa1c0081f2d2a46126795beceddca Mon Sep 17 00:00:00 2001
+From 7bd9d4a7fbbcbb0e32802ef11ff9db78d99ad673 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 22 Jan 2013 10:10:13 -0800
-Subject: [PATCH 117/149] beaglebone: Added Adafruit prototype cape
+Subject: [PATCH 117/150] beaglebone: Added Adafruit prototype cape
 
 Added 1.8" Adafruit prototype cape using DT overlays + cape manager
 

@@ -1,7 +1,7 @@
-From 4d6d2411cb3ef064fe26026dc4b7dcc9b341cca2 Mon Sep 17 00:00:00 2001
+From e2016d15eab6c7ef8da1409583a09286bebd029d Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Mon, 25 Mar 2013 16:12:14 -0500
-Subject: [PATCH 144/149] Make sure various timings fit within the bits
+Subject: [PATCH 144/150] Make sure various timings fit within the bits
  available in the LCD controller, otherwise prune the mode. Also adjust the
  timing values to behave as the TRM indicates with 0 representing 1 in some
  cases.

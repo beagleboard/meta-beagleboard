@@ -1,4 +1,4 @@
-From 726fc582809758561d0bebc9a42ed0c4cb51d6de Mon Sep 17 00:00:00 2001
+From 36b586426230ca4aa8a9812ad2d5964257e081a9 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Tue, 17 Jul 2012 21:35:11 +0530
 Subject: [PATCH 3/8] pwm: pwm_test: Driver support for PWM module testing

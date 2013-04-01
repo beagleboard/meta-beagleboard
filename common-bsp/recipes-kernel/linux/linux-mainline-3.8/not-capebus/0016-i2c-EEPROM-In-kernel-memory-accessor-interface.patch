@@ -1,7 +1,7 @@
-From 7d93dca778ffaeeed2806322037505d991fdd19f Mon Sep 17 00:00:00 2001
+From 5114a400395751ff8c6dccacc814f76b82eab529 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 13 Dec 2012 11:23:21 +0200
-Subject: [PATCH 016/149] i2c-EEPROM: In kernel memory accessor interface
+Subject: [PATCH 016/150] i2c-EEPROM: In kernel memory accessor interface
 
 In kernel users need to access the EEPROM using the i2c_client
 interface. Extend at24 to use it via the command interface.

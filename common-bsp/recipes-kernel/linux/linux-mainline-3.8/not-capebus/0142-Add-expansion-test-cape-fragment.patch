@@ -1,7 +1,7 @@
-From 9100cfbadc494d7c470f911582ad5c73627eba23 Mon Sep 17 00:00:00 2001
+From feffe0a50e25231bcd443924337b67618ffdba45 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 25 Mar 2013 22:46:14 +0200
-Subject: [PATCH 142/149] Add expansion test cape fragment.
+Subject: [PATCH 142/150] Add expansion test cape fragment.
 
 Not working yet, since more changes needed, but it's a start.
 ---

@@ -1,4 +1,4 @@
-From 9eb89247c403bfe0f2dd99cdd3075296313df254 Mon Sep 17 00:00:00 2001
+From fe3aaba479ff60b1eabf13c313069d376eb178ef Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Thu, 26 Apr 2012 00:57:41 +0800
 Subject: [PATCH 15/57] CHROMIUM: Input: atmel_mxt_ts - verify info block

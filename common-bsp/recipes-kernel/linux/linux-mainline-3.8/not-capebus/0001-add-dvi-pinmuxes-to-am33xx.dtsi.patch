@@ -1,7 +1,7 @@
-From ce3b2d6f30ad39c218d5e97b78ec90898a6c223b Mon Sep 17 00:00:00 2001
+From d02ae3f2f70b4666e2fcb9bdf2589b0174872b8e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 21 Dec 2012 09:08:49 +0100
-Subject: [PATCH 001/149] add dvi pinmuxes to am33xx.dtsi
+Subject: [PATCH 001/150] add dvi pinmuxes to am33xx.dtsi
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

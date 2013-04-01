@@ -1,7 +1,7 @@
-From 3ca0e42405eb3f6438979dad65206cf11140ec02 Mon Sep 17 00:00:00 2001
+From 2be69494bc9cd3cf28c2a6eb0d500c59d20d8900 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 28 Dec 2012 14:41:10 +0100
-Subject: [PATCH 002/149] add 'defconfig' file to use as .config
+Subject: [PATCH 002/150] add 'defconfig' file to use as .config
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

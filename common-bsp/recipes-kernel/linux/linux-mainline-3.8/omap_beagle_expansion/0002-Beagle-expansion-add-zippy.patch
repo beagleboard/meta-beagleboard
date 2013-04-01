@@ -1,4 +1,4 @@
-From c5cd892ee6f938fa4da2e89d07d18e8b7db8cbe8 Mon Sep 17 00:00:00 2001
+From 74de51e1e52ab0639cc4d7d746d5952ef41be580 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Mon, 21 Jan 2013 11:47:02 -0600
 Subject: [PATCH 02/10] Beagle: expansion: add zippy

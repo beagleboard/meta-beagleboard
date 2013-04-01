@@ -1,7 +1,7 @@
-From b7c5726e2c4a9ab6c172b6b7064866f386b5fc94 Mon Sep 17 00:00:00 2001
+From 4d7de4318b49da3adacdb9833d17731d2d128cd9 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 25 Mar 2013 13:35:38 +0100
-Subject: [PATCH 137/149] add WIP support LCD4 rev 00A4
+Subject: [PATCH 137/150] add WIP support LCD4 rev 00A4
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

@@ -1,7 +1,7 @@
-From babacdbfdb2cf1d16afce581e6570d6bc461d0eb Mon Sep 17 00:00:00 2001
+From a1ed8d98fb4fcb12cc7b487e5eb37242eb0c1902 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:05:28 +0200
-Subject: [PATCH 034/149] capemgr: firmware makefiles for DT objects
+Subject: [PATCH 034/150] capemgr: firmware makefiles for DT objects
 
 Makefile changes to support the DT cape definitions.
 

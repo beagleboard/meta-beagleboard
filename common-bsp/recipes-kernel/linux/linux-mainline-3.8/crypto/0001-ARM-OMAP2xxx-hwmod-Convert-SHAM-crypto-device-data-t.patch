@@ -1,4 +1,4 @@
-From 64bdb0cc9bad558a7092bdb144b4a8ada60768a5 Mon Sep 17 00:00:00 2001
+From c72f5b6a533525305bfef6d4483b022ca7c1f951 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Mon, 1 Oct 2012 21:03:04 -0700
 Subject: [PATCH 01/34] ARM: OMAP2xxx: hwmod: Convert SHAM crypto device data

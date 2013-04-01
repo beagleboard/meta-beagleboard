@@ -1,4 +1,4 @@
-From d1b49ce0150940304704fba010dd3ad7d792a22e Mon Sep 17 00:00:00 2001
+From 27fb210600b0b6159b626c938847a778dbf2ff1e Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:14 +0000
 Subject: [PATCH 08/10] USB: MUSB: OMAP: get PHY by phandle for dt boot

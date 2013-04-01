@@ -1,4 +1,4 @@
-From ded03b28622573d2229527281818c99e706e1900 Mon Sep 17 00:00:00 2001
+From 1f666dc3eb90268876ad0f5c928cb8945a1f5b13 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 17 Oct 2012 20:17:36 +0300
 Subject: [PATCH 1/7] gpio-keys: Pinctrl-fy

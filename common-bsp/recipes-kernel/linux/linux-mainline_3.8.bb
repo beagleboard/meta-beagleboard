@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "a"
+MACHINE_KERNEL_PR_append = "b"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -395,6 +395,7 @@ SRC_URI += " \
 	file://not-capebus/0147-firmware-capes-Update-MRF24J40-cape-to-work-with-lat.patch \
 	file://not-capebus/0148-am335x-bone-common-DT-Override-for-MRF24J40-Cape.patch \
 	file://not-capebus/0149-beaglebone-black-limit-LDO3-to-1.8V.patch \
+	file://not-capebus/0150-beaglebone-black-add-new-fixed-regulator-for-uSD-eMM.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \

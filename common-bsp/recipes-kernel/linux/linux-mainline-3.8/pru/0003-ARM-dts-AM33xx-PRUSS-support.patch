@@ -1,4 +1,4 @@
-From f243a2f208ed7fd2e3277d2e8fdb96e6329c4692 Mon Sep 17 00:00:00 2001
+From 20cc34353628ed1e4ff4a96e40e629413f9ef739 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Thu, 17 Jan 2013 16:02:49 -0800
 Subject: [PATCH 3/3] ARM: dts: AM33xx PRUSS support

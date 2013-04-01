@@ -1,4 +1,4 @@
-From 9606914fea1ebcaf9e0e87ae0c1268968932cfb4 Mon Sep 17 00:00:00 2001
+From 11b9554e24f39531d52e53993d19ee6dc482c354 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Mon, 7 Jan 2013 11:55:00 -0500
 Subject: [PATCH 02/34] ARM: OMAP: Hack AM33xx clock data to allow JTAG use

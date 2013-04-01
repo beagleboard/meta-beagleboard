@@ -1,7 +1,7 @@
-From 0454c8f0cfb16fc0a588646daada48bdca519c4f Mon Sep 17 00:00:00 2001
+From f1ff1b5efb482d41fa4d0a01b1fa3fbc9577085a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@vm-ubuntu.(none)>
 Date: Mon, 25 Feb 2013 00:48:01 +0200
-Subject: [PATCH 100/149] Pinmux helper driver.
+Subject: [PATCH 100/150] Pinmux helper driver.
 
     That's just a hack to get a pinmux helper driver working.
 

@@ -1,7 +1,7 @@
-From 49ff4593360f1783cf011bae01ba5616a24ce0e6 Mon Sep 17 00:00:00 2001
+From 8b919acdecef5311f142181b0ec958109685a113 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 4 Jan 2013 10:51:47 +0200
-Subject: [PATCH 040/149] ehrpwm: add missing dts nodes
+Subject: [PATCH 040/150] ehrpwm: add missing dts nodes
 
 ---
  arch/arm/boot/dts/am33xx.dtsi | 30 ++++++++++++++++++++++++++++++
