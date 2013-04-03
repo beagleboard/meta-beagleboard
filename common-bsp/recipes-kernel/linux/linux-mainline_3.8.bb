@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "d"
+MACHINE_KERNEL_PR_append = "e"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -490,6 +490,7 @@ SRC_URI += " \
 	file://ssd130x/0002-ssd1307fb-Rework-the-communication-functions.patch \
 	file://ssd130x/0003-ssd1307fb-Speed-up-the-communication-with-the-contro.patch \
 	file://ssd130x/0004-ssd1307fb-Make-use-of-horizontal-addressing-mode.patch \
+	file://build/0001-scripts-Makefile.headersinst-install-headers-from-sc.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \
