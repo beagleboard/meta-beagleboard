@@ -1,0 +1,40 @@
+From e5ddeff3fdd13809d247a39338a121227f8942b8 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 3 Apr 2013 08:25:04 +0200
+Subject: [PATCH 5/9] beaglebone: use kloadaddr to avoid copying the kernel
+ around
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index f4ba7fb..3f2edbc 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -52,6 +52,7 @@
+ #ifndef CONFIG_SPL_BUILD
+ #define CONFIG_EXTRA_ENV_SETTINGS \
+ 	"loadaddr=0x80200000\0" \
++	"kloadaddr=0x80007fc0\0" \
+ 	"fdtaddr=0x80F80000\0" \
+ 	"fdt_high=0xffffffff\0" \
+ 	"rdaddr=0x81000000\0" \
+@@ -105,11 +106,11 @@
+ 		"root=${ramroot} " \
+ 		"rootfstype=${ramrootfstype}\0" \
+ 	"loadramdisk=load mmc ${mmcdev} ${rdaddr} ramdisk.gz\0" \
+-	"loaduimage=load mmc ${bootpart} ${loadaddr} ${bootdir}/${bootfile}\0" \
++	"loaduimage=load mmc ${bootpart} ${kloadaddr} ${bootdir}/${bootfile}\0" \
+ 	"loadfdt=load mmc ${bootpart} ${fdtaddr} ${bootdir}/${fdtfile}\0" \
+ 	"mmcboot=echo Booting from mmc ...; " \
+ 		"run mmcargs; " \
+-		"bootm ${loadaddr} - ${fdtaddr}\0" \
++		"bootm ${kloadaddr} - ${fdtaddr}\0" \
+ 	"nandboot=echo Booting from nand ...; " \
+ 		"run nandargs; " \
+ 		"nand read ${loadaddr} ${nandsrcaddr} ${nandimgsize}; " \
+-- 
+1.8.1.4
+

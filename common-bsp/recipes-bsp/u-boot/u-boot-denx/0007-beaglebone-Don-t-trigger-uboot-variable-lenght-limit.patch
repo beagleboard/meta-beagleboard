@@ -1,0 +1,53 @@
+From f6239653febebbb61f61f4d188f9a5da76054135 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 3 Apr 2013 11:39:16 +0200
+Subject: [PATCH 7/9] beaglebone: Don't trigger uboot variable lenght limit
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 20 +++-----------------
+ 1 file changed, 3 insertions(+), 17 deletions(-)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index c464915..b8bf99c 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -145,23 +145,11 @@
+ #define CONFIG_BOOTCOMMAND \
+ 	"i2c mw 0x24 1 0x3e; " \
+ 	"run findfdt; " \
+-	"mmc dev 1; if mmc rescan; then " \
+-		"echo SD/MMC found on device ${mmcdev};" \
++	"if mmc dev 1; then " \
++		"echo eMMC found;" \
+ 		"setenv mmcdev 1;"\
+-		"if run loadbootenv; then " \
+-			"echo Loaded environment from ${bootenv};" \
+-			"run importbootenv;" \
+-		"fi;" \
+-		"if test -n $uenvcmd; then " \
+-			"echo Running uenvcmd ...;" \
+-			"run uenvcmd;" \
+-		"fi;" \
+-		"if run loaduimage; then " \
+-			"run loadfdt;" \
+-			"run mmcboot;" \
+-		"fi;" \
+ 	"else " \
+-		"echo No SD/MMC found on device ${mmcdev};" \
++		"echo No eMMC found;" \
+ 	"fi;" \
+ 	"mmc dev ${mmcdev}; if mmc rescan; then " \
+ 		"echo SD/MMC found on device ${mmcdev};" \
+@@ -177,8 +165,6 @@
+ 			"run loadfdt;" \
+ 			"run mmcboot;" \
+ 		"fi;" \
+-	"else " \
+-		"run nandboot;" \
+ 	"fi;" \
+ 
+ /* Clock Defines */
+-- 
+1.8.1.4
+

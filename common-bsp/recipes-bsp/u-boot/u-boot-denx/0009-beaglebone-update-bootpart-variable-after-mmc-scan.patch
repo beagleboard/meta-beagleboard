@@ -1,0 +1,25 @@
+From e595deb56e1c5ebf96cf51a1c1fc860defdfbb47 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 3 Apr 2013 12:04:17 +0200
+Subject: [PATCH 9/9] beaglebone: update bootpart variable after mmc scan
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 220f020..5c9be89 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -152,6 +152,7 @@
+ 		"echo No micro SD card found, setting mmcdev to 1;" \
+ 		"setenv mmcdev 1;"\
+ 	"fi;" \
++	"setenv bootpart ${mmcdev}:2;" \
+ 	"mmc dev ${mmcdev}; if mmc rescan; then " \
+ 		"echo SD/MMC found on device ${mmcdev};" \
+ 		"if run loadbootenv; then " \
+-- 
+1.8.1.4
+

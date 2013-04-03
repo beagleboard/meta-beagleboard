@@ -1,0 +1,44 @@
+From 3ef0a0af39367be3fd4ad381af80e40567a77820 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 3 Apr 2013 08:44:03 +0200
+Subject: [PATCH 6/9] beaglebone: try to load uEnv/uImage from eMMC first
+
+If u-boot detects the eMMC, try to load from there, if that fails fall back to uSD. Due to linux "features" rootdev can remain mmcblk0p1.
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 3f2edbc..c464915 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -145,6 +145,24 @@
+ #define CONFIG_BOOTCOMMAND \
+ 	"i2c mw 0x24 1 0x3e; " \
+ 	"run findfdt; " \
++	"mmc dev 1; if mmc rescan; then " \
++		"echo SD/MMC found on device ${mmcdev};" \
++		"setenv mmcdev 1;"\
++		"if run loadbootenv; then " \
++			"echo Loaded environment from ${bootenv};" \
++			"run importbootenv;" \
++		"fi;" \
++		"if test -n $uenvcmd; then " \
++			"echo Running uenvcmd ...;" \
++			"run uenvcmd;" \
++		"fi;" \
++		"if run loaduimage; then " \
++			"run loadfdt;" \
++			"run mmcboot;" \
++		"fi;" \
++	"else " \
++		"echo No SD/MMC found on device ${mmcdev};" \
++	"fi;" \
+ 	"mmc dev ${mmcdev}; if mmc rescan; then " \
+ 		"echo SD/MMC found on device ${mmcdev};" \
+ 		"if run loadbootenv; then " \
+-- 
+1.8.1.4
+

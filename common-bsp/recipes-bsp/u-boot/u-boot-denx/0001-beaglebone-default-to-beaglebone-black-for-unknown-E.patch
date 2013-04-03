@@ -1,0 +1,27 @@
+From 7746cb1d930b2ff245fa4fe55a4faa567290b166 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 3 Apr 2013 08:22:53 +0200
+Subject: [PATCH 1/9] beaglebone: default to beaglebone black for unknown
+ EEPROMs
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index b7c443c..9e1e0bc 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -57,7 +57,7 @@
+ 	"rdaddr=0x81000000\0" \
+ 	"bootdir=/boot\0" \
+ 	"bootfile=uImage\0" \
+-	"fdtfile=\0" \
++	"fdtfile=am335x-boneblack.dtb\0" \
+ 	"console=ttyO0,115200n8\0" \
+ 	"optargs=\0" \
+ 	"mmcdev=0\0" \
+-- 
+1.8.1.4
+
