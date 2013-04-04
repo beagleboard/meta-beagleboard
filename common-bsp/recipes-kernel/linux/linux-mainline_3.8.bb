@@ -235,6 +235,7 @@ SRC_URI += " \
 	file://net/0001-am33xx-cpsw-default-to-ethernet-hwaddr-from-efuse-if.patch \
 	file://net/0002-Attempted-SMC911x-BQL-patch.patch \
 	file://net/0003-cpsw-Fix-interrupt-storm-among-other-things.patch \
+	file://net/0004-drivers-net-ethernet-davinci_emac-use-netif_wake_que.patch \
 	file://drm/0001-am33xx-Add-clock-for-the-lcdc-DRM-driver.patch \
 	file://drm/0002-drm-small-fix-in-drm_send_vblank_event.patch \
 	file://drm/0003-drm-cma-add-debugfs-helpers.patch \
@@ -405,6 +406,7 @@ SRC_URI += " \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
+	file://pru/0004-uio_pruss-add-dt-support-replicape-00A1.patch \
 	file://usb/0001-drivers-usb-phy-add-a-new-driver-for-usb-part-of-con.patch \
 	file://usb/0002-drivers-usb-start-using-the-control-module-driver.patch \
 	file://usb/0003-usb-otg-Add-an-API-to-bind-the-USB-controller-and-PH.patch \
