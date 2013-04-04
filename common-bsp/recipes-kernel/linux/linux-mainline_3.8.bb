@@ -6,7 +6,7 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "f"
+MACHINE_KERNEL_PR_append = "g"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -401,6 +401,7 @@ SRC_URI += " \
 	file://not-capebus/0153-cape-Add-a-simple-cape-for-handling-the-uSD-button.patch \
 	file://not-capebus/0154-beaglebone-add-support-for-DVI-00A3.patch \
 	file://not-capebus/0155-beaglebone-remove-audio-section-from-DVID-rev-2-and-.patch \
+	file://not-capebus/0156-beaglebone-add-dts-for-audio-cape.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -414,6 +415,7 @@ SRC_URI += " \
 	file://usb/0008-USB-MUSB-OMAP-get-PHY-by-phandle-for-dt-boot.patch \
 	file://usb/0009-MUSB-Hack-around-to-make-host-port-to-work.patch \
 	file://usb/0010-make-sure-we-register-unregister-the-NOP-xceiver-onl.patch \
+	file://usb/0011-ARM-OMAP-am335x-musb-use-250-for-power.patch \
 	file://PG2/0001-beaglebone-black-1ghz-hack.patch \
 	file://reboot/0001-ARM-AM33xx-Add-SoC-specific-restart-hook.patch \
 	file://iio/0001-iio-common-Add-STMicroelectronics-common-library.patch \
