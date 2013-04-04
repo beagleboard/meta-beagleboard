@@ -1,0 +1,32 @@
+From 757a31652eba54814b5977dd20df8f1c6a67e202 Mon Sep 17 00:00:00 2001
+From: Tom Rini <trini@ti.com>
+Date: Wed, 3 Apr 2013 14:50:19 -0400
+Subject: [PATCH] am335x: Enable MMC1 clock
+
+We must not assume ROM has enabled the clock for MMC1.
+
+Reported-by: Koen Kooi <koen@dominion.thruhere.net>
+Signed-off-by: Tom Rini <trini@ti.com>
+---
+ arch/arm/cpu/armv7/am33xx/clock_am33xx.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/arch/arm/cpu/armv7/am33xx/clock_am33xx.c b/arch/arm/cpu/armv7/am33xx/clock_am33xx.c
+index afc0d92..a1efc75 100644
+--- a/arch/arm/cpu/armv7/am33xx/clock_am33xx.c
++++ b/arch/arm/cpu/armv7/am33xx/clock_am33xx.c
+@@ -195,6 +195,11 @@ static void enable_per_clocks(void)
+ 	while (readl(&cmper->mmc0clkctrl) != PRCM_MOD_EN)
+ 		;
+ 
++	/* MMC1 */
++	writel(PRCM_MOD_EN, &cmper->mmc1clkctrl);
++	while (readl(&cmper->mmc1clkctrl) != PRCM_MOD_EN)
++		;
++
+ 	/* i2c0 */
+ 	writel(PRCM_MOD_EN, &cmwkup->wkup_i2c0ctrl);
+ 	while (readl(&cmwkup->wkup_i2c0ctrl) != PRCM_MOD_EN)
+-- 
+1.8.1.4
+

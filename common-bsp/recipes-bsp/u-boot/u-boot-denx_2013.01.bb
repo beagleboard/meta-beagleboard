@@ -26,6 +26,7 @@ SRC_URI = "git://git.denx.de/u-boot-arm.git \
            file://0009-beaglebone-update-bootpart-variable-after-mmc-scan.patch \
            file://0010-am335x_evm-enable-gpio-command.patch \
            file://0011-am335x_evm-HACK-to-turn-on-BeagleBone-LEDs.patch \
+           file://0012-am335x-Enable-MMC1-clock.patch \
            ${FWENV} \
           "
 
