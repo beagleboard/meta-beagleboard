@@ -1,0 +1,43 @@
+From 6b4e776d7c9e532073357f8fd7d197bd28ce6507 Mon Sep 17 00:00:00 2001
+From: Jason Kridner <jdk@ti.com>
+Date: Thu, 4 Apr 2013 07:16:41 +0000
+Subject: [PATCH 2/2] am335x_evm: HACK to turn on BeagleBone LEDs
+
+* This might break non-BeagleBone platforms
+---
+ include/configs/am335x_evm.h |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 14f172e..391e6e1 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -143,6 +143,7 @@
+ #endif
+ 
+ #define CONFIG_BOOTCOMMAND \
++	"gpio set 53; " \
+ 	"i2c mw 0x24 1 0x3e; " \
+ 	"run findfdt; " \
+ 	"mmc dev 0; if mmc rescan ; then " \
+@@ -154,6 +155,7 @@
+ 	"fi;" \
+ 	"setenv bootpart ${mmcdev}:2;" \
+ 	"mmc dev ${mmcdev}; if mmc rescan; then " \
++		"gpio set 54; " \
+ 		"echo SD/MMC found on device ${mmcdev};" \
+ 		"if run loadbootenv; then " \
+ 			"echo Loaded environment from ${bootenv};" \
+@@ -163,7 +165,9 @@
+ 			"echo Running uenvcmd ...;" \
+ 			"run uenvcmd;" \
+ 		"fi;" \
++		"gpio set 55; " \
+ 		"if run loaduimage; then " \
++			"gpio set 56; " \
+ 			"run loadfdt;" \
+ 			"run mmcboot;" \
+ 		"fi;" \
+-- 
+1.7.8.6
+

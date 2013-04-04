@@ -6,6 +6,7 @@ UBOOT_IMAGE = "u-boot-${MACHINE}-${PV}-${PR}.img"
 UBOOT_SYMLINK = "u-boot-${MACHINE}.img"
 
 PV = "2013.01+2013.04-rc1"
+PR = "r1"
 
 # No patches for other machines yet
 COMPATIBLE_MACHINE = "(beaglebone)"
@@ -23,6 +24,8 @@ SRC_URI = "git://git.denx.de/u-boot-arm.git \
            file://0007-beaglebone-Don-t-trigger-uboot-variable-lenght-limit.patch \
            file://0008-beaglebone-HACK-change-mmc-order-to-avoid-u-boot-cra.patch \
            file://0009-beaglebone-update-bootpart-variable-after-mmc-scan.patch \
+           file://0010-am335x_evm-enable-gpio-command.patch \
+           file://0011-am335x_evm-HACK-to-turn-on-BeagleBone-LEDs.patch \
            ${FWENV} \
           "
 
