@@ -1,4 +1,4 @@
-From f9921e3edff412a78c39ce6e155ffff457840d3e Mon Sep 17 00:00:00 2001
+From 6b2cc947999d8e7baec079c7838ad8eb1882a4f9 Mon Sep 17 00:00:00 2001
 From: "hvaibhav@ti.com" <hvaibhav@ti.com>
 Date: Fri, 31 Aug 2012 16:47:12 +0000
 Subject: [PATCH 2/2] Without MACH_ option Early printk (DEBUG_LL)

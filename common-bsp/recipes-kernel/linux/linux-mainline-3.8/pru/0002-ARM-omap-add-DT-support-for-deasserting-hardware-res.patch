@@ -1,7 +1,7 @@
-From 8d7e2176174de0dd40f87469205cbd61ae83566f Mon Sep 17 00:00:00 2001
+From 9391099de45b1bb4f77121fa3e1860180c0b5366 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Thu, 17 Jan 2013 16:02:48 -0800
-Subject: [PATCH 2/3] ARM: omap: add DT support for deasserting hardware reset
+Subject: [PATCH 2/4] ARM: omap: add DT support for deasserting hardware reset
  lines
 
  This optional binding extension allows specification of a hwmod

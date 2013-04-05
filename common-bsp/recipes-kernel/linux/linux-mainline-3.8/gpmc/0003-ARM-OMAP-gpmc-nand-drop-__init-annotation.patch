@@ -1,4 +1,4 @@
-From d379bebb42351619c9ed392035e600ef2852f25f Mon Sep 17 00:00:00 2001
+From a6d7e3fe1709e8a7465845a963711e9e0a8ae744 Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 10:36:42 +0000
 Subject: [PATCH 3/5] ARM: OMAP: gpmc-nand: drop __init annotation

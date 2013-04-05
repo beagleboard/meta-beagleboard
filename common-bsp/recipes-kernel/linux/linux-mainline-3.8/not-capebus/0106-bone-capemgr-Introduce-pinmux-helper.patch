@@ -1,7 +1,7 @@
-From 3649efc52a295919ea18dc6f051bc86586f22b14 Mon Sep 17 00:00:00 2001
+From bdd6e15435cdb433bb8aac7e9b27a5e85bb5a08c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:33:50 +0200
-Subject: [PATCH 106/150] bone-capemgr: Introduce pinmux helper
+Subject: [PATCH 106/157] bone-capemgr: Introduce pinmux helper
 
 Introduce a very basic pinmux helper driver.
 

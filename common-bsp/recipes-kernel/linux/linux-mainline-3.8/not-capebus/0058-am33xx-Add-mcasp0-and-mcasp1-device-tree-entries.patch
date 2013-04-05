@@ -1,7 +1,7 @@
-From 4c3483c97d4e77b455ab8ba0333d30fe787cd3a8 Mon Sep 17 00:00:00 2001
+From 4ba18d9087ecce8687d4fbfec3197e130a1f4271 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 10 Jan 2013 20:37:45 +0200
-Subject: [PATCH 058/150] am33xx: Add mcasp0 and mcasp1 device tree entries
+Subject: [PATCH 058/157] am33xx: Add mcasp0 and mcasp1 device tree entries
 
 Add missing mcasp entries in teh am33xx.dtsi include file.
 

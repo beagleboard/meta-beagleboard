@@ -1,4 +1,4 @@
-From 0a2067dcd31597f7940530476ad8065c0c48105a Mon Sep 17 00:00:00 2001
+From 4fb3f0955178c2d704900c9412473c9095675c70 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Wed, 12 Dec 2012 15:27:51 +0800
 Subject: [PATCH 26/57] CHROMIUM: Input: atmel_mxt_ts - take an instance for

@@ -1,7 +1,7 @@
-From ca342e300c6685e4a500766d9802e50a01f2646a Mon Sep 17 00:00:00 2001
+From 2c6c60f44029a7e93d83538eb15228bee899ad60 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:02 +0000
-Subject: [PATCH 128/150] capemgr: Added module param descriptions
+Subject: [PATCH 128/157] capemgr: Added module param descriptions
 
 Added a simple MODULE_PARM_DESC for the extra_override option
 

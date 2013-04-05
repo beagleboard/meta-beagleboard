@@ -1,7 +1,7 @@
-From 6c735b6377f5702591260a1486e6b83b51fb4bea Mon Sep 17 00:00:00 2001
+From 664bc581c622aa5edcd1c56f94866bc754ea96ec Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:11:31 +0200
-Subject: [PATCH 026/150] OF: Introduce utility helper functions
+Subject: [PATCH 026/157] OF: Introduce utility helper functions
 
 Introduce helper functions for working with the live DT tree.
 

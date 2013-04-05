@@ -1,7 +1,7 @@
-From 61a3eb8bf98d1cf08a07b9fcca12ceb842e440b8 Mon Sep 17 00:00:00 2001
+From 264f854008e21e34f360b6bb6ba5064114ded8d4 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:01 +0000
-Subject: [PATCH 127/150] docs: Added capemanager extra_override usage
+Subject: [PATCH 127/157] docs: Added capemanager extra_override usage
 
 Gave an example on using the kernel-command-line override
 slot options for capemanager.

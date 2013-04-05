@@ -1,4 +1,4 @@
-From eac6294e2f94bd311ad60b86bd02f74e4a37db05 Mon Sep 17 00:00:00 2001
+From 4e2e4091a2767b3d6aa13e09204530e981ffc93a Mon Sep 17 00:00:00 2001
 From: Mugunthan V N <mugunthanvnm@ti.com>
 Date: Wed, 27 Mar 2013 04:42:00 +0000
 Subject: [PATCH 4/4] drivers: net: ethernet: davinci_emac: use

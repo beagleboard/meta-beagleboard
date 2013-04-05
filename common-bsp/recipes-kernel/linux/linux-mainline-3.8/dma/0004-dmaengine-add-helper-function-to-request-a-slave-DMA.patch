@@ -1,4 +1,4 @@
-From b98480d688a43055464ee5d0aae31142a2774dc5 Mon Sep 17 00:00:00 2001
+From fb9f576b49b97806b3be57ae405a094e17bb91ea Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Fri, 14 Sep 2012 17:41:57 -0500
 Subject: [PATCH 04/34] dmaengine: add helper function to request a slave DMA

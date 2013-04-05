@@ -1,4 +1,4 @@
-From 89dfef6a3a959826ae7d7732fc00e040bd272d1d Mon Sep 17 00:00:00 2001
+From 7128826d1ac3cc4363f9edc3dc89db7bbbec6057 Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:32 -0400
 Subject: [PATCH 21/23] 6lowpan: modify udp compression/uncompression to match

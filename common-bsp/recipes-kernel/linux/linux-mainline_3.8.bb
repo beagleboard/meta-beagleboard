@@ -6,16 +6,16 @@ KERNEL_IMAGETYPE = "uImage"
 COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "g"
+MACHINE_KERNEL_PR_append = "a"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.5"
+PV = "3.8.6"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "aa4cfdeb17e3559fe1e80175c7338e065553dce5"
+SRCREV_pn-${PN} = "00cfbb8ad0a6419f40660362b4d8b5baa30d3efe"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -235,7 +235,6 @@ SRC_URI += " \
 	file://net/0001-am33xx-cpsw-default-to-ethernet-hwaddr-from-efuse-if.patch \
 	file://net/0002-Attempted-SMC911x-BQL-patch.patch \
 	file://net/0003-cpsw-Fix-interrupt-storm-among-other-things.patch \
-	file://net/0004-drivers-net-ethernet-davinci_emac-use-netif_wake_que.patch \
 	file://drm/0001-am33xx-Add-clock-for-the-lcdc-DRM-driver.patch \
 	file://drm/0002-drm-small-fix-in-drm_send_vblank_event.patch \
 	file://drm/0003-drm-cma-add-debugfs-helpers.patch \
@@ -403,6 +402,7 @@ SRC_URI += " \
 	file://not-capebus/0154-beaglebone-add-support-for-DVI-00A3.patch \
 	file://not-capebus/0155-beaglebone-remove-audio-section-from-DVID-rev-2-and-.patch \
 	file://not-capebus/0156-beaglebone-add-dts-for-audio-cape.patch \
+	file://not-capebus/0157-cape-bone-hexy-add-iio-helper.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \

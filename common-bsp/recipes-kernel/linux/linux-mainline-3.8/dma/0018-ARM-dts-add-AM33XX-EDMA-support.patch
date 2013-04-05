@@ -1,4 +1,4 @@
-From 00fc210e4fe026f3ee550f6be7aab67f39cf86e7 Mon Sep 17 00:00:00 2001
+From 7fe371fe411a65240218ff5f017abb875a10ad77 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 10 Oct 2012 10:01:33 -0400
 Subject: [PATCH 18/34] ARM: dts: add AM33XX EDMA support

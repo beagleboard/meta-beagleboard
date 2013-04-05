@@ -1,7 +1,7 @@
-From 3b56b571ad1a37a60f4aac486a656fbb0819843c Mon Sep 17 00:00:00 2001
+From 9e72ad01676552a8b39f4df00af571fd5627375c Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 24 Jan 2013 15:35:12 +0100
-Subject: [PATCH 086/150] am33xx: disable NAPI
+Subject: [PATCH 086/157] am33xx: disable NAPI
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

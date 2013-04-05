@@ -1,4 +1,4 @@
-From 74740867710b203cb6e7c2017aa88eadf2c875cf Mon Sep 17 00:00:00 2001
+From d6a95217d2c3aa98c182367291dae4168da6536c Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:21 -0400
 Subject: [PATCH 10/23] 6lowpan: lowpan_is_iid_16_bit_compressable() does not
