@@ -3,7 +3,7 @@ require linux.inc
 DESCRIPTION = "Linux kernel"
 KERNEL_IMAGETYPE = "uImage"
 
-COMPATIBLE_MACHINE = "(beaglebone)"
+COMPATIBLE_MACHINE = "(beagleboard|beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
 MACHINE_KERNEL_PR_append = "a"
@@ -418,6 +418,7 @@ SRC_URI += " \
 	file://usb/0009-MUSB-Hack-around-to-make-host-port-to-work.patch \
 	file://usb/0010-make-sure-we-register-unregister-the-NOP-xceiver-onl.patch \
 	file://usb/0011-ARM-OMAP-am335x-musb-use-250-for-power.patch \
+	file://usb/0012-ARM-OMAP2-MUSB-Specify-omap4-has-mailbox.patch \
 	file://PG2/0001-beaglebone-black-1ghz-hack.patch \
 	file://reboot/0001-ARM-AM33xx-Add-SoC-specific-restart-hook.patch \
 	file://iio/0001-iio-common-Add-STMicroelectronics-common-library.patch \
