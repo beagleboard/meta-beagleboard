@@ -3,10 +3,12 @@ require linux.inc
 DESCRIPTION = "Linux kernel"
 KERNEL_IMAGETYPE = "uImage"
 
-COMPATIBLE_MACHINE = "(beaglebone)"
+COMPATIBLE_MACHINE = "(beaglebone|beagleboard)"
+
+DEFAULT_PREFERENCE_beagleboard = "-1"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "a"
+MACHINE_KERNEL_PR_append = "b"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -403,6 +405,8 @@ SRC_URI += " \
 	file://not-capebus/0155-beaglebone-remove-audio-section-from-DVID-rev-2-and-.patch \
 	file://not-capebus/0156-beaglebone-add-dts-for-audio-cape.patch \
 	file://not-capebus/0157-cape-bone-hexy-add-iio-helper.patch \
+	file://not-capebus/0158-cape-Add-CAPE-BONE-EXPTEST-to-capemaps.patch \
+	file://not-capebus/0159-tester-button-cape.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
