@@ -42,8 +42,6 @@ fi
 
 umount ${PART1MOUNT}
 
-sync
-
 if [ "${HOSTARCH}" = "armv7l" ] ; then
 
 	echo "Generating machine ID"
@@ -54,16 +52,28 @@ if [ "${HOSTARCH}" = "armv7l" ] ; then
 	systemd-nspawn -D ${PART2MOUNT} /usr/bin/opkg-cl configure
 	cpufreq-set -g ondemand
 
+	# Hack to get some space back
+	systemd-nspawn -D ${PART2MOUNT} /usr/bin/opkg-cl remove db-doc --force-depends
+
 	#echo "Setting timezone to Europe/Paris"
 	#systemd-nspawn -D ${PART2MOUNT} /usr/bin/timedatectl set-timezone Europe/Paris
 
 fi
 
-rm ${PART2MOUNT}/etc/pam.d/gdm-autologin
+rm -f ${PART2MOUNT}/etc/pam.d/gdm-autologin
 
-sync
+rm -f ${PART2MOUNT}/etc/systemd/system/multi-user.target.wants/busybox*
+ln -s /dev/null ${PART2MOUNT}/etc/systemd/system/xinetd.service
+
+touch ${PART2MOUNT}/etc/default/locale
+
+# enable wifi
+mkdir -p ${PART2MOUNT}/var/lib/connman/
+cp connman.settings ${PART2MOUNT}/var/lib/connman/settings
 
 umount ${PART2MOUNT}
+
+sync
 
 if [ -e /sys/class/leds/beaglebone\:green\:usr0/trigger ] ; then
 	echo default-on > /sys/class/leds/beaglebone\:green\:usr0/trigger
