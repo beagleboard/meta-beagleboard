@@ -6,7 +6,7 @@ UBOOT_IMAGE = "u-boot-${MACHINE}-${PV}-${PR}.img"
 UBOOT_SYMLINK = "u-boot-${MACHINE}.img"
 
 PV = "2013.01+2013.04-rc1"
-PR = "r2"
+PR = "r3"
 
 # No patches for other machines yet
 COMPATIBLE_MACHINE = "(beaglebone)"
@@ -28,6 +28,7 @@ SRC_URI = "git://git.denx.de/u-boot-arm.git \
            file://0011-am335x_evm-HACK-to-turn-on-BeagleBone-LEDs.patch \
            file://0012-am335x-Enable-MMC1-clock.patch \
            file://0013-Fix-for-screen-rolling-when-video-played-back-in-bro.patch \
+           file://0014-beaglebone-replace-303MHz-DDR3-timings-with-400MHz-o.patch \
            ${FWENV} \
           "
 
