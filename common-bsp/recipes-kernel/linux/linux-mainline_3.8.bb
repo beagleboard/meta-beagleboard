@@ -8,7 +8,7 @@ COMPATIBLE_MACHINE = "(beaglebone|beagleboard)"
 DEFAULT_PREFERENCE_beagleboard = "-1"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "c"
+MACHINE_KERNEL_PR_append = "d"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
@@ -411,6 +411,7 @@ SRC_URI += " \
 	file://not-capebus/0161-pwm_test-Clean-up-and-make-it-work-on-DT-correctly.patch \
 	file://not-capebus/0162-capes-Add-PWM-test-example-cape.patch \
 	file://not-capebus/0163-Sync-tester-DTS-with-am335x-common.patch \
+	file://not-capebus/0164-Add-in-missing-cape-bone-tester-back-in.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
