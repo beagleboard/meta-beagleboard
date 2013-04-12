@@ -412,6 +412,8 @@ SRC_URI += " \
 	file://not-capebus/0162-capes-Add-PWM-test-example-cape.patch \
 	file://not-capebus/0163-Sync-tester-DTS-with-am335x-common.patch \
 	file://not-capebus/0164-Add-in-missing-cape-bone-tester-back-in.patch \
+	file://not-capebus/0165-cape-bone-hexy-move-OLED-to-different-reset-gpio.patch \
+	file://not-capebus/0166-firmware-capes-added-dts-file-for-every-PWM-pin.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
