@@ -62,6 +62,7 @@ fi
 
 rm -f ${PART2MOUNT}/etc/pam.d/gdm-autologin
 
+rm -f ${PART2MOUNT}/etc/systemd/system/multi-user.target.wants/xinput-calibrator.service
 rm -f ${PART2MOUNT}/etc/systemd/system/multi-user.target.wants/busybox*
 ln -s /dev/null ${PART2MOUNT}/etc/systemd/system/xinetd.service
 
@@ -70,6 +71,11 @@ touch ${PART2MOUNT}/etc/default/locale
 # enable wifi
 mkdir -p ${PART2MOUNT}/var/lib/connman/
 cp connman.settings ${PART2MOUNT}/var/lib/connman/settings
+
+# Replace wallpart
+if [ -e ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg ] ; then
+	cp beaglebg.jpg ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg
+fi
 
 umount ${PART2MOUNT}
 
