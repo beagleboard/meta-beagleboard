@@ -1,15 +1,15 @@
-From 6b4e776d7c9e532073357f8fd7d197bd28ce6507 Mon Sep 17 00:00:00 2001
+From df98f5d663988189cd8a42a1b59d2e4b25ede423 Mon Sep 17 00:00:00 2001
 From: Jason Kridner <jdk@ti.com>
 Date: Thu, 4 Apr 2013 07:16:41 +0000
-Subject: [PATCH 2/2] am335x_evm: HACK to turn on BeagleBone LEDs
+Subject: [PATCH 11/13] am335x_evm: HACK to turn on BeagleBone LEDs
 
 * This might break non-BeagleBone platforms
 ---
- include/configs/am335x_evm.h |    4 ++++
- 1 files changed, 4 insertions(+), 0 deletions(-)
+ include/configs/am335x_evm.h | 4 ++++
+ 1 file changed, 4 insertions(+)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index 14f172e..391e6e1 100644
+index 19b5c36..a980526 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
 @@ -143,6 +143,7 @@
@@ -39,5 +39,5 @@ index 14f172e..391e6e1 100644
  			"run mmcboot;" \
  		"fi;" \
 -- 
-1.7.8.6
+1.8.1.4
 

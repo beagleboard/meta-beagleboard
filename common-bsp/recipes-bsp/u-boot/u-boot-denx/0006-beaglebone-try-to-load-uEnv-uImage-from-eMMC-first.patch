@@ -1,7 +1,7 @@
-From 3ef0a0af39367be3fd4ad381af80e40567a77820 Mon Sep 17 00:00:00 2001
+From 68cccd6e5349424f469637a1beec5dc61b542b18 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:44:03 +0200
-Subject: [PATCH 6/9] beaglebone: try to load uEnv/uImage from eMMC first
+Subject: [PATCH 06/13] beaglebone: try to load uEnv/uImage from eMMC first
 
 If u-boot detects the eMMC, try to load from there, if that fails fall back to uSD. Due to linux "features" rootdev can remain mmcblk0p1.
 
@@ -11,7 +11,7 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 18 insertions(+)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index 3f2edbc..c464915 100644
+index 0f176cc..6561d50 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
 @@ -145,6 +145,24 @@

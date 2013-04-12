@@ -1,14 +1,14 @@
-From 996e1ad4030e29c98dd4781e20307e07d5872171 Mon Sep 17 00:00:00 2001
+From 38607ed3c84e8bc5a648b2ad1a1fac07f3e506df Mon Sep 17 00:00:00 2001
 From: Jason Kridner <jdk@ti.com>
 Date: Thu, 4 Apr 2013 05:57:00 +0000
-Subject: [PATCH 1/2] am335x_evm: enable gpio command
+Subject: [PATCH 10/13] am335x_evm: enable gpio command
 
 ---
- include/configs/am335x_evm.h |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ include/configs/am335x_evm.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index 5c9be89..14f172e 100644
+index 64b325e..19b5c36 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
 @@ -41,7 +41,7 @@
@@ -21,5 +21,5 @@ index 5c9be89..14f172e 100644
  #define CONFIG_VERSION_VARIABLE
  
 -- 
-1.7.8.6
+1.8.1.4
 

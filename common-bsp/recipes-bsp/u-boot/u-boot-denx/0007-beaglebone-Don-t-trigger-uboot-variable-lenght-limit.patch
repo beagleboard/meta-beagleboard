@@ -1,7 +1,7 @@
-From f6239653febebbb61f61f4d188f9a5da76054135 Mon Sep 17 00:00:00 2001
+From 7a4af960459829e660f4cfa108b6a1c6a9a946ba Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 11:39:16 +0200
-Subject: [PATCH 7/9] beaglebone: Don't trigger uboot variable lenght limit
+Subject: [PATCH 07/13] beaglebone: Don't trigger uboot variable lenght limit
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -9,7 +9,7 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 3 insertions(+), 17 deletions(-)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index c464915..b8bf99c 100644
+index 6561d50..3801e6c 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
 @@ -145,23 +145,11 @@
