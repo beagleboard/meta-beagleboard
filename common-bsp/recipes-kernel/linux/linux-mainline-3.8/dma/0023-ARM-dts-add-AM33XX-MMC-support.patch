@@ -1,4 +1,4 @@
-From cd6cbeb1d23fdd5d4e147d85bc9cb1133b937546 Mon Sep 17 00:00:00 2001
+From b09f1df57c5fa42b086078e1171ca19a3fd452b7 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 10 Oct 2012 15:14:03 -0400
 Subject: [PATCH 23/34] ARM: dts: add AM33XX MMC support

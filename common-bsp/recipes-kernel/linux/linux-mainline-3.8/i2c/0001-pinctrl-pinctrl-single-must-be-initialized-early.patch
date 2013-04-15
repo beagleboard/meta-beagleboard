@@ -1,4 +1,4 @@
-From cf5d82a27d19291049d063d98f67fcffad71f90a Mon Sep 17 00:00:00 2001
+From 6e7b70a2ae926340fc57f9f0f8a786db7d8bf150 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 15 Sep 2012 12:00:41 +0300
 Subject: [PATCH 1/4] pinctrl: pinctrl-single must be initialized early.

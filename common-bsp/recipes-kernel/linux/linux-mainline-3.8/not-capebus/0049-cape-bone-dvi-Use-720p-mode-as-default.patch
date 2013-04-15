@@ -1,7 +1,7 @@
-From f62f44cf5f3c7ebf988a14d37009eb3275958682 Mon Sep 17 00:00:00 2001
+From 73b355051cda569dfb8c902aa0c117fb249aac65 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 23:28:11 +0200
-Subject: [PATCH 049/157] cape-bone-dvi: Use 720p mode as default
+Subject: [PATCH 049/166] cape-bone-dvi: Use 720p mode as default
 
 Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
 ---

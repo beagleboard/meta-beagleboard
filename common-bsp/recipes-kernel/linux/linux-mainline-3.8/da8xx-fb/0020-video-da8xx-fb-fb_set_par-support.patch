@@ -1,4 +1,4 @@
-From c8d569c2fa6b6597bb1713914a4499940d38716f Mon Sep 17 00:00:00 2001
+From 5ccd116d572a634a08db0ce952f449f3b82bc3ab Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 28 Nov 2012 20:08:50 +0530
 Subject: [PATCH 20/48] video: da8xx-fb: fb_set_par support

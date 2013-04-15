@@ -1,7 +1,7 @@
-From 7008643f3d97c1ce38628d02f5c7cc8825481081 Mon Sep 17 00:00:00 2001
+From 1e4a89eb86cda2c8c73d5ee6260c7c96bfaa47cf Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:32:20 +0200
-Subject: [PATCH 103/157] bone-capemgr: Make sure cape removal works.
+Subject: [PATCH 103/166] bone-capemgr: Make sure cape removal works.
 
 Cape removal wasn't working properly before; fix it.
 

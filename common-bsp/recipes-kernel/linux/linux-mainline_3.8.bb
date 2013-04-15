@@ -3,21 +3,19 @@ require linux.inc
 DESCRIPTION = "Linux kernel"
 KERNEL_IMAGETYPE = "uImage"
 
-COMPATIBLE_MACHINE = "(beaglebone|beagleboard)"
-
-DEFAULT_PREFERENCE_beagleboard = "-1"
+COMPATIBLE_MACHINE = "(beaglebone)"
 
 # The main PR is now using MACHINE_KERNEL_PR, for omap3 see conf/machine/include/omap3.inc
-MACHINE_KERNEL_PR_append = "d"
+MACHINE_KERNEL_PR_append = "a"
 
 FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-3.8/${MACHINE}:"
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.6"
+PV = "3.8.7"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "00cfbb8ad0a6419f40660362b4d8b5baa30d3efe"
+SRCREV_pn-${PN} = "531ec28f9f26f78797124b9efcf2138b89794a1e"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -508,6 +506,7 @@ SRC_URI += " \
 	file://ssd130x/0002-ssd1307fb-Rework-the-communication-functions.patch \
 	file://ssd130x/0003-ssd1307fb-Speed-up-the-communication-with-the-contro.patch \
 	file://ssd130x/0004-ssd1307fb-Make-use-of-horizontal-addressing-mode.patch \
+	file://ssd130x/0005-SSD1307fb-1Hz-8Hz-defio-updates.patch \
 	file://build/0001-ARM-force-march-armv7a-for-thumb2-builds-http-lists..patch \
 	file://build/0002-headers_install-Fix-build-failures-on-deep-directory.patch \
 	file://defconfig \

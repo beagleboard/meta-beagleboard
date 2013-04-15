@@ -1,7 +1,7 @@
-From e3060906104eeabdc68878ead143811a0cc48206 Mon Sep 17 00:00:00 2001
+From ca78f855d82d5a8b89f72584d657bda1aceb02d2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 7 Jan 2013 18:42:24 +0200
-Subject: [PATCH 039/157] capemgr: Add weather cape definition
+Subject: [PATCH 039/166] capemgr: Add weather cape definition
 
 Circuit-co's weather cape definition.
 

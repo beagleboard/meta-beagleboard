@@ -1,7 +1,7 @@
-From 9b5af50d9083993612274b935796d9b7bc2c98e7 Mon Sep 17 00:00:00 2001
+From 8927b654ba20b80b59a0c792a2d0ccbaae2d1fb0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 19:08:47 +0200
-Subject: [PATCH 071/157] capes-fw: target firmware directory change
+Subject: [PATCH 071/166] capes-fw: target firmware directory change
 
 Change the target firmware directory to firmware, instead of firmware/capes.
 Two benefits; auto-firmware inclusion in the kernel image if enabled, and

@@ -1,7 +1,7 @@
-From 6f7bc6f4715e91e6939340a0b6712bc409f9f80a Mon Sep 17 00:00:00 2001
+From e0da27a28a21b10c074bd78d54b9429603f4d314 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 9 Apr 2013 22:14:29 +0300
-Subject: [PATCH 161/163] pwm_test: Clean-up and make it work on DT correctly
+Subject: [PATCH 161/166] pwm_test: Clean-up and make it work on DT correctly
 
 Clean up and DTify the pwm_test driver into something that's reasonably
 useful.
