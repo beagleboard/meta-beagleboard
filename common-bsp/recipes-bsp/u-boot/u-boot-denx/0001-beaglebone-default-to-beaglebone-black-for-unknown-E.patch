@@ -1,7 +1,7 @@
-From 749af314ae60d1aa2df703bcd6a3755e58df6d66 Mon Sep 17 00:00:00 2001
+From c851816a1bdb15d7247ad145cd51f2a21156070e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:22:53 +0200
-Subject: [PATCH 01/13] beaglebone: default to beaglebone black for unknown
+Subject: [PATCH 01/12] beaglebone: default to beaglebone black for unknown
  EEPROMs
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
@@ -10,10 +10,10 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index dbd5ef3..67ab851 100644
+index ef00306..2ac89af 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
-@@ -57,7 +57,7 @@
+@@ -59,7 +59,7 @@
  	"rdaddr=0x81000000\0" \
  	"bootdir=/boot\0" \
  	"bootfile=uImage\0" \
@@ -21,7 +21,7 @@ index dbd5ef3..67ab851 100644
 +	"fdtfile=am335x-boneblack.dtb\0" \
  	"console=ttyO0,115200n8\0" \
  	"optargs=\0" \
- 	"mmcdev=0\0" \
+ 	"mtdids=" MTDIDS_DEFAULT "\0" \
 -- 
 1.8.1.4
 

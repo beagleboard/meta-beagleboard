@@ -1,7 +1,7 @@
-From 275430443b163abd9f59b6912bceca0aac287a16 Mon Sep 17 00:00:00 2001
+From f4fa2e52486598adc47ebd3d4d727125ccfaa71a Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:27:09 +0200
-Subject: [PATCH 04/13] beaglebone: HACK: raise USB current limit
+Subject: [PATCH 04/12] beaglebone: HACK: raise USB current limit
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -9,10 +9,10 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 1 insertion(+)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index 67ab851..887c544 100644
+index 2ac89af..8de4cc9 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
-@@ -142,6 +142,7 @@
+@@ -149,6 +149,7 @@
  #endif
  
  #define CONFIG_BOOTCOMMAND \

@@ -1,7 +1,7 @@
-From 89cf25dd333e10d6edb5ac2771186a2397b42702 Mon Sep 17 00:00:00 2001
+From b2a51a195f76156a72db5906c202433dff8205df Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:25:04 +0200
-Subject: [PATCH 05/13] beaglebone: use kloadaddr to avoid copying the kernel
+Subject: [PATCH 05/12] beaglebone: use kloadaddr to avoid copying the kernel
  around
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
@@ -10,10 +10,10 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 3 insertions(+), 2 deletions(-)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index 887c544..0f176cc 100644
+index 8de4cc9..14b0a08 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
-@@ -52,6 +52,7 @@
+@@ -54,6 +54,7 @@
  #ifndef CONFIG_SPL_BUILD
  #define CONFIG_EXTRA_ENV_SETTINGS \
  	"loadaddr=0x80200000\0" \
@@ -21,7 +21,7 @@ index 887c544..0f176cc 100644
  	"fdtaddr=0x80F80000\0" \
  	"fdt_high=0xffffffff\0" \
  	"rdaddr=0x81000000\0" \
-@@ -105,11 +106,11 @@
+@@ -112,11 +113,11 @@
  		"root=${ramroot} " \
  		"rootfstype=${ramrootfstype}\0" \
  	"loadramdisk=load mmc ${mmcdev} ${rdaddr} ramdisk.gz\0" \

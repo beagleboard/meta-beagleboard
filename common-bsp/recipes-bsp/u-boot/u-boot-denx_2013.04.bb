@@ -5,8 +5,7 @@ UBOOT_BINARY = "u-boot.img"
 UBOOT_IMAGE = "u-boot-${MACHINE}-${PV}-${PR}.img"
 UBOOT_SYMLINK = "u-boot-${MACHINE}.img"
 
-PV = "2013.01+2013.04-rc1"
-PR = "r6"
+PV = "2013.04"
 
 # No patches for other machines yet
 COMPATIBLE_MACHINE = "(beaglebone)"
@@ -14,7 +13,7 @@ COMPATIBLE_MACHINE = "(beaglebone)"
 # File is board-specific, only copy when it will be correct.
 FWENV = ""
 
-SRC_URI = "git://git.denx.de/u-boot-arm.git \
+SRC_URI = "git://git.denx.de/u-boot.git \
            file://0001-beaglebone-default-to-beaglebone-black-for-unknown-E.patch \
            file://0002-am335x-mux-don-t-hang-on-unknown-EEPROMs-assume-Beag.patch \
            file://0003-beaglebone-HACK-always-return-1-for-is_bone_lt.patch \
@@ -27,11 +26,11 @@ SRC_URI = "git://git.denx.de/u-boot-arm.git \
            file://0010-am335x_evm-enable-gpio-command.patch \
            file://0011-am335x_evm-HACK-to-turn-on-BeagleBone-LEDs.patch \
            file://0012-Fix-for-screen-rolling-when-video-played-back-in-bro.patch \
-           file://0013-am335x-Really-correct-DDR-timings-on-new-BeagleBone-.patch \
            ${FWENV} \
           "
 
-SRCREV = "90639feaa0d66a204f9d03a325ab14e2f97f6cbb"
+# v2013.04 tag
+SRCREV = "d10f68ae47b67acab8b110b5c605dde4197a1820"
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=1707d6db1d42237583f50183a5651ecb"
 

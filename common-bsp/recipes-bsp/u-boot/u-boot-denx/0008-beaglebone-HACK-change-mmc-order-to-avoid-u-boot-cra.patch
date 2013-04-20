@@ -1,7 +1,7 @@
-From 9642874ea166e6596b6406f3c59e8c3889a3c755 Mon Sep 17 00:00:00 2001
+From b32e96e6ca707411abb6f351dec57185a1d7c272 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 11:47:14 +0200
-Subject: [PATCH 08/13] beaglebone: HACK: change mmc order to avoid u-boot
+Subject: [PATCH 08/12] beaglebone: HACK: change mmc order to avoid u-boot
  crashing
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
@@ -10,10 +10,10 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 5 insertions(+), 4 deletions(-)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
-index 3801e6c..ca5907c 100644
+index 9051249..8dc3a8a 100644
 --- a/include/configs/am335x_evm.h
 +++ b/include/configs/am335x_evm.h
-@@ -145,11 +145,12 @@
+@@ -152,11 +152,12 @@
  #define CONFIG_BOOTCOMMAND \
  	"i2c mw 0x24 1 0x3e; " \
  	"run findfdt; " \
