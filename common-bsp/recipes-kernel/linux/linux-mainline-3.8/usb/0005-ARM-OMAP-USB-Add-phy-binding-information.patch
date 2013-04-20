@@ -1,4 +1,4 @@
-From 8ab4a8e6462fe803cb3c1e6127d72eecf8f43af8 Mon Sep 17 00:00:00 2001
+From 7c49490a5e4318de1dc0a0e98b0811271680bcbf Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:11 +0000
 Subject: [PATCH 05/12] ARM: OMAP: USB: Add phy binding information

@@ -1,4 +1,4 @@
-From e9fdc51918545e601d19046f5bb33f67bcc53078 Mon Sep 17 00:00:00 2001
+From 3996905b019e30890476a95047604935adf83c66 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 5 Mar 2013 18:25:32 +0200
 Subject: [PATCH 107/166] bone-geiger: Fix comment to match the contents

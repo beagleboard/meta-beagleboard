@@ -1,4 +1,4 @@
-From b18c027913dc5629d1aefb0cc67d32d6868f61f1 Mon Sep 17 00:00:00 2001
+From 8fcb357715af9b575d779d480e9ec2053cb47efe Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 13:05:34 +0200
 Subject: [PATCH 021/166] OF: Compile Device Tree sources with resolve option

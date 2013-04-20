@@ -1,4 +1,4 @@
-From 55388f50b17535e59dbdad17dcc5796515638625 Mon Sep 17 00:00:00 2001
+From e47e60167df1ebd94513c53e09c2fc9370b805ab Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:06:03 +0000
 Subject: [PATCH 125/166] cape: Added support for IIO helper cape

@@ -1,4 +1,4 @@
-From 3f18a295837e5bec6598e274c5fbbb069e963644 Mon Sep 17 00:00:00 2001
+From 621c4c50d45e6701f1cfed61c10adaa2d7b538cc Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 18 Dec 2012 17:34:16 -0600
 Subject: [PATCH 10/11] drm/tilcdc: add support for LCD panels (v5)

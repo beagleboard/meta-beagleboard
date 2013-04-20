@@ -1,4 +1,4 @@
-From a5209b124d3a3c3971deca76ebec9937fe469de9 Mon Sep 17 00:00:00 2001
+From f5c6e9617c852668da8067c6f44a519ce7e8f324 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Mon, 18 Mar 2013 01:26:01 -0400
 Subject: [PATCH 09/23] mrf24j40: Fix byte-order of IEEE address

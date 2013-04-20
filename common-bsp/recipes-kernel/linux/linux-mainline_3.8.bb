@@ -12,10 +12,10 @@ FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.7"
+PV = "3.8.8"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "531ec28f9f26f78797124b9efcf2138b89794a1e"
+SRCREV_pn-${PN} = "2396403a0402caf7b9decbc5d206fa63ba62b6b7"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -509,6 +509,9 @@ SRC_URI += " \
 	file://ssd130x/0005-SSD1307fb-1Hz-8Hz-defio-updates.patch \
 	file://build/0001-ARM-force-march-armv7a-for-thumb2-builds-http-lists..patch \
 	file://build/0002-headers_install-Fix-build-failures-on-deep-directory.patch \
+	file://hdmi/0001-video-Add-generic-HDMI-infoframe-helpers.patch \
+	file://hdmi/0002-BeagleBone-Black-TDA998x-Initial-HDMI-Audio-support.patch \
+	file://hdmi/0003-Clean-up-some-formating-and-debug-in-Davinci-MCASP-d.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \

@@ -1,4 +1,4 @@
-From 2b05af75579bfdb90dbc585ecf12cba2760ebe19 Mon Sep 17 00:00:00 2001
+From 035c6330c0954b8e5bd4e2d797f017da2755c4ee Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 14:42:11 +0200
 Subject: [PATCH 045/166] lcd3-cape: Convert to using the proper touchscreen

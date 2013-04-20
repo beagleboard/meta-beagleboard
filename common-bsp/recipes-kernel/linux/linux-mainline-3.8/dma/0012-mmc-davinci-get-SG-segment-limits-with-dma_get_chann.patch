@@ -1,4 +1,4 @@
-From 3dd3c644cfdcbd1b77282e667aaee7105c09d1b3 Mon Sep 17 00:00:00 2001
+From 21ada651d455a2b4253089ef37a11be8bb33718a Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 18 Oct 2012 21:10:47 -0400
 Subject: [PATCH 12/34] mmc: davinci: get SG segment limits with

@@ -1,4 +1,4 @@
-From af3a17ac60263100b8fdbf6b5290d366c3918b60 Mon Sep 17 00:00:00 2001
+From 508e4aa64bf60614b97263c3637bd8a1638b0cd7 Mon Sep 17 00:00:00 2001
 From: "AnilKumar, Chimata" <anilkumar@ti.com>
 Date: Fri, 31 Aug 2012 09:29:18 +0000
 Subject: [PATCH 2/4] arm/dts: AM33XX: Configure pinmuxs for user leds control

@@ -1,4 +1,4 @@
-From d4a2e3827af6eeb4e98a1da4dae9ec1d8c2a22d7 Mon Sep 17 00:00:00 2001
+From 62de3127c461969aae8840234215a9d89dbb317a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:41:11 +0200
 Subject: [PATCH 014/166] Properly handle resources for omap_devices

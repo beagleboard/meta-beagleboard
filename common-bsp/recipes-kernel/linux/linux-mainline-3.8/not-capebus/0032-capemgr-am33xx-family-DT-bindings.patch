@@ -1,4 +1,4 @@
-From cf07e2d351f19dd31107b1e995ca14e9e00414cd Mon Sep 17 00:00:00 2001
+From 67d61707a946d2733ba417fe90038c3ef9b5b781 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:02:12 +0200
 Subject: [PATCH 032/166] capemgr: am33xx family DT bindings

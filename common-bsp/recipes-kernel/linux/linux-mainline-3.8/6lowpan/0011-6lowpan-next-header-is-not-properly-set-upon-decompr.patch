@@ -1,4 +1,4 @@
-From f315a23370066c19402c2b243fe77740d93aeeec Mon Sep 17 00:00:00 2001
+From 63e837b1c18077a52e88e48dd4c5c6f7ee55cd35 Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:22 -0400
 Subject: [PATCH 11/23] 6lowpan: next header is not properly set upon

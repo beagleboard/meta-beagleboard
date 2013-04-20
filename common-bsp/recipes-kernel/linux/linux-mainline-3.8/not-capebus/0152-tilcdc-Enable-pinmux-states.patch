@@ -1,4 +1,4 @@
-From 732c3a4b3359f0ece86b68e315a4e28c07ff42a7 Mon Sep 17 00:00:00 2001
+From ab33262f3f048f7d60ad71966a4c999672d03d70 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 29 Mar 2013 19:32:29 +0200
 Subject: [PATCH 152/166] tilcdc: Enable pinmux states

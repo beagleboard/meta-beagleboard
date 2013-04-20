@@ -1,4 +1,4 @@
-From 6c048a1b59e8d009bdb73e0e86e8f08b9045be6e Mon Sep 17 00:00:00 2001
+From 3ff6a860608a2eab5eb57a3c9ede43b5939724b7 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 20 Mar 2013 13:13:41 +0100
 Subject: [PATCH 131/166] capes: add cape for beaglebone based Hexy robot

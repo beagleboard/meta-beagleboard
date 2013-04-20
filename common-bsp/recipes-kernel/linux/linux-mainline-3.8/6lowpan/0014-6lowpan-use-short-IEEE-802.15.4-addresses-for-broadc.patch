@@ -1,4 +1,4 @@
-From 46f33177f5bb37adb654887d41c22c1e78fa3c42 Mon Sep 17 00:00:00 2001
+From 67ac99f97d5ac752d320521402c96b5401ee80cd Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:25 -0400
 Subject: [PATCH 14/23] 6lowpan: use short IEEE 802.15.4 addresses for

@@ -1,4 +1,4 @@
-From b4f8405c18433f9785c710c7b11c83574fb6c620 Mon Sep 17 00:00:00 2001
+From 2f20a3cee500eb54e67d88dd7c6f588f5979a952 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 20:15:52 +0200
 Subject: [PATCH 011/166] Cleanup am33xx.dtsi

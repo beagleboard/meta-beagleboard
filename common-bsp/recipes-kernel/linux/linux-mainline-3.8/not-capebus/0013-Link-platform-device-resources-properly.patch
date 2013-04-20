@@ -1,4 +1,4 @@
-From 5a30122d02d1dd4ed7993ba1aefe498ef7ae2655 Mon Sep 17 00:00:00 2001
+From 9414a6d8451f4c98301cfdb8f805ec17b2d12058 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:39:29 +0200
 Subject: [PATCH 013/166] Link platform device resources properly.

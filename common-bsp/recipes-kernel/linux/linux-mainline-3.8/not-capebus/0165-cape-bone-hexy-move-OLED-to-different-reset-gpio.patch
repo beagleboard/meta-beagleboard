@@ -1,4 +1,4 @@
-From d5aeabfe930b90caaadf9e567f8cd9d0534e0e2a Mon Sep 17 00:00:00 2001
+From f3476ac86d5db1f6373c9ce763438f40afcc1a99 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 12 Apr 2013 14:22:04 +0200
 Subject: [PATCH 165/166] cape-bone-hexy: move OLED to different reset gpio

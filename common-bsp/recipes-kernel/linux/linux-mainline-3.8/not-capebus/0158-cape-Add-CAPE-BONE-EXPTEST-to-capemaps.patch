@@ -1,4 +1,4 @@
-From ef09582ac0b80dd8d8e50fb6c31df362f96bd0a6 Mon Sep 17 00:00:00 2001
+From 5949d553d67093ee6e36b03b58c1581679b00b9e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 5 Apr 2013 14:34:31 +0300
 Subject: [PATCH 158/166] cape: Add CAPE-BONE-EXPTEST to capemaps

@@ -1,4 +1,4 @@
-From 49ff2b9206837f638ddd11f70e6db0e296772b70 Mon Sep 17 00:00:00 2001
+From 1f9443c295005d529200e50572be2c4a9941fd2d Mon Sep 17 00:00:00 2001
 From: Jan Luebbe <jluebbe@debian.org>
 Date: Wed, 6 Mar 2013 16:38:40 +0100
 Subject: [PATCH 105/166] beaglebone: LCD7 cape: enable PWM and allow the

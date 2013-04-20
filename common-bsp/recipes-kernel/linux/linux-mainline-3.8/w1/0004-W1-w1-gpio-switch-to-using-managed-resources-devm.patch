@@ -1,4 +1,4 @@
-From a40e98947c97c71bcd0dd2936ed20b079986d18c Mon Sep 17 00:00:00 2001
+From 3fe1ff00b0c2f5451bcb53ef535b16051f95bf6e Mon Sep 17 00:00:00 2001
 From: Dmitry Torokhov <dmitry.torokhov@gmail.com>
 Date: Sun, 24 Feb 2013 22:59:37 -0800
 Subject: [PATCH 4/4] W1: w1-gpio - switch to using managed resources (devm)

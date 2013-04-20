@@ -1,4 +1,4 @@
-From 289b800588d8d050ee2eadda5db4f36bbcbb9655 Mon Sep 17 00:00:00 2001
+From a07d1eb3ac8573474136cbd95f37c9b1d8fca087 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 14:53:59 +0200
 Subject: [PATCH 046/166] geiger-cape: Convert to using the new ADC driver

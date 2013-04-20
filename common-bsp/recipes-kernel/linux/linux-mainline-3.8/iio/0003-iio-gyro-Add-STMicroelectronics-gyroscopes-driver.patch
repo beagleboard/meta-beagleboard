@@ -1,4 +1,4 @@
-From baa347e0e13ee8f8be846ba553a0b19a1806b5a0 Mon Sep 17 00:00:00 2001
+From 0db4d731d5844468d8ad305234af28172d581949 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 3/6] iio:gyro: Add STMicroelectronics gyroscopes driver

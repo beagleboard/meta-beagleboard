@@ -1,4 +1,4 @@
-From 21c67b11daaa9925dadd75eb0b99aa8387ab3e27 Mon Sep 17 00:00:00 2001
+From 38930fc51d63dd89caea9010f4ae2eb050b8eb16 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 17 Jan 2013 23:23:17 +0100
 Subject: [PATCH 077/166] capes: remove tda from hdmi cape, lcdc handles it by

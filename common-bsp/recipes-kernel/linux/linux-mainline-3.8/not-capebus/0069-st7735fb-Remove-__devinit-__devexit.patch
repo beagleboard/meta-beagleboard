@@ -1,4 +1,4 @@
-From 7ff95a6d25e036d57945ce4f554c22e637184785 Mon Sep 17 00:00:00 2001
+From 754449019a5e246f2295643e7c1b747650d851f9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 14:14:33 +0200
 Subject: [PATCH 069/166] st7735fb: Remove __devinit/__devexit

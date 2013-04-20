@@ -1,4 +1,4 @@
-From 854305dcdd568ea76b33a641e60663fad017a9b7 Mon Sep 17 00:00:00 2001
+From 5b88f7a256148433a45d0001a2862cf511c6e94c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 19 Oct 2012 10:38:00 +0300
 Subject: [PATCH 5/8] pwm: export of_pwm_request

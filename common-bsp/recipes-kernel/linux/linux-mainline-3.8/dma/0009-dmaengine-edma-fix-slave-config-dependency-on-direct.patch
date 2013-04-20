@@ -1,4 +1,4 @@
-From 51426282b75a0e5b139a25a8e785b47950487ab4 Mon Sep 17 00:00:00 2001
+From 94b71cfa3874b9a4828f740740b592450c3d1a49 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Tue, 18 Sep 2012 18:57:15 +0000
 Subject: [PATCH 09/34] dmaengine: edma: fix slave config dependency on

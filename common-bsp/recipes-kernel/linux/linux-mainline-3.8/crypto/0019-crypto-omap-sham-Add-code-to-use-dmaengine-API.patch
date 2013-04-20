@@ -1,4 +1,4 @@
-From 3f0e1142d9571ad493bcc28a4f944c9c6c02ba74 Mon Sep 17 00:00:00 2001
+From 81915d7a034f84c9ede4b376aee3aa014e5230fe Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Fri, 12 Oct 2012 11:47:09 -0700
 Subject: [PATCH 19/34] crypto: omap-sham - Add code to use dmaengine API

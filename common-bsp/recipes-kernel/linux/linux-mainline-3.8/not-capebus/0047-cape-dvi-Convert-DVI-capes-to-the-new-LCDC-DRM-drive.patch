@@ -1,4 +1,4 @@
-From ce6878886d62b4fc628cf74f566675b36fe2d7ad Mon Sep 17 00:00:00 2001
+From f894ab5673e0bfbf91959b1c86ff68c436d7d113 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 16:34:14 +0200
 Subject: [PATCH 047/166] cape-dvi: Convert DVI capes to the new LCDC DRM

@@ -1,4 +1,4 @@
-From 5f8dcc7b58f852d9713e4de88a95c2aa835780a9 Mon Sep 17 00:00:00 2001
+From de55aab242a859fe2522a751c413433d28f16168 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Wed, 23 Mar 2011 08:37:54 -0500
 Subject: [PATCH 1/5] meego: modedb add Toshiba LTA070B220F 800x480 support

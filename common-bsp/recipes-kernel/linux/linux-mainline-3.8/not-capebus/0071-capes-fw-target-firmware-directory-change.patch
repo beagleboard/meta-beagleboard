@@ -1,4 +1,4 @@
-From 8927b654ba20b80b59a0c792a2d0ccbaae2d1fb0 Mon Sep 17 00:00:00 2001
+From a9b0503b7016d342289e507a002a68f7dc3af0ae Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 19:08:47 +0200
 Subject: [PATCH 071/166] capes-fw: target firmware directory change

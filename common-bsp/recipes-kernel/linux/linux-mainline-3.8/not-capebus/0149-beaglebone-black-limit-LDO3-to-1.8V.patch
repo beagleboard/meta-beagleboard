@@ -1,4 +1,4 @@
-From 97cb4aead421a7c02646b03dc6e7a3453b135386 Mon Sep 17 00:00:00 2001
+From 0671173079f70694d46c11cfe8742ce0bc97bdda Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Sat, 30 Mar 2013 08:37:26 +0100
 Subject: [PATCH 149/166] beaglebone black: limit LDO3 to 1.8V

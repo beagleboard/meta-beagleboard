@@ -1,4 +1,4 @@
-From 25dda7daa1fa70cfd296bf193f4a5bf7c1497058 Mon Sep 17 00:00:00 2001
+From e681364eb74437cdb6af26ab98dab0f8f9f23984 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 30 Nov 2012 12:12:55 +0200
 Subject: [PATCH 004/166] Mark the device as PRIVATE

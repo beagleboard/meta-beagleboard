@@ -1,4 +1,4 @@
-From 611e839a7c9e1ccbe8fd034425780504cfaac839 Mon Sep 17 00:00:00 2001
+From 590acefa69853f67b995a1fd7fb819f85d9a8598 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 4 Jan 2013 11:51:06 +0200
 Subject: [PATCH 041/166] am33xx DT: Update am33xx.dsi with the new PWM DT

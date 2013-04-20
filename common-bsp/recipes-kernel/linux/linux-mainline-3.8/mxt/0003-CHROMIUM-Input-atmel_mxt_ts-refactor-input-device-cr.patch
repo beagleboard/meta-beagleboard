@@ -1,4 +1,4 @@
-From b2937b83019c22c69fef5053539cefe59b445b4b Mon Sep 17 00:00:00 2001
+From 3b51b1c7551bfcef51dc8b4ebaa291073b0354be Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Fri, 27 Apr 2012 22:15:16 +0800
 Subject: [PATCH 03/57] CHROMIUM: Input: atmel_mxt_ts - refactor input device

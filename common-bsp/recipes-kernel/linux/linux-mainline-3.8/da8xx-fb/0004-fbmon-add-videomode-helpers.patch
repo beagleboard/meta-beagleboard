@@ -1,4 +1,4 @@
-From 3890b61be2307d2b95e0de439ac7e0cfe8e31cbe Mon Sep 17 00:00:00 2001
+From 56811a1231ea290a41ab3a5cc5037eb4797f1b1d Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Wed, 19 Dec 2012 16:36:57 +0530
 Subject: [PATCH 04/48] fbmon: add videomode helpers

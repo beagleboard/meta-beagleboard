@@ -1,4 +1,4 @@
-From 3cdd4d9352890cbea6df5f30795de1f497e8ca11 Mon Sep 17 00:00:00 2001
+From 9071abdb63756ad94c5252b327c10604f319bbde Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Fri, 19 Oct 2012 08:45:26 -0700
 Subject: [PATCH 04/34] ARM: OMAP2+: Remove unnecessary message when no SHA IP

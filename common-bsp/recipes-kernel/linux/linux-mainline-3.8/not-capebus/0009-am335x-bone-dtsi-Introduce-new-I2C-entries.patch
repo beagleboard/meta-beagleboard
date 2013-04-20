@@ -1,4 +1,4 @@
-From 961d6c569bb51511f09056ffc94581ba6bbc74c2 Mon Sep 17 00:00:00 2001
+From a17d6305d52de3d40203176395b6e091dfa4fb56 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 14:36:38 +0200
 Subject: [PATCH 009/166] am335x-bone-dtsi: Introduce new I2C entries

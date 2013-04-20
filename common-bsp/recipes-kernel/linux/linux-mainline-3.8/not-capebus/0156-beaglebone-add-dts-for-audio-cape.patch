@@ -1,4 +1,4 @@
-From 81304e3b63dcb05d8e8508447e9c96ca405d6684 Mon Sep 17 00:00:00 2001
+From ca146591d6ad65beca789b8ea2b5541382ec943f Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 4 Apr 2013 10:24:06 +0200
 Subject: [PATCH 156/166] beaglebone: add dts for audio cape

@@ -1,4 +1,4 @@
-From 65662b0d6e917069a23665e2f4292092300005c2 Mon Sep 17 00:00:00 2001
+From 55ba538854de517ba86aacab8555b0a0f85958c2 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 11 Jul 2012 11:01:33 +0530
 Subject: [PATCH 28/48] ARM: dts: AM33XX: Add PWMSS device tree nodes

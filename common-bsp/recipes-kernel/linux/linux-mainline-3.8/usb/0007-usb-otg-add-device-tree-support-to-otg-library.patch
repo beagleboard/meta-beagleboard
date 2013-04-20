@@ -1,4 +1,4 @@
-From 766fdeeadfc98d7afbda8dd12fdaae13eb474bd2 Mon Sep 17 00:00:00 2001
+From 3f043c598f439fb6919e8ec8830b6858570bf48f Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:13 +0000
 Subject: [PATCH 07/12] usb: otg: add device tree support to otg library

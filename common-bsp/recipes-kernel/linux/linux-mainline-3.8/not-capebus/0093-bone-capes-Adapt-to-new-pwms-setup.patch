@@ -1,4 +1,4 @@
-From 0ef32f773182ad928eb2979508900ce9e2a265e1 Mon Sep 17 00:00:00 2001
+From 5ec5e06936130a89b932b2a530393833f6c83020 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 16:28:59 +0200
 Subject: [PATCH 093/166] bone-capes: Adapt to new pwms setup

@@ -1,4 +1,4 @@
-From 25b049999202e3ec28ee09e6ada3158d2307c340 Mon Sep 17 00:00:00 2001
+From 9c06a65acfa38537dbd1f666ab8733ce1f00b0ff Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 13 Dec 2012 14:13:31 +0100
 Subject: [PATCH 4/4] am335x-evm*: hack around i2c node names

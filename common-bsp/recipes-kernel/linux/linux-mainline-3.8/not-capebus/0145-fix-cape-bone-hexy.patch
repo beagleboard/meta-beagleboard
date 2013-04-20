@@ -1,4 +1,4 @@
-From 47f08861e3cc001cb3d139095d2d4c71e943fb89 Mon Sep 17 00:00:00 2001
+From 51f40adc8e7a917cb95bd8409f93bb9da61418a1 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 26 Mar 2013 17:01:09 +0100
 Subject: [PATCH 145/166] fix cape-bone-hexy

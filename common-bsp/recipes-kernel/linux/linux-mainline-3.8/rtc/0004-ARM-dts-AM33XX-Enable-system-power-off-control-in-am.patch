@@ -1,4 +1,4 @@
-From 80c6f491a435abe0632ff558a6d86c00caa09674 Mon Sep 17 00:00:00 2001
+From 0947e28d3518374fbf08fe5d01fa9f147052d90f Mon Sep 17 00:00:00 2001
 From: AnilKumar Ch <anilkumar@ti.com>
 Date: Wed, 31 Oct 2012 13:23:14 +0530
 Subject: [PATCH 4/4] ARM: dts: AM33XX: Enable system power off control in

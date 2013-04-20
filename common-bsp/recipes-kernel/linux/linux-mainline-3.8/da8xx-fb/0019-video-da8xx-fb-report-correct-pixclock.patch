@@ -1,4 +1,4 @@
-From 240e33525a5a793308cef7477d7962efdbd2413b Mon Sep 17 00:00:00 2001
+From ce1555f6370b8bdf354639d169f93f53163c1038 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Tue, 4 Dec 2012 18:40:45 +0530
 Subject: [PATCH 19/48] video: da8xx-fb: report correct pixclock

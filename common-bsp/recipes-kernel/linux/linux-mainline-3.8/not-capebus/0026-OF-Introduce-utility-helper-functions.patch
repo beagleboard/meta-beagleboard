@@ -1,4 +1,4 @@
-From 1f75df54c4646119ab56ab257e83f0ff5ae522c1 Mon Sep 17 00:00:00 2001
+From ef4b59fd9decf9f6c936ecf4d68f0291daf6045b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:11:31 +0200
 Subject: [PATCH 026/166] OF: Introduce utility helper functions

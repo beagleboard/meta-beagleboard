@@ -1,4 +1,4 @@
-From a62169cd9f7a63c0fc77e387316f7cea170df21f Mon Sep 17 00:00:00 2001
+From 20d4b01f1b8106fbb57220f2f393fbcbbb9ba78f Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 10:36:44 +0000
 Subject: [PATCH 5/5] ARM: OMAP: gpmc: add DT bindings for GPMC timings and

@@ -1,4 +1,4 @@
-From fae1c9af60692a8b9e8e1c9d2659b09c02379231 Mon Sep 17 00:00:00 2001
+From 0088297dad0274c5c9d2cffcf6180ee55274aa97 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Tue, 22 Jan 2013 20:33:56 +0530
 Subject: [PATCH 32/48] clk: divider: handle minimum divider

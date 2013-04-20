@@ -1,4 +1,4 @@
-From efa1c5335c94cb9e862fb0b5fa11b368021fe09b Mon Sep 17 00:00:00 2001
+From a1de5ecfdab2ce410916f505bfda4fbd68abf55e Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Thu, 21 Mar 2013 13:53:54 -0500
 Subject: [PATCH 135/166] Changing DT data to make selection of standard (i.e.

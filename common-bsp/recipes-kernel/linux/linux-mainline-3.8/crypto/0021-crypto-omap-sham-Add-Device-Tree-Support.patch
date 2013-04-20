@@ -1,4 +1,4 @@
-From 583ad2f73ec5479ac4b8d5b447ef9ab12f5295df Mon Sep 17 00:00:00 2001
+From 5f4fba69be91084730688dd0cbb15d3fc35ccbf2 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Tue, 18 Dec 2012 10:03:02 -0700
 Subject: [PATCH 21/34] crypto: omap-sham - Add Device Tree Support

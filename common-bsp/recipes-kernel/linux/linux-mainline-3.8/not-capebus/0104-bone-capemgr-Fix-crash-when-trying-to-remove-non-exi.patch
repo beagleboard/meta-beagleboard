@@ -1,4 +1,4 @@
-From e1e73f4cd9c23bce23ad7a212142882586c95fae Mon Sep 17 00:00:00 2001
+From 74f6b1610e29bc59e60bf390ec85829675a96070 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 18:35:09 +0200
 Subject: [PATCH 104/166] bone-capemgr: Fix crash when trying to remove

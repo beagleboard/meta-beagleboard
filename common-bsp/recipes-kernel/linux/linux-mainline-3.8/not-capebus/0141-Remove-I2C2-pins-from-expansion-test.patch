@@ -1,4 +1,4 @@
-From 0faa0636182a3e039e96950989869e83b7e411c6 Mon Sep 17 00:00:00 2001
+From a3d00616047dcada5ae98daf6dd1fc663bd2fc7a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 25 Mar 2013 15:47:28 +0200
 Subject: [PATCH 141/166] Remove I2C2 pins from expansion test

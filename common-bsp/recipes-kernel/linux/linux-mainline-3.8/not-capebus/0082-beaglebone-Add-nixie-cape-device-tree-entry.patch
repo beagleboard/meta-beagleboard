@@ -1,4 +1,4 @@
-From 7491e3302c7d48341853ee1e35b2db17db04a767 Mon Sep 17 00:00:00 2001
+From 899e3e1ed625cd27069e746d552d21cc6ab64b05 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 22 Jan 2013 10:09:48 -0800
 Subject: [PATCH 082/166] beaglebone: Add nixie cape device tree entry

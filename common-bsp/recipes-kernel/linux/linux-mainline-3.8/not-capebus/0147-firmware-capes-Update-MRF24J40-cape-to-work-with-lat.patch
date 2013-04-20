@@ -1,4 +1,4 @@
-From 2d7844042cfcc026dbcdd4a7edff6d0782a903f0 Mon Sep 17 00:00:00 2001
+From fae8c8eb6d275fd3cd3a29525a39d9edc46f679f Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Fri, 29 Mar 2013 16:49:27 -0400
 Subject: [PATCH 147/166] firmware: capes: Update MRF24J40 cape to work with

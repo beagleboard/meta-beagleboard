@@ -1,4 +1,4 @@
-From c7cfc836858520425a01ae838a2b2b3a2579ea23 Mon Sep 17 00:00:00 2001
+From 011be5c3bca9ccad37b15d57633de4fb8ae7a06a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 20:09:11 +0200
 Subject: [PATCH 097/166] tilcdc: Add reduced blanking mode checks

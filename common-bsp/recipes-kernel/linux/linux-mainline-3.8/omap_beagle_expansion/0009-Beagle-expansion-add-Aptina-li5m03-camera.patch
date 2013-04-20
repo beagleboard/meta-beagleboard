@@ -1,4 +1,4 @@
-From d095fc0f9cbdd49b52d709af6a37d20c258b9894 Mon Sep 17 00:00:00 2001
+From b4d5665797902036780ff29bcf8c45c1ddd4e8ec Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 11 Dec 2012 06:58:15 -0600
 Subject: [PATCH 09/10] Beagle: expansion: add Aptina li5m03 camera

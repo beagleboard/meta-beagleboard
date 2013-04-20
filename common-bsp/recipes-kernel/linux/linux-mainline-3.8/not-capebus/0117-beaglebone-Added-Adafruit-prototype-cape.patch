@@ -1,4 +1,4 @@
-From 0e38824e10634e85f3a83de5a6c1b8a82b35b89c Mon Sep 17 00:00:00 2001
+From 05bbaa23ba074ab52d182566c9873f460aa43190 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 22 Jan 2013 10:10:13 -0800
 Subject: [PATCH 117/166] beaglebone: Added Adafruit prototype cape

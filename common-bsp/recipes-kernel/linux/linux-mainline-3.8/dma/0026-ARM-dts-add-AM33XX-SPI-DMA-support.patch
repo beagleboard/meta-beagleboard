@@ -1,4 +1,4 @@
-From 93b8ce00b338105cda183aa7eae418f7dfaee065 Mon Sep 17 00:00:00 2001
+From c3301db76d4b66c55afc03c6c898496edae8abd9 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 10 Jan 2013 19:09:50 -0500
 Subject: [PATCH 26/34] ARM: dts: add AM33XX SPI DMA support

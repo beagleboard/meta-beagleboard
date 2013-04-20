@@ -1,4 +1,4 @@
-From 40f940e6394caf7fd4f0f2abd6b11f0ba78d45ba Mon Sep 17 00:00:00 2001
+From bf24a1700e22b4a0db0fcb90b94619f77d2a4ea4 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Mon, 16 Jul 2012 14:59:41 +0530
 Subject: [PATCH 1/8] pwm_backlight: Add device tree support for Low Threshold

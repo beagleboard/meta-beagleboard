@@ -1,4 +1,4 @@
-From 0544ecf76bb9751297b19cb587d897080b236faa Mon Sep 17 00:00:00 2001
+From d81f915342c385c9528f74b7711d200cf58eb3b0 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 6 Dec 2012 11:55:52 +0100
 Subject: [PATCH] am33xx DT: add commented out OPP values for ES2.0

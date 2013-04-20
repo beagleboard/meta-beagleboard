@@ -1,4 +1,4 @@
-From 98810e0e44cd4e00c6ef7f1cbb6dd2738b921b74 Mon Sep 17 00:00:00 2001
+From 3bf727ba873689de6bdbf52e1d8332f012e1c19b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:05:28 +0200
 Subject: [PATCH 034/166] capemgr: firmware makefiles for DT objects

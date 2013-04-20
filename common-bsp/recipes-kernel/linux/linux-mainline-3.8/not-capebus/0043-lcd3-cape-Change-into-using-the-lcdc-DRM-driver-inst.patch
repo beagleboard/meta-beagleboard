@@ -1,4 +1,4 @@
-From 9a416fa879545aba7a83d8e84362d6012bc07446 Mon Sep 17 00:00:00 2001
+From a993176c4d80388a87916ff0b531243153404bc2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 20:53:56 +0200
 Subject: [PATCH 043/166] lcd3-cape: Change into using the lcdc DRM driver

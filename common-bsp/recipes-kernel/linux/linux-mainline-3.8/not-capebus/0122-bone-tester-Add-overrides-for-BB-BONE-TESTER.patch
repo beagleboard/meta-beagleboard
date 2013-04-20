@@ -1,4 +1,4 @@
-From 20aaba3bb0d359a89f1919a346b9e82ffc5f10a8 Mon Sep 17 00:00:00 2001
+From 22fb27ede2a0ef466d927e56d98b7b403ed3eadf Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 11 Mar 2013 12:24:17 +0200
 Subject: [PATCH 122/166] bone-tester: Add overrides for BB-BONE-TESTER

@@ -1,4 +1,4 @@
-From 207ef621b5d5dc91305a333c5da7052f3a54caa5 Mon Sep 17 00:00:00 2001
+From e78a92ef4409b47ceeaf7b88d2655c6841a22001 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 22 Jan 2013 16:02:21 -0600
 Subject: [PATCH 09/11] drm/tilcdc: add encoder slave

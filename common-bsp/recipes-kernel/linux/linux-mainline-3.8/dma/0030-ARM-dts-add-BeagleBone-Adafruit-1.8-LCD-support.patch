@@ -1,4 +1,4 @@
-From 0eba1f30d0c49cfce0b3c4481efaa2901c3962a2 Mon Sep 17 00:00:00 2001
+From de52cb9eb520ec3f5221e530abed133e96742d28 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 11 Oct 2012 08:52:54 -0400
 Subject: [PATCH 30/34] ARM: dts: add BeagleBone Adafruit 1.8 LCD support

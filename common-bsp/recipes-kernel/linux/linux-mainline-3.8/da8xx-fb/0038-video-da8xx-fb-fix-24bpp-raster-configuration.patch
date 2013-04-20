@@ -1,4 +1,4 @@
-From 440b5cb7495aa680e06b68a308916afc83f7077e Mon Sep 17 00:00:00 2001
+From e66a3befbe32c1345411a836b6b951bcc62c526d Mon Sep 17 00:00:00 2001
 From: "Manjunathappa, Prakash" <prakash.pm@ti.com>
 Date: Tue, 27 Nov 2012 13:07:59 +0530
 Subject: [PATCH 38/48] video: da8xx-fb: fix 24bpp raster configuration

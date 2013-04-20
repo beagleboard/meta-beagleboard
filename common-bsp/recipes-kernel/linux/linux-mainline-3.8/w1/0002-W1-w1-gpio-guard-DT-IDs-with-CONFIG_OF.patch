@@ -1,4 +1,4 @@
-From e8065128238814e9e39e308ed9dbe7adcc8f4637 Mon Sep 17 00:00:00 2001
+From 2715ce7d60a820d24796d6e3b1ca096db4f6c531 Mon Sep 17 00:00:00 2001
 From: Dmitry Torokhov <dmitry.torokhov@gmail.com>
 Date: Sun, 24 Feb 2013 22:59:35 -0800
 Subject: [PATCH 2/4] W1: w1-gpio - guard DT IDs with CONFIG_OF

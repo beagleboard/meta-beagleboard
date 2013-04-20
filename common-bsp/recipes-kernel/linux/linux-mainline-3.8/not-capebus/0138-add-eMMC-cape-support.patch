@@ -1,4 +1,4 @@
-From c487afb4ffbba5b0782723beb4e03473cde73476 Mon Sep 17 00:00:00 2001
+From c7d36ac2fa5f286ce62ff3a0c45d5267f8bc86c3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 25 Mar 2013 19:48:34 +0100
 Subject: [PATCH 138/166] add eMMC cape support

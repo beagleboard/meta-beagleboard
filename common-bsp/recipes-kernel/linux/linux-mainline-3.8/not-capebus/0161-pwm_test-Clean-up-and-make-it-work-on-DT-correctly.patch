@@ -1,4 +1,4 @@
-From e0da27a28a21b10c074bd78d54b9429603f4d314 Mon Sep 17 00:00:00 2001
+From 9455607e1e45b9758372488ac51e483e833a487b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 9 Apr 2013 22:14:29 +0300
 Subject: [PATCH 161/166] pwm_test: Clean-up and make it work on DT correctly

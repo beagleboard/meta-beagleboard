@@ -1,4 +1,4 @@
-From f6d7202927382c8def23820d41e34bfb7a53945e Mon Sep 17 00:00:00 2001
+From 1977095a1bae1b6ca2861b3ebea6c81ae00e7eea Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 12:07:50 +0200
 Subject: [PATCH 054/166] OF: Overlay: I2C client devices special handling.

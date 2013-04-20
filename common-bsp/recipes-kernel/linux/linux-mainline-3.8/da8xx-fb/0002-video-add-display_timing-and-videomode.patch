@@ -1,4 +1,4 @@
-From 2f811a844917d94350ecb1059a37f1510202b9ed Mon Sep 17 00:00:00 2001
+From 7506bb1eee323f53b4d093f3c6b4cd44edf650b4 Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Wed, 19 Dec 2012 16:36:50 +0530
 Subject: [PATCH 02/48] video: add display_timing and videomode

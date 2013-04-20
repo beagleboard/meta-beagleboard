@@ -1,4 +1,4 @@
-From b57ae6f24838f6befa43dc71c667235ef93fc29d Mon Sep 17 00:00:00 2001
+From e3627f4876e9444275370974aacd004154cf8f9b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 14:13:53 +0200
 Subject: [PATCH 068/166] sound-soc: Davinci: Remove __devinit/__devexit

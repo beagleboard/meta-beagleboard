@@ -1,4 +1,4 @@
-From c0dd194a6f09124a88072dcc0e44cde99e6a8ce9 Mon Sep 17 00:00:00 2001
+From f92b13e0ef244ee24e3a59d18c74e0ccb0fcb95d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:18:25 +0200
 Subject: [PATCH 027/166] OF: Introduce Device Tree resolve support.

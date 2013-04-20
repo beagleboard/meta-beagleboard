@@ -1,4 +1,4 @@
-From 8d995834e1d36c02a67578438883287a8ece09cd Mon Sep 17 00:00:00 2001
+From e4f5b9a0e9fc6dc8361019d21a1c9275fc0511bf Mon Sep 17 00:00:00 2001
 From: "Manjunathappa, Prakash" <prakash.pm@ti.com>
 Date: Mon, 17 Dec 2012 15:29:44 +0530
 Subject: [PATCH 23/48] ARM: dts: AM33XX: Add am335x-evm lcdc pincontrol info

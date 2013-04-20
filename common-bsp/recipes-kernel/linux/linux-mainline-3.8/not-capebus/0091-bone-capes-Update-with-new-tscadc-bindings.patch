@@ -1,4 +1,4 @@
-From 9e5b66c4c432193dfc84f706e5c7e0ec9fe1a688 Mon Sep 17 00:00:00 2001
+From 55ea67ff98eedd3c0cb495f90e01c8ba20b9f0c3 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 15:38:19 +0200
 Subject: [PATCH 091/166] bone-capes: Update with new tscadc bindings

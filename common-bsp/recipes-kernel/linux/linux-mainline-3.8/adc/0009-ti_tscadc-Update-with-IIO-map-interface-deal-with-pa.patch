@@ -1,4 +1,4 @@
-From 946cdbee9ca4139956aa5fe39324705cde6b7746 Mon Sep 17 00:00:00 2001
+From 0ecdeebb04a19088213df6bd735acf5882ba95f6 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 13 Oct 2012 16:37:24 +0300
 Subject: [PATCH 09/14] ti_tscadc: Update with IIO map interface & deal with

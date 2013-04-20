@@ -1,4 +1,4 @@
-From 8499a41f8c6572460c976bacba892b81b3b19b6c Mon Sep 17 00:00:00 2001
+From 9af5cfdb2857b26f2f899d34741191e7026566e1 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 2 Jan 2013 13:24:51 +0000
 Subject: [PATCH 7/8] ARM: AM33XX: clk: Add clock node for EHRPWM TBCLK
