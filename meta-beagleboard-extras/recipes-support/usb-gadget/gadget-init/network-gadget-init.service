@@ -1,0 +1,11 @@
+[Unit]
+Description=Start USB Ethernet gadget
+Conflicts=storage-gadget-init.service
+
+[Service]
+RemainAfterExit=yes
+ExecStart=/usr/bin/g-ether-load.sh
+ExecStop=/sbin/rmmod g_ether
+
+[Install]
+WantedBy=gether.target

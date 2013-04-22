@@ -1,0 +1,1 @@
+SUBSYSTEM=="block",ACTION=="change",KERNEL=="mmcblk0p1",RUN+="/usr/bin/g-ether-start-service.sh"

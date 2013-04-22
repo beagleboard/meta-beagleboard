@@ -1,0 +1,12 @@
+[Unit]
+Description=DHCP server for USB0 network gadget
+After=dev-usb0.device
+Conflicts=storage-gadget-init.service
+
+[Service]
+ExecStart=/usr/sbin/udhcpd -f -S /etc/udhcpd.conf
+ExecStop=/bin/kill -TERM $MAINPID
+KillSignal=SIGINT
+
+[Install]
+WantedBy=gether.target

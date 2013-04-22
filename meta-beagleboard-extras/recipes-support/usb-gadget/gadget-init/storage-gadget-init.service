@@ -1,0 +1,10 @@
+[Unit]
+Description=Start usb mass storage gadget
+After=dev-mmcblk0p1.device
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/g-ether-load.sh
+
+[Install]
+WantedBy=basic.target
