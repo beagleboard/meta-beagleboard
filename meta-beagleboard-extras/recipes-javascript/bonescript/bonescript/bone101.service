@@ -1,0 +1,11 @@
+[Unit]
+Description=Beaglebone 101 presentation
+ConditionPathExists=|/var/lib/cloud9
+
+[Service]
+WorkingDirectory=/var/lib/cloud9
+ExecStart=/usr/bin/node bone101.js
+
+[Install]
+WantedBy=multi-user.target
+
