@@ -26,6 +26,7 @@ SRC_URI = "git://git.denx.de/u-boot.git \
            file://0010-am335x_evm-enable-gpio-command.patch \
            file://0011-am335x_evm-HACK-to-turn-on-BeagleBone-LEDs.patch \
            file://0012-Fix-for-screen-rolling-when-video-played-back-in-bro.patch \
+           file://0013-beaglebone-enable-CONFIG_SUPPORT_RAW_INITRD-option.patch \
            ${FWENV} \
           "
 
