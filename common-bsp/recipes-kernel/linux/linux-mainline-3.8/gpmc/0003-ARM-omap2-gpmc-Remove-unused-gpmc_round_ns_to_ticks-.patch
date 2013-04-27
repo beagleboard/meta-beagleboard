@@ -1,0 +1,37 @@
+From 79a3e3e31366d724d93523eaea0862d0f137292e Mon Sep 17 00:00:00 2001
+From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
+Date: Tue, 12 Feb 2013 16:22:18 -0300
+Subject: [PATCH 03/37] ARM: omap2: gpmc: Remove unused
+ gpmc_round_ns_to_ticks() function
+
+This function is not used anywhere, so it's safe to remove it.
+This means less code to maintain.
+
+Signed-off-by: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
+Reviewed-by: Jon Hunter <jon-hunter@ti.com>
+Signed-off-by: Jon Hunter <jon-hunter@ti.com>
+---
+ arch/arm/mach-omap2/gpmc.c | 7 -------
+ 1 file changed, 7 deletions(-)
+
+diff --git a/arch/arm/mach-omap2/gpmc.c b/arch/arm/mach-omap2/gpmc.c
+index 20de0f6..d7add37 100644
+--- a/arch/arm/mach-omap2/gpmc.c
++++ b/arch/arm/mach-omap2/gpmc.c
+@@ -223,13 +223,6 @@ unsigned int gpmc_ticks_to_ns(unsigned int ticks)
+ 	return ticks * gpmc_get_fclk_period() / 1000;
+ }
+ 
+-static unsigned int gpmc_round_ns_to_ticks(unsigned int time_ns)
+-{
+-	unsigned long ticks = gpmc_ns_to_ticks(time_ns);
+-
+-	return ticks * gpmc_get_fclk_period() / 1000;
+-}
+-
+ static unsigned int gpmc_ticks_to_ps(unsigned int ticks)
+ {
+ 	return ticks * gpmc_get_fclk_period();
+-- 
+1.8.1.4
+

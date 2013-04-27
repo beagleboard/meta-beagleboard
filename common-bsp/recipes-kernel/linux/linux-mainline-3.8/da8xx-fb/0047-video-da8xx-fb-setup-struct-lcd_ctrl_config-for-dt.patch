@@ -1,4 +1,4 @@
-From aa7f868488f73f8576ae0235f3e8604ae0d862d8 Mon Sep 17 00:00:00 2001
+From 83f43d600c80b445d98f9049ea765491bdbd04e1 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 31 Dec 2012 15:03:12 +0530
 Subject: [PATCH 47/48] video: da8xx-fb: setup struct lcd_ctrl_config for dt

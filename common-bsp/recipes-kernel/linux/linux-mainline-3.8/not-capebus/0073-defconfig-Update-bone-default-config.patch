@@ -1,7 +1,7 @@
-From b7357b08ed186596740ef8c8214093fe4273016e Mon Sep 17 00:00:00 2001
+From a8af1cdaa503421dd1fba0ae02a00424cca2b04b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 20:06:37 +0200
-Subject: [PATCH 073/166] defconfig: Update bone default config
+Subject: [PATCH 073/168] defconfig: Update bone default config
 
 ---
  defconfig | 72 +++++++++++++++++++++++++++++++++------------------------------

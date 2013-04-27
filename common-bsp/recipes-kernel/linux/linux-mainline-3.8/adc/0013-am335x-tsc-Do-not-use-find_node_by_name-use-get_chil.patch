@@ -1,4 +1,4 @@
-From aa068af42bc7ea839dace2356b99b60d01c6a0e3 Mon Sep 17 00:00:00 2001
+From bc5cd8637e9f98d99a0558b58df898dd67e2ca80 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 13:49:12 +0200
 Subject: [PATCH 13/14] am335x-tsc: Do not use find_node_by_name, use

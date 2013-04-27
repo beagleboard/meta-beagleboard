@@ -1,7 +1,7 @@
-From 1977095a1bae1b6ca2861b3ebea6c81ae00e7eea Mon Sep 17 00:00:00 2001
+From b41550cb64caea937e39cda8f4faa4fb283b92e0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 12:07:50 +0200
-Subject: [PATCH 054/166] OF: Overlay: I2C client devices special handling.
+Subject: [PATCH 054/168] OF: Overlay: I2C client devices special handling.
 
 The I2C client devices are 'special', as in they're not platform
 devices. They need to be registered with an I2C specific method.

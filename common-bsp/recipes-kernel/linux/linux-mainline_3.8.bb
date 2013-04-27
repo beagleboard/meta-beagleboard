@@ -12,10 +12,10 @@ FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.8"
+PV = "3.8.10"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "2396403a0402caf7b9decbc5d206fa63ba62b6b7"
+SRCREV_pn-${PN} = "bb8dd670874b0a460a472582ac9e91acf0293d11"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -213,6 +213,7 @@ SRC_URI += " \
 	file://arm/0002-Without-MACH_-option-Early-printk-DEBUG_LL.patch \
 	file://omap/0001-regulator-core-if-voltage-scaling-fails-restore-orig.patch \
 	file://omap/0002-omap2-twl-common-Add-default-power-configuration.patch \
+	file://omap/0003-omap2-irq-fix-interrupt-latency.patch \
 	file://omap_sakoman/0001-OMAP-DSS2-add-bootarg-for-selecting-svideo.patch \
 	file://omap_sakoman/0002-video-add-timings-for-hd720.patch \
 	file://omap_beagle_expansion/0001-Beagle-expansion-add-buddy-param-for-expansionboard-.patch \
@@ -412,6 +413,8 @@ SRC_URI += " \
 	file://not-capebus/0164-Add-in-missing-cape-bone-tester-back-in.patch \
 	file://not-capebus/0165-cape-bone-hexy-move-OLED-to-different-reset-gpio.patch \
 	file://not-capebus/0166-firmware-capes-added-dts-file-for-every-PWM-pin.patch \
+	file://not-capebus/0167-capes-add-LCD7-A3.patch \
+	file://not-capebus/0168-capes-add-basic-support-for-LCD4-capes.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -440,11 +443,43 @@ SRC_URI += " \
 	file://w1/0002-W1-w1-gpio-guard-DT-IDs-with-CONFIG_OF.patch \
 	file://w1/0003-W1-w1-gpio-rework-handling-of-platform-data.patch \
 	file://w1/0004-W1-w1-gpio-switch-to-using-managed-resources-devm.patch \
-	file://gpmc/0001-ARM-OMAP-gpmc-don-t-create-devices-from-initcall-on-.patch \
-	file://gpmc/0002-mtd-omap-nand-pass-device_node-in-platform-data.patch \
-	file://gpmc/0003-ARM-OMAP-gpmc-nand-drop-__init-annotation.patch \
-	file://gpmc/0004-ARM-OMAP-gpmc-enable-hwecc-for-AM33xx-SoCs.patch \
-	file://gpmc/0005-ARM-OMAP-gpmc-add-DT-bindings-for-GPMC-timings-and-N.patch \
+	file://gpmc/0001-ARM-OMAP-Clear-GPMC-bits-when-applying-new-setting.patch \
+	file://gpmc/0002-ARM-omap2-gpmc-Mark-local-scoped-functions-static.patch \
+	file://gpmc/0003-ARM-omap2-gpmc-Remove-unused-gpmc_round_ns_to_ticks-.patch \
+	file://gpmc/0004-ARM-omap2-gpmc-Fix-gpmc_cs_reserved-return-value.patch \
+	file://gpmc/0005-ARM-omap2-gpmc-nand-Print-something-useful-on-CS-req.patch \
+	file://gpmc/0006-ARM-omap2-gpmc-onenand-Print-something-useful-on-CS-.patch \
+	file://gpmc/0007-ARM-omap2-gpmc-onenand-Replace-pr_err-with-dev_err.patch \
+	file://gpmc/0008-ARM-omap2-gpmc-onenand-Replace-printk-KERN_ERR-with-.patch \
+	file://gpmc/0009-ARM-omap2-gpmc-Remove-redundant-chip-select-out-of-r.patch \
+	file://gpmc/0010-ARM-OMAP2-Simplify-code-configuring-ONENAND-devices.patch \
+	file://gpmc/0011-ARM-OMAP2-Add-variable-to-store-number-of-GPMC-waitp.patch \
+	file://gpmc/0012-ARM-OMAP2-Add-structure-for-storing-GPMC-settings.patch \
+	file://gpmc/0013-ARM-OMAP2-Add-function-for-configuring-GPMC-settings.patch \
+	file://gpmc/0014-ARM-OMAP2-Convert-ONENAND-to-use-gpmc_cs_program_set.patch \
+	file://gpmc/0015-ARM-OMAP2-Convert-NAND-to-use-gpmc_cs_program_settin.patch \
+	file://gpmc/0016-ARM-OMAP2-Convert-SMC91x-to-use-gpmc_cs_program_sett.patch \
+	file://gpmc/0017-ARM-OMAP2-Convert-TUSB-to-use-gpmc_cs_program_settin.patch \
+	file://gpmc/0018-ARM-OMAP2-Don-t-configure-of-chip-select-options-in-.patch \
+	file://gpmc/0019-ARM-OMAP2-Add-function-to-read-GPMC-settings-from-de.patch \
+	file://gpmc/0020-ARM-OMAP2-Add-additional-GPMC-timing-parameters.patch \
+	file://gpmc/0021-ARM-OMAP2-Add-device-tree-support-for-NOR-flash.patch \
+	file://gpmc/0022-ARM-OMAP2-Convert-NAND-to-retrieve-GPMC-settings-fro.patch \
+	file://gpmc/0023-ARM-OMAP2-Convert-ONENAND-to-retrieve-GPMC-settings-.patch \
+	file://gpmc/0024-ARM-OMAP2-Detect-incorrectly-aligned-GPMC-base-addre.patch \
+	file://gpmc/0025-ARM-OMAP2-Remove-unnecesssary-GPMC-definitions-and-v.patch \
+	file://gpmc/0026-ARM-OMAP2-Allow-GPMC-probe-to-complete-even-if-CS-ma.patch \
+	file://gpmc/0027-ARM-OMAP2-return-ENODEV-if-GPMC-child-device-creatio.patch \
+	file://gpmc/0028-ARM-OMAP2-rename-gpmc_probe_nor_child-to-gpmc_probe_.patch \
+	file://gpmc/0029-ARM-OMAP2-Add-GPMC-DT-support-for-Ethernet-child-nod.patch \
+	file://gpmc/0030-mtd-omap-nand-pass-device_node-in-platform-data.patch \
+	file://gpmc/0031-ARM-OMAP-gpmc-nand-drop-__init-annotation.patch \
+	file://gpmc/0032-ARM-OMAP-gpmc-enable-hwecc-for-AM33xx-SoCs.patch \
+	file://gpmc/0033-ARM-OMAP-gpmc-don-t-create-devices-from-initcall-on-.patch \
+	file://gpmc/0034-ARM-OMAP2-gpmc-onenand-drop-__init-annotation.patch \
+	file://gpmc/0035-gpmc-Add-missing-gpmc-includes.patch \
+	file://gpmc/0036-mtd-omap-onenand-pass-device_node-in-platform-data.patch \
+	file://gpmc/0037-ARM-OMAP2-Convert-ONENAND-to-use-gpmc_cs_program_set.patch \
 	file://mxt/0001-CHROMIUM-Input-atmel_mxt_ts-refactor-i2c-error-handl.patch \
 	file://mxt/0002-CHROMIUM-Input-atmel_mxt_ts-register-input-device-be.patch \
 	file://mxt/0003-CHROMIUM-Input-atmel_mxt_ts-refactor-input-device-cr.patch \
@@ -512,6 +547,15 @@ SRC_URI += " \
 	file://hdmi/0001-video-Add-generic-HDMI-infoframe-helpers.patch \
 	file://hdmi/0002-BeagleBone-Black-TDA998x-Initial-HDMI-Audio-support.patch \
 	file://hdmi/0003-Clean-up-some-formating-and-debug-in-Davinci-MCASP-d.patch \
+	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
+	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
+	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
+	file://resetctrl/0004-omap_hsmmc-Enable-rstctl-bindings.patch \
+	file://resetctrl/0005-bone-Add-rstctl-DT-binding-for-beaglebone.patch \
+	file://resetctrl/0006-bone-eMMC-Add-rstctl-rstctl-DT-bindings.patch \
+	file://resetctrl/0007-capes-Add-testing-capes-for-rstctl.patch \
+	file://resetctrl/0008-omap_hsmmc-Bail-out-when-rstctl-error-is-unrecoverab.patch \
+	file://resetctrl/0009-bone-Put-priorities-in-built-in-capes.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \

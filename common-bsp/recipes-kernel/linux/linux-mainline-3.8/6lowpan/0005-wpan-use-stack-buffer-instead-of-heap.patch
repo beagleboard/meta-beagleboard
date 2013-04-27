@@ -1,4 +1,4 @@
-From e67be200a70959e76358596d6e0f4429dda74b29 Mon Sep 17 00:00:00 2001
+From 8106768a42a9b5a0feefb168f55a45bd44b1db67 Mon Sep 17 00:00:00 2001
 From: Alexander Aring <alex.aring@gmail.com>
 Date: Tue, 5 Feb 2013 10:23:44 +0000
 Subject: [PATCH 05/23] wpan: use stack buffer instead of heap

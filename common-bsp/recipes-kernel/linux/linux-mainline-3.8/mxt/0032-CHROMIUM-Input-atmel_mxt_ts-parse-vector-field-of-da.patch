@@ -1,4 +1,4 @@
-From 25606ea33b74030211c0ef24138ee02a2222f976 Mon Sep 17 00:00:00 2001
+From df1a5f2c7ae688039352f613979d2a1e4faf546d Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 20 Feb 2012 23:35:06 +0800
 Subject: [PATCH 32/57] CHROMIUM: Input: atmel_mxt_ts - parse vector field of
