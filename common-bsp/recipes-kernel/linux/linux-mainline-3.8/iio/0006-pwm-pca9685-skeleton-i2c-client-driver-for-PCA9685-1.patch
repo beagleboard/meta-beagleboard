@@ -1,4 +1,4 @@
-From e11cb0172c33be8f34c8f1b8516a5b2be604904c Mon Sep 17 00:00:00 2001
+From 16c3b00d3fba146acf0f4f51eaaacfe20c55636d Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 21 Jan 2013 12:47:26 +0100
 Subject: [PATCH 6/6] pwm-pca9685: skeleton i2c client driver for PCA9685 16

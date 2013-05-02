@@ -1,7 +1,7 @@
-From efe2d3da7d596d83e7ae27cc51f51f098ad49e2c Mon Sep 17 00:00:00 2001
+From 83658304264811ae153fbd4c3ce7200b0c05fcc2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 20:38:11 +0300
-Subject: [PATCH 6/9] bone-eMMC: Add rstctl rstctl DT bindings
+Subject: [PATCH 06/10] bone-eMMC: Add rstctl rstctl DT bindings
 
 Add the references to the reset controller for the eMMC capes.
 

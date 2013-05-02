@@ -1,4 +1,4 @@
-From 3848195bca6d5a4c8165e647047c7a869a9dce1d Mon Sep 17 00:00:00 2001
+From 8a465ac0f61cc0de1d7d67654f292ea9e491f64b Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Fri, 19 Oct 2012 14:10:34 -0700
 Subject: [PATCH 02/34] ARM: OMAP2xxx: hwmod: Add DMA support for SHAM module

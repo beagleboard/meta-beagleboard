@@ -1,7 +1,7 @@
-From 129824cdcd60c469094132782bc677f90949ac9e Mon Sep 17 00:00:00 2001
+From c1979f21ab88e5a1c10c60b9ef61bf81d5792f70 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Tue, 12 Feb 2013 16:22:20 -0300
-Subject: [PATCH 05/37] ARM: omap2: gpmc-nand: Print something useful on CS
+Subject: [PATCH 05/39] ARM: omap2: gpmc-nand: Print something useful on CS
  request failure
 
 If CS request fails the current error message is rather unhelpful.

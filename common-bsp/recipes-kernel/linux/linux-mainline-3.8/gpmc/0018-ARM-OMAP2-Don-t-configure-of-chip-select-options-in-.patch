@@ -1,7 +1,7 @@
-From b026ae1d93b9747f7532c2777f824a586de5aa34 Mon Sep 17 00:00:00 2001
+From 47a4e97f5b41e4e900bda42ca8ea822895ac240d Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:00:21 -0600
-Subject: [PATCH 18/37] ARM: OMAP2+: Don't configure of chip-select options in
+Subject: [PATCH 18/39] ARM: OMAP2+: Don't configure of chip-select options in
  gpmc_cs_configure()
 
 With the addition of the gpmc_cs_program_settings(), we no longer need

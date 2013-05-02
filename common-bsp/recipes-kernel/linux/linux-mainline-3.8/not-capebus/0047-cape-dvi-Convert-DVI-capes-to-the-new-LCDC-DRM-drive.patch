@@ -1,7 +1,7 @@
-From 7457f90ae9b98583b45dc36d1b04e861fe170162 Mon Sep 17 00:00:00 2001
+From b093f263e7833301bafb28d449d851e812714a0a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 16:34:14 +0200
-Subject: [PATCH 047/168] cape-dvi: Convert DVI capes to the new LCDC DRM
+Subject: [PATCH 047/173] cape-dvi: Convert DVI capes to the new LCDC DRM
  driver
 
 The new DRM driver works fine, switch into using that and ditch

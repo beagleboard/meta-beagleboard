@@ -1,7 +1,7 @@
-From f7f9227ac89c168050624f2995a132e48f5f7cc0 Mon Sep 17 00:00:00 2001
+From 4fd1e106f4b0d3138138317d989f9163f7c25185 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:03:59 +0200
-Subject: [PATCH 033/168] bone-geiger: Geiger bone driver.
+Subject: [PATCH 033/173] bone-geiger: Geiger bone driver.
 
 A driver for the beaglebone geiger cape.
 

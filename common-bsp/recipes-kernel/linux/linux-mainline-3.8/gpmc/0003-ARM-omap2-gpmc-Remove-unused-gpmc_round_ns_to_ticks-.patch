@@ -1,7 +1,7 @@
-From 79a3e3e31366d724d93523eaea0862d0f137292e Mon Sep 17 00:00:00 2001
+From 4df37ecad1f9f845b8c39debc0b80cef00c02419 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Tue, 12 Feb 2013 16:22:18 -0300
-Subject: [PATCH 03/37] ARM: omap2: gpmc: Remove unused
+Subject: [PATCH 03/39] ARM: omap2: gpmc: Remove unused
  gpmc_round_ns_to_ticks() function
 
 This function is not used anywhere, so it's safe to remove it.

@@ -1,7 +1,7 @@
-From f5f12fec3bcc41e7957ec9a74a4a4dfcec14c7f9 Mon Sep 17 00:00:00 2001
+From 7933d1cc2453cac7a4c74bdb3819ec02ca4886e4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 11:26:27 +0200
-Subject: [PATCH 053/168] of-i2c: Export single device registration method
+Subject: [PATCH 053/173] of-i2c: Export single device registration method
 
 Dynamically inserting i2c client device nodes requires the use
 of a single device registration method. Rework and export it.

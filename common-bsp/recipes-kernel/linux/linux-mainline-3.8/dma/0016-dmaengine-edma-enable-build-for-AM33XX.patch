@@ -1,7 +1,7 @@
-From 93a65652622b62e876d2c7887a39a5aea58a6953 Mon Sep 17 00:00:00 2001
+From 5c5a5c5ed8b1b96acc73173adaa98be79fc64926 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 6 Sep 2012 17:42:35 -0400
-Subject: [PATCH 16/34] dmaengine: edma: enable build for AM33XX
+Subject: [PATCH 16/35] dmaengine: edma: enable build for AM33XX
 
 Enable TI EDMA option on OMAP.
 

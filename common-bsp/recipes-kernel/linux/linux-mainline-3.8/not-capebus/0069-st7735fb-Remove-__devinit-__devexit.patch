@@ -1,7 +1,7 @@
-From 8180c9d72a02369828adcd552242410ef56688d1 Mon Sep 17 00:00:00 2001
+From 886e4a1e25268e4613ee4c4640f39156a484fd6d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 14:14:33 +0200
-Subject: [PATCH 069/168] st7735fb: Remove __devinit/__devexit
+Subject: [PATCH 069/173] st7735fb: Remove __devinit/__devexit
 
 __devinit/__devexit and the like has been purged. Remove them.
 

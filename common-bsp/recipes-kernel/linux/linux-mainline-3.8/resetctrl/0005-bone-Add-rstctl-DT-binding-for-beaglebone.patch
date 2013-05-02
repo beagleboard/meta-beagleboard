@@ -1,7 +1,7 @@
-From ccf6385e5f5a92094f6a0442d5fb2e8ffeadf7cf Mon Sep 17 00:00:00 2001
+From 6289861c1807889a46a63ee3dcff8bd2e363b6c1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 20:36:35 +0300
-Subject: [PATCH 5/9] bone: Add rstctl DT binding for beaglebone
+Subject: [PATCH 05/10] bone: Add rstctl DT binding for beaglebone
 
 Add a reset control resource for the eMMC's reset GPIO.
 
@@ -12,7 +12,7 @@ Signed-off-by: Pantelis Antoniou <panto@antoniou-consulting.com>
  2 files changed, 30 insertions(+)
 
 diff --git a/arch/arm/boot/dts/am335x-bone-common.dtsi b/arch/arm/boot/dts/am335x-bone-common.dtsi
-index ea10a66..985f2de 100644
+index 7e02db5..79cddc9 100644
 --- a/arch/arm/boot/dts/am335x-bone-common.dtsi
 +++ b/arch/arm/boot/dts/am335x-bone-common.dtsi
 @@ -50,6 +50,12 @@

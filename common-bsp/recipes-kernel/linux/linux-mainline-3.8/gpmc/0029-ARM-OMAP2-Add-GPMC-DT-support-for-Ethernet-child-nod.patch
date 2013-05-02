@@ -1,7 +1,7 @@
-From 7867e0c3d31e7a67ed8011ce8c01b72db5a71dba Mon Sep 17 00:00:00 2001
+From 27eea2447e5780ddb43af45dce42124a3ded2b5d Mon Sep 17 00:00:00 2001
 From: Javier Martinez Canillas <javier.martinez@collabora.co.uk>
 Date: Thu, 14 Mar 2013 22:54:11 +0100
-Subject: [PATCH 29/37] ARM: OMAP2+: Add GPMC DT support for Ethernet child
+Subject: [PATCH 29/39] ARM: OMAP2+: Add GPMC DT support for Ethernet child
  nodes
 
 Besides being used to interface with external memory devices,

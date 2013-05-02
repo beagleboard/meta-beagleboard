@@ -1,4 +1,4 @@
-From 855a29e975c6d361b6f5fc507af6afdbf07adc2e Mon Sep 17 00:00:00 2001
+From 7bb63d5388f9da457bd8c6fe5ea05c8fc99c4cc7 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 14 Nov 2012 09:30:10 -0700
 Subject: [PATCH 29/34] crypto: omap-aes - Add code to use dmaengine API

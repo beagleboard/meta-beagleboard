@@ -12,10 +12,10 @@ FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.10"
+PV = "3.8.11"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "bb8dd670874b0a460a472582ac9e91acf0293d11"
+SRCREV_pn-${PN} = "9fa1d01e4fef818465d4b684b528e32b3fa68639"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -60,6 +60,7 @@ SRC_URI += " \
 	file://dma/0032-ARM-dts-add-BeagleBone-gpevt-support.patch \
 	file://dma/0033-ARM-configs-working-dmaengine-configs-for-da8xx-and-.patch \
 	file://dma/0034-ARM-dts-Add-UART4-support-to-BeagleBone.patch \
+	file://dma/0035-gpevnt-Remove-__devinit.patch \
 	file://rtc/0001-ARM-OMAP2-am33xx-hwmod-Fix-register-offset-NULL-chec.patch \
 	file://rtc/0002-rtc-OMAP-Add-system-pm_power_off-to-rtc-driver.patch \
 	file://rtc/0003-ARM-dts-AM33XX-Set-pmic-shutdown-controller-for-Beag.patch \
@@ -415,6 +416,11 @@ SRC_URI += " \
 	file://not-capebus/0166-firmware-capes-added-dts-file-for-every-PWM-pin.patch \
 	file://not-capebus/0167-capes-add-LCD7-A3.patch \
 	file://not-capebus/0168-capes-add-basic-support-for-LCD4-capes.patch \
+	file://not-capebus/0169-OF-overlay-Add-depth-option-for-device-creation.patch \
+	file://not-capebus/0170-capes-Add-BB-BONE-GPEVT-cape.patch \
+	file://not-capebus/0171-clock-Export-__clock_set_parent.patch \
+	file://not-capebus/0172-omap-clk-Add-adjustable-clkout2.patch \
+	file://not-capebus/0173-am33xx-Update-DTS-EDMA.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -480,6 +486,8 @@ SRC_URI += " \
 	file://gpmc/0035-gpmc-Add-missing-gpmc-includes.patch \
 	file://gpmc/0036-mtd-omap-onenand-pass-device_node-in-platform-data.patch \
 	file://gpmc/0037-ARM-OMAP2-Convert-ONENAND-to-use-gpmc_cs_program_set.patch \
+	file://gpmc/0038-omap-gpmc-Various-driver-fixes.patch \
+	file://gpmc/0039-gpmc-Add-DT-node-for-gpmc-on-am33xx.patch \
 	file://mxt/0001-CHROMIUM-Input-atmel_mxt_ts-refactor-i2c-error-handl.patch \
 	file://mxt/0002-CHROMIUM-Input-atmel_mxt_ts-register-input-device-be.patch \
 	file://mxt/0003-CHROMIUM-Input-atmel_mxt_ts-refactor-input-device-cr.patch \
@@ -556,6 +564,12 @@ SRC_URI += " \
 	file://resetctrl/0007-capes-Add-testing-capes-for-rstctl.patch \
 	file://resetctrl/0008-omap_hsmmc-Bail-out-when-rstctl-error-is-unrecoverab.patch \
 	file://resetctrl/0009-bone-Put-priorities-in-built-in-capes.patch \
+	file://resetctrl/0010-bone-common-dtsi-remove-reset-cape.patch \
+	file://camera/0001-soc_camera-QL-mt9l112-camera-driver-for-the-beaglebo.patch \
+	file://camera/0002-capes-Add-BB-BONE-CAM3-cape.patch \
+	file://camera/0003-cssp_camera-Correct-license-identifier.patch \
+	file://camera/0004-cssp_camera-increase-delays-make-sensor-detection-wo.patch \
+	file://camera/0005-mt9t112-forward-port-optimizations-from-Angstrom-3.2.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \
