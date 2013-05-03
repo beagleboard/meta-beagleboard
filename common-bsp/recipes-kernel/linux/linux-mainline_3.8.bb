@@ -555,6 +555,7 @@ SRC_URI += " \
 	file://hdmi/0001-video-Add-generic-HDMI-infoframe-helpers.patch \
 	file://hdmi/0002-BeagleBone-Black-TDA998x-Initial-HDMI-Audio-support.patch \
 	file://hdmi/0003-Clean-up-some-formating-and-debug-in-Davinci-MCASP-d.patch \
+	file://hdmi/0004-tilcdc-Prune-modes-that-can-t-support-audio.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
@@ -570,6 +571,7 @@ SRC_URI += " \
 	file://camera/0003-cssp_camera-Correct-license-identifier.patch \
 	file://camera/0004-cssp_camera-increase-delays-make-sensor-detection-wo.patch \
 	file://camera/0005-mt9t112-forward-port-optimizations-from-Angstrom-3.2.patch \
+	file://camera/0006-cssp_camera-Use-flip-if-available.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \
