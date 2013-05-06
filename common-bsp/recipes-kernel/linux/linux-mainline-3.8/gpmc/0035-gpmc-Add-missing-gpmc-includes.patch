@@ -1,4 +1,4 @@
-From f55c0b50f9f6c92b0e97d89772ccb9485261fc8c Mon Sep 17 00:00:00 2001
+From 20e0e8171777f9d4bdfec163978571c2182e6aae Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 23 Apr 2013 20:14:46 +0300
 Subject: [PATCH 35/39] gpmc: Add missing gpmc includes.

@@ -1,4 +1,4 @@
-From a272732164afc5521e46710c4917f78a3fe728ad Mon Sep 17 00:00:00 2001
+From d2b039f629bfc8661dc5152a8e922ef7fb93c7d6 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 18:17:16 +0200
 Subject: [PATCH 095/173] bone-dvi: Update to new style tilcdc bindings

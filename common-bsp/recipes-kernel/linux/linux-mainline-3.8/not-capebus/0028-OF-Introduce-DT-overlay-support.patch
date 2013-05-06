@@ -1,4 +1,4 @@
-From 48758d11e9db787c812e9a3387ab8d92e3894d20 Mon Sep 17 00:00:00 2001
+From e6d90815f7d74fe28831a5fcf173077339ca2c0d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:23:07 +0200
 Subject: [PATCH 028/173] OF: Introduce DT overlay support.

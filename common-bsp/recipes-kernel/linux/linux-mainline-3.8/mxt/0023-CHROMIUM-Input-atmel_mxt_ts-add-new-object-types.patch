@@ -1,4 +1,4 @@
-From e47f0d8bc07921fcd5e630510f2ad5526a756b65 Mon Sep 17 00:00:00 2001
+From 32653fa73bc45f44f0c518ba9c060855cd68338c Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 4 Apr 2012 17:19:55 -0700
 Subject: [PATCH 23/57] CHROMIUM: Input: atmel_mxt_ts - add new object types

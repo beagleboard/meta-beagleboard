@@ -1,4 +1,4 @@
-From 9a162ca825bea8b244fb38f359eeac62f73cf4f7 Mon Sep 17 00:00:00 2001
+From 057c41c488fca23776eaad06dffad7f80642d87d Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Thu, 10 May 2012 16:19:04 -0400
 Subject: [PATCH 34/57] CHROMIUM: Input: atmel_mxt_ts - Move object from sysfs

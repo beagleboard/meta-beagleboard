@@ -1,4 +1,4 @@
-From c396adb9f1a9b87b92a054dfa6e18b7a236d0d83 Mon Sep 17 00:00:00 2001
+From 498a64d01163b3cc34317d60ac5b08073e059c1d Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 22 Jan 2013 10:09:47 -0800
 Subject: [PATCH 081/173] beaglebone: Add nixie cape prototype driver

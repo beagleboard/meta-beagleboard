@@ -1,4 +1,4 @@
-From 381784d6bf5f9b828e23a2df535090d195a44ffe Mon Sep 17 00:00:00 2001
+From 2f99a747737d18046db0d218e3a1ea1e1ca6f624 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 13:10:51 +0200
 Subject: [PATCH 023/173] OF: Introduce device tree node flag helpers.

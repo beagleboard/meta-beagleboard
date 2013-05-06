@@ -1,4 +1,4 @@
-From 05a60424ac40aed892f4a2b7d173024f2ec7ad12 Mon Sep 17 00:00:00 2001
+From a11b38c80afd0dce9d72d82ea069f3f4a15b9874 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 15:19:52 +0200
 Subject: [PATCH 015/173] omap: Avoid crashes in the case of hwmod

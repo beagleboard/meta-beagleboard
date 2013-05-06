@@ -1,4 +1,4 @@
-From 978880de1d6710fdbdb74d5efb972179005faf1d Mon Sep 17 00:00:00 2001
+From 8eec2a9302b5cb7688b22a2346af6d23a4ab9637 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Mon, 25 Mar 2013 16:12:14 -0500
 Subject: [PATCH 144/173] Make sure various timings fit within the bits

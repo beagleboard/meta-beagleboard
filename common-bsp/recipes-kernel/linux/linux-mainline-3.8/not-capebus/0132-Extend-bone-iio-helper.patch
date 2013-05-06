@@ -1,4 +1,4 @@
-From 45627d2f9b64bb69bb8e1e5aef4ec41da89fc778 Mon Sep 17 00:00:00 2001
+From 96b97eff64ea414f5e4914c70822903bea4e538e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 21 Mar 2013 14:32:03 +0200
 Subject: [PATCH 132/173] Extend bone-iio helper

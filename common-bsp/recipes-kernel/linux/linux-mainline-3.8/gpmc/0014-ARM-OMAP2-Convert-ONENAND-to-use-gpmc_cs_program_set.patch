@@ -1,4 +1,4 @@
-From 1616a7c64d9f7ef34fe4328e917b61f67ba1990d Mon Sep 17 00:00:00 2001
+From 5dd31270b73fca0c5b983803a06c24437a02dda8 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 12:42:22 -0600
 Subject: [PATCH 14/39] ARM: OMAP2+: Convert ONENAND to use

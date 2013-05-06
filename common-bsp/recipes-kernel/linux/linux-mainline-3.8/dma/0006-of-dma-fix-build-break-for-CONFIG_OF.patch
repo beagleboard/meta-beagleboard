@@ -1,4 +1,4 @@
-From b92541b3ed05f9c710ebc749aca907b212236d0b Mon Sep 17 00:00:00 2001
+From 884cd577b71c69a985cc816d3b6fe586775b06f9 Mon Sep 17 00:00:00 2001
 From: Vinod Koul <vinod.koul@linux.intel.com>
 Date: Tue, 25 Sep 2012 09:57:36 +0530
 Subject: [PATCH 06/35] of: dma- fix build break for !CONFIG_OF

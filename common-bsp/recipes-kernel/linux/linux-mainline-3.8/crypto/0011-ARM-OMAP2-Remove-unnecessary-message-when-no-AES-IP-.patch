@@ -1,4 +1,4 @@
-From 8049867081fee6d7d814f294dcf37a8d767d9717 Mon Sep 17 00:00:00 2001
+From b20873c9e34da59af21c54803c357579610fc3a1 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Sun, 11 Nov 2012 19:56:28 -0700
 Subject: [PATCH 11/34] ARM: OMAP2+: Remove unnecessary message when no AES IP

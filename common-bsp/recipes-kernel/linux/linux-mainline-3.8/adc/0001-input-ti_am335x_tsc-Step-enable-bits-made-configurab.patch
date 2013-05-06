@@ -1,7 +1,7 @@
-From dfd640ca39f8a362c7ed9b901a30e1cc9135b506 Mon Sep 17 00:00:00 2001
+From da398dc69e7fab497ace2b0710dc581d14996331 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:05 +0000
-Subject: [PATCH 01/14] input: ti_am335x_tsc: Step enable bits made
+Subject: [PATCH 01/16] input: ti_am335x_tsc: Step enable bits made
  configurable
 
 Current code has hard coded value written to

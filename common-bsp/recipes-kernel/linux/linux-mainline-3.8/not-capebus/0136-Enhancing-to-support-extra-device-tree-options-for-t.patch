@@ -1,4 +1,4 @@
-From 28c0366d58dbe8332231f0c7fa8de3662d522ae5 Mon Sep 17 00:00:00 2001
+From 790ec618634e10aad8da96e219abb87d3fcac9c4 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Thu, 21 Mar 2013 16:23:03 -0500
 Subject: [PATCH 136/173] Enhancing to support extra device tree options for

@@ -1,4 +1,4 @@
-From 91aa877e495747ee6ba51357e469e8ddee64aaa0 Mon Sep 17 00:00:00 2001
+From 471f7f06b06c450bcdb321c124d7a1a7b6242cb7 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Thu, 15 Nov 2012 22:11:36 -0700
 Subject: [PATCH 30/34] crypto: omap-aes - Remove usage of private DMA API

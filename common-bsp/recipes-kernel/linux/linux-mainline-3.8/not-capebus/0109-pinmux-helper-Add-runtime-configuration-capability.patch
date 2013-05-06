@@ -1,4 +1,4 @@
-From 47c576f26484af4fb423095170a2d185cd64c0ab Mon Sep 17 00:00:00 2001
+From b2a187172fffa2abfe53a5a34155801cfbe0032a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 6 Mar 2013 19:37:53 +0200
 Subject: [PATCH 109/173] pinmux-helper: Add runtime configuration capability

@@ -1,4 +1,4 @@
-From 40502c44dc4690ccb8bef569479a6f8bf1b47138 Mon Sep 17 00:00:00 2001
+From fe9c297e9f38dc224dedb72e896878ec73a8e5ff Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 7 Jan 2013 18:42:24 +0200
 Subject: [PATCH 039/173] capemgr: Add weather cape definition

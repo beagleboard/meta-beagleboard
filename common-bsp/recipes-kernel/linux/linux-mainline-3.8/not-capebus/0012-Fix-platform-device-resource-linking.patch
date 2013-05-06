@@ -1,4 +1,4 @@
-From 99b116d245cbc8e0df4fbac56efd51cf00b7af48 Mon Sep 17 00:00:00 2001
+From bd7027d30c4e748472e2d157649d697f4b51882b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:34:15 +0200
 Subject: [PATCH 012/173] Fix platform device resource linking

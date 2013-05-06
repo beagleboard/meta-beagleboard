@@ -1,4 +1,4 @@
-From c2c70ccbbf71085b6e6e6b6abf3b4c038faa177c Mon Sep 17 00:00:00 2001
+From 8471be60a38861834c2f3be5dab53bb0d403a84e Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Mon, 13 Aug 2012 18:10:29 -0700
 Subject: [PATCH 45/57] CHROMIUM: Input: atmel_mxt_ts - Suppress handle

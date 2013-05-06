@@ -1,4 +1,4 @@
-From d6283d0ed9ce8e6e36ced33775b3d8e73eb657cd Mon Sep 17 00:00:00 2001
+From 92c30fc9a1f3e67f2ab69692a953aa005c95e337 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Sun, 11 Nov 2012 19:08:24 -0700
 Subject: [PATCH 10/34] ARM: OMAP3xxx: hwmod: Convert AES crypto device data to

@@ -1,4 +1,4 @@
-From c344c7d93f00d8e84d76d75e8d3e6539e4b9781c Mon Sep 17 00:00:00 2001
+From 47b1c7b8ffeda97c5ddabd5833118d088da6ce56 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Fri, 4 May 2012 20:47:32 -0400
 Subject: [PATCH 33/57] CHROMIUM: Input: atmel_mxt_ts - Add IDLE/DEEP-SLEEP

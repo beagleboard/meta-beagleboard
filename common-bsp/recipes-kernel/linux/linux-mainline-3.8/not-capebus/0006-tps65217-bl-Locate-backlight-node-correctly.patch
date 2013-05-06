@@ -1,4 +1,4 @@
-From d2061c3a780f884fb55002bb439119621caaf662 Mon Sep 17 00:00:00 2001
+From 83999db98d367c9bd124c653bb68b280afe8a6e2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 16:54:51 +0200
 Subject: [PATCH 006/173] tps65217-bl: Locate backlight node correctly.

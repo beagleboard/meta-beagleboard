@@ -1,4 +1,4 @@
-From 4628ed62b2c30ca96f29ed5506558c25bc0b234d Mon Sep 17 00:00:00 2001
+From 1d86b27f93e77c536dec1700ba7af030d9814021 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 9 Jan 2013 17:30:44 -0800
 Subject: [PATCH 52/57] CHROMIUM: Input: atmel_mxt_ts - Add support for T65,

@@ -1,7 +1,7 @@
-From 728630c1f5148a5d6ffdb4857361ed67df13d625 Mon Sep 17 00:00:00 2001
+From 73ae154b94d6b0caf9b235e93589068594364f72 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:09 +0000
-Subject: [PATCH 05/14] MFD: ti_am335x_tscadc: Add DT support
+Subject: [PATCH 05/16] MFD: ti_am335x_tscadc: Add DT support
 
 Make changes to add DT support in the MFD core driver.
 

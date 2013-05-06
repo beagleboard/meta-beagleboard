@@ -1,4 +1,4 @@
-From 0b3564aaf41a3b314967a0ce0be0f7e1df1c52dd Mon Sep 17 00:00:00 2001
+From 0cf2621815c7126d7a820119ea9743196c8c1681 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Mon, 18 Mar 2013 00:39:48 -0400
 Subject: [PATCH 06/23] mrf24j40: pinctrl support

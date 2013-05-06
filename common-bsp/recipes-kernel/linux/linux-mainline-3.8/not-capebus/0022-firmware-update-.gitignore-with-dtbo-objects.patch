@@ -1,4 +1,4 @@
-From 7ed181819aeee59dbd19cfebc608ec27882ba684 Mon Sep 17 00:00:00 2001
+From 1e159f7912ec57a5b3d1cd39fac73bc04acfc093 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 20:23:17 +0200
 Subject: [PATCH 022/173] firmware: update .gitignore with dtbo objects

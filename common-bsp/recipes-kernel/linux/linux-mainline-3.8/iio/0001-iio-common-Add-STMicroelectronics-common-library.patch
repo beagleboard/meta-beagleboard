@@ -1,4 +1,4 @@
-From e4ffb4384b4bf6bcbde1a7d7ab262b836af25828 Mon Sep 17 00:00:00 2001
+From bf76492ecfe49a23cd4f73e4c18f7bbe0cf99fd3 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 1/6] iio:common: Add STMicroelectronics common library

@@ -1,4 +1,4 @@
-From b3088887d4ad4f3add9f19865f1e1d718ecf8e64 Mon Sep 17 00:00:00 2001
+From b0d2d306801ca54b53666c24db22a0008a0d8f31 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 14:34:08 +0200
 Subject: [PATCH 008/173] am335x-bone-dtsi: Clean up

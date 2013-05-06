@@ -1,4 +1,4 @@
-From 314f61720f8dde174dd407d93ecebd218a6f195d Mon Sep 17 00:00:00 2001
+From 274509c47ae40935fbe1bc36d2d7b9e55af6eb52 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Wed, 9 May 2012 02:18:14 +0000
 Subject: [PATCH 18/57] CHROMIUM: Input: atmel_mxt_ts - add debugfs

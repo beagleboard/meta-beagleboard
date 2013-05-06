@@ -1,4 +1,4 @@
-From 5ae0afa0751d4ccdb8618bd4c8efb90f478d39cc Mon Sep 17 00:00:00 2001
+From 8c839d90efd6fe5deafe346c81bf0a30f6f45ec1 Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:29 -0400
 Subject: [PATCH 18/23] mac802154: add mac802154_dev_get_dsn()

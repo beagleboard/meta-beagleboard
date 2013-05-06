@@ -1,4 +1,4 @@
-From c09e047441f869708b259484c0001f6dad2e2a9e Mon Sep 17 00:00:00 2001
+From 13dadf517f7b984ede6ccbf6c2c34f229c39e536 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 8 Mar 2013 16:39:10 +0200
 Subject: [PATCH 118/173] tilcdc: Enable reduced blanking check only on

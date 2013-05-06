@@ -1,4 +1,4 @@
-From 6fbdae1b4cacd2844dbbc8332d0d89aaf1ebce97 Mon Sep 17 00:00:00 2001
+From f41d717cc2a9ed4a698f26f2b0ba2ee3f8778980 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Sun, 22 Apr 2012 23:29:25 +0800
 Subject: [PATCH 12/57] CHROMIUM: Input: atmel_mxt_ts - add calibrate sysfs

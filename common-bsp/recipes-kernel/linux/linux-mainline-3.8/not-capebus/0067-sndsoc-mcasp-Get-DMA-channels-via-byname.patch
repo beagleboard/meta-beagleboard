@@ -1,4 +1,4 @@
-From a95da2d64813f3b51b7991c913ee994f0885716a Mon Sep 17 00:00:00 2001
+From ac0ce6e2ce84da702662f8a0f572744c9bcc8aa6 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 14 Jan 2013 19:57:10 +0200
 Subject: [PATCH 067/173] sndsoc: mcasp: Get DMA channels via byname

@@ -1,7 +1,7 @@
-From 06f8810598a21fa63b63a70358337965493537fa Mon Sep 17 00:00:00 2001
+From 43a6c541416778b10d27a1ab4037840fe0f4e72b Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Fri, 19 Apr 2013 13:18:14 -0500
-Subject: [PATCH 3/3] Clean up some formating and debug in Davinci MCASP driver
+Subject: [PATCH 3/4] Clean up some formating and debug in Davinci MCASP driver
 
 ---
  sound/soc/davinci/davinci-mcasp.c | 15 +++++----------

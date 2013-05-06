@@ -1,4 +1,4 @@
-From 3fbb2e66d8ae33f8f5488a4c6e959b8ee5fff3ee Mon Sep 17 00:00:00 2001
+From 1eeb26957850abf5179b1f619d15e02a5547f218 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Thu, 24 Jan 2013 09:43:51 -0600
 Subject: [PATCH 5/5] ARM: OMAP: Beagle: use TWL4030 generic reset script

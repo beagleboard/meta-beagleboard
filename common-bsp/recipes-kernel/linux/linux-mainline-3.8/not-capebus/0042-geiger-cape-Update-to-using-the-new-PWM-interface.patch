@@ -1,4 +1,4 @@
-From 02e2c8fe31f9c9d095b5b6dd9cdd8cfab827947c Mon Sep 17 00:00:00 2001
+From 52853ebd1443ff4193b920e77b9590817b1dde75 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 21:05:27 +0200
 Subject: [PATCH 042/173] geiger-cape: Update to using the new PWM interface.

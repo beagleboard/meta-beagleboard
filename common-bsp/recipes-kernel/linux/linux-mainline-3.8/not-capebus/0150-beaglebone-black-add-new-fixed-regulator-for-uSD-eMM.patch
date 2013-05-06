@@ -1,4 +1,4 @@
-From 9dbdcfb42faf9051fa96106dae8095a4be3fb19c Mon Sep 17 00:00:00 2001
+From dd18d9d845c5d40c2d9475cf41473e11880fe216 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 1 Apr 2013 09:36:22 +0200
 Subject: [PATCH 150/173] beaglebone black: add new fixed regulator for

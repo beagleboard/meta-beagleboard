@@ -1,4 +1,4 @@
-From 0af6311e8b45250456c5a154c7edac37957c2fab Mon Sep 17 00:00:00 2001
+From 63e991b9299465a6837bd2ac22c37866c45547fc Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:33:50 +0200
 Subject: [PATCH 106/173] bone-capemgr: Introduce pinmux helper

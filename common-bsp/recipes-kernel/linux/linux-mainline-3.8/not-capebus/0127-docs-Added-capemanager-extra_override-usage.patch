@@ -1,4 +1,4 @@
-From 690c751be6f02cc239481fd05e71bc0b8d6a9b6a Mon Sep 17 00:00:00 2001
+From 400f9d409aaca364227775d39262c0e29ff9e678 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:01 +0000
 Subject: [PATCH 127/173] docs: Added capemanager extra_override usage

@@ -1,4 +1,4 @@
-From bd2bd9c7d6935739f1c054a3d50b25ba139a6cf0 Mon Sep 17 00:00:00 2001
+From 90584321678f203ef1a6284a8df7ba0e79f98eac Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 24 Oct 2012 11:47:13 +0200
 Subject: [PATCH 6/7] beaglebone: enable emmc for bonelt

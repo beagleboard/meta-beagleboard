@@ -1,7 +1,7 @@
-From bd32489be2da6bf170fec1bad9d672076aa486ab Mon Sep 17 00:00:00 2001
+From 8ed2a5f7e909c8c4d674fd909b04b77685b2911e Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:10 +0000
-Subject: [PATCH 06/14] input: ti_am335x_tsc: Add DT support
+Subject: [PATCH 06/16] input: ti_am335x_tsc: Add DT support
 
 Add DT support for client touchscreen driver
 

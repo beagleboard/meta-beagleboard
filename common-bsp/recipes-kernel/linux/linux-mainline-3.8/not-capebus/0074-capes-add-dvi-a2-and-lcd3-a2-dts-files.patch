@@ -1,4 +1,4 @@
-From bb78657414548bf210526f42d46cf64f946ecac9 Mon Sep 17 00:00:00 2001
+From 5e0e0f7fe54b477b749898d1fa8a2040259e1570 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 15 Jan 2013 14:54:04 +0100
 Subject: [PATCH 074/173] capes: add dvi-a2 and lcd3-a2 dts files

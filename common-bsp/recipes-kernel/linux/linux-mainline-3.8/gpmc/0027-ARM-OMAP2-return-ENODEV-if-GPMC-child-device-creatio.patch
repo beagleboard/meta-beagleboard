@@ -1,4 +1,4 @@
-From 31a7c0271bb910ee1ffac7771d31c0cb671446bf Mon Sep 17 00:00:00 2001
+From b2245ada8e6bc42504804bc8b8a7b8692082cc27 Mon Sep 17 00:00:00 2001
 From: Javier Martinez Canillas <javier.martinez@collabora.co.uk>
 Date: Thu, 14 Mar 2013 16:09:20 +0100
 Subject: [PATCH 27/39] ARM: OMAP2+: return -ENODEV if GPMC child device

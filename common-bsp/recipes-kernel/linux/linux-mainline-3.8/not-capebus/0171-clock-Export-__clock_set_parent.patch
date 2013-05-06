@@ -1,4 +1,4 @@
-From 3badf465f17f1cba005e16c0e2f68b946f18ca07 Mon Sep 17 00:00:00 2001
+From 10e8904f44f9393c5f54ddd202363af567d39d89 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 18:19:26 +0300
 Subject: [PATCH 171/173] clock: Export __clock_set_parent

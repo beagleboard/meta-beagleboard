@@ -1,4 +1,4 @@
-From 6f6ddc32939d6a6ad75834e874b563ecdbb69c75 Mon Sep 17 00:00:00 2001
+From a135f5121bb9284e30fae569ca61006cfceee0e1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 29 Mar 2013 17:44:02 +0200
 Subject: [PATCH 153/173] cape: Add a simple cape for handling the uSD button.

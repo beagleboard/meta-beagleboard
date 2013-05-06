@@ -1,4 +1,4 @@
-From 49640682230f97cd4c212e02401d06b0208a7379 Mon Sep 17 00:00:00 2001
+From 49002a8fd6809e4bbfefea84a23b11de6c6c7fa7 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 6 Dec 2012 13:44:10 +0200
 Subject: [PATCH 018/173] fdtdump: properly handle multi-string properties

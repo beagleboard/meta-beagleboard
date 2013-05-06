@@ -1,4 +1,4 @@
-From 5a5a506cfd0fe39a7c2924afdb7643f6cc7c909b Mon Sep 17 00:00:00 2001
+From fb1bc3ed9c72af23d3eb7daf8fb0ec8435851ff4 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Fri, 27 Apr 2012 22:08:52 +0800
 Subject: [PATCH 02/57] CHROMIUM: Input: atmel_mxt_ts - register input device

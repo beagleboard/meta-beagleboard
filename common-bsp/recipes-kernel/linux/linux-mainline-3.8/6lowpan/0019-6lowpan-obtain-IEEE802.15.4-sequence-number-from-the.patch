@@ -1,4 +1,4 @@
-From c1d724f26a281c6e84a80ea8fd21bb241be34b78 Mon Sep 17 00:00:00 2001
+From 9b7291cdf4ba4ee49266169710186c23705218a7 Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:30 -0400
 Subject: [PATCH 19/23] 6lowpan: obtain IEEE802.15.4 sequence number from the

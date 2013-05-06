@@ -1,4 +1,4 @@
-From 8c641741cc6ddf5fcbfb5564c360bcea8deb1756 Mon Sep 17 00:00:00 2001
+From ecc7c34a37c7dbbe8b46c35539fe519c5debab83 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 12:57:13 +0200
 Subject: [PATCH 020/173] dtc: Add DTCO rule for DTB objects

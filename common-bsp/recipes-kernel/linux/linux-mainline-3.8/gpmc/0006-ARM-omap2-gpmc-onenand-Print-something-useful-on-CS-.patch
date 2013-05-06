@@ -1,4 +1,4 @@
-From 2c6991ed0a204fff001e4afccf635db27da87561 Mon Sep 17 00:00:00 2001
+From e5a643a80b72897940eca9cdaecdd3fc00a09dc7 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Tue, 12 Feb 2013 16:22:21 -0300
 Subject: [PATCH 06/39] ARM: omap2: gpmc-onenand: Print something useful on CS

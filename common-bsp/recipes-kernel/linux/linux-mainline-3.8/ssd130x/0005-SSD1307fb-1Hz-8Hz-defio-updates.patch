@@ -1,4 +1,4 @@
-From 6d0798a66dec1204072f66779e74b969e5eb3711 Mon Sep 17 00:00:00 2001
+From b6d04a8ca791d1dcd4eb016760ee6543efccef88 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Sat, 13 Apr 2013 20:10:05 +0200
 Subject: [PATCH 5/5] SSD1307fb: 1Hz -> 8Hz defio updates

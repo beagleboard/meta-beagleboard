@@ -1,4 +1,4 @@
-From 62b6792501d5710c9c39669b2b9635ec166f2eaf Mon Sep 17 00:00:00 2001
+From 8d7e8ad705d6a463bb191ac2c0bdd9df3d80726d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 18 Jan 2013 15:46:52 +0200
 Subject: [PATCH 085/173] bone-common: ti,vcc-aux-disable-is-sleep enable

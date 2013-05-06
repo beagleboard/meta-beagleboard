@@ -1,4 +1,4 @@
-From 3e7b39ce3c86cd5488e35f313b1dbddcd2954934 Mon Sep 17 00:00:00 2001
+From e36c4797f37d75461dbb9c7c33f67b800a81703a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 17 Dec 2012 15:32:48 +0530
 Subject: [PATCH 10/48] da8xx: Allow use by am33xx based devices

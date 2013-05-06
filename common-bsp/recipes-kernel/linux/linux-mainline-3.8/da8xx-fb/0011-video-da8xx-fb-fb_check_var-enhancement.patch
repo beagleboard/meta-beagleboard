@@ -1,4 +1,4 @@
-From 6b315beec38bbbd73d2b388e8af752902ec3f300 Mon Sep 17 00:00:00 2001
+From 40006b08107f6d4ab8f3854223680782cef47b11 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 28 Nov 2012 19:21:51 +0530
 Subject: [PATCH 11/48] video: da8xx-fb: fb_check_var enhancement

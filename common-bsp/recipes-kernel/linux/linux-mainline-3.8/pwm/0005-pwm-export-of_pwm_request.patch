@@ -1,7 +1,7 @@
-From 91c022d301639f695c51f437af19164162840afb Mon Sep 17 00:00:00 2001
+From 599f2f41c66929f3fceb224f2f4579658ff2001e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 19 Oct 2012 10:38:00 +0300
-Subject: [PATCH 5/8] pwm: export of_pwm_request
+Subject: [PATCH 5/9] pwm: export of_pwm_request
 
 No need to hide of_pwm_request, it's useful to other in-kernel users.
 

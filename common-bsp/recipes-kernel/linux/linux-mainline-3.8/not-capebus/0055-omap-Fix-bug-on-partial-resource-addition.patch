@@ -1,4 +1,4 @@
-From 984d6fcfc54aea431ec2055790759b767256486b Mon Sep 17 00:00:00 2001
+From 99828c88f0234fcc566844b1877073a0092f43ba Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 13:22:00 +0200
 Subject: [PATCH 055/173] omap: Fix bug on partial resource addition.

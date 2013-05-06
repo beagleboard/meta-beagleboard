@@ -1,4 +1,4 @@
-From 92ff3444d61651534736c2da7da5719eb8abe587 Mon Sep 17 00:00:00 2001
+From 95216de9eb19b7c1b56d074d2493b3fac704d957 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 3 May 2013 16:11:53 +0300
 Subject: [PATCH 4/4] tilcdc: Prune modes that can't support audio.

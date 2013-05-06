@@ -1,4 +1,4 @@
-From 67df34099dea6ac880fbd93657b0cb2454d8f514 Mon Sep 17 00:00:00 2001
+From dfa987781346dcf642dcfab643e574ba6926b7be Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 18:32:29 +0300
 Subject: [PATCH 172/173] omap-clk: Add adjustable clkout2

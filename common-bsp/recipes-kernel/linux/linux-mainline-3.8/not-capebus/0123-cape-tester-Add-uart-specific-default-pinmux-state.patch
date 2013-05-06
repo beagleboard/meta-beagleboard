@@ -1,4 +1,4 @@
-From becea422d179142f39c5205b9d03836c58fef654 Mon Sep 17 00:00:00 2001
+From ec8aa7f769b180eeb016f1e58087cdf6edb0340a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 12 Mar 2013 09:36:43 +0200
 Subject: [PATCH 123/173] cape-tester: Add uart specific default pinmux state

@@ -1,7 +1,7 @@
-From 89461e174145452a299e7bb256c051eb11f84868 Mon Sep 17 00:00:00 2001
+From fc80b7a1deffa42ff7226503ef909d394f1bd643 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 2 Jan 2013 13:24:51 +0000
-Subject: [PATCH 7/8] ARM: AM33XX: clk: Add clock node for EHRPWM TBCLK
+Subject: [PATCH 7/9] ARM: AM33XX: clk: Add clock node for EHRPWM TBCLK
 
 EHRPWM module requires explicit clock gating of TBCLK from control
 module. Hence add TBCLK clock node in clock tree for EHRPWM modules.

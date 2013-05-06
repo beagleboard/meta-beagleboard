@@ -1,4 +1,4 @@
-From 5b1eb8d7003385cc6d5f38637175304801381658 Mon Sep 17 00:00:00 2001
+From f37d07be0c80ac18d1f290e59cd3e6f26d7ac310 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Apr 2013 18:14:52 +0300
 Subject: [PATCH 03/10] rstctl: Reset control subsystem

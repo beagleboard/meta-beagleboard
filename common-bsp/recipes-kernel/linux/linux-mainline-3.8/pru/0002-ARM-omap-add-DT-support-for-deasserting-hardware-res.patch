@@ -1,4 +1,4 @@
-From a2bf5bb492934876eae138ebb44152526d1556e1 Mon Sep 17 00:00:00 2001
+From 8c53cb4ccd3d89d2d509800ccad48074b64eedb4 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Thu, 17 Jan 2013 16:02:48 -0800
 Subject: [PATCH 2/4] ARM: omap: add DT support for deasserting hardware reset

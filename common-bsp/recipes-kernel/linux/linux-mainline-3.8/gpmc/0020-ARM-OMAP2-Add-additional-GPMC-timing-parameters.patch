@@ -1,4 +1,4 @@
-From b660c51ac1b24526a0575cdcd781ae2a82311b86 Mon Sep 17 00:00:00 2001
+From 5172b3d329c409b475d8ae9687494a3c96f5c8de Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 18:51:27 -0600
 Subject: [PATCH 20/39] ARM: OMAP2+: Add additional GPMC timing parameters

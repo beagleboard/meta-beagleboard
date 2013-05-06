@@ -84,6 +84,8 @@ SRC_URI += " \
 	file://adc/0012-am335x-adc-Do-not-use-find_node_by_name-use-get_chil.patch \
 	file://adc/0013-am335x-tsc-Do-not-use-find_node_by_name-use-get_chil.patch \
 	file://adc/0014-am335x-tscadc-Do-not-use-find_node_by_name-use-get_c.patch \
+	file://adc/0015-iio-adc-ti_am335x_adc-revert-info_mask-removal.patch \
+	file://adc/0016-iio-adc-ti_am335x_adc-make-tiadc_read_raw-more-robus.patch \
 	file://i2c/0001-pinctrl-pinctrl-single-must-be-initialized-early.patch \
 	file://i2c/0002-Bone-DTS-working-i2c2-i2c3-in-the-tree.patch \
 	file://i2c/0003-am33xx-Convert-I2C-from-omap-to-am33xx-names.patch \
@@ -144,6 +146,7 @@ SRC_URI += " \
 	file://pwm/0006-pwm-pwm-tiehrpwm-Update-the-clock-handling-of-pwm-ti.patch \
 	file://pwm/0007-ARM-AM33XX-clk-Add-clock-node-for-EHRPWM-TBCLK.patch \
 	file://pwm/0008-HACK-am33xx.dtsi-turn-on-all-PWMs.patch \
+	file://pwm/0009-pwm-add-sysfs-interface.patch \
 	file://mmc/0001-am33xx.dtsi-enable-MMC-HSPE-bit-for-all-3-controller.patch \
 	file://mmc/0002-omap-hsmmc-Correct-usage-of-of_find_node_by_name.patch \
 	file://crypto/0001-ARM-OMAP2xxx-hwmod-Convert-SHAM-crypto-device-data-t.patch \

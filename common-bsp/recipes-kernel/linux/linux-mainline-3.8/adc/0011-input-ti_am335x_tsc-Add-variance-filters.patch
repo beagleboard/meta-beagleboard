@@ -1,7 +1,7 @@
-From b379d9158daf54f9cdb2197b88b7db74855077a9 Mon Sep 17 00:00:00 2001
+From e620b5c3baef01f723666640f65cd5d125234794 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Mon, 22 Oct 2012 10:15:18 +0000
-Subject: [PATCH 11/14] input: ti_am335x_tsc: Add variance filters
+Subject: [PATCH 11/16] input: ti_am335x_tsc: Add variance filters
 
 Only fine tuning variance present in tslib utility
 does not help in removing all the wanted ADC noise.

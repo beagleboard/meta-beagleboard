@@ -1,7 +1,7 @@
-From 1344e938f27bf94c2c5eb880d648482ee912a4ca Mon Sep 17 00:00:00 2001
+From cce9d4170f907172f6462883d610aa73fa7cc272 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 20:49:48 +0300
-Subject: [PATCH 3/5] cssp_camera: Correct license identifier
+Subject: [PATCH 3/6] cssp_camera: Correct license identifier
 
 GPLv2 != GPL v2 for license reasons
 

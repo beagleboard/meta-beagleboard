@@ -1,4 +1,4 @@
-From 84d87749f50a1feed65077deae5192928efefe4b Mon Sep 17 00:00:00 2001
+From f72704207ca3bf23019c43b1cde5678195a42c6e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:32:20 +0200
 Subject: [PATCH 103/173] bone-capemgr: Make sure cape removal works.

@@ -1,4 +1,4 @@
-From 4d578baee0076e0c9eac4009099bf0b7991ae170 Mon Sep 17 00:00:00 2001
+From cc66312803def831dcac35fb59d250ecc9cf3ae8 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Thu, 20 Dec 2012 13:40:47 -0700
 Subject: [PATCH 31/34] crypto: omap-aes - Add Device Tree Support

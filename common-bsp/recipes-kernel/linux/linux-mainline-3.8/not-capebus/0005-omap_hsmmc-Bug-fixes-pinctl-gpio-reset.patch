@@ -1,4 +1,4 @@
-From 735c0bf7aa0290558a8a270e51766c73aef80b97 Mon Sep 17 00:00:00 2001
+From 440cbd58b691593742851c4f9d5ff0704e3bb992 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 30 Nov 2012 12:18:16 +0200
 Subject: [PATCH 005/173] omap_hsmmc: Bug fixes, pinctl & gpio-reset

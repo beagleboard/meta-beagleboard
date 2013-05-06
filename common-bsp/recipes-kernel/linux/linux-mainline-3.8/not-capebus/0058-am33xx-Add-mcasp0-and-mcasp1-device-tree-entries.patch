@@ -1,4 +1,4 @@
-From 942205039bdc8778c2f21266b9b624f75a21f046 Mon Sep 17 00:00:00 2001
+From 23f55e368cfc95d27ee4001cdffbca4b023ab0a1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 10 Jan 2013 20:37:45 +0200
 Subject: [PATCH 058/173] am33xx: Add mcasp0 and mcasp1 device tree entries

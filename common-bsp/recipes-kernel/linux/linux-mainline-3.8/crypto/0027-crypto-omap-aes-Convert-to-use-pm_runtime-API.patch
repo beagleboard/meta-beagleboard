@@ -1,4 +1,4 @@
-From 722a6940bf28bde5ee6e019731f0fddd6f05d6a7 Mon Sep 17 00:00:00 2001
+From b9af2063e012329fbdaf1f06674902bb83923c40 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Sun, 11 Nov 2012 21:00:37 -0700
 Subject: [PATCH 27/34] crypto: omap-aes - Convert to use pm_runtime API

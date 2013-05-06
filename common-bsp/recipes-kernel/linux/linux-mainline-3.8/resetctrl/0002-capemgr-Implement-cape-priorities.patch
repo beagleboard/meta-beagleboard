@@ -1,4 +1,4 @@
-From adc502cc1a1926b19da3deec35329a0099ad0a64 Mon Sep 17 00:00:00 2001
+From f9bb7c8d9d10afbf95980fbcdb3de2368ff6a749 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 17:11:17 +0300
 Subject: [PATCH 02/10] capemgr: Implement cape priorities

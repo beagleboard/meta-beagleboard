@@ -1,4 +1,4 @@
-From d05a8f555f8fd14e6bf4bce4e195cb0036ffec20 Mon Sep 17 00:00:00 2001
+From e41078e5b2e8906463eb4773856f32673b817707 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 19 Dec 2012 21:05:46 -0700
 Subject: [PATCH 13/34] ARM: AM33XX: Add aes0 crypto clock data

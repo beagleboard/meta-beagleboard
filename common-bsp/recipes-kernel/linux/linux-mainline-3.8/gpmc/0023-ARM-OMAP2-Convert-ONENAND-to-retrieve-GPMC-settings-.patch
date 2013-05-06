@@ -1,4 +1,4 @@
-From 3ac181e681bb89cb9c48a2f3d767bd39d5bd8063 Mon Sep 17 00:00:00 2001
+From 293dc36145184125da298d2443a336ede8b208d5 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Mon, 25 Feb 2013 11:37:58 -0600
 Subject: [PATCH 23/39] ARM: OMAP2+: Convert ONENAND to retrieve GPMC settings

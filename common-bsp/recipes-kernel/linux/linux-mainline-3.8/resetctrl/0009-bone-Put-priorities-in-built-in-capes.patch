@@ -1,4 +1,4 @@
-From 7f42fe9637c2012171d0d52ea247c00211a58558 Mon Sep 17 00:00:00 2001
+From fd869c57d73cf36162b129781ec5d388d4fb5b01 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 17:08:09 +0300
 Subject: [PATCH 09/10] bone: Put priorities in built-in capes

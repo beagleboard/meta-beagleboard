@@ -1,4 +1,4 @@
-From 42069d0ce25d2c6966a58096e3dedc6e0f1b2491 Mon Sep 17 00:00:00 2001
+From 042e0d8295f3e51ce9e55e895c1c0a2fa54c0f3d Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:10 +0000
 Subject: [PATCH 04/12] usb: otg: utils: add facilities in phy lib to support

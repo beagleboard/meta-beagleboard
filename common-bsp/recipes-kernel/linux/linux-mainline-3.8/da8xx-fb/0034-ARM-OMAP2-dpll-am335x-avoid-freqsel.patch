@@ -1,4 +1,4 @@
-From 20fb0472f4c0f3c8faa2c15cab7667cc9583f801 Mon Sep 17 00:00:00 2001
+From 4d1e3b7a95a1c47848f8756517ca3de2f5a73fa7 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 21 Jan 2013 17:13:37 +0530
 Subject: [PATCH 34/48] ARM: OMAP2+: dpll: am335x - avoid freqsel

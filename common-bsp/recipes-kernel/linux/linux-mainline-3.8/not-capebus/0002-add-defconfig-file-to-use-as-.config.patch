@@ -1,4 +1,4 @@
-From 4bcbddfca2fec095d12fbf49ef23d5b5d43ba0cc Mon Sep 17 00:00:00 2001
+From 8999c39f67d44304d7f70e429082d62504d57077 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 28 Dec 2012 14:41:10 +0100
 Subject: [PATCH 002/173] add 'defconfig' file to use as .config

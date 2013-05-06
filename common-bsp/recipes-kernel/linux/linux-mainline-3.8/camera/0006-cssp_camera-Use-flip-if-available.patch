@@ -1,4 +1,4 @@
-From 29c600dd26f294beea2983a5abbf4c0ecccb8e9a Mon Sep 17 00:00:00 2001
+From f79dd9dce71fc382989f2b123b01a61b13605e8d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 2 May 2013 14:16:40 +0300
 Subject: [PATCH 6/6] cssp_camera: Use flip if available.

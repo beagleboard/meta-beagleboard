@@ -1,4 +1,4 @@
-From ccb22009706bd3249e767547249a49a2c36bde4c Mon Sep 17 00:00:00 2001
+From 506d6b4c68fc9acfb101ead75eb1be1db68d21e3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 16 Jan 2013 15:00:17 +0100
 Subject: [PATCH 075/173] capemgr: catch up with lcdc->tilcdc rename

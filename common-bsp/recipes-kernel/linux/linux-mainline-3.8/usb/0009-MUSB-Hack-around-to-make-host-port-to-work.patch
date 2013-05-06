@@ -1,4 +1,4 @@
-From 47fc0dcc82ed59f2084c807f0d6eb03b0e651ab8 Mon Sep 17 00:00:00 2001
+From 0023eb1779271158337939feb5c8125b3c747ab9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 22 Jan 2013 22:25:06 +0200
 Subject: [PATCH 09/12] MUSB: Hack around to make host port to work.

@@ -1,7 +1,7 @@
-From 602c19d185298ef773034cde0114a1b90df03d55 Mon Sep 17 00:00:00 2001
+From dde86fc1fc11ca8f3927e9727df441326fc17cf8 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 2 Jan 2013 13:24:50 +0000
-Subject: [PATCH 6/8] pwm: pwm-tiehrpwm: Update the clock handling of
+Subject: [PATCH 6/9] pwm: pwm-tiehrpwm: Update the clock handling of
  pwm-tiehrpwm driver
 
 The clock framework has changed and it's now better to invoke

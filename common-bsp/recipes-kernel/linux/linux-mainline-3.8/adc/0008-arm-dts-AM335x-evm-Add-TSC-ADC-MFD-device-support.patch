@@ -1,7 +1,7 @@
-From d8c63d25fac469f03f53874a94de958b86546a02 Mon Sep 17 00:00:00 2001
+From 73dd00ebc39389f9770e9cf5fa14652243621a03 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:12 +0000
-Subject: [PATCH 08/14] arm/dts: AM335x-evm: Add TSC/ADC MFD device support
+Subject: [PATCH 08/16] arm/dts: AM335x-evm: Add TSC/ADC MFD device support
 
 Add support for core multifunctional device along
 with its clients touchscreen and ADC.

@@ -1,7 +1,7 @@
-From 642c663576dce6a584bc62046ba215f8738eaeb1 Mon Sep 17 00:00:00 2001
+From 4c0de4f9382a9474b5976bcea83d2f0314c771d5 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:11 +0000
-Subject: [PATCH 07/14] IIO: ti_am335x_adc: Add DT support
+Subject: [PATCH 07/16] IIO: ti_am335x_adc: Add DT support
 
 Add DT support for client ADC driver.
 

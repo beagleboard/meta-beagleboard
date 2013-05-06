@@ -1,4 +1,4 @@
-From f3367eaa690f37736dc1f5ada0ff9c99d7125f81 Mon Sep 17 00:00:00 2001
+From cf87dad9233c11fecc6ea832dff438569eb1068a Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Wed, 6 Mar 2013 12:00:10 -0600
 Subject: [PATCH 24/39] ARM: OMAP2+: Detect incorrectly aligned GPMC base
