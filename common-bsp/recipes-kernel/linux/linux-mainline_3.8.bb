@@ -559,6 +559,7 @@ SRC_URI += " \
 	file://hdmi/0002-BeagleBone-Black-TDA998x-Initial-HDMI-Audio-support.patch \
 	file://hdmi/0003-Clean-up-some-formating-and-debug-in-Davinci-MCASP-d.patch \
 	file://hdmi/0004-tilcdc-Prune-modes-that-can-t-support-audio.patch \
+	file://hdmi/0005-Enable-output-of-correct-AVI-Infoframe-type-hdmi.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
