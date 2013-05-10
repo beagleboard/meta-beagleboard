@@ -1,7 +1,7 @@
-From 0eb81f44401043f33d57c5b812a323b94efe6543 Mon Sep 17 00:00:00 2001
+From fbce545279c4f1e882431fa7d08130e1bc25cd93 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:32:19 +0200
-Subject: [PATCH 02/12] am335x mux: don't hang on unknown EEPROMs, assume
+Subject: [PATCH 02/14] am335x mux: don't hang on unknown EEPROMs, assume
  BeagleBone Black
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>

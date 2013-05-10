@@ -1,7 +1,7 @@
-From 4d8cc60e33efeb202cdddf8cb1ceacb89a9bd7f8 Mon Sep 17 00:00:00 2001
+From 987104bc6bf3c2ddbf023b524c486ffdf583f001 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:44:03 +0200
-Subject: [PATCH 06/12] beaglebone: try to load uEnv/uImage from eMMC first
+Subject: [PATCH 06/14] beaglebone: try to load uEnv/uImage from eMMC first
 
 If u-boot detects the eMMC, try to load from there, if that fails fall back to uSD. Due to linux "features" rootdev can remain mmcblk0p1.
 

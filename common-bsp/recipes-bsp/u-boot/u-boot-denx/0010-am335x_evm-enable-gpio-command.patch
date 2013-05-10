@@ -1,7 +1,7 @@
-From 4d8d921eacc3604ec6ee6e75fb9583d18daa8c3b Mon Sep 17 00:00:00 2001
+From 88c09ce2919919d1943a85e9f9475d17b347702e Mon Sep 17 00:00:00 2001
 From: Jason Kridner <jdk@ti.com>
 Date: Thu, 4 Apr 2013 05:57:00 +0000
-Subject: [PATCH 10/12] am335x_evm: enable gpio command
+Subject: [PATCH 10/14] am335x_evm: enable gpio command
 
 ---
  include/configs/am335x_evm.h | 2 +-

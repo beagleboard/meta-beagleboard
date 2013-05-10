@@ -1,7 +1,7 @@
-From e1e4ae5d0b22e9a0ea5a5f84bc2b8ac686ce94c1 Mon Sep 17 00:00:00 2001
+From d73f1f024a8f179e38ce15dc66938ee40325e5b3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:33:28 +0200
-Subject: [PATCH 03/12] beaglebone: HACK: always return 1 for is_bone_lt
+Subject: [PATCH 03/14] beaglebone: HACK: always return 1 for is_bone_lt
 
 This is to make the eMMC flasher work, the EEPROM hasn't been populated yet
 

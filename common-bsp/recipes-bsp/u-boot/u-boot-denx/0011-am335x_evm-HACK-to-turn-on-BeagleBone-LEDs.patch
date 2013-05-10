@@ -1,7 +1,7 @@
-From 453f6a528bf51886cdffd41f2e3c020afd2666a6 Mon Sep 17 00:00:00 2001
+From bcfde7885d6adbf067db5dd54cd4d9cea7426870 Mon Sep 17 00:00:00 2001
 From: Jason Kridner <jdk@ti.com>
 Date: Thu, 4 Apr 2013 07:16:41 +0000
-Subject: [PATCH 11/12] am335x_evm: HACK to turn on BeagleBone LEDs
+Subject: [PATCH 11/14] am335x_evm: HACK to turn on BeagleBone LEDs
 
 * This might break non-BeagleBone platforms
 ---

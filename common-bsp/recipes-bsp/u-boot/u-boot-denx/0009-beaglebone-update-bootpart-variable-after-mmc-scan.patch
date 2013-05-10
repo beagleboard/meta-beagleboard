@@ -1,7 +1,7 @@
-From b9fe21202d382aadd8c408604c882c47a9e2a20f Mon Sep 17 00:00:00 2001
+From 59af9f65dd21d9a4e0c78478c5c0bd83e7d2da7e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 12:04:17 +0200
-Subject: [PATCH 09/12] beaglebone: update bootpart variable after mmc scan
+Subject: [PATCH 09/14] beaglebone: update bootpart variable after mmc scan
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

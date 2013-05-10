@@ -1,7 +1,7 @@
-From d64950ded505d75c0f00013f0f5f2a01ff6e7661 Mon Sep 17 00:00:00 2001
+From 1e04086fc3b0d00222904472af56a14fba9bcd28 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Tue, 9 Apr 2013 16:49:38 -0500
-Subject: [PATCH 12/12] Fix for screen rolling when video played back in
+Subject: [PATCH 12/14] Fix for screen rolling when video played back in
  browser on BeagleBone Black This value might need some tweaking, but it
  effectively allows the LCDC and the ARM to play fairer in memory, so the LCDC
  does not get starved causing the screen to roll See Page 439 in spruh73g

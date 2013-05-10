@@ -1,7 +1,7 @@
-From c851816a1bdb15d7247ad145cd51f2a21156070e Mon Sep 17 00:00:00 2001
+From d4b58fe48083ee98dd86af5b0ec9e831433c98e3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 08:22:53 +0200
-Subject: [PATCH 01/12] beaglebone: default to beaglebone black for unknown
+Subject: [PATCH 01/14] beaglebone: default to beaglebone black for unknown
  EEPROMs
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>

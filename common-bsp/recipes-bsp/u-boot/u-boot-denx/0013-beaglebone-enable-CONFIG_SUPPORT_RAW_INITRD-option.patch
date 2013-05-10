@@ -1,11 +1,11 @@
-From 35e3574d1789696aa0b1baecb51a3ec3c087c597 Mon Sep 17 00:00:00 2001
+From 1886ba872060e54cb4b5732ffa24fcc3eb6172e8 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Thu, 25 Apr 2013 13:50:35 -0500
-Subject: [PATCH 13/13] beaglebone: enable CONFIG_SUPPORT_RAW_INITRD option
+Subject: [PATCH 13/14] beaglebone: enable CONFIG_SUPPORT_RAW_INITRD option
 
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>
 ---
- include/configs/am335x_evm.h |    1 +
+ include/configs/am335x_evm.h | 1 +
  1 file changed, 1 insertion(+)
 
 diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
@@ -21,5 +21,5 @@ index 9e39d00..04eaa8b 100644
  #define CONFIG_SETUP_MEMORY_TAGS
  #define CONFIG_INITRD_TAG
 -- 
-1.7.10.4
+1.8.1.4
 

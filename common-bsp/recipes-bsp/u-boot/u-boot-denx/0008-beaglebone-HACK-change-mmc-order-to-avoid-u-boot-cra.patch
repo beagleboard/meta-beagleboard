@@ -1,7 +1,7 @@
-From b32e96e6ca707411abb6f351dec57185a1d7c272 Mon Sep 17 00:00:00 2001
+From 8ef64f73b14e5e5657b740ecae8cf62db1511138 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 11:47:14 +0200
-Subject: [PATCH 08/12] beaglebone: HACK: change mmc order to avoid u-boot
+Subject: [PATCH 08/14] beaglebone: HACK: change mmc order to avoid u-boot
  crashing
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
