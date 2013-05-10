@@ -1,7 +1,7 @@
-From 76aec9ec541bd77fc1b9232d7d9fab23cbdccf61 Mon Sep 17 00:00:00 2001
+From 20df0d519deed9953a99ee98d26fd31b1a99261e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 17 Jan 2013 10:26:39 +0100
-Subject: [PATCH 076/173] firmware: fix dvi a1 target
+Subject: [PATCH 076/174] firmware: fix dvi a1 target
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

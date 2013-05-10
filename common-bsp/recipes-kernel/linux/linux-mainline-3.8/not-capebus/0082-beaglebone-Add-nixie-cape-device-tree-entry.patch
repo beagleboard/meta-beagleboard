@@ -1,7 +1,7 @@
-From f0bbd2c0af97676d75f6dbc62f58daaed2dbfb71 Mon Sep 17 00:00:00 2001
+From 5858d95a85a578be1b10a72e11c7bbf41ab6d73f Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 22 Jan 2013 10:09:48 -0800
-Subject: [PATCH 082/173] beaglebone: Add nixie cape device tree entry
+Subject: [PATCH 082/174] beaglebone: Add nixie cape device tree entry
 
 Added nixie dt overlays, PWM, and leds definitions to am355x-bone-common
 

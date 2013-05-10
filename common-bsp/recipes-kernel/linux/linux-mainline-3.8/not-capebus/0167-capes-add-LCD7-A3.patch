@@ -1,7 +1,7 @@
-From 636b353c526175af299cb26b9c1d4714efbda722 Mon Sep 17 00:00:00 2001
+From fe91b0fc2ac20620601a3038fec742d8de1fdf3c Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 23 Apr 2013 15:12:00 +0200
-Subject: [PATCH 167/173] capes: add LCD7 A3
+Subject: [PATCH 167/174] capes: add LCD7 A3
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

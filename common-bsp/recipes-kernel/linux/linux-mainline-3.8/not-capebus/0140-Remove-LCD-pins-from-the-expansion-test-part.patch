@@ -1,7 +1,7 @@
-From fdbdc48a3d4959013f9573ce3159ecb46dd54b57 Mon Sep 17 00:00:00 2001
+From 61a89e153811fea9317bdbf84d9f8a551316ffa1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 25 Mar 2013 15:20:06 +0200
-Subject: [PATCH 140/173] Remove LCD pins from the expansion test part
+Subject: [PATCH 140/174] Remove LCD pins from the expansion test part
 
 ---
  firmware/capes/cape-bone-tester-00A0.dts | 80 ++++++++++++++++----------------

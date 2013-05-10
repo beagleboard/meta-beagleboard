@@ -1,7 +1,7 @@
-From d68283a64deae9c1f776c02fe5e7f3065c85db6e Mon Sep 17 00:00:00 2001
+From c61090de9783af8282b4a4acd9774c7a8febf205 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Fri, 29 Mar 2013 16:48:42 -0400
-Subject: [PATCH 148/173] am335x-bone-common: DT Override for MRF24J40 Cape
+Subject: [PATCH 148/174] am335x-bone-common: DT Override for MRF24J40 Cape
 
 Signed-off-by: Alan Ott <alan@signal11.us>
 ---

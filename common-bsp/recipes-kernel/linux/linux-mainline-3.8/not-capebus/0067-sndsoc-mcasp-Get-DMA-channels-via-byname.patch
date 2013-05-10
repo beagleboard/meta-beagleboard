@@ -1,7 +1,7 @@
-From ac0ce6e2ce84da702662f8a0f572744c9bcc8aa6 Mon Sep 17 00:00:00 2001
+From a535f858ac5338c2bff6981ed42851827d67a3d5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 14 Jan 2013 19:57:10 +0200
-Subject: [PATCH 067/173] sndsoc: mcasp: Get DMA channels via byname
+Subject: [PATCH 067/174] sndsoc: mcasp: Get DMA channels via byname
 
 Use get resource by name for DMA channels. Note that even for the
 case where we're booting with DT, they still come out of hwmod data.

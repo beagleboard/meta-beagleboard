@@ -1,4 +1,4 @@
-From e656fe6d1564565c3eed32cdcc8ef46cfdcf760a Mon Sep 17 00:00:00 2001
+From 7ebafc0ebdd1e17876725645640d76ea41052855 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Tue, 16 Oct 2012 14:50:58 +0530
 Subject: [PATCH 27/48] ARM: OMAP: AM33xx hwmod: Add parent-child relationship

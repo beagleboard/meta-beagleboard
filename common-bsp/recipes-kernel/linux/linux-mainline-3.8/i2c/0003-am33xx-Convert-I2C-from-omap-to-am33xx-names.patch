@@ -1,4 +1,4 @@
-From 5c96c4ae966f064c6b7d9b1c5f289bb2b86e0d14 Mon Sep 17 00:00:00 2001
+From be2ce70b9fc6fb61688f84a820969e41c00a028b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 15 Sep 2012 14:49:11 +0300
 Subject: [PATCH 3/4] am33xx: Convert I2C from omap to am33xx names

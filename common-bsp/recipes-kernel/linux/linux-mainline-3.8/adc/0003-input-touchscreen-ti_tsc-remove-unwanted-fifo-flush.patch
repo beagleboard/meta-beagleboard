@@ -1,4 +1,4 @@
-From ef17c73a9b903be1630ea5908ad1deb69eb3acc1 Mon Sep 17 00:00:00 2001
+From 53ec31e11f73648c4c148392c3221f4b3a7d489d Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:07 +0000
 Subject: [PATCH 03/16] input: touchscreen: ti_tsc: remove unwanted fifo flush

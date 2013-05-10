@@ -1,7 +1,7 @@
-From e54f18188a004a7a62794976c1ee4b06af31aa18 Mon Sep 17 00:00:00 2001
+From d47ca4565560b2c71bf6a7bb9599f5efa414b91f Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 18 Jan 2013 11:51:10 +0100
-Subject: [PATCH 079/173] capemgr: add dts overlay for LCD7 00A2 cape
+Subject: [PATCH 079/174] capemgr: add dts overlay for LCD7 00A2 cape
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

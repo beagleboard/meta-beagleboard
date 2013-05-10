@@ -1,7 +1,7 @@
-From 88cb776ef588187668df93f80a2b410b2d02a875 Mon Sep 17 00:00:00 2001
+From 6cfc55dd27688fded46dfce0e9a0aef070179d4f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:18:25 +0200
-Subject: [PATCH 027/173] OF: Introduce Device Tree resolve support.
+Subject: [PATCH 027/174] OF: Introduce Device Tree resolve support.
 
 Introduce support for dynamic device tree resolution.
 Using it, it is possible to prepare a device tree that's

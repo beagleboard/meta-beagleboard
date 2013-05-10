@@ -1,7 +1,7 @@
-From 1be3c481e613d903febe7d1056dfd6c1fbbb0925 Mon Sep 17 00:00:00 2001
+From 54c5c98c154173b0e6b02edb3a8a29c6816da005 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 16:52:20 +0300
-Subject: [PATCH 170/173] capes: Add BB-BONE-GPEVT cape
+Subject: [PATCH 170/174] capes: Add BB-BONE-GPEVT cape
 
 Add a virtual cape for the GPEVT dma test driver.
 

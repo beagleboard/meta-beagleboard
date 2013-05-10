@@ -1,4 +1,4 @@
-From d0db607cbb0c3f3d2d8e6ed821b9facff2512f5d Mon Sep 17 00:00:00 2001
+From ba779f4112d49b34e70cc8ac1fdcf63482ded025 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 2 Aug 2011 21:55:34 -0500
 Subject: [PATCH 1/2] panda: fix wl12xx regulator

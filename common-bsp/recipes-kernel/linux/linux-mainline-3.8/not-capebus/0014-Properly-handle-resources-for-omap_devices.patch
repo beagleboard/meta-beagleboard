@@ -1,7 +1,7 @@
-From ad4ce5e55fd161251b935275ab0e28675ebda630 Mon Sep 17 00:00:00 2001
+From 6e848fe86a5000561830d90c1f3f7fba97162387 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:41:11 +0200
-Subject: [PATCH 014/173] Properly handle resources for omap_devices
+Subject: [PATCH 014/174] Properly handle resources for omap_devices
 
 omap_device relies on the platform notifier callbacks managing resources
 behind the scenes. The resources were not properly linked causing crashes

@@ -1,7 +1,7 @@
-From 5881be00200a201cff7c594de942df125123ede2 Mon Sep 17 00:00:00 2001
+From 0efb871d371b9fdfd50fc65375938dc3a9f7adfa Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 2 May 2013 12:06:27 +0200
-Subject: [PATCH 5/6] mt9t112: forward port optimizations from Angstrom 3.2
+Subject: [PATCH 5/9] mt9t112: forward port optimizations from Angstrom 3.2
  kernel
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>

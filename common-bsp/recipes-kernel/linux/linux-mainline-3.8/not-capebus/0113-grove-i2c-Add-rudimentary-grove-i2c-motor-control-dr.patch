@@ -1,7 +1,7 @@
-From 1b15cd443805167e648d27cedb73ea812b41df6b Mon Sep 17 00:00:00 2001
+From 147aa969b1e3cd10fd9384d5e1749aef6dcea165 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 5 Mar 2013 19:45:36 +0200
-Subject: [PATCH 113/173] grove-i2c: Add rudimentary grove i2c motor control
+Subject: [PATCH 113/174] grove-i2c: Add rudimentary grove i2c motor control
  driver.
 
 Simple solenoid handling using grove i2c.

@@ -1,7 +1,7 @@
-From e6d90815f7d74fe28831a5fcf173077339ca2c0d Mon Sep 17 00:00:00 2001
+From 5f5b49b696f22bce7fa16b52754bfe20ddef8eb2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:23:07 +0200
-Subject: [PATCH 028/173] OF: Introduce DT overlay support.
+Subject: [PATCH 028/174] OF: Introduce DT overlay support.
 
 Introduce DT overlay support.
 Using this functionality it is possible to dynamically overlay a part of

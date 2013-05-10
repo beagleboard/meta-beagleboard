@@ -1,4 +1,4 @@
-From ce47d0663994abee0cfbfb3465990405b5bcb38d Mon Sep 17 00:00:00 2001
+From e5c6fe5d57ab5a658ec79dddf4a6c066b774233e Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 30 Oct 2012 16:06:51 -0400
 Subject: [PATCH 41/57] CHROMIUM: Input: atmel_mxt_ts - make mxt_initialize

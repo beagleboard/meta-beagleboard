@@ -1,4 +1,4 @@
-From 12d89ce83eb8c014a82c0872e471f9f82fd09362 Mon Sep 17 00:00:00 2001
+From a588255b3846c2a7cb6a7c8e75a4ad4a92797213 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 2 May 2013 14:15:13 +0200
 Subject: [PATCH 10/10] bone-common dtsi: remove reset cape
@@ -9,7 +9,7 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  1 file changed, 10 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am335x-bone-common.dtsi b/arch/arm/boot/dts/am335x-bone-common.dtsi
-index b8eb5b4..2949a03 100644
+index 327e592..ae407c3 100644
 --- a/arch/arm/boot/dts/am335x-bone-common.dtsi
 +++ b/arch/arm/boot/dts/am335x-bone-common.dtsi
 @@ -129,16 +129,6 @@

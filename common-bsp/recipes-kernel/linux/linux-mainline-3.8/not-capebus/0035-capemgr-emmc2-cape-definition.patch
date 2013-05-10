@@ -1,7 +1,7 @@
-From f7acccc87e78204bb59bf51084e8bd81ab87d58d Mon Sep 17 00:00:00 2001
+From 7984147e6dcf4136943af96f528a3e78536edbec Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:07:18 +0200
-Subject: [PATCH 035/173] capemgr: emmc2 cape definition.
+Subject: [PATCH 035/174] capemgr: emmc2 cape definition.
 
 Definition for a virtual eMMC cape.
 

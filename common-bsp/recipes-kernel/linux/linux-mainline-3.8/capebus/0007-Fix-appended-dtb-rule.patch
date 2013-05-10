@@ -1,4 +1,4 @@
-From 10e37c230f14e9ffff8c905e72fdae8a2d87e0a8 Mon Sep 17 00:00:00 2001
+From 797a42795892b9b700d5d03c08b33472758f7f73 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Sun, 30 Dec 2012 14:53:19 +0100
 Subject: [PATCH 7/7] Fix appended dtb rule

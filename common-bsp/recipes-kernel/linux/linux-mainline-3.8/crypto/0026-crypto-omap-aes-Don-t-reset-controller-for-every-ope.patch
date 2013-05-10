@@ -1,4 +1,4 @@
-From e8dcaaf14a9db43656fc9294ebc4fce0ca52ac82 Mon Sep 17 00:00:00 2001
+From 7e0b0eccf8f4ce75b88feddf5d3e6dd74d12ec4f Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 28 Nov 2012 15:14:05 -0700
 Subject: [PATCH 26/34] crypto: omap-aes - Don't reset controller for every

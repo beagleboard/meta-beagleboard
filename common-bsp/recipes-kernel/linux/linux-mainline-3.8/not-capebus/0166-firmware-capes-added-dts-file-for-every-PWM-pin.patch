@@ -1,7 +1,7 @@
-From fe02ecb87020113eafbd7462bc9964ff14d5665e Mon Sep 17 00:00:00 2001
+From 5ef03cca405be153bd6ae2290a69184c39ef1453 Mon Sep 17 00:00:00 2001
 From: Jason Kridner <jdk@ti.com>
 Date: Fri, 12 Apr 2013 13:38:27 +0000
-Subject: [PATCH 166/173] firmware/capes: added dts file for every PWM pin
+Subject: [PATCH 166/174] firmware/capes: added dts file for every PWM pin
 
 ---
  firmware/Makefile                      | 15 +++++++

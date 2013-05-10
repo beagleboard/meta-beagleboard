@@ -1,4 +1,4 @@
-From a5ef1964771a61fa018afd4ddd263f9e932f1cc7 Mon Sep 17 00:00:00 2001
+From 9821bc6e53b94b4c81ff590816c1831eaee038c5 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 11 Dec 2012 06:25:27 -0600
 Subject: [PATCH 01/10] Beagle: expansion: add buddy param for expansionboard

@@ -1,7 +1,7 @@
-From bc767e984d82bc7ce870bae29e622c3ecd58f594 Mon Sep 17 00:00:00 2001
+From 83293ea0dec87a979fc52290987cfe77e85f6222 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 12:25:42 +0200
-Subject: [PATCH 065/173] bone-dvi-cape: Add DT definition for 00A2 revision
+Subject: [PATCH 065/174] bone-dvi-cape: Add DT definition for 00A2 revision
 
 Add cape definition for the 00A2 revision of the DVI cape.
 

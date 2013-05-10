@@ -1,7 +1,7 @@
-From 2b14fcc89283a1b823738a894d83c6296ad49dc9 Mon Sep 17 00:00:00 2001
+From eb39ac5618374db90bd239b7a3973c92c8e74dad Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Tue, 31 Jul 2012 21:25:38 +0530
-Subject: [PATCH 057/173] ASoC: Davinci: machine: Add device tree binding
+Subject: [PATCH 057/174] ASoC: Davinci: machine: Add device tree binding
 
 Device tree support for Davinci Machine driver
 

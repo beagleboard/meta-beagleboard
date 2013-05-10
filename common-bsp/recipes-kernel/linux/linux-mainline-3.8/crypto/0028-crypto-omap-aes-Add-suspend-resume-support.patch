@@ -1,4 +1,4 @@
-From be68336072431003b675d5ce31207f52716cf292 Mon Sep 17 00:00:00 2001
+From 302b504c5efe2e5cac3d42645bec7a7b7598e150 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Thu, 20 Dec 2012 10:24:33 -0700
 Subject: [PATCH 28/34] crypto: omap-aes - Add suspend/resume support

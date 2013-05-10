@@ -1,4 +1,4 @@
-From 151185aaa78f536467a93bbf2eb03a8a465c3b1c Mon Sep 17 00:00:00 2001
+From 4d26bb5f0e718c5bed23193f89cbaf170d62f49a Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Mon, 16 Jul 2012 14:57:33 +0530
 Subject: [PATCH 29/48] ARM: dts: AM33XX: Add PWM backlight DT data to

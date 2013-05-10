@@ -1,4 +1,4 @@
-From ec615a91d0b78c52baaf716e5a920e09fb46e37d Mon Sep 17 00:00:00 2001
+From fd05f9f2b3e9a2a0eb40b2dea0d10aeedb341037 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 17 Jan 2013 20:18:32 +0200
 Subject: [PATCH 3/3] cpsw: Fix interrupt storm among other things

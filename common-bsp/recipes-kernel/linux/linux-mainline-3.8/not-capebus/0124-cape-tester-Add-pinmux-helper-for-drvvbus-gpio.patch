@@ -1,7 +1,7 @@
-From b43d05fc6781fac4b926385c1b52728e9d59704f Mon Sep 17 00:00:00 2001
+From 23dfe2e3442df11d5ebb9c8938c42adf36b82756 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 13 Mar 2013 16:55:15 +0200
-Subject: [PATCH 124/173] cape-tester: Add pinmux helper for drvvbus gpio
+Subject: [PATCH 124/174] cape-tester: Add pinmux helper for drvvbus gpio
 
 We need this so that we can control the power to the USB host port.
 ---

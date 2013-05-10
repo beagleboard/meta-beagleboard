@@ -1,4 +1,4 @@
-From 3614ec4a8f6c9779319b9c7197bc55243f30dbf2 Mon Sep 17 00:00:00 2001
+From 5a25f4825f18a5e72a2926078c74c1e780c5ab08 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Wed, 12 Sep 2012 12:42:16 -0400
 Subject: [PATCH 47/57] CHROMIUM: Input: atmel_mxt_ts - enable RPTEN if can

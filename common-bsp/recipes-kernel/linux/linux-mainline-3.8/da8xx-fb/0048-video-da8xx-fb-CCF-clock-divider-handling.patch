@@ -1,4 +1,4 @@
-From 14658a6cca64704b8def9fa98f903b8409886541 Mon Sep 17 00:00:00 2001
+From db456d08d36bb823a673d06172a26849e9eeefef Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 16 Jan 2013 18:14:31 +0530
 Subject: [PATCH 48/48] video: da8xx-fb: CCF clock divider handling

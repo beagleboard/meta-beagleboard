@@ -1,7 +1,7 @@
-From 49002a8fd6809e4bbfefea84a23b11de6c6c7fa7 Mon Sep 17 00:00:00 2001
+From bf4f4ec9a4672fc9e802b494a74695759d584bf4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 6 Dec 2012 13:44:10 +0200
-Subject: [PATCH 018/173] fdtdump: properly handle multi-string properties
+Subject: [PATCH 018/174] fdtdump: properly handle multi-string properties
 
 Device tree can store multiple strings in a single property.
 We didn't handle that case properly.

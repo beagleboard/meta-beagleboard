@@ -1,4 +1,4 @@
-From 7f2fbb1c923a9dca2c5ce06da26de76c6bd00cb6 Mon Sep 17 00:00:00 2001
+From b573ef9e2da45b80d547ce6d2d83edbaa9efc2dd Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Mon, 28 Jan 2013 15:26:25 -0800
 Subject: [PATCH 57/57] CHROMIUM: Input: atmel_mxt_ts - Set T9 in mxt_resume

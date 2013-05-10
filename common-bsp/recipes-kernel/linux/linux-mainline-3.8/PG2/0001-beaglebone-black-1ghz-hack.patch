@@ -1,4 +1,4 @@
-From 13f44270bffd733869aef49664e72c500d82cb96 Mon Sep 17 00:00:00 2001
+From cc163a52c4357942cd65255e7e5eec3aa9f2ae55 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 22 Jan 2013 17:52:18 +0100
 Subject: [PATCH] beaglebone black: 1ghz hack

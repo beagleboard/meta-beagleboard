@@ -1,7 +1,7 @@
-From 3ab32e974ec89d76f571fea3342e05013367fe44 Mon Sep 17 00:00:00 2001
+From 52452a6aec699b0a7f8df35501a830d8bcb2076e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 7 Mar 2013 17:22:40 +0200
-Subject: [PATCH 120/173] BBB tester: Introduce board DTS
+Subject: [PATCH 120/174] BBB tester: Introduce board DTS
 
 We can't use the same DTS base as the standard beaglebone because
 the I2C2 is used for a different purpose for the tester.

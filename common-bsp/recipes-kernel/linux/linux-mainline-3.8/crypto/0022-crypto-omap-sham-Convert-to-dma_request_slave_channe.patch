@@ -1,4 +1,4 @@
-From b28f325ae4922a2b6cf72e9f8363b44e95b71c90 Mon Sep 17 00:00:00 2001
+From 59f7c6eb81fe5e0660e14ec8c15829ef786c7592 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Tue, 18 Dec 2012 20:35:20 -0700
 Subject: [PATCH 22/34] crypto: omap-sham - Convert to

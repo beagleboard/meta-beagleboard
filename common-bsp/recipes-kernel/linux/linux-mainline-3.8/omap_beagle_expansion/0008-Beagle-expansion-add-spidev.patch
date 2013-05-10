@@ -1,4 +1,4 @@
-From a3ab3f086d1fd45144af6f76f11a3d5b1bfbf9f1 Mon Sep 17 00:00:00 2001
+From 8e73457c6af7e5246fa4f78234a76f6e41eab8e2 Mon Sep 17 00:00:00 2001
 From: Russell Hay <russell.hay@gmail.com>
 Date: Tue, 11 Dec 2012 06:53:58 -0600
 Subject: [PATCH 08/10] Beagle: expansion: add spidev

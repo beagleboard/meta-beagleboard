@@ -1,7 +1,7 @@
-From 03dbbca57fe854ed8a95fa8805c7739eb9660d59 Mon Sep 17 00:00:00 2001
+From 1b552c08aed94646bb71f0d3ceebd05a63892a16 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 16:28:59 +0200
-Subject: [PATCH 093/173] bone-capes: Adapt to new pwms setup
+Subject: [PATCH 093/174] bone-capes: Adapt to new pwms setup
 
 ---
  firmware/capes/BB-BONE-LCD7-01-00A2.dts  |  1 +

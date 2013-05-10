@@ -1,4 +1,4 @@
-From 665ae5ff0a7a695e603b3fdbfed3450f7c7d156c Mon Sep 17 00:00:00 2001
+From fa00d0cff404fbb00bac354bb79e8d3cefb5d495 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Wed, 16 Jan 2013 19:09:47 +0000
 Subject: [PATCH 01/23] 6lowpan: Refactor packet delivery into a function

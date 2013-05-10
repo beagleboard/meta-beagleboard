@@ -1,4 +1,4 @@
-From 13dfc3f84e7c79e3005e0c7beb7365ab78d01229 Mon Sep 17 00:00:00 2001
+From 0a6f96060623a8f311d92413cabb1a18092bfcde Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 25 Apr 2012 23:08:12 -0700
 Subject: [PATCH 08/57] CHROMIUM: Input: atmel_mxt_ts - wait for CHG assert in

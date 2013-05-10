@@ -1,4 +1,4 @@
-From 5a3ed06b2ffc7cef099a3f8b4730333b00965d78 Mon Sep 17 00:00:00 2001
+From 978472dac94408f0cd30875a439e25bbd0777247 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Mon, 18 Mar 2013 00:49:02 -0400
 Subject: [PATCH 07/23] mrf24j40: Warn if transmit interrupts timeout

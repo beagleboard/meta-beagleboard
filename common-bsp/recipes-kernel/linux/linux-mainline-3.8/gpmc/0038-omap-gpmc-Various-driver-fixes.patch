@@ -1,4 +1,4 @@
-From bee469b54034145af4a9d61f94b82ebb5ab24e1f Mon Sep 17 00:00:00 2001
+From 5281cae216e0e519cd23c099c94f025422220f1d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 26 Apr 2013 01:21:49 +0300
 Subject: [PATCH 38/39] omap: gpmc: Various driver fixes

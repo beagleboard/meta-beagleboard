@@ -1,4 +1,4 @@
-From bd92aa5a53ba96f49f8bf0e0056e8e18b2ee02fb Mon Sep 17 00:00:00 2001
+From 617bac6ff29feef4668f7838d3a25946a09cdada Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 6 Sep 2012 17:47:21 -0400
 Subject: [PATCH 20/35] mmc: omap_hsmmc: convert to

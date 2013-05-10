@@ -1,7 +1,7 @@
-From b559021124d1979bb0b92c5de43ea878b5e10b3f Mon Sep 17 00:00:00 2001
+From 0f132cf56421668c1450057bfd7f686087e1ebcf Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 9 Apr 2013 22:52:14 +0300
-Subject: [PATCH 162/173] capes: Add PWM test example cape
+Subject: [PATCH 162/174] capes: Add PWM test example cape
 
 A simple example of a PWM test based cape.
 

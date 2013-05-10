@@ -1,4 +1,4 @@
-From 17aa9dc46209066f6febe911acecccdec141b053 Mon Sep 17 00:00:00 2001
+From db87f47298b83c277750cf37a398a043d8946efd Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 15 Jan 2013 08:42:52 +0000
 Subject: [PATCH 01/12] drivers: usb: phy: add a new driver for usb part of

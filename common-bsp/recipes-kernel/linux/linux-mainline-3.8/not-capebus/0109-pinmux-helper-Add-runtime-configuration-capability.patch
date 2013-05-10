@@ -1,7 +1,7 @@
-From b2a187172fffa2abfe53a5a34155801cfbe0032a Mon Sep 17 00:00:00 2001
+From a8cf0cb08a99aa51648b751ca3274698b36359af Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 6 Mar 2013 19:37:53 +0200
-Subject: [PATCH 109/173] pinmux-helper: Add runtime configuration capability
+Subject: [PATCH 109/174] pinmux-helper: Add runtime configuration capability
 
 Pinctrl already supports multiple states. Just make them visible.
 ---

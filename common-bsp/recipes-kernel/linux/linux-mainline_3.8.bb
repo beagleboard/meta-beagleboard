@@ -12,10 +12,10 @@ FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.11"
+PV = "3.8.12"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "9fa1d01e4fef818465d4b684b528e32b3fa68639"
+SRCREV_pn-${PN} = "9c9ab76c48ffc48648c8e5da40d57965fc65c030"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
@@ -424,6 +424,7 @@ SRC_URI += " \
 	file://not-capebus/0171-clock-Export-__clock_set_parent.patch \
 	file://not-capebus/0172-omap-clk-Add-adjustable-clkout2.patch \
 	file://not-capebus/0173-am33xx-Update-DTS-EDMA.patch \
+	file://not-capebus/0174-bone-Added-RS232-prototype-cape-DT-object.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -576,6 +577,9 @@ SRC_URI += " \
 	file://camera/0004-cssp_camera-increase-delays-make-sensor-detection-wo.patch \
 	file://camera/0005-mt9t112-forward-port-optimizations-from-Angstrom-3.2.patch \
 	file://camera/0006-cssp_camera-Use-flip-if-available.patch \
+	file://camera/0007-cssp_camera-Fix-it-for-small-resolutions.patch \
+	file://camera/0008-cssp_camera-Increase-delay-after-enabling-clocks-to-.patch \
+	file://camera/0009-Debugging-camera-stuff.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \

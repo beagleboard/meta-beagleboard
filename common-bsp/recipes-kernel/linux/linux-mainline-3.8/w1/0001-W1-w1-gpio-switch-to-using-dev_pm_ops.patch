@@ -1,4 +1,4 @@
-From 16ec78f040365f355f7a234cfefaecff870f6c61 Mon Sep 17 00:00:00 2001
+From 03055cfb68d9f721089206d4bd34b5f175e53c56 Mon Sep 17 00:00:00 2001
 From: Dmitry Torokhov <dmitry.torokhov@gmail.com>
 Date: Sun, 24 Feb 2013 22:59:34 -0800
 Subject: [PATCH 1/4] W1: w1-gpio - switch to using dev_pm_ops

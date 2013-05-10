@@ -1,4 +1,4 @@
-From d8ce2d85ee04950d203ab184e64e4f4f0f13ad46 Mon Sep 17 00:00:00 2001
+From bcc87da66fe941722116dc93602b99b82e7c1f5f Mon Sep 17 00:00:00 2001
 From: Iiro Valkonen <iiro.valkonen@atmel.com>
 Date: Fri, 29 Apr 2011 09:37:45 -0400
 Subject: [PATCH 24/57] CHROMIUM: INPUT: atmel_mxt_ts - Increase the wait times

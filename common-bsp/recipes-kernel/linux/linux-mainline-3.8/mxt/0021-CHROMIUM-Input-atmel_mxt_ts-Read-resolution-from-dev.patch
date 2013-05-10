@@ -1,4 +1,4 @@
-From 6daed7b15b6481342345a46b7588cadf187ab54d Mon Sep 17 00:00:00 2001
+From efaa1ed6682ea9ad1beb372a3c324371ad26e975 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 1 May 2012 16:58:46 -0400
 Subject: [PATCH 21/57] CHROMIUM: Input: atmel_mxt_ts - Read resolution from

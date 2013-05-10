@@ -1,7 +1,7 @@
-From d3dce315f048a230f33afe5ea3b78a1e9f69883d Mon Sep 17 00:00:00 2001
+From 71b354591b3a86ae4ce7793d619cc059ef81902a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:39:29 +0200
-Subject: [PATCH 013/173] Link platform device resources properly.
+Subject: [PATCH 013/174] Link platform device resources properly.
 
 The resources of the platform devices created by the OF core were
 not properly linked. Make sure that they are, so that we don't get

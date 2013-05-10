@@ -1,4 +1,4 @@
-From 9a68d3317e8ff789373a0f1503ba5806f16fe057 Mon Sep 17 00:00:00 2001
+From 24ff57210967329b59b215a57830f63c327528cb Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 31 Dec 2012 01:03:41 +0530
 Subject: [PATCH 41/48] video: da8xx-fb: ensure non-null cfg in pdata

@@ -1,7 +1,7 @@
-From 6ce423e68b4fa799a53c3e6c2800f27e8fa16188 Mon Sep 17 00:00:00 2001
+From 83fe9ed808458309993e1b0776109830230e919b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 8 Mar 2013 14:31:40 +0200
-Subject: [PATCH 116/173] bone-capemgr: Force a slot to load unconditionally
+Subject: [PATCH 116/174] bone-capemgr: Force a slot to load unconditionally
 
 Use this option to force a slot override to load unconditionally.
 Useful for testing.

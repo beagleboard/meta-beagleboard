@@ -1,4 +1,4 @@
-From b23543122e8180029fc3e6a01403a09754972e1f Mon Sep 17 00:00:00 2001
+From 3cb977c6630d4f1c38baabaa8f98a427902adfa5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 8 Apr 2013 19:45:48 +0000
 Subject: [PATCH 2/2] headers_install: Fix build failures on deep directory

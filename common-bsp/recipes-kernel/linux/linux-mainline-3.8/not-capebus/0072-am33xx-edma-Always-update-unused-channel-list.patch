@@ -1,7 +1,7 @@
-From fed86a59fc82ac9ad942e617c88a14a723c0cba1 Mon Sep 17 00:00:00 2001
+From a8a806f413b01a0cb331675f96045d7dbf9eb156 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 20:03:18 +0200
-Subject: [PATCH 072/173] am33xx: edma: Always update unused channel list
+Subject: [PATCH 072/174] am33xx: edma: Always update unused channel list
 
 When using dynamically created devices the single initialization
 of the the unused channels list is wrong, so do it every time.

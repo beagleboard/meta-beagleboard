@@ -1,7 +1,7 @@
-From b6f584cf3df5c7397e255a724fdec761abf1aea3 Mon Sep 17 00:00:00 2001
+From 9b0ec4c0148822ea65746b2d6b575d6ae27deda6 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:44 +0000
-Subject: [PATCH 130/173] cape: vsense-scale division by zero check
+Subject: [PATCH 130/174] cape: vsense-scale division by zero check
 
 Catch corner case of division by zero when passing
 in vsense-scale property from the device tree.

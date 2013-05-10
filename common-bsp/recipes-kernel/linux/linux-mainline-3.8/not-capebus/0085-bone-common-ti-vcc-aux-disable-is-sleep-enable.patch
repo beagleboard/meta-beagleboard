@@ -1,7 +1,7 @@
-From 8d7e8ad705d6a463bb191ac2c0bdd9df3d80726d Mon Sep 17 00:00:00 2001
+From 85109b51309bfbf1f69b6a453cbfa1dba8985f39 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 18 Jan 2013 15:46:52 +0200
-Subject: [PATCH 085/173] bone-common: ti,vcc-aux-disable-is-sleep enable
+Subject: [PATCH 085/174] bone-common: ti,vcc-aux-disable-is-sleep enable
 
 Enable vcc-aux-disable-is-sleep on both MMC interfaces.
 

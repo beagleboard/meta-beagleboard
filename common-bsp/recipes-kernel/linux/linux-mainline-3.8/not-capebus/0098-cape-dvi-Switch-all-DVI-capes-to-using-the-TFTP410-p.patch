@@ -1,7 +1,7 @@
-From 92f5001b8e4df8b52a24cd3fe1dc3c44974f3681 Mon Sep 17 00:00:00 2001
+From e08e2f6b752c43315d37f15987a02ad66219aad5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 20:11:05 +0200
-Subject: [PATCH 098/173] cape-dvi: Switch all DVI capes to using the TFTP410
+Subject: [PATCH 098/174] cape-dvi: Switch all DVI capes to using the TFTP410
  panel
 
 Now that TFP410 works reasonably well switch to using it.

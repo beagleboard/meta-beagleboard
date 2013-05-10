@@ -1,4 +1,4 @@
-From e5289711c8119b74402af233d5794a026c148f5b Mon Sep 17 00:00:00 2001
+From 3e8ff7cab6eba4261d47d94baff31e8bf7526e10 Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 11:36:43 +0100
 Subject: [PATCH 32/39] ARM: OMAP: gpmc: enable hwecc for AM33xx SoCs

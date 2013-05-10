@@ -1,7 +1,7 @@
-From dd18d9d845c5d40c2d9475cf41473e11880fe216 Mon Sep 17 00:00:00 2001
+From 8b7d1fa9d40f9c8c2e98026914bb7e5d27c0dad2 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 1 Apr 2013 09:36:22 +0200
-Subject: [PATCH 150/173] beaglebone black: add new fixed regulator for
+Subject: [PATCH 150/174] beaglebone black: add new fixed regulator for
  uSD/eMMC
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>

@@ -1,4 +1,4 @@
-From 9381025a94449d7a0ae624c5f3e550f8de835fa7 Mon Sep 17 00:00:00 2001
+From a390052e05d154b264ecd8722bb535b1f9801c8b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 23 Oct 2012 11:48:58 +0300
 Subject: [PATCH 3/7] pwm-backlight: Pinctrl-fy

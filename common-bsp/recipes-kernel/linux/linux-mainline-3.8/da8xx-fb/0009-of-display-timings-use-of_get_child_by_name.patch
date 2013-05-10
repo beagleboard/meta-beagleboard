@@ -1,4 +1,4 @@
-From b78bcfe1c794db9e91995f70e48d2178da1cad9e Mon Sep 17 00:00:00 2001
+From 62041e372c8e84996eda7de222f96d7dc1676b24 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 28 Jan 2013 16:36:45 +0100
 Subject: [PATCH 09/48] of display timings: use of_get_child_by_name

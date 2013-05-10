@@ -1,4 +1,4 @@
-From bef43f832a11c51bac4facf2283993d7e6fd3de5 Mon Sep 17 00:00:00 2001
+From c3597ba03777a1ecb0ce3c5ab5a08090256a0f37 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Tue, 22 May 2012 11:34:58 +0530
 Subject: [PATCH 2/9] Control module : EHRPWM clk enabling

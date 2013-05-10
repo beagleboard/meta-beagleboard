@@ -1,4 +1,4 @@
-From 6290d2d40b59eee6d0f23e5b0499ad846281afb1 Mon Sep 17 00:00:00 2001
+From 192979340a06415f3e12430fa9788610a3e8b45b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 13:29:59 +0200
 Subject: [PATCH 12/16] am335x-adc: Do not use find_node_by_name, use

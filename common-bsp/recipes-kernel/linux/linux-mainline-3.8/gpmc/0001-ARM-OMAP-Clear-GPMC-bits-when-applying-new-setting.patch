@@ -1,4 +1,4 @@
-From 08c3cbbb8d025f37ab047b036e5831c2849ad2b2 Mon Sep 17 00:00:00 2001
+From 1d5a87c99698e1f1eb577975b612d600d6b7e4bc Mon Sep 17 00:00:00 2001
 From: Mark Jackson <mpfj-list@mimc.co.uk>
 Date: Tue, 5 Mar 2013 10:13:40 +0000
 Subject: [PATCH 01/39] ARM: OMAP: Clear GPMC bits when applying new setting.

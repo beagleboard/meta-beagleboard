@@ -1,4 +1,4 @@
-From 3df755cbbf62ed8351bbd65021caec237754fa5a Mon Sep 17 00:00:00 2001
+From 5c4ff94cdd7aee2bd6256e447e8ea0bf11807e6f Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Fri, 25 May 2012 13:55:26 -0400
 Subject: [PATCH 22/57] CHROMIUM: Input: atmel_mxt_ts - Report TOUCH MAJOR in

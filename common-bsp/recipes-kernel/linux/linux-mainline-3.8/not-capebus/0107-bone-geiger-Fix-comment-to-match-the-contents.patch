@@ -1,7 +1,7 @@
-From f4ddb4f53e269af0ba347ba1cdc3c0b3981b8f1a Mon Sep 17 00:00:00 2001
+From b495c65dd302708ec753ed41a122ace250832bf9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 5 Mar 2013 18:25:32 +0200
-Subject: [PATCH 107/173] bone-geiger: Fix comment to match the contents
+Subject: [PATCH 107/174] bone-geiger: Fix comment to match the contents
 
 ---
  firmware/capes/cape-bone-geiger-00A0.dts | 2 +-

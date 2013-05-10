@@ -1,7 +1,7 @@
-From 70690487be71c226f31296de9fb93bdd63996bbc Mon Sep 17 00:00:00 2001
+From bf69a20c12d7d71838ed9113e9d417cef6081377 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Thu, 14 Mar 2013 09:36:14 -0400
-Subject: [PATCH 146/173] firmware: DT Fragment for MRF24J40 BeagleBone Cape
+Subject: [PATCH 146/174] firmware: DT Fragment for MRF24J40 BeagleBone Cape
 
 Support for the Signal 11 MRF24J40 BeagleBone Cape.
 ---

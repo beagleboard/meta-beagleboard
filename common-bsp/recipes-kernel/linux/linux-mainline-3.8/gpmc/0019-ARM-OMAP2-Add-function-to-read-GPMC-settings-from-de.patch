@@ -1,4 +1,4 @@
-From ef782cbe4107caace8533b3711b06db9a4c5af73 Mon Sep 17 00:00:00 2001
+From 5fcdb0a89e0fbc00ea13da59d9a9b2c8fabaa397 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Wed, 20 Feb 2013 15:53:12 -0600
 Subject: [PATCH 19/39] ARM: OMAP2+: Add function to read GPMC settings from

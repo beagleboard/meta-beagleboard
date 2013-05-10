@@ -1,4 +1,4 @@
-From e631082a2b0eae5d1847554b2ce00c34fecb0f28 Mon Sep 17 00:00:00 2001
+From ca42c5e31a35d90e89e0333150cd50f8c7f9c2d4 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 18 Oct 2012 21:08:59 -0400
 Subject: [PATCH 11/35] dma: edma: add device_channel_caps() support

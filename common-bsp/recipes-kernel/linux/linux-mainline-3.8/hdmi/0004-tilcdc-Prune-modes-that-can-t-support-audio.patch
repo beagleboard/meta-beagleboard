@@ -1,7 +1,7 @@
-From 95216de9eb19b7c1b56d074d2493b3fac704d957 Mon Sep 17 00:00:00 2001
+From 2b798e6e018a08f5e38e9860c849fd73365f0e12 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 3 May 2013 16:11:53 +0300
-Subject: [PATCH 4/4] tilcdc: Prune modes that can't support audio.
+Subject: [PATCH 4/5] tilcdc: Prune modes that can't support audio.
 
 If the connector supports audio, prune all the display modes that
 don't support it.

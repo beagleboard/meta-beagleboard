@@ -1,7 +1,7 @@
-From 2a36ba0dbfcda48409a0b5752ba78ae8b2eecabe Mon Sep 17 00:00:00 2001
+From cad929049821ec3eec028fc421e1a70f70c1bc79 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 14:13:53 +0200
-Subject: [PATCH 068/173] sound-soc: Davinci: Remove __devinit/__devexit
+Subject: [PATCH 068/174] sound-soc: Davinci: Remove __devinit/__devexit
 
 __devinit/__devexit and the like has been purged. Remove them.
 

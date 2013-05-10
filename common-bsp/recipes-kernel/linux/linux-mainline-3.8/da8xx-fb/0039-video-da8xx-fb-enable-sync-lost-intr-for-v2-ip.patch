@@ -1,4 +1,4 @@
-From 7d1f1178a61485c396d4ce7e43c1cd602967ad1a Mon Sep 17 00:00:00 2001
+From 901651072a5889c4720b58ccbeb55cd1f783b344 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 17 Dec 2012 19:37:46 +0530
 Subject: [PATCH 39/48] video: da8xx-fb: enable sync lost intr for v2 ip

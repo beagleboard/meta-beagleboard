@@ -1,7 +1,7 @@
-From 10dbd97f4a795c1b18bf69e2d6b62374f4add895 Mon Sep 17 00:00:00 2001
+From 9ad54edbbd654cada8968595a90ed721b17317bf Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 21 Mar 2013 17:08:58 +0200
-Subject: [PATCH 134/173] Add ADC IIO helper
+Subject: [PATCH 134/174] Add ADC IIO helper
 
 ---
  firmware/capes/cape-bone-tester-00A0.dts | 30 ++++++++++++++++++++++++++++++

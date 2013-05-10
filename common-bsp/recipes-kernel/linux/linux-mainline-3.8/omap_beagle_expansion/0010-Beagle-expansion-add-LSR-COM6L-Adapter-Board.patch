@@ -1,4 +1,4 @@
-From e318171a395dc38ed229dee91ea0870fb7c6eb5e Mon Sep 17 00:00:00 2001
+From a48fbcef8ddc6f97a06ad1b6ae29491042b54404 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 11 Dec 2012 07:02:40 -0600
 Subject: [PATCH 10/10] Beagle: expansion: add LSR COM6L Adapter Board

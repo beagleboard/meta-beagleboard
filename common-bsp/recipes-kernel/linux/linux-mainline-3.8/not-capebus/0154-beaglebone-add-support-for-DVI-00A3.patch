@@ -1,7 +1,7 @@
-From 431453d091232ce2e9fba2bf9ecb09c2f8b7dd17 Mon Sep 17 00:00:00 2001
+From ebbff4d9fe5bad994526604d021c291fc5dc8c5e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 15:39:38 +0200
-Subject: [PATCH 154/173] beaglebone: add support for DVI 00A3
+Subject: [PATCH 154/174] beaglebone: add support for DVI 00A3
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

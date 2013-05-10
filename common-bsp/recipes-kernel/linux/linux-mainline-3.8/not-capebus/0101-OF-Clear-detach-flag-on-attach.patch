@@ -1,7 +1,7 @@
-From 90d15e353d836756bb32bcd02c0b22d05d248ffc Mon Sep 17 00:00:00 2001
+From e03591c454fb2096cce72eabee42f2158f84c16f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:26:34 +0200
-Subject: [PATCH 101/173] OF: Clear detach flag on attach
+Subject: [PATCH 101/174] OF: Clear detach flag on attach
 
 When attaching a node always clear the detach flag. Without this change
 the sequence detach, attach fails.

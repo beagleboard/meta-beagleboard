@@ -1,7 +1,7 @@
-From f7e2b2ddfa3955fa2ed2c50d2fc18963bcf7901e Mon Sep 17 00:00:00 2001
+From f07aa6c7380f164e035bcbc54058de380615fc65 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Fri, 19 Apr 2013 12:37:37 -0500
-Subject: [PATCH 2/4] BeagleBone Black TDA998x Initial HDMI Audio support
+Subject: [PATCH 2/5] BeagleBone Black TDA998x Initial HDMI Audio support
 
 commit 5e166deffcfe438f57ec334e288e068e42fb05bb
 Author: Darren Etheridge <detheridge@ti.com>

@@ -1,7 +1,7 @@
-From abfbeb21891ba0d98389f678a88ef24b1c711248 Mon Sep 17 00:00:00 2001
+From fa82e4c2d2d2b0e3290ed28dcdefe4c7184524d7 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:28:19 +0200
-Subject: [PATCH 102/173] OF-overlay: Fix overlay revert failure
+Subject: [PATCH 102/174] OF-overlay: Fix overlay revert failure
 
 Somewhere along the line of changes we dropped the ability to cleanly revert
 overlays. This patchset fixes the bug, and makes it possible to add/remove

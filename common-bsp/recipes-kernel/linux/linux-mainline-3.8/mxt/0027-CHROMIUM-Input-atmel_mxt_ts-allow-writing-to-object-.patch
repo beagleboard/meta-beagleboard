@@ -1,4 +1,4 @@
-From 99829a540e5959e59b94ee4355d20a2ee79cf17f Mon Sep 17 00:00:00 2001
+From c56ecdf6e0d92ce30247acab9f58d17d51c1fa83 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 19 Mar 2012 09:39:12 +0800
 Subject: [PATCH 27/57] CHROMIUM: Input: atmel_mxt_ts - allow writing to object

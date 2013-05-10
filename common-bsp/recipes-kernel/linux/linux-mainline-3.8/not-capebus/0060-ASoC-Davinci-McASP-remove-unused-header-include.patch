@@ -1,7 +1,7 @@
-From 7197436bcd15a9bd55f02d7ecfbe9eda0f0bfe81 Mon Sep 17 00:00:00 2001
+From ce404809e78f1f5dc225fc3b1b57f6b194fe6423 Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Mon, 26 Sep 2011 18:16:19 +0530
-Subject: [PATCH 060/173] ASoC: Davinci: McASP: remove unused header include
+Subject: [PATCH 060/174] ASoC: Davinci: McASP: remove unused header include
 
 Defines or parameters from <mach/mux.h> isn't used anywhere. Hence
 remove the header include.

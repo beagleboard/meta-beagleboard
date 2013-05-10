@@ -1,4 +1,4 @@
-From 043c85dbbdba85e33ed7f1258b1268d21dae615d Mon Sep 17 00:00:00 2001
+From d8e615b02985295e68cb629f9ce7e3b175ef75a3 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:08 +0000
 Subject: [PATCH 04/16] MFD: ti_am335x_tscadc: add device tree binding
