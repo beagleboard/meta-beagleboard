@@ -580,6 +580,7 @@ SRC_URI += " \
 	file://camera/0007-cssp_camera-Fix-it-for-small-resolutions.patch \
 	file://camera/0008-cssp_camera-Increase-delay-after-enabling-clocks-to-.patch \
 	file://camera/0009-Debugging-camera-stuff.patch \
+	file://camera/0010-cssp_camera-Make-it-work-with-Beaglebone-black.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \
