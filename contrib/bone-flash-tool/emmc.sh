@@ -40,6 +40,9 @@ if [ -d ${PART2MOUNT}/usr/share/beaglebone-getting-started ] ; then
 	cp -r ${PART2MOUNT}/usr/share/beaglebone-getting-started/* ${PART1MOUNT}
 fi
 
+echo "Cloud9 GNOME Image DATE" > ${PART1MOUNT}/ID.txt
+echo "Cloud9 GNOME Image DATE" > ${PART2MOUNT}/etc/dogtag
+
 umount ${PART1MOUNT}
 
 if [ "${HOSTARCH}" = "armv7l" ] ; then
@@ -72,7 +75,7 @@ touch ${PART2MOUNT}/etc/default/locale
 mkdir -p ${PART2MOUNT}/var/lib/connman/
 cp connman.settings ${PART2MOUNT}/var/lib/connman/settings
 
-# Replace wallpart
+# Replace wallpaper
 if [ -e ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg ] ; then
 	cp beaglebg.jpg ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg
 fi
