@@ -561,6 +561,8 @@ SRC_URI += " \
 	file://hdmi/0003-Clean-up-some-formating-and-debug-in-Davinci-MCASP-d.patch \
 	file://hdmi/0004-tilcdc-Prune-modes-that-can-t-support-audio.patch \
 	file://hdmi/0005-Enable-output-of-correct-AVI-Infoframe-type-hdmi.patch \
+	file://hdmi/0006-drm-am335x-add-support-for-2048-lines-vertical.patch \
+	file://hdmi/0007-drm-tda998x-Adding-extra-CEA-mode-for-1920x1080-24.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
