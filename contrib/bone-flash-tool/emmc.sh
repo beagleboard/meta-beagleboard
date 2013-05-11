@@ -28,7 +28,7 @@ mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
 
 echo "Copying bootloader files"
 cp MLO u-boot.img ${PART1MOUNT}
-echo "optargs=quiet" >> ${PART1MOUNT}/uEnv.txt
+echo "optargs=quiet drm.debug=7" >> ${PART1MOUNT}/uEnv.txt
 
 sync
 
