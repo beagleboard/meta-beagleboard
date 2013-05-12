@@ -27,6 +27,9 @@ do_install() {
 
 	install -d ${D}${bindir}
 	install -m 0755 ${WORKDIR}/*.sh ${D}${bindir}
+
+	install -d ${D}${sysconfdir}/systemd/system/getty.target.wants
+	( cd ${D}${sysconfdir}/systemd/system/getty.target.wants && ln -s /lib/systemd/system/serial-getty@.service serial-getty@ttyGS0.service )
 }
 
 PACKAGES =+ "${PN}-network ${PN}-udhcpd"
