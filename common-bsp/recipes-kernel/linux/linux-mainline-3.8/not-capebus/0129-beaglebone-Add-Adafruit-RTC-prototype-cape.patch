@@ -1,4 +1,4 @@
-From 5004dbd839efff874b6bcb31e16eb324ed95da74 Mon Sep 17 00:00:00 2001
+From 4baca05c0ddde1229b69194731fe159060b7ff07 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:04:06 +0000
 Subject: [PATCH 129/174] beaglebone: Add Adafruit RTC prototype cape

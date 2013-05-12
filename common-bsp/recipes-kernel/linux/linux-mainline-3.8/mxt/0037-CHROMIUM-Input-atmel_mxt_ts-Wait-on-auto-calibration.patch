@@ -1,4 +1,4 @@
-From 6453196806961c2b9a0b8b2efcf04e3a8bfcd13b Mon Sep 17 00:00:00 2001
+From 7cf4c34a1698ffa0cc8cf67f5bb1ca8f220daac9 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Wed, 16 May 2012 14:52:02 -0400
 Subject: [PATCH 37/57] CHROMIUM: Input: atmel_mxt_ts - Wait on auto

@@ -1,4 +1,4 @@
-From 5546c8cf1fa0abd3794d6f703c5833fcb038b284 Mon Sep 17 00:00:00 2001
+From c1572ba66d35c353224f3c36c8fb0b97ad3fa2f0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 11:26:59 +0200
 Subject: [PATCH 010/174] am335x-dt: Add I2C0 pinctrl entries.

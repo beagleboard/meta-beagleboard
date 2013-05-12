@@ -1,4 +1,4 @@
-From a644ff054b60043b8d9a11d7d8d586ad6f257063 Mon Sep 17 00:00:00 2001
+From 799f845246344d2b6a552f63b21220942936230c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 7 Mar 2013 09:54:38 +0200
 Subject: [PATCH 110/174] pinmux-helper: Switch to using kmalloc

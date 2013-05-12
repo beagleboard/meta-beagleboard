@@ -1,4 +1,4 @@
-From 9ad54edbbd654cada8968595a90ed721b17317bf Mon Sep 17 00:00:00 2001
+From 024123d8364db15e93fde8d5e0b9072db29063f3 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 21 Mar 2013 17:08:58 +0200
 Subject: [PATCH 134/174] Add ADC IIO helper

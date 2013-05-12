@@ -1,4 +1,4 @@
-From f07e98b2e6b496651ed863aae5fd68b462cb15f6 Mon Sep 17 00:00:00 2001
+From 272028ecf12e6e8b7f1a3593b6c72e8d5b8324ae Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 10 Jan 2013 16:22:59 +0200
 Subject: [PATCH 050/174] am33xx.dtsi: Make the MUSB not crash on load

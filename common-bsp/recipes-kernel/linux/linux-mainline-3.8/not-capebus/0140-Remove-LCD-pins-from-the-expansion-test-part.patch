@@ -1,4 +1,4 @@
-From 61a89e153811fea9317bdbf84d9f8a551316ffa1 Mon Sep 17 00:00:00 2001
+From efb1e380b2bb7a940ab84bda5fedf16e50ae3541 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 25 Mar 2013 15:20:06 +0200
 Subject: [PATCH 140/174] Remove LCD pins from the expansion test part

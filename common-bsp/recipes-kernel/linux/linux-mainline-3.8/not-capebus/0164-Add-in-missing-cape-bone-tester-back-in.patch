@@ -1,4 +1,4 @@
-From 48ce981936d0e30112892a9a6185eae76edf1975 Mon Sep 17 00:00:00 2001
+From e7dce15c5f87a9c4257a1b40e703153c022f7cb9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Apr 2013 21:19:13 +0300
 Subject: [PATCH 164/174] Add in missing cape-bone-tester back in.

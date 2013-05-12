@@ -1,4 +1,4 @@
-From e03591c454fb2096cce72eabee42f2158f84c16f Mon Sep 17 00:00:00 2001
+From d906c61207d0c766933a712d0bdb7776811cb40b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:26:34 +0200
 Subject: [PATCH 101/174] OF: Clear detach flag on attach

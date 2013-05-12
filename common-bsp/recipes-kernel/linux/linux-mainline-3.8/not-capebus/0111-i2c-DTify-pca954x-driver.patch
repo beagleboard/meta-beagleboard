@@ -1,4 +1,4 @@
-From f288a3728941313c214e3b6d16d1bd8a1b8fb2f5 Mon Sep 17 00:00:00 2001
+From 3603c915ece1658c73412fb2bc97c3ef004c1906 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 4 Mar 2013 18:53:36 +0200
 Subject: [PATCH 111/174] i2c: DTify pca954x driver

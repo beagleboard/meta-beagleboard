@@ -12,10 +12,10 @@ FILESPATH =. "${FILE_DIRNAME}/linux-mainline-3.8:${FILE_DIRNAME}/linux-mainline-
 
 S = "${WORKDIR}/git"
 
-PV = "3.8.12"
+PV = "3.8.13"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.8.y"
-SRCREV_pn-${PN} = "9c9ab76c48ffc48648c8e5da40d57965fc65c030"
+SRCREV_pn-${PN} = "dbf932a9b316d5b29b3e220e5a30e7a165ad2992"
 
 do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then

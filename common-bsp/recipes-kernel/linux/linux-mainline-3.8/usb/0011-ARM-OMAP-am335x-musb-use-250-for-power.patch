@@ -1,4 +1,4 @@
-From 431bd010b55c9506db541adb35769bbff95e6f58 Mon Sep 17 00:00:00 2001
+From b94223bf83a8d5288fa4dbebcf74e6738a4b70c6 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Wed, 3 Apr 2013 13:25:38 -0500
 Subject: [PATCH 11/12] ARM: OMAP: am335x: musb use 250 for power

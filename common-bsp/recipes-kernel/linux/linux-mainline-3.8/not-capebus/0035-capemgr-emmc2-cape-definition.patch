@@ -1,4 +1,4 @@
-From 7984147e6dcf4136943af96f528a3e78536edbec Mon Sep 17 00:00:00 2001
+From 9aee860bae23bbd263d29813e139affa6fe1648e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:07:18 +0200
 Subject: [PATCH 035/174] capemgr: emmc2 cape definition.

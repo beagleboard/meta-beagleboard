@@ -1,4 +1,4 @@
-From 48c0dbee7c8585d1fc0b51cce4d89e6cb3013b5e Mon Sep 17 00:00:00 2001
+From 00131d23be52a95c5b15750ba664833ad57cc01d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Apr 2013 19:37:08 +0300
 Subject: [PATCH 163/174] Sync tester DTS with am335x-common

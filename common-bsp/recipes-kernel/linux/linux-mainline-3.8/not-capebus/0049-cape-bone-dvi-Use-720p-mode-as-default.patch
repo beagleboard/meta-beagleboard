@@ -1,4 +1,4 @@
-From 1023004badccffc1f76d49864b9133826e76da1d Mon Sep 17 00:00:00 2001
+From 3decc029b211be4e8ac01719cd8d6265620ec606 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 23:28:11 +0200
 Subject: [PATCH 049/174] cape-bone-dvi: Use 720p mode as default

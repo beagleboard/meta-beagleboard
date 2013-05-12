@@ -1,4 +1,4 @@
-From 4ecb4b66c91c8b00a9946b325769538d8b2ec3e3 Mon Sep 17 00:00:00 2001
+From 2b422f6f697bf29bab52bde65cbe234d483076d3 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:03:59 +0200
 Subject: [PATCH 033/174] bone-geiger: Geiger bone driver.

@@ -1,4 +1,4 @@
-From fa82e4c2d2d2b0e3290ed28dcdefe4c7184524d7 Mon Sep 17 00:00:00 2001
+From ccfc03e63f5487b324816f21faf59f6a87e5d868 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 11:28:19 +0200
 Subject: [PATCH 102/174] OF-overlay: Fix overlay revert failure

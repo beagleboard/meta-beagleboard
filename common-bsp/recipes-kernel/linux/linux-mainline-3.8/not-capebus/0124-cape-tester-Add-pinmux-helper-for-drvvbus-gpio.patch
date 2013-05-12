@@ -1,4 +1,4 @@
-From 23dfe2e3442df11d5ebb9c8938c42adf36b82756 Mon Sep 17 00:00:00 2001
+From d32d83965cb251b5f9248a6e9fbbd2053c8ab0cd Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 13 Mar 2013 16:55:15 +0200
 Subject: [PATCH 124/174] cape-tester: Add pinmux helper for drvvbus gpio

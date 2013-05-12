@@ -1,4 +1,4 @@
-From 6e01385103322d96e937f3caddfa1c01f8ca3a7e Mon Sep 17 00:00:00 2001
+From a67814acda183ffbd66b1910235fa5acacde05f8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 7 Mar 2013 18:17:02 +0200
 Subject: [PATCH 115/174] am335x-bone-common: Remove SPI unused pinmux config

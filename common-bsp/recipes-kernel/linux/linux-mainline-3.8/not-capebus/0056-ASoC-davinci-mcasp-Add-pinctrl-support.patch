@@ -1,4 +1,4 @@
-From b3b5226b883b2992d37631c1fe3dd6fe258e99d0 Mon Sep 17 00:00:00 2001
+From 686c3dd969794916ce0d357e14068a1f6a889645 Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Mon, 29 Oct 2012 19:18:47 +0530
 Subject: [PATCH 056/174] ASoC: davinci-mcasp: Add pinctrl support

@@ -1,7 +1,7 @@
-From 96a443843e12931baf53cc337dae845a48a91519 Mon Sep 17 00:00:00 2001
+From 8dff5858b1f1139dc4a7cdb56be4915916221b88 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 9 May 2013 23:01:53 +0300
-Subject: [PATCH 7/9] cssp_camera: Fix it for small resolutions
+Subject: [PATCH 07/10] cssp_camera: Fix it for small resolutions
 
 This should make it work reliably for resolutions up to 1024x768
 

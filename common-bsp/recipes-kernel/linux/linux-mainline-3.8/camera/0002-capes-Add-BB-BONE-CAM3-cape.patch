@@ -1,7 +1,7 @@
-From 057be2e8019fa165688f19d503008b5fe7b432db Mon Sep 17 00:00:00 2001
+From 90f0ea9b6a474f3fb46823708dbbbf18152cf02f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 16:51:56 +0300
-Subject: [PATCH 2/9] capes: Add BB-BONE-CAM3 cape
+Subject: [PATCH 02/10] capes: Add BB-BONE-CAM3 cape
 
 Add the cape definition for the CAM3 cape
 

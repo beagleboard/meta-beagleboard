@@ -1,4 +1,4 @@
-From a2931cc597a8192dcf1c61b954b9f10eb4332d79 Mon Sep 17 00:00:00 2001
+From 066f26e00b16d3568e92b9e2e3adffeeabeef522 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 11:17:59 +0200
 Subject: [PATCH 051/174] regulator: DUMMY_REGULATOR should work for OF too

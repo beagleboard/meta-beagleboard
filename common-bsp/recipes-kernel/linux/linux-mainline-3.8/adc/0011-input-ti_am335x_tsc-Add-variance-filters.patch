@@ -1,4 +1,4 @@
-From 6cc7914260a15fd3276243c29f9e897ad054d886 Mon Sep 17 00:00:00 2001
+From 9c0a83c28b500dbd004fde8565415bb05da0b225 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Mon, 22 Oct 2012 10:15:18 +0000
 Subject: [PATCH 11/16] input: ti_am335x_tsc: Add variance filters
