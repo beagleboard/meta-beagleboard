@@ -44,12 +44,16 @@ DEVMEM_ADDR_HI=$(reverse_bytes ${DEVMEM_ADDR_HI})
 DEV_ADDR=$(hex_to_mac_addr "${DEVMEM_ADDR_HI}${DEVMEM_ADDR_LO}")
 
 SERIAL_NUMBER=$(hexdump -e '8/1 "%c"' /sys/bus/i2c/devices/0-0050/eeprom -s 14 -n 2)-$(hexdump -e '8/1 "%c"' /sys/bus/i2c/devices/0-0050/eeprom -s 16 -n 12)
-ISBLACK=$(hexdump -e '8/1 "%c"' /sys/bus/i2c/devices/0-0050/eeprom -s 20 -n 4)
+ISBLACK=$(hexdump -e '8/1 "%c"' /sys/bus/i2c/devices/0-0050/eeprom -s 8 -n 4)
+
+BLACK=""
 
 if [ "${ISBLACK}" = "BBBK" ] ; then
 	BLACK="Black"
-else
-	BLACK=""
+fi
+
+if [ "${ISBLACK}" = "BNLT" ] ; then
+	BLACK="Black"
 fi
 
 modprobe g_multi file=/dev/mmcblk0p1 cdrom=0 stall=0 removable=1 nofua=1 iSerialNumber=${SERIAL_NUMBER} iManufacturer=Circuitco  iProduct=BeagleBone${BLACK} host_addr=${DEV_ADDR}
