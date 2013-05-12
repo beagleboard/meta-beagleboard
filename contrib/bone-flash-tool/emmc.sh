@@ -12,10 +12,18 @@ HOSTARCH="$(uname -m)"
 
 cd /build
 
-if [ -e /eeprom.dump ] ; then
-	echo "Adding header to EEPROM"
-	dd if=/eeprom.dump of=/sys/devices/ocp.2/44e0b000.i2c/i2c-0/0-0050/eeprom
+HEADER=$(hexdump -e '8/1 "%c"' /sys/bus/i2c/devices/0-0050/eeprom -s 5 -n 3)
+
+if [ ${HEADER} -eq 335 ] ; then
+        echo "Valid EEPROM header found"
+else
+        echo "Invalid EEPROM header detected"
+	if [ -e /eeprom.dump ] ; then
+		echo "Adding header to EEPROM"
+		dd if=/eeprom.dump of=/sys/devices/ocp.2/44e0b000.i2c/i2c-0/0-0050/eeprom
+	fi
 fi
+
 
 echo "Paritioning eMMC"
 ./mkcard.sh /dev/mmcblk1
