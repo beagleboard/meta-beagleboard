@@ -38,6 +38,7 @@ ALLOW_EMPTY_${PN} = "1"
 
 FILES_${PN} = "${base_libdir}/systemd/system/storage-gadget-init.service \
                ${bindir}/g-storage-reinsert.sh \
+               ${sysconfdir}/systemd/ \
               "
 
 FILES_${PN}-network = "${base_libdir}/systemd/system/network-gadget-init.service \
