@@ -425,9 +425,14 @@ SRC_URI += " \
 	file://not-capebus/0172-omap-clk-Add-adjustable-clkout2.patch \
 	file://not-capebus/0173-am33xx-Update-DTS-EDMA.patch \
 	file://not-capebus/0174-bone-Added-RS232-prototype-cape-DT-object.patch \
+	file://not-capebus/0175-Add-support-for-BB-BONE_SERL-01-00A1-CanBus-cape.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
+	file://pru/0004-uio_pruss-add-dt-support-replicape-00A1.patch \
+	file://pru/0005-pruss-Make-sure-it-works-when-no-child-nodes-are-pre.patch \
+	file://pru/0006-am33xx-pru-Very-simple-led-cape-via-GPO-of-the-PRU.patch \
+	file://pru/0007-PRU-remote-proc-wip.patch \
 	file://usb/0001-drivers-usb-phy-add-a-new-driver-for-usb-part-of-con.patch \
 	file://usb/0002-drivers-usb-start-using-the-control-module-driver.patch \
 	file://usb/0003-usb-otg-Add-an-API-to-bind-the-USB-controller-and-PH.patch \
@@ -582,6 +587,8 @@ SRC_URI += " \
 	file://camera/0008-cssp_camera-Increase-delay-after-enabling-clocks-to-.patch \
 	file://camera/0009-Debugging-camera-stuff.patch \
 	file://camera/0010-cssp_camera-Make-it-work-with-Beaglebone-black.patch \
+	file://resources/0001-bone-capemgr-Introduce-simple-resource-tracking.patch \
+	file://resources/0002-capes-Add-resources-to-capes.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \
