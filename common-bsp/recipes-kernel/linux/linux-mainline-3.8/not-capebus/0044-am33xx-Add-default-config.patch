@@ -1,4 +1,4 @@
-From 26dd8b389735bd0f155b9fe9d9978fe6ba2f6565 Mon Sep 17 00:00:00 2001
+From ad0c319cd462a4d1fc8ccbd62ba5adbb680c6260 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 21:15:34 +0200
 Subject: [PATCH 044/175] am33xx: Add default config.

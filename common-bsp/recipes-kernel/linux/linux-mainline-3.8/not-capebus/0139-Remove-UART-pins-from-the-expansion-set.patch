@@ -1,4 +1,4 @@
-From 20d07e98dd229932d3ed1ff673fead52bc7093bf Mon Sep 17 00:00:00 2001
+From 48c17083ee8e8d11297d48d3e5a62b640383d98c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 25 Mar 2013 12:53:22 +0200
 Subject: [PATCH 139/175] Remove UART pins from the expansion set

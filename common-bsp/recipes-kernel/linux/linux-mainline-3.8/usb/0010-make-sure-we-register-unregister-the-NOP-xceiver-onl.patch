@@ -1,4 +1,4 @@
-From c6c449161735c072d56715e0b722655ca03c10af Mon Sep 17 00:00:00 2001
+From d74a11621372fab061fee4381c56d8f22a4cb8cc Mon Sep 17 00:00:00 2001
 From: Vladimir Pantelic <vladoman@gmail.com>
 Date: Mon, 18 Mar 2013 13:48:33 +0100
 Subject: [PATCH 10/12] make sure we register/unregister the NOP xceiver only

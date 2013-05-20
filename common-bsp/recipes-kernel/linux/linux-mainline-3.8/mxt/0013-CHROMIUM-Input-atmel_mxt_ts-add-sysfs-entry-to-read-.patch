@@ -1,4 +1,4 @@
-From 4873266e18b653087fbfa086ca58e00661fd77f2 Mon Sep 17 00:00:00 2001
+From 7045c67fe9785c10e05a2b5efb2ecfe711ee5cf5 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 23 Apr 2012 12:33:12 +0800
 Subject: [PATCH 13/57] CHROMIUM: Input: atmel_mxt_ts - add sysfs entry to read

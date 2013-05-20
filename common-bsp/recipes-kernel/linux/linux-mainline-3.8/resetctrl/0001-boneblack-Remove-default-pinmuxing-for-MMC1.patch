@@ -1,4 +1,4 @@
-From 730a1efb1045986c8e842f6f65454706347042dc Mon Sep 17 00:00:00 2001
+From 52b59ce1de3fc4ae4acd78e8c45d3aa6c1fae8c1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 18 Apr 2013 12:34:45 +0300
 Subject: [PATCH 01/10] boneblack: Remove default pinmuxing for MMC1

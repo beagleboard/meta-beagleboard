@@ -1,4 +1,4 @@
-From 865ac6fa884ea0dfdbf29402ee0979c4a8cafe31 Mon Sep 17 00:00:00 2001
+From ee3e86924c5a361da97720f8ba95582e438ea57b Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Wed, 19 Dec 2012 21:17:07 -0700
 Subject: [PATCH 14/34] ARM: AM33XX: hwmod: Update and uncomment AES0 module

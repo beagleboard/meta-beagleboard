@@ -1,4 +1,4 @@
-From f54b1e95d971ea929b19162bfccffe82a19af15d Mon Sep 17 00:00:00 2001
+From c1a02a16ab1c46a9d8e48115f3180abb8d1fee5f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 5 Mar 2013 19:45:36 +0200
 Subject: [PATCH 113/175] grove-i2c: Add rudimentary grove i2c motor control

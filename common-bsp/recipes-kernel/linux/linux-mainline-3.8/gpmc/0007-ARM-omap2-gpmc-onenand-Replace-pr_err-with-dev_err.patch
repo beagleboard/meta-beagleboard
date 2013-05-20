@@ -1,4 +1,4 @@
-From f9b3e6017dccab454ab6e454a73b99479ba7d766 Mon Sep 17 00:00:00 2001
+From 87f071c1d84094a8188497d069ff48ce9ff153c1 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Tue, 12 Feb 2013 16:22:22 -0300
 Subject: [PATCH 07/39] ARM: omap2: gpmc-onenand: Replace pr_err() with

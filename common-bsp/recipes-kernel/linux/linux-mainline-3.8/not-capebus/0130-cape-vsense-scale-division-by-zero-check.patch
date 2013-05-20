@@ -1,4 +1,4 @@
-From e8171cf03c8e572123f618c7c665db3ef38cf556 Mon Sep 17 00:00:00 2001
+From 4ba9e97128a70dd7daeca3e69937b91c5de01f85 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:44 +0000
 Subject: [PATCH 130/175] cape: vsense-scale division by zero check

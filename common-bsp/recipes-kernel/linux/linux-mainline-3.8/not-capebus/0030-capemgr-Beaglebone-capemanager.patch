@@ -1,4 +1,4 @@
-From 9802eeb6f55e8ecb20ccd4b409fac529974d59c9 Mon Sep 17 00:00:00 2001
+From 3c0a4cc54e0b6ce692d4b0132db7be37684cd5c8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:00:31 +0200
 Subject: [PATCH 030/175] capemgr: Beaglebone capemanager

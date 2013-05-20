@@ -1,4 +1,4 @@
-From 536ca4b4fe62d682570411f82a4ea7d75a84c318 Mon Sep 17 00:00:00 2001
+From f722b19ab89fb285ef7acaae01048e05dab719ea Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 18 Jan 2013 11:49:48 +0100
 Subject: [PATCH 078/175] tilcdc: magic debug statement makes power gpio work

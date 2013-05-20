@@ -1,4 +1,4 @@
-From 652b371f55de2f242181618e1603e588818b433c Mon Sep 17 00:00:00 2001
+From cbbf03a1de39d47cf215f702ba9eeb5d1e737501 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 15:25:23 -0600
 Subject: [PATCH 13/39] ARM: OMAP2+: Add function for configuring GPMC settings

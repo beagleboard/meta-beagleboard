@@ -1,4 +1,4 @@
-From 598b3701a1c033ca48b75fcad343a740e6b2a204 Mon Sep 17 00:00:00 2001
+From 6a4c170b5adc310506a500ab03a4d1ccb49606eb Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Wed, 27 Mar 2013 00:09:25 -0400
 Subject: [PATCH 23/23] 6lowpan: use IEEE802154_ADDR_LEN instead of a magic

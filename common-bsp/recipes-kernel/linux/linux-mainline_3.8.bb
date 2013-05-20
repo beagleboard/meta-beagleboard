@@ -567,6 +567,9 @@ SRC_URI += " \
 	file://hdmi/0005-Enable-output-of-correct-AVI-Infoframe-type-hdmi.patch \
 	file://hdmi/0006-drm-am335x-add-support-for-2048-lines-vertical.patch \
 	file://hdmi/0007-drm-tda998x-Adding-extra-CEA-mode-for-1920x1080-24.patch \
+	file://hdmi/0008-tilcdc-Remove-superfluous-newlines-from-DBG-messages.patch \
+	file://hdmi/0009-tilcdc-1280x1024x60-bw-1920x1080x24-bw.patch \
+	file://hdmi/0010-tilcdc-Only-support-Audio-on-50-60-Hz-modes.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
@@ -589,6 +592,7 @@ SRC_URI += " \
 	file://camera/0010-cssp_camera-Make-it-work-with-Beaglebone-black.patch \
 	file://resources/0001-bone-capemgr-Introduce-simple-resource-tracking.patch \
 	file://resources/0002-capes-Add-resources-to-capes.patch \
+	file://resources/0003-capes-Update-most-of-the-capes-with-resource-definit.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \

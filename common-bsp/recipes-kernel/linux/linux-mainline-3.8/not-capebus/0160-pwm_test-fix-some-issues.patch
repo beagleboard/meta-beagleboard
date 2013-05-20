@@ -1,4 +1,4 @@
-From 3ec408a54ec140d7d02a6526980ebf3485b9b5ba Mon Sep 17 00:00:00 2001
+From 038ed64b8f1b2b757eaf57bc960bf18981a31d85 Mon Sep 17 00:00:00 2001
 From: Jack Mitchell <jack@embed.me.uk>
 Date: Tue, 9 Apr 2013 16:47:31 +0200
 Subject: [PATCH 160/175] pwm_test: fix some issues

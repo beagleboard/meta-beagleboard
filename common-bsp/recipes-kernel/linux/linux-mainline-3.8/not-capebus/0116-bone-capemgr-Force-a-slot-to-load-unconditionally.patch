@@ -1,4 +1,4 @@
-From f8fdb7bee8beafb7346425fb533db19015360fa6 Mon Sep 17 00:00:00 2001
+From 7ede868f847f8648f05498b37d477725f46ea5b7 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 8 Mar 2013 14:31:40 +0200
 Subject: [PATCH 116/175] bone-capemgr: Force a slot to load unconditionally

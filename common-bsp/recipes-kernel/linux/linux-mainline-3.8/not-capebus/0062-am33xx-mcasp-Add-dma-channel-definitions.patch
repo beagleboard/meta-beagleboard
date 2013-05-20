@@ -1,4 +1,4 @@
-From 30196154e0d424b4b5191424292b850ce1dfdfb1 Mon Sep 17 00:00:00 2001
+From 97496cf3c6636ace991b00121d135972baf4e613 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 13:26:05 +0200
 Subject: [PATCH 062/175] am33xx: mcasp: Add dma channel definitions

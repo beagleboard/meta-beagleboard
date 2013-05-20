@@ -1,4 +1,4 @@
-From dda59843a556b6d37e84840871e833114d8e2771 Mon Sep 17 00:00:00 2001
+From fd4e55408b0aa5a0e21871ca0fdd21dc4d43f5a7 Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Tue, 31 Jul 2012 19:10:20 +0530
 Subject: [PATCH 063/175] ARM: OMAP2+: AM33xx: removed invalid McASP HWMOD data

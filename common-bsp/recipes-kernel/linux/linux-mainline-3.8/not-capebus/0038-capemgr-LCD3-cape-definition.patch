@@ -1,4 +1,4 @@
-From 66bd7d1c6f66ff2ade0cddd3a01ce6c2caf49398 Mon Sep 17 00:00:00 2001
+From a29933084f78ff6ee3a9b30946aff60a2d0d57b8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:09:48 +0200
 Subject: [PATCH 038/175] capemgr: LCD3 cape definition

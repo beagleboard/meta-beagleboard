@@ -1,4 +1,4 @@
-From 8253d359702b6cfdb8a95d5f43a8f966cb65ea3a Mon Sep 17 00:00:00 2001
+From 909bc068c2e27b6bfe4a4c2588ab32b967231050 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 18:15:57 +0200
 Subject: [PATCH 094/175] tilcdc: introduce panel & tfp410 power down gpio

@@ -1,4 +1,4 @@
-From 82f2a6c522d8b9afffa60fb59e51d3b8d694e766 Mon Sep 17 00:00:00 2001
+From 5eb784e37885b9a330e37a082625d7de904987c1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 20:11:05 +0200
 Subject: [PATCH 098/175] cape-dvi: Switch all DVI capes to using the TFTP410

@@ -1,4 +1,4 @@
-From 2511f506aff2a579a22d5ead3943dacd5aab560b Mon Sep 17 00:00:00 2001
+From 7c7893a9e9c5e6576e5238c7e2ff86d40d117c10 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 16:43:05 +0300
 Subject: [PATCH 169/175] OF-overlay: Add depth option for device creation.

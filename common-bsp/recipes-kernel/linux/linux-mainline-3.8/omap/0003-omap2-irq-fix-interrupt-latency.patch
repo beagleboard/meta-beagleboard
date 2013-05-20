@@ -1,4 +1,4 @@
-From 574acc57ae5155235c53c0c71ae8b979e4b90b33 Mon Sep 17 00:00:00 2001
+From d64ef507603125ab67ef1ebb79f2f3a4cec0633e Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?H=C3=A5kan=20Engblom?= <hkengblom@gmail.com>
 Date: Wed, 24 Apr 2013 10:53:46 +0200
 Subject: [PATCH 3/3] omap2 irq: fix interrupt latency

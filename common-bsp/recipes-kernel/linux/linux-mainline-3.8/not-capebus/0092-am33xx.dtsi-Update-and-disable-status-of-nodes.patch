@@ -1,4 +1,4 @@
-From 37c0ac1c5a8c023e7a796caf6837ac62f525134c Mon Sep 17 00:00:00 2001
+From 1236a21e4affb7c6d918acfdf65022bee35de88d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 15:40:50 +0200
 Subject: [PATCH 092/175] am33xx.dtsi: Update and disable status of nodes

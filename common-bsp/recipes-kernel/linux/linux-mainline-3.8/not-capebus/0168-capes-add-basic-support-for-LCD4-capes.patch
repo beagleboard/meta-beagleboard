@@ -1,4 +1,4 @@
-From b33b6dc63e489968e4dec3426a659df64114a965 Mon Sep 17 00:00:00 2001
+From c63413e3c0685335191b6869e379070dc6ba928b Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 25 Apr 2013 09:28:32 +0200
 Subject: [PATCH 168/175] capes: add basic support for LCD4 capes

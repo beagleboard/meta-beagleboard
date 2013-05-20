@@ -1,4 +1,4 @@
-From 7bb932815d92b5203b744e7d43fdaf33e20b23ef Mon Sep 17 00:00:00 2001
+From 035ea4f169c410f47a0f179ec246fc83818ac35f Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 11 Dec 2012 06:42:03 -0600
 Subject: [PATCH 05/10] Beagle: expansion: add CircuitCo ulcd Support

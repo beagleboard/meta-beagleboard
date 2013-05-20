@@ -1,4 +1,4 @@
-From fe12b25185d553088879e2a9511e27a52dc46a18 Mon Sep 17 00:00:00 2001
+From 3e066408e9630dd08f00faba3997f1abca971683 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Mon, 10 Dec 2012 10:46:43 -0600
 Subject: [PATCH 03/11] drm/cma: add debugfs helpers

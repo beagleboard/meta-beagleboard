@@ -1,4 +1,4 @@
-From 38a23182aa34732ff0f9356fa358104dc5db73b7 Mon Sep 17 00:00:00 2001
+From 673d51747174fd869826b8009a9a94691009c57a Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 23 Apr 2013 17:18:34 +0000
 Subject: [PATCH 174/175] bone: Added RS232 prototype cape DT object

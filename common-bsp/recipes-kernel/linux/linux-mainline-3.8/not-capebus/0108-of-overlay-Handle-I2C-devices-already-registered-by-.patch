@@ -1,4 +1,4 @@
-From 42fa467245dea404508a9ee5127e154d4d5a28d2 Mon Sep 17 00:00:00 2001
+From fc204b557d2d882c60b53adc7dcc466c8ec45830 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 4 Mar 2013 21:46:13 +0200
 Subject: [PATCH 108/175] of-overlay: Handle I2C devices already registered by

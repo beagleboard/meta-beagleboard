@@ -1,4 +1,4 @@
-From 23844e322dabc2b8a636db877b30567ab081a679 Mon Sep 17 00:00:00 2001
+From 2d5b41d8fe8a90a5ea9ea22b1420b3c0b18b32d5 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 17 Oct 2012 17:12:09 -0400
 Subject: [PATCH 28/35] Documentation: bindings: add spansion

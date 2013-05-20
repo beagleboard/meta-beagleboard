@@ -1,4 +1,4 @@
-From b8e4d9e11910eeff02b39641c887b8838195c52c Mon Sep 17 00:00:00 2001
+From 36673be0864bce4ab2c89faba38d857fd6d7fec9 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 13 Feb 2013 20:43:31 +0100
 Subject: [PATCH 099/175] beaglebone: switch eMMC to 8bit mode

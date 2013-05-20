@@ -1,4 +1,4 @@
-From c673778df9c9442f08b95187ae0c9704274c3892 Mon Sep 17 00:00:00 2001
+From 7191a301fd497b4b0e1ee1092f4e1721e28600f1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 5 Mar 2013 18:23:10 +0200
 Subject: [PATCH 112/175] tty: Add JHD629 I2C LCD/Keypad TTY driver

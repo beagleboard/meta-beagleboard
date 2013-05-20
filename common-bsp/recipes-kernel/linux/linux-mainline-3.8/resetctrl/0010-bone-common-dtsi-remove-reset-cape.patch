@@ -1,4 +1,4 @@
-From f838b8611c5699cedf323fe27e5d81c00b683b9e Mon Sep 17 00:00:00 2001
+From c13fd6de11a9bcbb8570a0eeabe85a0fe00137b4 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 2 May 2013 14:15:13 +0200
 Subject: [PATCH 10/10] bone-common dtsi: remove reset cape

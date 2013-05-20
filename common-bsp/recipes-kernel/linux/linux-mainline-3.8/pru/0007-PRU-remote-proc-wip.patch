@@ -1,4 +1,4 @@
-From 4bba7ab0f9f9c0cabb6b54e30f1f9f201b00981c Mon Sep 17 00:00:00 2001
+From 37bd97a51dc4b536baebcbc45d14a099f51fece8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 16 May 2013 10:37:39 +0300
 Subject: [PATCH 7/7] PRU remote proc wip

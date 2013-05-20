@@ -1,4 +1,4 @@
-From b704bee90d49c195231b071816292ff327bb4f8d Mon Sep 17 00:00:00 2001
+From 3e74ce98cd81f19be184c6a5af575c81c0fbcce6 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:05:02 +0000
 Subject: [PATCH 128/175] capemgr: Added module param descriptions

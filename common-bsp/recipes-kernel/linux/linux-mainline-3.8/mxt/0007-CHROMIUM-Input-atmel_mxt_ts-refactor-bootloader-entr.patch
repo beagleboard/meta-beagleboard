@@ -1,4 +1,4 @@
-From dce70e7a2ca4f52f65d63346e01fce14395e7ab5 Mon Sep 17 00:00:00 2001
+From 9f4a7df3f6b59d5fe3947da72c9a82c7edde520b Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Thu, 3 May 2012 13:57:46 -0700
 Subject: [PATCH 07/57] CHROMIUM: Input: atmel_mxt_ts - refactor bootloader

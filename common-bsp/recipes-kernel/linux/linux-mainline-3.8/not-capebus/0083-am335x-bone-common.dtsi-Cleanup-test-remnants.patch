@@ -1,4 +1,4 @@
-From be8eb2fdd27c7ea5c5b29f50054f9b305ddea97b Mon Sep 17 00:00:00 2001
+From f65f98ea4dbffe67a1cb0e106dba8555306e9ed1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 18 Jan 2013 14:10:49 +0200
 Subject: [PATCH 083/175] am335x-bone-common.dtsi: Cleanup test remnants
