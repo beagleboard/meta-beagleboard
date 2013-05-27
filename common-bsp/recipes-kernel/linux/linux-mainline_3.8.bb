@@ -598,6 +598,8 @@ SRC_URI += " \
 	file://resources/0002-capes-Add-resources-to-capes.patch \
 	file://resources/0003-capes-Update-most-of-the-capes-with-resource-definit.patch \
 	file://resources/0004-capes-Update-RS232-CAN-capes-with-resources.patch \
+	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
+	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \
