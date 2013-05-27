@@ -448,6 +448,7 @@ SRC_URI += " \
 	file://usb/0010-make-sure-we-register-unregister-the-NOP-xceiver-onl.patch \
 	file://usb/0011-ARM-OMAP-am335x-musb-use-250-for-power.patch \
 	file://usb/0012-ARM-OMAP2-MUSB-Specify-omap4-has-mailbox.patch \
+	file://usb/0013-usb-musb-avoid-stopping-the-session-in-host-mode.patch \
 	file://PG2/0001-beaglebone-black-1ghz-hack.patch \
 	file://reboot/0001-ARM-AM33xx-Add-SoC-specific-restart-hook.patch \
 	file://iio/0001-iio-common-Add-STMicroelectronics-common-library.patch \
