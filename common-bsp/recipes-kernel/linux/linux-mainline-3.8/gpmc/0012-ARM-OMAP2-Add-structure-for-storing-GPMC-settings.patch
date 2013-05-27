@@ -1,4 +1,4 @@
-From 3bef860e91a884b6c73f102f83cb401e956640d3 Mon Sep 17 00:00:00 2001
+From 3d7207668e7299b8e09d084498003e64052bf047 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:46:22 -0600
 Subject: [PATCH 12/39] ARM: OMAP2+: Add structure for storing GPMC settings

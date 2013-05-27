@@ -1,4 +1,4 @@
-From d82c69a9a7d6ce3dbe08ab038402ed3bf12a86ca Mon Sep 17 00:00:00 2001
+From 0403a221e4bab447c2c53707dbe8d4e16080941d Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 17 Oct 2012 17:12:45 -0400
 Subject: [PATCH 32/35] ARM: dts: add BeagleBone gpevt support

@@ -1,4 +1,4 @@
-From 34b125a69390e1edfb37186abc9fa04626febdb9 Mon Sep 17 00:00:00 2001
+From 401f7b2b3ba392f17e3a4ebe4640c6e2f89c533a Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:12 +0000
 Subject: [PATCH 06/12] drivers: usb: musb: omap: make use of the new PHY lib

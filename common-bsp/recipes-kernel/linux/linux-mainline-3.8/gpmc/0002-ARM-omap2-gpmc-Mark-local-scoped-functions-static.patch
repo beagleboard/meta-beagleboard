@@ -1,4 +1,4 @@
-From c1808a54ffd60964cc0ae3f802b02cb7237e97cd Mon Sep 17 00:00:00 2001
+From addd99586aee94aab882b2db7ff8db61783ad13d Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Tue, 12 Feb 2013 16:22:17 -0300
 Subject: [PATCH 02/39] ARM: omap2: gpmc: Mark local scoped functions static

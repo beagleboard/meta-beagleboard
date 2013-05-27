@@ -1,4 +1,4 @@
-From ca702f52964dd4cbcfd3c211f05e41edbdca609a Mon Sep 17 00:00:00 2001
+From ae9e75e229f9fed1a1a9f804085b0e945f0c53b1 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 2 May 2013 12:06:12 +0200
 Subject: [PATCH 04/10] cssp_camera: increase delays make sensor detection work

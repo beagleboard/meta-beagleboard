@@ -240,6 +240,8 @@ SRC_URI += " \
 	file://net/0001-am33xx-cpsw-default-to-ethernet-hwaddr-from-efuse-if.patch \
 	file://net/0002-Attempted-SMC911x-BQL-patch.patch \
 	file://net/0003-cpsw-Fix-interrupt-storm-among-other-things.patch \
+	file://net/0004-beaglebone-TT3201-MCP2515-fixes.patch \
+	file://net/0005-add-proper-db.txt-for-CRDA.patch \
 	file://drm/0001-am33xx-Add-clock-for-the-lcdc-DRM-driver.patch \
 	file://drm/0002-drm-small-fix-in-drm_send_vblank_event.patch \
 	file://drm/0003-drm-cma-add-debugfs-helpers.patch \
@@ -433,6 +435,7 @@ SRC_URI += " \
 	file://pru/0005-pruss-Make-sure-it-works-when-no-child-nodes-are-pre.patch \
 	file://pru/0006-am33xx-pru-Very-simple-led-cape-via-GPO-of-the-PRU.patch \
 	file://pru/0007-PRU-remote-proc-wip.patch \
+	file://pru/0008-Add-sysfs-entry-for-DDR-sync.patch \
 	file://usb/0001-drivers-usb-phy-add-a-new-driver-for-usb-part-of-con.patch \
 	file://usb/0002-drivers-usb-start-using-the-control-module-driver.patch \
 	file://usb/0003-usb-otg-Add-an-API-to-bind-the-USB-controller-and-PH.patch \
@@ -580,6 +583,7 @@ SRC_URI += " \
 	file://resetctrl/0008-omap_hsmmc-Bail-out-when-rstctl-error-is-unrecoverab.patch \
 	file://resetctrl/0009-bone-Put-priorities-in-built-in-capes.patch \
 	file://resetctrl/0010-bone-common-dtsi-remove-reset-cape.patch \
+	file://resetctrl/0011-mmc-add-missing-select-RSTCTL-in-MMC_OMAP.patch \
 	file://camera/0001-soc_camera-QL-mt9l112-camera-driver-for-the-beaglebo.patch \
 	file://camera/0002-capes-Add-BB-BONE-CAM3-cape.patch \
 	file://camera/0003-cssp_camera-Correct-license-identifier.patch \
@@ -593,6 +597,7 @@ SRC_URI += " \
 	file://resources/0001-bone-capemgr-Introduce-simple-resource-tracking.patch \
 	file://resources/0002-capes-Add-resources-to-capes.patch \
 	file://resources/0003-capes-Update-most-of-the-capes-with-resource-definit.patch \
+	file://resources/0004-capes-Update-RS232-CAN-capes-with-resources.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://db.txt \

@@ -1,4 +1,4 @@
-From 0e89f396705e46be8b92251757e4656da5a7cdda Mon Sep 17 00:00:00 2001
+From 06e1596ff268bbbbce7d6bc74201c9c54f0439b3 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:00:21 -0600
 Subject: [PATCH 18/39] ARM: OMAP2+: Don't configure of chip-select options in

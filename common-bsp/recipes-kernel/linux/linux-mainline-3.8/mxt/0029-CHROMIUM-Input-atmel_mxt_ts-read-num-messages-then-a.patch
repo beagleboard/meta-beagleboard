@@ -1,4 +1,4 @@
-From 22cdc56e548cc8719f5911195ff42adc438d20f6 Mon Sep 17 00:00:00 2001
+From 12e7c64d6c99b46a8ef6a6c078ffcaab00d26a5c Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 19 Mar 2012 09:42:09 +0800
 Subject: [PATCH 29/57] CHROMIUM: Input: atmel_mxt_ts - read num messages, then

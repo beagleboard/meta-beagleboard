@@ -1,4 +1,4 @@
-From d91553073d3474b90b4f0eb80e4f2d7f9a7a9219 Mon Sep 17 00:00:00 2001
+From 9ec22295ce8cf4d0cc2f56c7633ace343695b19a Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 28 Jan 2013 18:15:29 +0100
 Subject: [PATCH 8/9] HACK: am33xx.dtsi: turn on all PWMs

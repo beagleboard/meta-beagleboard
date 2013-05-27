@@ -1,4 +1,4 @@
-From c14fc4be0bfafda9e6821cb3f33498532e4a33db Mon Sep 17 00:00:00 2001
+From 4dd46bfb59db3091ef10a6a77c66fa1a2b7be4ca Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 11:46:39 +0200
 Subject: [PATCH 024/175] OF: export of_property_notify

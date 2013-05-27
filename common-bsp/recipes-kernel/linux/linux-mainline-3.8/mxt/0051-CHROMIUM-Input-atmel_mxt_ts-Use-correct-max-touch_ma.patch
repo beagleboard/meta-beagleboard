@@ -1,4 +1,4 @@
-From 7e8e4083413148ddc4a173fc735f807a2bdfbd7f Mon Sep 17 00:00:00 2001
+From 94880a9b10cd7533d5f796205ab99e26912d16da Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Thu, 10 Jan 2013 15:00:42 -0500
 Subject: [PATCH 51/57] CHROMIUM: Input: atmel_mxt_ts: Use correct max

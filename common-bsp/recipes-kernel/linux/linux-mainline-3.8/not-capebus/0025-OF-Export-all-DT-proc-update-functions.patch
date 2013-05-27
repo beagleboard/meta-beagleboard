@@ -1,4 +1,4 @@
-From 7d160523c9c25738208590eaa02cd5f067514119 Mon Sep 17 00:00:00 2001
+From 9443622417ed6982c6c9a247cd14aec8fc95f8b5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:02:14 +0200
 Subject: [PATCH 025/175] OF: Export all DT proc update functions

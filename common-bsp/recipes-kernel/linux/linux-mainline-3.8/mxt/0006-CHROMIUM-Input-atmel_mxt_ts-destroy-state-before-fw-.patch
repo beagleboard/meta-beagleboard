@@ -1,4 +1,4 @@
-From b8d6609b7975a058070088cbff93a3c18970c0a2 Mon Sep 17 00:00:00 2001
+From 6a2775069abd6f7d09dea87ee6bc5771aa598282 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Thu, 20 Dec 2012 23:38:08 +0800
 Subject: [PATCH 06/57] CHROMIUM: Input: atmel_mxt_ts - destroy state before fw

@@ -1,4 +1,4 @@
-From 20826c8fd207be38153b427d81829264b8218c3a Mon Sep 17 00:00:00 2001
+From ca83b26e6f087a9a337b05fae006c33e85c91318 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 27 Nov 2012 10:53:23 -0600
 Subject: [PATCH 4/9] ARM: OMAP2: PWM: limit am33xx_register_ehrpwm to

@@ -1,4 +1,4 @@
-From 0e75957d55440ca9a0a78b137518a4466d8548c0 Mon Sep 17 00:00:00 2001
+From 981ab0c351fe9031d3ed49dde656206acbb4ba6f Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 8 Jan 2013 17:50:48 -0600
 Subject: [PATCH 04/11] drm: i2c encoder helper wrappers

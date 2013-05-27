@@ -1,4 +1,4 @@
-From bfed5ddce9674f08c7a63ff56bc03657cc7f3085 Mon Sep 17 00:00:00 2001
+From 508af0e1d6fbf6706ac6ced0650e01d80f8a7402 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Mon, 14 May 2012 12:29:52 -0400
 Subject: [PATCH 36/57] CHROMIUM: Input: atmel_mxt_ts - Support the case with

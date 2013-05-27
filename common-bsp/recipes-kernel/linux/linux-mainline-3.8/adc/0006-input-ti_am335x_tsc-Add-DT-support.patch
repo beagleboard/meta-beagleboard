@@ -1,4 +1,4 @@
-From 1b5c1e8aecd1b50b39070029697e9fa9ccb12353 Mon Sep 17 00:00:00 2001
+From b859858c655599e8c140ad893376c296157fcb6d Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:10 +0000
 Subject: [PATCH 06/16] input: ti_am335x_tsc: Add DT support

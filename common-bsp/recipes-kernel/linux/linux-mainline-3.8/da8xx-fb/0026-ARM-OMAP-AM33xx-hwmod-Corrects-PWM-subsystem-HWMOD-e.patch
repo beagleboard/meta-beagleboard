@@ -1,4 +1,4 @@
-From 0d0a8866d9201ea6fc446d89c1611fcf8f3b41d8 Mon Sep 17 00:00:00 2001
+From bd3b2aba23d8457f7fa84e8e0dbdef67f2159f15 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Tue, 16 Oct 2012 14:50:58 +0530
 Subject: [PATCH 26/48] ARM: OMAP: AM33xx hwmod: Corrects PWM subsystem HWMOD

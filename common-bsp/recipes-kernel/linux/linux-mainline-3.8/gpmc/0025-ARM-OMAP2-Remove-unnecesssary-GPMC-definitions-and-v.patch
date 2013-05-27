@@ -1,4 +1,4 @@
-From a8d7727304c2438252591add91590071ad51005b Mon Sep 17 00:00:00 2001
+From 83e67979676abdfc119141d405ff032e4f8f28f7 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Wed, 6 Mar 2013 14:12:59 -0600
 Subject: [PATCH 25/39] ARM: OMAP2+: Remove unnecesssary GPMC definitions and

@@ -1,4 +1,4 @@
-From d015d4efb53ef7011fe1844c1e33b0d4a5828162 Mon Sep 17 00:00:00 2001
+From 04a346be505fdf8cce593e0aca2270d1e1dd11b0 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 17 Jan 2013 10:26:39 +0100
 Subject: [PATCH 076/175] firmware: fix dvi a1 target

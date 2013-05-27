@@ -1,4 +1,4 @@
-From ffd4892d54b8c093b4eef1348d1e5c7d1464ce37 Mon Sep 17 00:00:00 2001
+From 553300a9de145c34b859c9b96357f5ac2fd615b0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 1 Apr 2013 18:20:35 +0300
 Subject: [PATCH 151/175] capemgr: Implement disable overrides on the cmd line

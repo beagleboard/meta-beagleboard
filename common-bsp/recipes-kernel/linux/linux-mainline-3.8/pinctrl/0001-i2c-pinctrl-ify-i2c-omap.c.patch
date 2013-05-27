@@ -1,4 +1,4 @@
-From 6fc20c9ec8a2321396712f4e7590ed59401a584c Mon Sep 17 00:00:00 2001
+From 0192738e9bf5ceb601fc577bf0bcb9af827fcae0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Sep 2012 17:51:11 +0300
 Subject: [PATCH 1/4] i2c: pinctrl-ify i2c-omap.c

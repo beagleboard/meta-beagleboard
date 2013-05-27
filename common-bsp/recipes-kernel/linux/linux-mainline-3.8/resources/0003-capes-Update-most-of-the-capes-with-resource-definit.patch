@@ -1,7 +1,7 @@
-From 1c730fb6450a75912c9442281ae963d1c6c01a87 Mon Sep 17 00:00:00 2001
+From 8f5fb3eb0d85204f779e08ba7c1080c1b1f8e9b6 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 17 May 2013 18:38:30 +0300
-Subject: [PATCH 3/3] capes: Update most of the capes with resource definitions
+Subject: [PATCH 3/4] capes: Update most of the capes with resource definitions
 
 Updated all the standard capes with their resource definitions.
 ---

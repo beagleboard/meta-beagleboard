@@ -1,4 +1,4 @@
-From 7583c064a1512cc5f3ecd2371af7a5f98dd53c82 Mon Sep 17 00:00:00 2001
+From c13509670f85237b566dd35a388045d1748737e1 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 18 Jan 2013 09:19:38 +0100
 Subject: [PATCH 5/7] beaglebone: create a shared dtsi for beaglebone based

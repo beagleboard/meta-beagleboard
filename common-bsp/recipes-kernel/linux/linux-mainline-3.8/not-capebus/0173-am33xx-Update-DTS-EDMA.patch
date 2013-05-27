@@ -1,4 +1,4 @@
-From 0277dfd4b59268c870caef440964a53133292654 Mon Sep 17 00:00:00 2001
+From e0ed4a5c64d8db74ff905b88977d922ff749bdca Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 18:36:32 +0300
 Subject: [PATCH 173/175] am33xx: Update DTS EDMA

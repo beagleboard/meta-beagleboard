@@ -1,4 +1,4 @@
-From 5d87de2a927c2910f844909fb6e0488559e07645 Mon Sep 17 00:00:00 2001
+From 5c1ac2ceedde71b12d1e3f9998000f55812dd6d9 Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Wed, 2 Jan 2013 13:24:50 +0000
 Subject: [PATCH 6/9] pwm: pwm-tiehrpwm: Update the clock handling of

@@ -1,4 +1,4 @@
-From 40eb9dd3ce02b070e4d57412807807a1dbc94005 Mon Sep 17 00:00:00 2001
+From 244c5c1f0d29fa1ec18c16abfaf3a6a83a8ea2d1 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Tue, 7 Aug 2012 16:20:18 -0700
 Subject: [PATCH 43/57] CHROMIUM: Input: atmel_mxt_ts - Add defines for T9

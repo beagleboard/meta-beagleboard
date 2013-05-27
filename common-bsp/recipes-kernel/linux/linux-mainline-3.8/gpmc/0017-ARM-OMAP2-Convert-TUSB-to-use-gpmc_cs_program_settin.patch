@@ -1,4 +1,4 @@
-From bc7f9ec6d6c64d2d4bae9c6b25567b8d5b4dbcb6 Mon Sep 17 00:00:00 2001
+From 771348af84b7e17bb82f6a7f2fc563df7cc16255 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:01:47 -0600
 Subject: [PATCH 17/39] ARM: OMAP2+: Convert TUSB to use

@@ -1,4 +1,4 @@
-From 4b0613a06d0bc027f70f213a9e6a7b266fab2caf Mon Sep 17 00:00:00 2001
+From 233af13c165e3b32a4e943dda23bfb53cad08c3d Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 9 Jan 2013 11:38:11 +0530
 Subject: [PATCH 36/48] ARM: AM33XX: clock: SET_RATE_PARENT in lcd path

@@ -1,4 +1,4 @@
-From 5f369f08b3bfa693228fb57804809e20d700a40f Mon Sep 17 00:00:00 2001
+From 0f6145a336d7abbb0d6ba4c592bbc1fb83c256bd Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 2/6] iio:accel: Add STMicroelectronics accelerometers driver

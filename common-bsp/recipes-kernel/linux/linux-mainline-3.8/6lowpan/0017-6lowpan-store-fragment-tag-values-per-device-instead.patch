@@ -1,4 +1,4 @@
-From 0367899f96da3942ae17c2f7f8d1bac7dd857767 Mon Sep 17 00:00:00 2001
+From 78fce0dea68e0718a49afc57074b78282fd9577d Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:28 -0400
 Subject: [PATCH 17/23] 6lowpan: store fragment tag values per device instead

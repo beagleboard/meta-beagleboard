@@ -1,4 +1,4 @@
-From 2b09159d777b59fe1f8a4329690c3d39deb06c2f Mon Sep 17 00:00:00 2001
+From 165b9b83f3056d43c224f9c2f57549d5eefc07ff Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 20:03:18 +0200
 Subject: [PATCH 072/175] am33xx: edma: Always update unused channel list

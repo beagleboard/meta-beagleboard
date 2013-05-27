@@ -1,4 +1,4 @@
-From 575701f13a0db27f434b487b8c4167f0fe45b13a Mon Sep 17 00:00:00 2001
+From 859ae106686add8914a843a506853ac55e66412b Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 18 Oct 2012 10:11:48 +0200
 Subject: [PATCH 1/2] am33xx.dtsi: enable MMC HSPE bit for all 3 controllers

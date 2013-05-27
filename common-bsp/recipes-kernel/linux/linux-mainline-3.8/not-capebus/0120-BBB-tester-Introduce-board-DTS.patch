@@ -1,4 +1,4 @@
-From e2cd9ce5fab0e794a5c4199e883958040b23bde4 Mon Sep 17 00:00:00 2001
+From 345f3681ece14fa24dbe507d59a01058fcc252a9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 7 Mar 2013 17:22:40 +0200
 Subject: [PATCH 120/175] BBB tester: Introduce board DTS

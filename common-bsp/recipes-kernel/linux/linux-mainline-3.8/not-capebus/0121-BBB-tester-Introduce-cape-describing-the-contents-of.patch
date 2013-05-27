@@ -1,4 +1,4 @@
-From f4f49aa1271c06538f54375f2b6cc8718cd7cc9d Mon Sep 17 00:00:00 2001
+From 8cc1697012beaaba200c8a643822a85ab5c3f925 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 26 Feb 2013 20:44:25 +0200
 Subject: [PATCH 121/175] BBB-tester: Introduce cape describing the contents of

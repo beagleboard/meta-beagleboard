@@ -1,4 +1,4 @@
-From 4f964d14068938fd975f0981cb86d9aabc39b36d Mon Sep 17 00:00:00 2001
+From 2fd70b05e861a6f6ff448cb1577d8de2b624ca00 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 9 Mar 2013 18:19:11 +0200
 Subject: [PATCH 119/175] cape-adafruit: Use the correct spi bus (spi1 no spi0)

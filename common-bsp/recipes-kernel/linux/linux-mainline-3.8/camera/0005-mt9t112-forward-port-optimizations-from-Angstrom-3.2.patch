@@ -1,4 +1,4 @@
-From ce3817984d0e19bdf57ece3b761d5278b8ac58d7 Mon Sep 17 00:00:00 2001
+From 0cea4d4819cf8d2d775a659245f863795cd0cf09 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 2 May 2013 12:06:27 +0200
 Subject: [PATCH 05/10] mt9t112: forward port optimizations from Angstrom 3.2

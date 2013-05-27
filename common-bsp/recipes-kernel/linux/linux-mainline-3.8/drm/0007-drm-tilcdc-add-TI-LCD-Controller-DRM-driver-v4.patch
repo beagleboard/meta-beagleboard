@@ -1,4 +1,4 @@
-From aae0eb7c703511c78cdc985f6856e20f81bee6c6 Mon Sep 17 00:00:00 2001
+From 0c37d47e3f67d40244e90979a89a35cbc8b3ab1d Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 8 Jan 2013 15:04:28 -0600
 Subject: [PATCH 07/11] drm/tilcdc: add TI LCD Controller DRM driver (v4)

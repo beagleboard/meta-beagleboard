@@ -1,4 +1,4 @@
-From accda5f1e22f0a72d4c8c09b1e2925d9a681eda0 Mon Sep 17 00:00:00 2001
+From b06b677a710df443cfde3a5e26312eafb48dad7e Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 15:43:08 -0600
 Subject: [PATCH 15/39] ARM: OMAP2+: Convert NAND to use

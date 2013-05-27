@@ -1,4 +1,4 @@
-From 99a79072c8ba2433d09ecae538fa814320770605 Mon Sep 17 00:00:00 2001
+From 6ad8fcfac5d78e7c403b5f8293836997e0e41548 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@vm-ubuntu.(none)>
 Date: Mon, 25 Feb 2013 00:48:01 +0200
 Subject: [PATCH 100/175] Pinmux helper driver.

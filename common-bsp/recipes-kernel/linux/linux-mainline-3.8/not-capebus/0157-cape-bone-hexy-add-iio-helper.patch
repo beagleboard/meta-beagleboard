@@ -1,4 +1,4 @@
-From 279f0080a7d16cfe15b949bbd3bc1898b5c45ab3 Mon Sep 17 00:00:00 2001
+From 3e61181eb6fc39b743a0ade8c5c67a3afad2da66 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 5 Apr 2013 12:07:30 +0200
 Subject: [PATCH 157/175] cape-bone-hexy: add iio helper

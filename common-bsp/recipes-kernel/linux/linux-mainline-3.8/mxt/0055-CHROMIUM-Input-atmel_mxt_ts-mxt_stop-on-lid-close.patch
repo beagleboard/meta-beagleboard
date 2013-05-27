@@ -1,4 +1,4 @@
-From 07a733d144b1deba021a7e8ba86e2726faf85f39 Mon Sep 17 00:00:00 2001
+From 85a3bc3ac98ad8bca2fcf0e76643c9f4f70d88d0 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Fri, 25 Jan 2013 17:45:56 -0800
 Subject: [PATCH 55/57] CHROMIUM: Input: atmel_mxt_ts - mxt_stop on lid close

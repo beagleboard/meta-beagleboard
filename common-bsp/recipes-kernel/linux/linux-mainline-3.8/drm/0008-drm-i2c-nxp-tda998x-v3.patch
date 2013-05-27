@@ -1,4 +1,4 @@
-From 67bf7628c96a923e59b93bfd1182b358c72f0bbc Mon Sep 17 00:00:00 2001
+From 88fe239fed23138241a586e57cd6813d66450fd7 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 8 Jan 2013 19:21:02 -0600
 Subject: [PATCH 08/11] drm/i2c: nxp-tda998x (v3)

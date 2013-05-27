@@ -1,4 +1,4 @@
-From a590d7f25a33c33f8a3c8bf58c0371bf34077cb3 Mon Sep 17 00:00:00 2001
+From 1c29671f771e32304e5829352780c49519337327 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 18 Oct 2012 21:07:28 -0400
 Subject: [PATCH 10/35] dmaengine: add dma_get_channel_caps()

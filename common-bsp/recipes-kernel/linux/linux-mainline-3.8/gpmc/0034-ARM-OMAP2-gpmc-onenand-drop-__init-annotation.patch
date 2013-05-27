@@ -1,4 +1,4 @@
-From 40a9a5ccfb2a861abbadec7b6571344da3298069 Mon Sep 17 00:00:00 2001
+From bd3ce78de0a41da1adcf22a4075b8d13b38efc91 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Fri, 25 Jan 2013 09:23:10 -0300
 Subject: [PATCH 34/39] ARM: OMAP2+: gpmc-onenand: drop __init annotation

@@ -1,4 +1,4 @@
-From 07c5272104e6cc5ef7e2f5b292eb1e422349c782 Mon Sep 17 00:00:00 2001
+From d1a632cc1527e8b3df6bd116d01afc65382fb888 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 09:36:21 +0200
 Subject: [PATCH 1/2] ARM: force -march=armv7a for thumb2 builds -

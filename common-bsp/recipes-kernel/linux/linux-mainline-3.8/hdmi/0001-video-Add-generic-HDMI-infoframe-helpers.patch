@@ -1,4 +1,4 @@
-From e61958bd20fc1e1a0c92aa6d30d07673f26a2ca4 Mon Sep 17 00:00:00 2001
+From b5823e8907d1e11b18b7aafe5cd7f8ef34588f99 Mon Sep 17 00:00:00 2001
 From: Thierry Reding <thierry.reding@avionic-design.de>
 Date: Fri, 22 Feb 2013 07:03:26 +0000
 Subject: [PATCH 01/10] video: Add generic HDMI infoframe helpers

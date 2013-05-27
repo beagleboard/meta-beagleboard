@@ -1,4 +1,4 @@
-From 27935bb1804bf704b2e56bb323a9a97a73d877eb Mon Sep 17 00:00:00 2001
+From f60137c068ce58c51c66712bc707faeb9c3792f2 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Thu, 17 Jan 2013 17:11:53 +0530
 Subject: [PATCH 31/48] clk: divider: prepare for minimum divider

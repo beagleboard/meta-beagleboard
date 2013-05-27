@@ -1,4 +1,4 @@
-From cef7e4e13f7d65499bc8e4d852e0476c6c6e08ae Mon Sep 17 00:00:00 2001
+From cd7c195f3d4db13290817e5d0f1fc94b12d3ab47 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Wed, 2 Jan 2013 19:16:40 +0530
 Subject: [PATCH 08/48] fbmon: fix build error

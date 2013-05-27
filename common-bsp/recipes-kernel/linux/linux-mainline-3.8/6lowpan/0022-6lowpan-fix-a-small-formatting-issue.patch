@@ -1,4 +1,4 @@
-From 5f203d368b9afd2ec584c98cc4f288ad09cd2df9 Mon Sep 17 00:00:00 2001
+From 912fbca9fbe6205f80bb7c9039bfbb1693f325bb Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Wed, 27 Mar 2013 00:09:24 -0400
 Subject: [PATCH 22/23] 6lowpan: fix a small formatting issue

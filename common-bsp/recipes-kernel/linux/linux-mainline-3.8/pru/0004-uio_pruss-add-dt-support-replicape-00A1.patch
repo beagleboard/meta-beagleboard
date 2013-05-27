@@ -1,7 +1,7 @@
-From 635665bd731c9129b90d65d3f494508324b29d6b Mon Sep 17 00:00:00 2001
+From cdf6564e916e30861399264f735dca0ba673207e Mon Sep 17 00:00:00 2001
 From: Elias Bakken <elias.bakken@gmail.com>
 Date: Thu, 4 Apr 2013 11:38:53 -0500
-Subject: [PATCH 4/7] uio_pruss: add dt support (replicape-00A1)
+Subject: [PATCH 4/8] uio_pruss: add dt support (replicape-00A1)
 
 Signed-off-by: Elias Bakken <elias.bakken@gmail.com>
 Signed-off-by: Robert Nelson <robertcnelson@gmail.com>

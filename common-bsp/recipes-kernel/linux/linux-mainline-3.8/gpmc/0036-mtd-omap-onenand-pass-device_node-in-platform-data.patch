@@ -1,4 +1,4 @@
-From 24bae200f88512022577e8b6c7f10f98fdf5312c Mon Sep 17 00:00:00 2001
+From 0a2b3fc2f8f9d1dd90c841fd595ea8bccb1b0fb5 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Fri, 25 Jan 2013 09:23:09 -0300
 Subject: [PATCH 36/39] mtd: omap-onenand: pass device_node in platform data

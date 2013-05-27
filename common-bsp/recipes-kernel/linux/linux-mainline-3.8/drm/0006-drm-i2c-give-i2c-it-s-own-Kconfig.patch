@@ -1,4 +1,4 @@
-From e19fc67fb9566f0d86a27eb742a045b0dcdfa232 Mon Sep 17 00:00:00 2001
+From 08bfdb281d063f6a85f00af7f48af606c225db0c Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Thu, 24 Jan 2013 15:39:19 -0600
 Subject: [PATCH 06/11] drm/i2c: give i2c it's own Kconfig

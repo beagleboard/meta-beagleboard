@@ -1,4 +1,4 @@
-From 166a5e83b56f5e1d99b64835b29fd872ceff42ab Mon Sep 17 00:00:00 2001
+From 705ca30a93e1aaf2614409c9aec9a8f7a27dfe0c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 20 May 2013 15:16:55 +0300
 Subject: [PATCH 09/10] tilcdc: 1280x1024x60 bw > 1920x1080x24 bw

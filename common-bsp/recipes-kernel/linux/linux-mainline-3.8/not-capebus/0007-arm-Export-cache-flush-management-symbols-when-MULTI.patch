@@ -1,4 +1,4 @@
-From f875f7e4f61bd9e50f03e247e4674258cb59be89 Mon Sep 17 00:00:00 2001
+From 19fdd3dab6356595e91476ea123e6787f9b811b2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sun, 16 Dec 2012 19:46:34 +0200
 Subject: [PATCH 007/175] arm: Export cache flush management symbols when

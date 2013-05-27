@@ -1,4 +1,4 @@
-From 5431f757228db2ac3cd5d409a42f72ed8d5f216c Mon Sep 17 00:00:00 2001
+From 13293655b20fff3370780b37a25527e480e31bf0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 20:05:05 +0200
 Subject: [PATCH 096/175] tilcdc-tfp410: Rework power down GPIO logic

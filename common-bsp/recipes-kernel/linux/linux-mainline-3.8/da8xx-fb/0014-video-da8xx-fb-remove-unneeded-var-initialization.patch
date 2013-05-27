@@ -1,4 +1,4 @@
-From 3097910a5bb154ce886c8608e23d9489e4e6ffbc Mon Sep 17 00:00:00 2001
+From 347d4d7a4f1a9d240f12e8a42baea62a037da41a Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Thu, 6 Dec 2012 22:46:32 +0530
 Subject: [PATCH 14/48] video: da8xx-fb: remove unneeded "var" initialization

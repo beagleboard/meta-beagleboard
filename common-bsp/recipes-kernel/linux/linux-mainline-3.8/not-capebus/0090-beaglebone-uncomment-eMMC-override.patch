@@ -1,4 +1,4 @@
-From acc80398e9296648d62fa1203a3b4f668005af1d Mon Sep 17 00:00:00 2001
+From 762ee14bd5f2c81e71a7c82a4c12ed10cfad9fe3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Tue, 29 Jan 2013 15:06:00 +0100
 Subject: [PATCH 090/175] beaglebone: uncomment eMMC override

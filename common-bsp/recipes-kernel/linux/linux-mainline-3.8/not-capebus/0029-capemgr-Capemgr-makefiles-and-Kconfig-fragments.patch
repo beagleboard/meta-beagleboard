@@ -1,4 +1,4 @@
-From 304bcbcae8aa5484f9383f2875000d883b5cc5c2 Mon Sep 17 00:00:00 2001
+From 796ddccc33b3213d36692bc352c28122d2ddd62c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 20:56:48 +0200
 Subject: [PATCH 029/175] capemgr: Capemgr makefiles and Kconfig fragments.

@@ -1,4 +1,4 @@
-From 8dc595af075c22328b6eeff9bd0d841a0866503b Mon Sep 17 00:00:00 2001
+From b0559557b814a727ffb7b5e114a11f72a29c63ca Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 15:20:53 -0600
 Subject: [PATCH 10/39] ARM: OMAP2+: Simplify code configuring ONENAND devices

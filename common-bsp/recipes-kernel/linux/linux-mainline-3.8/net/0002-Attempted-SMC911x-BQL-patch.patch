@@ -1,7 +1,7 @@
-From ba5d308d9241423313b0803552db8b28faf1ddf8 Mon Sep 17 00:00:00 2001
+From 2ab39f45d100b3778455fc4fe907404b89955b10 Mon Sep 17 00:00:00 2001
 From: "Paul E. McKenney" <paulmck@linux.vnet.ibm.com>
 Date: Thu, 29 Nov 2012 11:17:05 +0100
-Subject: [PATCH 2/3] Attempted SMC911x BQL patch
+Subject: [PATCH 2/5] Attempted SMC911x BQL patch
 
 First attempt at BQL on smsc911x.
 

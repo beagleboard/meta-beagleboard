@@ -1,4 +1,4 @@
-From 3e8bd8b60c376f40a257e833891e646d47ff363a Mon Sep 17 00:00:00 2001
+From 74b73d8def398827607494c1b109ae39d8d6ed97 Mon Sep 17 00:00:00 2001
 From: Bas van der Doorn <bas@doornvd.com>
 Date: Tue, 11 Dec 2012 06:52:22 -0600
 Subject: [PATCH 07/10] Beagle: expansion: add beaglefpga

@@ -1,4 +1,4 @@
-From 2a84aa5b6d256019266d9d7a3407bec932a3dfde Mon Sep 17 00:00:00 2001
+From be40ff56d94e5e60bc8d6856c25a9981369b6c54 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Tue, 22 Jan 2013 15:42:00 +0530
 Subject: [PATCH 35/48] ARM: OMAP2+: clock: DEFINE_STRUCT_CLK_FLAGS helper

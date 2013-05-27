@@ -1,4 +1,4 @@
-From 7c71898661fd4617e159de5c9729abf915dc48f1 Mon Sep 17 00:00:00 2001
+From b6db33a080298e4abbdde82276a13bbd6a03caf1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 30 Oct 2012 20:45:35 +0200
 Subject: [PATCH 003/175] am33xx-musb: Add OF definitions

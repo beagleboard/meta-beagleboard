@@ -1,4 +1,4 @@
-From 6f236ac2adaa3ca1544e1592ffaeca8ee018d8ac Mon Sep 17 00:00:00 2001
+From b7a06c8091c1ce212de23c5766884dacd378201a Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Wed, 1 Aug 2012 12:04:22 +0530
 Subject: [PATCH 061/175] ASoC: AM33XX: Add support for AM33xx SoC Audio

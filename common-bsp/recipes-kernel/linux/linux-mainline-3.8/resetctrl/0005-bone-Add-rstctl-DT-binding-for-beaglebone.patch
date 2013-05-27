@@ -1,7 +1,7 @@
-From 7cb9f225458dd388873f8a884991da9468a2a140 Mon Sep 17 00:00:00 2001
+From f56d790a919471c680b34555a2a50ece8f4f63b4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 20:36:35 +0300
-Subject: [PATCH 05/10] bone: Add rstctl DT binding for beaglebone
+Subject: [PATCH 05/11] bone: Add rstctl DT binding for beaglebone
 
 Add a reset control resource for the eMMC's reset GPIO.
 

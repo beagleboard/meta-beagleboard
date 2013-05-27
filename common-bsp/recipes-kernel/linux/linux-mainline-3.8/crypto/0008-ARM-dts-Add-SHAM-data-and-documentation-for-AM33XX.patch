@@ -1,4 +1,4 @@
-From c69d0a127e760df45a687316bdf4636052638aba Mon Sep 17 00:00:00 2001
+From da6da65182839e62d39c4677f5465b1898ab5875 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Mon, 17 Dec 2012 16:16:27 -0700
 Subject: [PATCH 08/34] ARM: dts: Add SHAM data and documentation for AM33XX

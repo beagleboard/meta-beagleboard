@@ -1,4 +1,4 @@
-From eeb133eceb272775dbd47a7db106d4265773d62a Mon Sep 17 00:00:00 2001
+From a4ab590501f20ea73bdc333f5a3a1c1b95c5c414 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Fri, 10 Aug 2012 18:43:52 -0700
 Subject: [PATCH 44/57] CHROMIUM: Input: atmel_mxt_ts - disable reporting on

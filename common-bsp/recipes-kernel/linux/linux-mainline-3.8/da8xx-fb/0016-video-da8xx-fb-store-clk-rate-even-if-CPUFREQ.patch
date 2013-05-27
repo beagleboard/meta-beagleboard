@@ -1,4 +1,4 @@
-From 7265fa39e7f0815a9174446908f173e39ca3b2d9 Mon Sep 17 00:00:00 2001
+From 936d9e7fef5d3434c9ab58cf6be6b44964096b5e Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Fri, 7 Dec 2012 02:00:23 +0530
 Subject: [PATCH 16/48] video: da8xx-fb: store clk rate even if !CPUFREQ

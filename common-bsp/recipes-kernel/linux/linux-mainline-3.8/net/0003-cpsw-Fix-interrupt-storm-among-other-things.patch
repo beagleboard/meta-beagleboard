@@ -1,7 +1,7 @@
-From ee40d8cb1f135f9fc5057972d5ae033ec8aa1fe9 Mon Sep 17 00:00:00 2001
+From 8d0994f7c10d6983728639f713e2d4975d7a57e7 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 17 Jan 2013 20:18:32 +0200
-Subject: [PATCH 3/3] cpsw: Fix interrupt storm among other things
+Subject: [PATCH 3/5] cpsw: Fix interrupt storm among other things
 
 Fix interrupt storm on bone A4 cause by non-by-the-book interrupt handling.
 While at it, added a non-NAPI mode (which is easier to debug), plus

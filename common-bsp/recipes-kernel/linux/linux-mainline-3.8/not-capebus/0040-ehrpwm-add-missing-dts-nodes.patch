@@ -1,4 +1,4 @@
-From 2000585e2e8fac5de2ca12c0804a2d56300789cc Mon Sep 17 00:00:00 2001
+From 3b5c18fc0b5e894283acd0e786994b210dc0f06d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 4 Jan 2013 10:51:47 +0200
 Subject: [PATCH 040/175] ehrpwm: add missing dts nodes

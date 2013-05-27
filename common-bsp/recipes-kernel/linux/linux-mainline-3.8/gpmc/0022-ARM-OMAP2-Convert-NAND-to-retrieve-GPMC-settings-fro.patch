@@ -1,4 +1,4 @@
-From e197e72741fa40b7e0ae193c67be1cf1cab427a2 Mon Sep 17 00:00:00 2001
+From fa0c748ce7fdcce4c40d886489700650e16c34fd Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Mon, 25 Feb 2013 11:36:47 -0600
 Subject: [PATCH 22/39] ARM: OMAP2+: Convert NAND to retrieve GPMC settings

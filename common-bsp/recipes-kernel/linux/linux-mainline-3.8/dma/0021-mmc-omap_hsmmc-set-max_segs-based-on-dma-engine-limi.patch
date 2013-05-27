@@ -1,4 +1,4 @@
-From 206b77c62a9ca9ae76e9b071bc030306428274ab Mon Sep 17 00:00:00 2001
+From c54aa442dad59faededaf799ef879248ce850bee Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 20 Sep 2012 08:55:41 -0400
 Subject: [PATCH 21/35] mmc: omap_hsmmc: set max_segs based on dma engine

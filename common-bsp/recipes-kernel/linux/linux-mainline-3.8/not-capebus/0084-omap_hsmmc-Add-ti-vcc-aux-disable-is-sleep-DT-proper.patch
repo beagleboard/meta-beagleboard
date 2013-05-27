@@ -1,4 +1,4 @@
-From 517e0fb9563444d915939b05cec103a845669375 Mon Sep 17 00:00:00 2001
+From 25d4754e0a427cc5c63e3b5dbbbe9c57b6250c52 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 18 Jan 2013 15:44:44 +0200
 Subject: [PATCH 084/175] omap_hsmmc: Add ti,vcc-aux-disable-is-sleep DT

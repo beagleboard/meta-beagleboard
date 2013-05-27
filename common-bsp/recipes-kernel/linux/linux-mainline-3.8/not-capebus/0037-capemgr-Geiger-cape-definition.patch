@@ -1,4 +1,4 @@
-From 233377629de955789ef70aa8d0046b9774f7ab6f Mon Sep 17 00:00:00 2001
+From 0c4fac7dc89d1cd0180713dabd07cf959ff6bcd8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 28 Dec 2012 21:09:01 +0200
 Subject: [PATCH 037/175] capemgr: Geiger cape definition

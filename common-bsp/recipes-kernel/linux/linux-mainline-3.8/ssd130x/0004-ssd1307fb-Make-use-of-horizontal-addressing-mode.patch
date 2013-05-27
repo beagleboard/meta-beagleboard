@@ -1,4 +1,4 @@
-From 2b4f7d465f36d0fc970d59f5a2ce844e0bd5b795 Mon Sep 17 00:00:00 2001
+From ac583a5ecf7cbd1d45801df4ba569f71cd57e3f5 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime.ripard@free-electrons.com>
 Date: Fri, 13 Jul 2012 15:16:12 +0200
 Subject: [PATCH 4/5] ssd1307fb: Make use of horizontal addressing mode

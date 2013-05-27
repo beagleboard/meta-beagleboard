@@ -1,4 +1,4 @@
-From 8e3e344e65e8cafe5f489f0d95117f4334aa5532 Mon Sep 17 00:00:00 2001
+From cd38e743c91c4ab1c4c7846a50886fba18a3abe4 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Thu, 20 Dec 2012 23:16:35 +0800
 Subject: [PATCH 05/57] CHROMIUM: Input: atmel_mxt_ts - handle errors during fw

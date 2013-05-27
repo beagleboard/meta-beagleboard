@@ -1,4 +1,4 @@
-From 9ac9a8413294e958474fa5b0c2adbcdef48f65b8 Mon Sep 17 00:00:00 2001
+From c0bd7397327f2c82b24056e0d700e3def30305f1 Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Mon, 18 Mar 2013 01:17:05 -0400
 Subject: [PATCH 08/23] mrf24j40: Increase max SPI speed to 10MHz

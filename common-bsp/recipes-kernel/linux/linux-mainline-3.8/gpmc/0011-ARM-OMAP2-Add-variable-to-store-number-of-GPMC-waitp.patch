@@ -1,4 +1,4 @@
-From a64878f64db0c34db1a70692dda617b2bd4998ef Mon Sep 17 00:00:00 2001
+From 15d7bc39fd069c4984085c31ba6eaa56b97de22c Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Wed, 20 Feb 2013 15:53:38 -0600
 Subject: [PATCH 11/39] ARM: OMAP2+: Add variable to store number of GPMC

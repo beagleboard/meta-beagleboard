@@ -1,4 +1,4 @@
-From ac9693af7c673219ae71f58c3c65d44d7bafd432 Mon Sep 17 00:00:00 2001
+From 9b25e09a05fb1dff1d35074a8876c41242574dbf Mon Sep 17 00:00:00 2001
 From: Jan Luebbe <jlu@pengutronix.de>
 Date: Mon, 6 May 2013 12:48:58 +0200
 Subject: [PATCH 15/16] iio: adc: ti_am335x_adc: revert info_mask removal

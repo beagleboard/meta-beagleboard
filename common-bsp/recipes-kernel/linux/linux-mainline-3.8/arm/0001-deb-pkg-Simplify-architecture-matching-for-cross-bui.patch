@@ -1,4 +1,4 @@
-From c99d8441ad4083fe2104dcc368fce052ad2804b1 Mon Sep 17 00:00:00 2001
+From c627b0d9bee3858b5f9f8a7093e461b16b21d443 Mon Sep 17 00:00:00 2001
 From: maximilian attems <max@xxxxxxx>
 Date: Thu, 6 Sep 2012 15:22:02 +0200
 Subject: [PATCH 1/2] deb-pkg: Simplify architecture matching for cross

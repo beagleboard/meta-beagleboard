@@ -1,4 +1,4 @@
-From 03a61404ea32f44e20e9fe2239ea48151c017717 Mon Sep 17 00:00:00 2001
+From 3a35f6e1f4006dbc58f52489445d4a7b628ecabb Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 22 Aug 2012 09:24:24 -0400
 Subject: [PATCH 13/35] ARM: davinci: move private EDMA API to arm/common

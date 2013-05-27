@@ -1,7 +1,7 @@
-From 52b59ce1de3fc4ae4acd78e8c45d3aa6c1fae8c1 Mon Sep 17 00:00:00 2001
+From a40fb259e42b57a2291071e9ee855bc4aa47d925 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 18 Apr 2013 12:34:45 +0300
-Subject: [PATCH 01/10] boneblack: Remove default pinmuxing for MMC1
+Subject: [PATCH 01/11] boneblack: Remove default pinmuxing for MMC1
 
 The MMC driver already has the right pinmuxing options, remove it
 from here.

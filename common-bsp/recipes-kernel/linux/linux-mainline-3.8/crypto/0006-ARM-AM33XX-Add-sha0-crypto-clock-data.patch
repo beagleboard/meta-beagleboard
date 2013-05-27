@@ -1,4 +1,4 @@
-From 7296b6c32e327dfa272a9236ec2f20829edfd047 Mon Sep 17 00:00:00 2001
+From c672f2a55b899d0b7d3236c5cce854bc881b06c8 Mon Sep 17 00:00:00 2001
 From: "Mark A. Greer" <mgreer@animalcreek.com>
 Date: Mon, 17 Dec 2012 15:57:48 -0700
 Subject: [PATCH 06/34] ARM: AM33XX: Add sha0 crypto clock data

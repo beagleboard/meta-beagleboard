@@ -1,4 +1,4 @@
-From 5455dac928139bde1e35f1c2927bd5ef184b2b6b Mon Sep 17 00:00:00 2001
+From f7a8589e9e1555456484469726ba90bdec5041b8 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 20 Sep 2012 07:46:04 -0400
 Subject: [PATCH 17/35] dmaengine: edma: Add TI EDMA device tree binding

@@ -1,4 +1,4 @@
-From 4beca9ace140a084e32983b006cef69d24df2800 Mon Sep 17 00:00:00 2001
+From 4c92650186054f6256d67746abd3de9ca634ca94 Mon Sep 17 00:00:00 2001
 From: "Jean-Sebastien A. Beaudry" <jsabeaudry@handyem.com>
 Date: Wed, 23 Jan 2013 21:02:40 +0000
 Subject: [PATCH] ARM: AM33xx: Add SoC specific restart hook

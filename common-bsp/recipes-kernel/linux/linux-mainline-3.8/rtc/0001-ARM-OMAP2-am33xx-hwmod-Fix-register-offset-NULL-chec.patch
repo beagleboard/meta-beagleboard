@@ -1,4 +1,4 @@
-From 0f0b098d74f77d33840ede38c5d907ac3dd10fc9 Mon Sep 17 00:00:00 2001
+From 545787c4b1c02ba66b112f20af51091229c9c357 Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Wed, 30 Jan 2013 14:39:20 +0000
 Subject: [PATCH 1/4] ARM: OMAP2: am33xx-hwmod: Fix "register offset NULL

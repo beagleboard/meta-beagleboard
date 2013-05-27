@@ -1,4 +1,4 @@
-From 472f66b7b46c734b0d0d325a5bff76d74262de30 Mon Sep 17 00:00:00 2001
+From 073373d3eec2e4cac30bd1e99bb8c97e0fb874e7 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
 Subject: [PATCH 4/6] iio:magnetometer: Add STMicroelectronics magnetometers
