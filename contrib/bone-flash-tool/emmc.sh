@@ -83,6 +83,8 @@ touch ${PART2MOUNT}/etc/default/locale
 mkdir -p ${PART2MOUNT}/var/lib/connman/
 cp connman.settings ${PART2MOUNT}/var/lib/connman/settings
 
+rm -f ${PART2MOUNT}/etc/network/interfaces
+
 # Replace wallpaper
 if [ -e ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg ] ; then
 	cp beaglebg.jpg ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg
