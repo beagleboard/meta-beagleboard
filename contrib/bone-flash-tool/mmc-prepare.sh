@@ -32,6 +32,7 @@ if ! [ -e /dev/mapper/${LOOPFILE}p1 ] ; then
 	exit 1
 fi
 
+umount ${MOUNTPOINT1} >& /dev/null
 mount ${MOUNTPOINT1}
 
 echo "Mounting /dev/mapper/${LOOPFILE}p1"
@@ -58,10 +59,11 @@ echo "Creating ext4 on /dev/mapper/${LOOPFILE}p2"
 mkfs.ext4 -L ${FLASHIMG} /dev/mapper/${LOOPFILE}p2 || exit 1
 
 echo "Mounting /dev/mapper/${LOOPFILE}p2"
+umount ${MOUNTPOINT} >& /dev/null
 mount /dev/mapper/${LOOPFILE}p2 ${MOUNTPOINT} || exit 1
 
 echo "Untarring contents"
-tar zxf ${FLASHIMG} -C ${MOUNTPOINT}
+tar zxf ${DEPLOYDIR}${FLASHIMG} -C ${MOUNTPOINT}
 
 sync && sleep 1
 
