@@ -78,6 +78,8 @@ cp -vf ${DEPLOYDIR}/MLO ${MOUNTPOINT}/build/ && cp -vf ${DEPLOYDIR}/u-boot.img $
 echo "Copying over flashing script"
 cp -vf ${EMMCSCRIPT} ${MOUNTPOINT}/usr/bin/ 
 
+rm -f ${MOUNTPOINT}/build/emmc.sh
+
 sed -i -e s:DATE:${DATE}:g ${MOUNTPOINT}/usr/bin/emmc.sh
 
 sync && sleep 1
