@@ -21,8 +21,6 @@ do_configure_prepend() {
 	if [ -e ${WORKDIR}/am335x-pm-firmware.bin ] ; then
 		cp ${WORKDIR}/am335x-pm-firmware.bin ${S}/firmware
 	fi
-
-	cp ${WORKDIR}/db.txt ${S}/net/wireless
 }
 
 SRC_URI += " \
@@ -428,6 +426,7 @@ SRC_URI += " \
 	file://not-capebus/0173-am33xx-Update-DTS-EDMA.patch \
 	file://not-capebus/0174-bone-Added-RS232-prototype-cape-DT-object.patch \
 	file://not-capebus/0175-Add-support-for-BB-BONE_SERL-01-00A1-CanBus-cape.patch \
+	file://not-capebus/0176-capes-Add-virtual-capes-serving-as-examples.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
@@ -603,5 +602,5 @@ SRC_URI += " \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
-  file://db.txt \
+  file://logo_linux_clut224.ppm \
 "
