@@ -233,13 +233,16 @@ do_install_append() {
 	install -d ${D}/boot
 	make dtbs || true
 	install -m 0644 ${S}/arch/arm/boot/dts/*.dtb ${D}/boot || true
+
+	install -d ${D}/lib/firmware
+	install -m 0644 ${S}/firmware/capes/*.dts ${D}/lib/firmware || true
 }
 
 PACKAGES =+ "kernel-headers"
 FILES_kernel-headers = "${exec_prefix}/src/linux*"
 
 PACKAGES =+ "kernel-devicetree-overlays kernel-devicetrees"
-FILES_kernel-devicetree-overlays = "/lib/firmware/*.dtbo"
+FILES_kernel-devicetree-overlays = "/lib/firmware/*.dtbo /lib/firmware/*.dts"
 FILES_kernel-devicetrees += "/boot/*.dtb"
 
 RDEPENDS_kernel-image_append = " kernel-devicetrees"
