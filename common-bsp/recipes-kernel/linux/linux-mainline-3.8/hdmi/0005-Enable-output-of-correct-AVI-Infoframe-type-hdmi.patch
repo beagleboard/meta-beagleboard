@@ -1,4 +1,4 @@
-From 38f83812c28dd3bb0300d61397a1ecd7e90b07f3 Mon Sep 17 00:00:00 2001
+From 2c0e32e8286f44b4209509c2f318bde7392ab439 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Tue, 7 May 2013 21:22:27 -0500
 Subject: [PATCH 05/10] Enable output of correct AVI Infoframe type hdmi

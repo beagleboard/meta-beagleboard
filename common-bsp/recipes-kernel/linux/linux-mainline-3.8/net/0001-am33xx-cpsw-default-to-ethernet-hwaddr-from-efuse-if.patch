@@ -1,7 +1,7 @@
-From 7d5187727f128e79bf27df173d14b1b910fb489b Mon Sep 17 00:00:00 2001
+From 06177a964fb4be375b92483e8e0441c9db3d6339 Mon Sep 17 00:00:00 2001
 From: Peter Korsgaard <jacmet@sunsite.dk>
 Date: Wed, 16 Jan 2013 21:01:13 +0000
-Subject: [PATCH 1/5] am33xx: cpsw: default to ethernet hwaddr from efuse if
+Subject: [PATCH 1/6] am33xx: cpsw: default to ethernet hwaddr from efuse if
  not defined in dt
 
 When booting with CONFIG_ARM_APPENDED_DTB (either because of using an old

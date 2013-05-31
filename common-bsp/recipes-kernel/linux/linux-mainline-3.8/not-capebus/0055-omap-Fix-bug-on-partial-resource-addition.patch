@@ -1,7 +1,7 @@
-From 3702e07297b10fe5a5f451a8a74313fed7c40e7d Mon Sep 17 00:00:00 2001
+From 97e6cd0fe8991e6994cf7890cc68d7aa0e4e766f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 13:22:00 +0200
-Subject: [PATCH 055/175] omap: Fix bug on partial resource addition.
+Subject: [PATCH 055/177] omap: Fix bug on partial resource addition.
 
 Correctly add all of the resources. Bug was uncovered by missing dma
 resources.

@@ -1,4 +1,4 @@
-From 46c23460164e1668d0f9935bd8efb1f292a102fa Mon Sep 17 00:00:00 2001
+From 372da5dad28be351cd73ba72b50d6e5937402232 Mon Sep 17 00:00:00 2001
 From: Steve Sakoman <steve@sakoman.com>
 Date: Sat, 19 Dec 2009 06:52:43 -0800
 Subject: [PATCH 2/2] video: add timings for hd720

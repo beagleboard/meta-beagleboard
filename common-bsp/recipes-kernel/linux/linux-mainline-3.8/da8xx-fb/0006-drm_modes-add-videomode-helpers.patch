@@ -1,4 +1,4 @@
-From 8f1ec3d87223ee62c344252deb7460b29f7f0b20 Mon Sep 17 00:00:00 2001
+From 915f219ee14b20f90d446df3a09045e77084d8fc Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Wed, 19 Dec 2012 16:37:03 +0530
 Subject: [PATCH 06/48] drm_modes: add videomode helpers

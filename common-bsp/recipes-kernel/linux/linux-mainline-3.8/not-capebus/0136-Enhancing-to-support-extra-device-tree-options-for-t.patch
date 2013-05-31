@@ -1,7 +1,7 @@
-From dbce5ff5de9df30270a8d3597ebb645cf7993eab Mon Sep 17 00:00:00 2001
+From dd9921f7c5c718bb7c1a5f85913e1e98bda52f38 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Thu, 21 Mar 2013 16:23:03 -0500
-Subject: [PATCH 136/175] Enhancing to support extra device tree options for
+Subject: [PATCH 136/177] Enhancing to support extra device tree options for
  tilcdc: ti,max_width (maximum width in pixels) ti,max_pixelclock (maximum
  allowable pixel clock for the device) also added some extra debugging enabled
  with drm debug to help understand why modes are being selected or rejected.

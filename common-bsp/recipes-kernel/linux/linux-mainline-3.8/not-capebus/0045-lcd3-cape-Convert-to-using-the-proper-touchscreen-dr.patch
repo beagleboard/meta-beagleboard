@@ -1,7 +1,7 @@
-From 6f5dc70f17328ce23cb6ed4f6c3dc38f842e7d37 Mon Sep 17 00:00:00 2001
+From 04a06a459a2e6123a884be08f200568f947b4cc8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 14:42:11 +0200
-Subject: [PATCH 045/175] lcd3-cape: Convert to using the proper touchscreen
+Subject: [PATCH 045/177] lcd3-cape: Convert to using the proper touchscreen
  driver.
 
 Now that the touchscreen driver has DT bindings switch to using it.

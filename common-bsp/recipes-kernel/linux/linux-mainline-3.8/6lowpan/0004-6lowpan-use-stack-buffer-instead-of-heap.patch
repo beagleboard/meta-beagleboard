@@ -1,4 +1,4 @@
-From 31eaff8c6cd7bddec5bd63b25a5395fbd0f0afa6 Mon Sep 17 00:00:00 2001
+From 1b0d0179a2c58fdbf62517d99130c384dd349c1c Mon Sep 17 00:00:00 2001
 From: Alexander Aring <alex.aring@gmail.com>
 Date: Tue, 5 Feb 2013 10:23:43 +0000
 Subject: [PATCH 04/23] 6lowpan: use stack buffer instead of heap

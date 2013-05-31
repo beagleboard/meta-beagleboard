@@ -1,4 +1,4 @@
-From 4d1781c3642ce2a83d7f9ce1e5a416f940ff0e99 Mon Sep 17 00:00:00 2001
+From 40aa92c8635c8f8be576b8a3a860f16fbf777734 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 20:32:40 +0300
 Subject: [PATCH 04/11] omap_hsmmc: Enable rstctl bindings.

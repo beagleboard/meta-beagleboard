@@ -1,4 +1,4 @@
-From 79295f97c990a7ffb1358b6f63e925e0944b104c Mon Sep 17 00:00:00 2001
+From 095aa47763800d75c9ace93f91c5cfe0c8035715 Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 11:36:40 +0100
 Subject: [PATCH 33/39] ARM: OMAP: gpmc: don't create devices from initcall on

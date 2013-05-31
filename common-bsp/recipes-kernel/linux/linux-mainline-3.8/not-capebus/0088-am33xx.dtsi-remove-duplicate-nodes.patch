@@ -1,7 +1,7 @@
-From 66e0c83dfa06e49836ba8e4c89ffd1374f9fa6cc Mon Sep 17 00:00:00 2001
+From ae28ca1d8304dedd1c31c4196f7bdd51ca3f1d8e Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 28 Jan 2013 14:38:49 +0100
-Subject: [PATCH 088/175] am33xx.dtsi: remove duplicate nodes
+Subject: [PATCH 088/177] am33xx.dtsi: remove duplicate nodes
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

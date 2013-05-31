@@ -1,7 +1,7 @@
-From a2bd7bcaa77e37c29181bdf7ab55b76567157040 Mon Sep 17 00:00:00 2001
+From f3a86186e8861a28e2bb83780ad66f99fafa75cc Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Apr 2013 19:37:08 +0300
-Subject: [PATCH 163/175] Sync tester DTS with am335x-common
+Subject: [PATCH 163/177] Sync tester DTS with am335x-common
 
 ---
  arch/arm/boot/dts/am335x-tester.dts | 87 ++++++++++++++++++++++++++++++++++---

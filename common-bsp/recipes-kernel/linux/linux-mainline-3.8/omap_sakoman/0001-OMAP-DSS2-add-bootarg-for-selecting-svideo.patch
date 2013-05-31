@@ -1,4 +1,4 @@
-From 7102240ed9179c9f852c9fa1cb644c345c824671 Mon Sep 17 00:00:00 2001
+From 73f8026c7d3e38bbe867327b6df5b96158d570db Mon Sep 17 00:00:00 2001
 From: Steve Sakoman <steve@sakoman.com>
 Date: Tue, 19 Jan 2010 21:19:15 -0800
 Subject: [PATCH 1/2] OMAP: DSS2: add bootarg for selecting svideo

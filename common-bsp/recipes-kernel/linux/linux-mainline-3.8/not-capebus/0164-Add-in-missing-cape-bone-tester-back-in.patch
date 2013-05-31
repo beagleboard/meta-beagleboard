@@ -1,7 +1,7 @@
-From 0f4fb80bce1483d4a3bebbf1783a433df20388d3 Mon Sep 17 00:00:00 2001
+From b0c958913bb61e8d715225948a00ea057e7c8b18 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Apr 2013 21:19:13 +0300
-Subject: [PATCH 164/175] Add in missing cape-bone-tester back in.
+Subject: [PATCH 164/177] Add in missing cape-bone-tester back in.
 
 ---
  arch/arm/boot/dts/am335x-tester.dts | 9 +++++++++

@@ -1,4 +1,4 @@
-From 366ce6f7fa6e4b92ca4e29cd08c74ae4b9a9a65f Mon Sep 17 00:00:00 2001
+From dc50438466e22a0602878a27f3b065ad69a0d9a4 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Sun, 30 Dec 2012 18:56:21 +0530
 Subject: [PATCH 40/48] video: da8xx-fb: use devres

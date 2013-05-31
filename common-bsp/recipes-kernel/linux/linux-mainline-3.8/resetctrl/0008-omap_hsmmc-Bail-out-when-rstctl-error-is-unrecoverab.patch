@@ -1,4 +1,4 @@
-From 757818a062d217f141feaf7fc0fc9b15c58f6e67 Mon Sep 17 00:00:00 2001
+From f241d00112333aabd1cc0df818332384971a66d6 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 17:05:53 +0300
 Subject: [PATCH 08/11] omap_hsmmc: Bail out when rstctl error is unrecoverable

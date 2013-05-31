@@ -1,4 +1,4 @@
-From 9e75905ad1e0cd5d29d311fac789883c8429ea3e Mon Sep 17 00:00:00 2001
+From cfde44faa647e45ffe13a6582a3b163f888d7b2a Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Tue, 7 Aug 2012 19:48:12 -0700
 Subject: [PATCH 42/57] CHROMIUM: Input: atmel_mxt_ts - move backup_nv to

@@ -1,7 +1,7 @@
-From bfd7385b26e47110a620d002f40d0cf1e4e4a976 Mon Sep 17 00:00:00 2001
+From 2efa7f4aff01d42b1e7ce01c069f8da9e4a07593 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 18 Jan 2013 11:15:22 +0100
-Subject: [PATCH 080/175] HACK: am33xx.dtsi: enable all PWMs
+Subject: [PATCH 080/177] HACK: am33xx.dtsi: enable all PWMs
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

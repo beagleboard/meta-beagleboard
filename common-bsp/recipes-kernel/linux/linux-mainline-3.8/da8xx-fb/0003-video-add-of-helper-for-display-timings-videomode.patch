@@ -1,4 +1,4 @@
-From a49a629265be00d0410e483635378f31df06da23 Mon Sep 17 00:00:00 2001
+From 99220de265d3f16cc5be666461e7c6f034819805 Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Wed, 19 Dec 2012 16:36:54 +0530
 Subject: [PATCH 03/48] video: add of helper for display timings/videomode

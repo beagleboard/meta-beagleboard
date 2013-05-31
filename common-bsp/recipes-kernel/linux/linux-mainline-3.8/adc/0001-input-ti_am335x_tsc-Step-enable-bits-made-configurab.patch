@@ -1,4 +1,4 @@
-From 0effbe48b9c75bc98ef15eb5eeb32a1681738c4a Mon Sep 17 00:00:00 2001
+From 4af84239fa709c379138bc8e6cf296faf663d8f5 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:05 +0000
 Subject: [PATCH 01/16] input: ti_am335x_tsc: Step enable bits made

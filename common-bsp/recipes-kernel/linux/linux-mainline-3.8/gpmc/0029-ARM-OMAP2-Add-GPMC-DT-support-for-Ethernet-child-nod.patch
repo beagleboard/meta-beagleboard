@@ -1,4 +1,4 @@
-From 0fbc3787c7065f22e8842bccd958b572e3707561 Mon Sep 17 00:00:00 2001
+From 782a0e58ecb15c29d4fe3f6c9af95bbefde64daf Mon Sep 17 00:00:00 2001
 From: Javier Martinez Canillas <javier.martinez@collabora.co.uk>
 Date: Thu, 14 Mar 2013 22:54:11 +0100
 Subject: [PATCH 29/39] ARM: OMAP2+: Add GPMC DT support for Ethernet child

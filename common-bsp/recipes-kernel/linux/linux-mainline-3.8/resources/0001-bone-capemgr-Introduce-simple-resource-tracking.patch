@@ -1,4 +1,4 @@
-From f283f15c428aff57c77e72da5089f3354386967c Mon Sep 17 00:00:00 2001
+From cc6b03581e14b4c0cf389d4441e1d72a5cd847b7 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 16 May 2013 18:11:19 +0300
 Subject: [PATCH 1/4] bone: capemgr: Introduce simple resource tracking

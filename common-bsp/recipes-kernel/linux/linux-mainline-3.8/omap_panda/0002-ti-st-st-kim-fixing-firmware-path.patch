@@ -1,4 +1,4 @@
-From 3af5326518a674d1f4a7c488117a4cc4c669f26b Mon Sep 17 00:00:00 2001
+From 0151183af54c31ae6505b7a80e07c897a1c9da56 Mon Sep 17 00:00:00 2001
 From: Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>
 Date: Tue, 25 Oct 2011 10:06:39 +0200
 Subject: [PATCH 2/2] ti-st/st-kim: fixing firmware path

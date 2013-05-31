@@ -240,6 +240,7 @@ SRC_URI += " \
 	file://net/0003-cpsw-Fix-interrupt-storm-among-other-things.patch \
 	file://net/0004-beaglebone-TT3201-MCP2515-fixes.patch \
 	file://net/0005-add-proper-db.txt-for-CRDA.patch \
+	file://net/0006-mcp251x-add-device-tree-support.patch \
 	file://drm/0001-am33xx-Add-clock-for-the-lcdc-DRM-driver.patch \
 	file://drm/0002-drm-small-fix-in-drm_send_vblank_event.patch \
 	file://drm/0003-drm-cma-add-debugfs-helpers.patch \
@@ -427,6 +428,7 @@ SRC_URI += " \
 	file://not-capebus/0174-bone-Added-RS232-prototype-cape-DT-object.patch \
 	file://not-capebus/0175-Add-support-for-BB-BONE_SERL-01-00A1-CanBus-cape.patch \
 	file://not-capebus/0176-capes-Add-virtual-capes-serving-as-examples.patch \
+	file://not-capebus/0177-capes-Add-TowerTech-TT3201-CAN-Bus-Cape-TT3201-001-3.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \

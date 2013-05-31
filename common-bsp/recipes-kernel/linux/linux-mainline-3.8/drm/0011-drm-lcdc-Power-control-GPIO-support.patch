@@ -1,4 +1,4 @@
-From 1b1d5d24e8f86c14dd17f07de4d498b78bedac5e Mon Sep 17 00:00:00 2001
+From 177f7ba38627b56b1d225694ecacb87b71c0586c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 9 Jan 2013 16:31:29 +0200
 Subject: [PATCH 11/11] drm: lcdc: Power control GPIO support

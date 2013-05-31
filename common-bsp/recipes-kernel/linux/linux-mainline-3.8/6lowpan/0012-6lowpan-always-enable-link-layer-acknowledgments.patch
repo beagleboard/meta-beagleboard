@@ -1,4 +1,4 @@
-From b1eae7d4c5dd675470a47437230685b8d5f47ed2 Mon Sep 17 00:00:00 2001
+From 9c66c9424a5e7867c741ba3d6db417762bd996ed Mon Sep 17 00:00:00 2001
 From: Tony Cheneau <tony.cheneau@amnesiak.org>
 Date: Mon, 25 Mar 2013 23:59:23 -0400
 Subject: [PATCH 12/23] 6lowpan: always enable link-layer acknowledgments
