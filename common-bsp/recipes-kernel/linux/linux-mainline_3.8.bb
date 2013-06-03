@@ -252,6 +252,7 @@ SRC_URI += " \
 	file://drm/0009-drm-tilcdc-add-encoder-slave.patch \
 	file://drm/0010-drm-tilcdc-add-support-for-LCD-panels-v5.patch \
 	file://drm/0011-drm-lcdc-Power-control-GPIO-support.patch \
+	file://drm/0012-drm-tilcdc-Fix-scheduling-while-atomic-from-irq-hand.patch \
 	file://not-capebus/0001-add-dvi-pinmuxes-to-am33xx.dtsi.patch \
 	file://not-capebus/0002-add-defconfig-file-to-use-as-.config.patch \
 	file://not-capebus/0003-am33xx-musb-Add-OF-definitions.patch \
@@ -431,6 +432,7 @@ SRC_URI += " \
 	file://not-capebus/0177-capes-Add-TowerTech-TT3201-CAN-Bus-Cape-TT3201-001-3.patch \
 	file://not-capebus/0178-capes-Add-commented-out-example-of-use-of-spi1_cs1.patch \
 	file://not-capebus/0179-cape-LCD4-Correct-key-active-polarity.patch \
+	file://not-capebus/0180-capes-lcd3-Correct-button-polarity.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
