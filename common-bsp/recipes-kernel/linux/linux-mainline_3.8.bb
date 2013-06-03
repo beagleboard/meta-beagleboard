@@ -433,6 +433,7 @@ SRC_URI += " \
 	file://not-capebus/0178-capes-Add-commented-out-example-of-use-of-spi1_cs1.patch \
 	file://not-capebus/0179-cape-LCD4-Correct-key-active-polarity.patch \
 	file://not-capebus/0180-capes-lcd3-Correct-button-polarity.patch \
+	file://not-capebus/0181-cape-Fix-LCD7-keys-polarity.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
