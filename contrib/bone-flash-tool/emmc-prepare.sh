@@ -10,7 +10,7 @@ SCRATCHDIR="/build/images"
 
 EMMCSCRIPT="/build/v2012.12/sources/meta-beagleboard/contrib/bone-flash-tool/emmc.sh"
 
-DATE="$(date +'%Y.%m.%d')"
+DATE="$(date +'%Y.%m.%d')-DO-NOT-USE-FOR-PRODUCTION"
 
 if [ -e ${IMAGE}.xz ] ; then
 	echo "uncompressing image"
@@ -34,19 +34,22 @@ if ! [ -e /dev/mapper/${LOOPFILE}p1 ] ; then
 	exit 1
 fi
 
-mount ${MOUNTPOINT1}
+if grep -q "${MOUNTPOINT1}" /etc/mtab ; then
+        echo "${MOUNTPOINT1} already mounted, trying to unmount"
+        umount ${MOUNTPOINT1}
+fi
 
 echo "Mounting /dev/mapper/${LOOPFILE}p1"
 mount /dev/mapper/${LOOPFILE}p1 ${MOUNTPOINT1} || exit 1
 
 echo "BeagleBone Black eMMC flasher ${DATE}" > ${MOUNTPOINT1}/ID.txt
 
+umount ${MOUNTPOINT1} || exit 1
+
 if ! [ -e /dev/mapper/${LOOPFILE}p2 ] ; then
 	echo "Incorrect partitioning, /dev/mapper/${LOOPFILE}p2 not found"
 	exit 1
 fi
-
-umount ${MOUNTPOINT1} || exit 1
 
 umount ${MOUNTPOINT}
 
@@ -94,4 +97,4 @@ kpartx -d -v ${IMAGE}
 
 echo "Compressing image"
 xz -v -z -T0 -e -9 ${IMAGE} 
-cp -f ${IMAGE}.xz /build/dominion/beaglebone/
+cp -f ${IMAGE}.xz /build/dominion/beaglebone/test-${IMAGE}.xz
