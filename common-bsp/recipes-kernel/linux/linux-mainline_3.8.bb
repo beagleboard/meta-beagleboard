@@ -585,6 +585,7 @@ SRC_URI += " \
 	file://hdmi/0008-tilcdc-Remove-superfluous-newlines-from-DBG-messages.patch \
 	file://hdmi/0009-tilcdc-1280x1024x60-bw-1920x1080x24-bw.patch \
 	file://hdmi/0010-tilcdc-Only-support-Audio-on-50-60-Hz-modes.patch \
+	file://hdmi/0011-tilcdc-Allow-non-audio-modes-when-we-don-t-support-t.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
@@ -610,6 +611,8 @@ SRC_URI += " \
 	file://resources/0002-capes-Add-resources-to-capes.patch \
 	file://resources/0003-capes-Update-most-of-the-capes-with-resource-definit.patch \
 	file://resources/0004-capes-Update-RS232-CAN-capes-with-resources.patch \
+	file://resources/0005-bbb-Add-a-fall-back-non-audio-HDMI-cape.patch \
+	file://resources/0006-capemgr-Add-enable_partno-parameter.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://defconfig \
