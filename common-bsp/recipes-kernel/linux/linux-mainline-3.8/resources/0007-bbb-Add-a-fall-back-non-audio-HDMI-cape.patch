@@ -1,7 +1,7 @@
-From e3f59e835023137a323db68ce4be2b1c1a56a079 Mon Sep 17 00:00:00 2001
+From 396637f01eb53030fd2292ca25751de8e1c2c91b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 4 Jun 2013 17:54:45 +0300
-Subject: [PATCH 5/6] bbb: Add a fall-back non-audio HDMI cape
+Subject: [PATCH 7/8] bbb: Add a fall-back non-audio HDMI cape
 
 When a user cape hogs the audio, allow booting with a HDMI cape which
 only supports video.

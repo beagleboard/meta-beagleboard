@@ -576,6 +576,7 @@ SRC_URI += " \
 	file://build/0001-ARM-force-march-armv7a-for-thumb2-builds-http-lists..patch \
 	file://build/0002-headers_install-Fix-build-failures-on-deep-directory.patch \
 	file://build/0003-libtraceevent-Remove-hard-coded-include-to-usr-local.patch \
+	file://build/0004-Make-single-.dtb-targets-also-with-DTC_FLAGS.patch \
 	file://hdmi/0001-video-Add-generic-HDMI-infoframe-helpers.patch \
 	file://hdmi/0002-BeagleBone-Black-TDA998x-Initial-HDMI-Audio-support.patch \
 	file://hdmi/0003-Clean-up-some-formating-and-debug-in-Davinci-MCASP-d.patch \
@@ -586,7 +587,17 @@ SRC_URI += " \
 	file://hdmi/0008-tilcdc-Remove-superfluous-newlines-from-DBG-messages.patch \
 	file://hdmi/0009-tilcdc-1280x1024x60-bw-1920x1080x24-bw.patch \
 	file://hdmi/0010-tilcdc-Only-support-Audio-on-50-60-Hz-modes.patch \
-	file://hdmi/0011-tilcdc-Allow-non-audio-modes-when-we-don-t-support-t.patch \
+	file://hdmi/0011-drm-i2c-nxp-tda998x-fix-EDID-reading-on-TDA19988-dev.patch \
+	file://hdmi/0012-tilcdc-Allow-non-audio-modes-when-we-don-t-support-t.patch \
+	file://hdmi/0013-drm-i2c-nxp-tda998x-ensure-VIP-output-mux-is-properl.patch \
+	file://hdmi/0014-drm-i2c-nxp-tda998x-fix-npix-nline-programming.patch \
+	file://hdmi/0015-drm-tilcdc-Clear-bits-of-register-we-re-going-to-set.patch \
+	file://hdmi/0016-DRM-tda998x-add-missing-include.patch \
+	file://hdmi/0017-drm-i2c-nxp-tda998x-prepare-for-video-input-configur.patch \
+	file://hdmi/0018-WIP-of-new-tda998x-patches.patch \
+	file://hdmi/0019-tilcdc-Slave-panel-settings-read-from-DT-now.patch \
+	file://hdmi/0020-drm-tda998x-Revert-WIP-to-previous-state.patch \
+	file://hdmi/0021-tilcdc-More-refined-audio-mode-compatibility-check.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
@@ -612,8 +623,10 @@ SRC_URI += " \
 	file://resources/0002-capes-Add-resources-to-capes.patch \
 	file://resources/0003-capes-Update-most-of-the-capes-with-resource-definit.patch \
 	file://resources/0004-capes-Update-RS232-CAN-capes-with-resources.patch \
-	file://resources/0005-bbb-Add-a-fall-back-non-audio-HDMI-cape.patch \
-	file://resources/0006-capemgr-Add-enable_partno-parameter.patch \
+	file://resources/0005-capemgr-Add-enable_partno-parameter.patch \
+	file://resources/0006-cape-GPIOHELP-use-correct-part-number.patch \
+	file://resources/0007-bbb-Add-a-fall-back-non-audio-HDMI-cape.patch \
+	file://resources/0008-capes-HDMI-slaves-need-panel-settings.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://defconfig \
