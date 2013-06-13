@@ -629,6 +629,10 @@ SRC_URI += " \
 	file://resources/0007-bbb-Add-a-fall-back-non-audio-HDMI-cape.patch \
 	file://resources/0008-capes-HDMI-slaves-need-panel-settings.patch \
 	file://resources/0009-capes-boneblack-HDMI-capes-have-blacklisted-modes.patch \
+	file://resources/0010-capes-LCD7-Fix-definitions.patch \
+	file://resources/0011-capes-LCD7-Fix-enter-key-pinmux.patch \
+	file://resources/0012-Fix-timings-for-LCD3-cape.patch \
+	file://resources/0013-capes-LCD-capes-updated-with-timing-fixes.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://defconfig \
