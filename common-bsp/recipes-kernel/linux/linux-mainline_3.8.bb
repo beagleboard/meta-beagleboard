@@ -437,6 +437,7 @@ SRC_URI += " \
 	file://not-capebus/0181-cape-Fix-LCD7-keys-polarity.patch \
 	file://not-capebus/0182-gpio-Introduce-GPIO-OF-helper.patch \
 	file://not-capebus/0183-capes-ADC-GPIO-helper-capes.patch \
+	file://not-capebus/0184-capes-RS232-Cape-support-added.patch \
 	file://pru/0001-uio-uio_pruss-port-to-AM33xx.patch \
 	file://pru/0002-ARM-omap-add-DT-support-for-deasserting-hardware-res.patch \
 	file://pru/0003-ARM-dts-AM33xx-PRUSS-support.patch \
