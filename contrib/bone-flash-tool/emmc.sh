@@ -26,6 +26,7 @@ fi
 
 
 echo "Paritioning eMMC"
+dd if=/dev/zero of=/dev/mmcblk1 bs=16M count=16
 ./mkcard.sh /dev/mmcblk1
 
 echo "Mounting partitions"
@@ -75,6 +76,7 @@ rm -f ${PART2MOUNT}/etc/pam.d/gdm-autologin
 
 rm -f ${PART2MOUNT}/etc/systemd/system/multi-user.target.wants/xinput-calibrator.service
 rm -f ${PART2MOUNT}/etc/systemd/system/multi-user.target.wants/busybox*
+rm -f ${PART2MOUNT}/etc/dropbear/dropbear_rsa_host_key
 ln -s /dev/null ${PART2MOUNT}/etc/systemd/system/xinetd.service
 
 touch ${PART2MOUNT}/etc/default/locale
@@ -94,10 +96,51 @@ umount ${PART2MOUNT}
 
 sync
 
-if [ -e /sys/class/leds/beaglebone\:green\:usr0/trigger ] ; then
-	echo default-on > /sys/class/leds/beaglebone\:green\:usr0/trigger
-	echo default-on > /sys/class/leds/beaglebone\:green\:usr1/trigger
-	echo default-on > /sys/class/leds/beaglebone\:green\:usr2/trigger
-	echo default-on > /sys/class/leds/beaglebone\:green\:usr3/trigger
+# verification stage
+
+mount /dev/mmcblk1p1 ${PART1MOUNT} -o relatime
+
+if [ -e ${PART1MOUNT}/ID.txt ] ; then
+	echo "ID.txt found"
+else
+	echo "ID.txt missing - ERROR"
+	ERROR="ID.txt"
 fi
 
+if [ -e ${PART1MOUNT}/START.htm ] ; then
+	echo "START.htm found"
+else
+	echo "START.htm missing - ERROR"
+	ERROR="${ERROR}, START.htm"
+fi
+
+umount ${PART1MOUNT}
+
+mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
+
+BGMD5SUM_VALID="49b620077b1b78e198554e2272a5e172"
+BGMD5SUM="$(md5sum ${PART2MOUNT}/usr/share/pixmaps/backgrounds/gnome/angstrom-default.jpg | awk '{print $1}')"
+
+if [ "${BGMD5SUM_VALID}" != "${BGMD5SUM}" ] ; then
+	echo "Wallpaper MD5sum failed"
+	ERROR="${ERROR}, bgmd5"
+fi
+
+umount ${PART2MOUNT}
+
+if [ -z "$ERROR" ] ; then
+	if [ -e /sys/class/leds/beaglebone\:green\:usr0/trigger ] ; then
+		echo default-on > /sys/class/leds/beaglebone\:green\:usr0/trigger
+		echo default-on > /sys/class/leds/beaglebone\:green\:usr1/trigger
+		echo default-on > /sys/class/leds/beaglebone\:green\:usr2/trigger
+		echo default-on > /sys/class/leds/beaglebone\:green\:usr3/trigger
+	fi
+else
+	echo "ERRORS found: ${ERROR}"
+	if [ -e /sys/class/leds/beaglebone\:green\:usr0/trigger ] ; then
+		echo none > /sys/class/leds/beaglebone\:green\:usr0/trigger
+		echo none > /sys/class/leds/beaglebone\:green\:usr1/trigger
+		echo none > /sys/class/leds/beaglebone\:green\:usr2/trigger
+		echo none > /sys/class/leds/beaglebone\:green\:usr3/trigger
+	fi
+fi
