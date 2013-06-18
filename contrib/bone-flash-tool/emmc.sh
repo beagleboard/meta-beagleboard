@@ -32,14 +32,12 @@ dd if=/dev/zero of=/dev/mmcblk1 bs=16M count=16
 echo "Mounting partitions"
 mkdir -p ${PART1MOUNT}
 mkdir -p ${PART2MOUNT}
-mount /dev/mmcblk1p1 ${PART1MOUNT} -o relatime
+mount /dev/mmcblk1p1 ${PART1MOUNT} -o sync
 mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
 
 echo "Copying bootloader files"
 cp MLO u-boot.img ${PART1MOUNT}
 echo "optargs=quiet drm.debug=7" >> ${PART1MOUNT}/uEnv.txt
-
-sync
 
 echo "Extracting rootfs"
 tar zxf Angstrom-Cloud9-IDE-GNOME-eglibc-ipk-v2012.12-beaglebone.rootfs.tar.gz -C ${PART2MOUNT}
@@ -52,7 +50,7 @@ fi
 echo "Cloud9 GNOME Image DATE" > ${PART1MOUNT}/ID.txt
 echo "Cloud9 GNOME Image DATE" > ${PART2MOUNT}/etc/dogtag
 
-umount ${PART1MOUNT}
+umount /dev/mmcblk1p1
 
 if [ "${HOSTARCH}" = "armv7l" ] ; then
 
@@ -98,7 +96,7 @@ sync
 
 # verification stage
 
-mount /dev/mmcblk1p1 ${PART1MOUNT} -o relatime
+mount /dev/mmcblk1p1 ${PART1MOUNT}
 
 if [ -e ${PART1MOUNT}/ID.txt ] ; then
 	echo "ID.txt found"
@@ -114,7 +112,7 @@ else
 	ERROR="${ERROR}, START.htm"
 fi
 
-umount ${PART1MOUNT}
+umount /dev/mmcblk1p1
 
 mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
 
