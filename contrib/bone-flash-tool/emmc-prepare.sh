@@ -83,7 +83,13 @@ cp -vf ${EMMCSCRIPT} ${MOUNTPOINT}/usr/bin/
 
 rm -f ${MOUNTPOINT}/build/emmc.sh
 
-sed -i -e s:DATE:${DATE}:g ${MOUNTPOINT}/usr/bin/emmc.sh
+MLOMD5="$(md5sum ${DEPLOYDIR}/MLO | awk '{print $1}')"
+UBOOTMD5="$(md5sum ${DEPLOYDIR}/u-boot.img | awk '{print $1}')"
+
+sed -i -e s:DATE:${DATE}:g \
+       -e s:MD5MLO:${MLOMD5}:g \
+       -e s:MD5UBOOT:${UBOOTMD5}:g \
+       ${MOUNTPOINT}/usr/bin/emmc.sh
 
 sync && sleep 1
 

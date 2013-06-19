@@ -10,6 +10,9 @@ PART2MOUNT="/media/2"
 
 HOSTARCH="$(uname -m)"
 
+MLOMD5="MD5MLO"
+UBOOTMD5="MD5UBOOT"
+
 cd /build
 
 HEADER=$(hexdump -e '8/1 "%c"' /sys/bus/i2c/devices/0-0050/eeprom -s 5 -n 3)
@@ -39,10 +42,15 @@ echo "Copying bootloader files"
 cp MLO u-boot.img ${PART1MOUNT}
 echo "optargs=quiet drm.debug=7" >> ${PART1MOUNT}/uEnv.txt
 
+umount /dev/mmcblk1p1
+
+sync
+
 echo "Extracting rootfs"
 tar zxf Angstrom-Cloud9-IDE-GNOME-eglibc-ipk-v2012.12-beaglebone.rootfs.tar.gz -C ${PART2MOUNT}
 
 echo "Populating VFAT partition"
+mount /dev/mmcblk1p1 ${PART1MOUNT} -o sync
 if [ -d ${PART2MOUNT}/usr/share/beaglebone-getting-started ] ; then
 	cp -r ${PART2MOUNT}/usr/share/beaglebone-getting-started/* ${PART1MOUNT}
 fi
@@ -112,6 +120,16 @@ else
 	ERROR="${ERROR}, START.htm"
 fi
 
+if [ "${MLOMD5}" != "$(md5sum ${PART1MOUNT}/MLO | awk '{print $1}')" ] ; then        
+	echo "MLO MD5sum failed"       
+	ERROR="${ERROR}, MLO"  
+fi   
+ 
+if [ "${UBOOTMD5}" != "$(md5sum ${PART1MOUNT}/u-boot.img | awk '{print $1}')" ] ; then
+	echo "u-boot MD5sum failed"
+	ERROR="${ERROR}, uboot"
+fi
+
 umount /dev/mmcblk1p1
 
 mount /dev/mmcblk1p2 ${PART2MOUNT} -o async,noatime
@@ -123,7 +141,6 @@ if [ "${BGMD5SUM_VALID}" != "${BGMD5SUM}" ] ; then
 	echo "Wallpaper MD5sum failed"
 	ERROR="${ERROR}, bgmd5"
 fi
-
 umount ${PART2MOUNT}
 
 if [ -z "$ERROR" ] ; then
