@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=f02920251cbdc9b014dc1cbdb2bb95c4"
 
 PV = "1.0"
 
-SRCREV = "a0ede99c3099b05363405e2fc9e523bd79af1878"
+SRCREV = "16af4be3a79a94ef26ea6fa30eb041038b778511"
 SRC_URI = "git://github.com/beagleboard/bone101.git"
 
 S = "${WORKDIR}/git"
