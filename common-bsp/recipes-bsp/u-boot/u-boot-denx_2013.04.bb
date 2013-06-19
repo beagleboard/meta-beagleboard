@@ -28,6 +28,7 @@ SRC_URI = "git://git.denx.de/u-boot.git \
            file://0012-Fix-for-screen-rolling-when-video-played-back-in-bro.patch \
            file://0013-beaglebone-enable-CONFIG_SUPPORT_RAW_INITRD-option.patch \
            file://0014-mmc-Add-RSTN-enable-for-emmc.patch \
+           file://0015-workaround-EEPROMs-filled-with-zeroes.patch \
            ${FWENV} \
           "
 

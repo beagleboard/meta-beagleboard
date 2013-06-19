@@ -1,0 +1,45 @@
+From 2c998506a3f971f9365e0add8992a0db16dcddc1 Mon Sep 17 00:00:00 2001
+From: Koen Kooi <koen@dominion.thruhere.net>
+Date: Wed, 19 Jun 2013 09:47:51 -0400
+Subject: [PATCH] workaround EEPROMs filled with zeroes
+
+Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
+---
+ include/configs/am335x_evm.h | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+
+diff --git a/include/configs/am335x_evm.h b/include/configs/am335x_evm.h
+index 04eaa8b..d0ba18e 100644
+--- a/include/configs/am335x_evm.h
++++ b/include/configs/am335x_evm.h
+@@ -61,6 +61,7 @@
+ 	"rdaddr=0x81000000\0" \
+ 	"bootdir=/boot\0" \
+ 	"bootfile=uImage\0" \
++	"board_name=unknown\0" \
+ 	"fdtfile=am335x-boneblack.dtb\0" \
+ 	"console=ttyO0,115200n8\0" \
+ 	"optargs=\0" \
+@@ -139,14 +140,14 @@
+ 		"run ramargs; " \
+ 		"bootm ${loadaddr} ${rdaddr} ${fdtaddr}\0" \
+ 	"findfdt="\
+-		"if test $board_name = A335BONE; then " \
+-			"setenv fdtfile am335x-bone.dtb; fi; " \
+-		"if test $board_name = A335BNLT; then " \
+-			"setenv fdtfile am335x-boneblack.dtb; fi; " \
+ 		"if test $board_name = A33515BB; then " \
+ 			"setenv fdtfile am335x-evm.dtb; fi; " \
+ 		"if test $board_name = A335X_SK; then " \
+-			"setenv fdtfile am335x-evmsk.dtb; fi\0" \
++			"setenv fdtfile am335x-evmsk.dtb; fi;" \
++		"if test $board_name = A335BONE; then " \
++			"setenv fdtfile am335x-bone.dtb; fi; " \
++		"if test $board_name = A335BNLT; then " \
++			"setenv fdtfile am335x-boneblack.dtb; fi\0" \
+ 
+ #endif
+ 
+-- 
+1.8.2.1
+
