@@ -16,7 +16,9 @@ do_install() {
 	cp -a ${S}/node_modules/bonescript/* ${D}${libdir}/node_modules/bonescript
 
 	install -d ${D}${localstatedir}/lib/cloud9
-	cp -a ${S}/*.js ${D}${localstatedir}/lib/cloud9
+	cp -a ${S}/demo ${D}${localstatedir}/lib/cloud9
+	cp -a ${S}/extras ${D}${localstatedir}/lib/cloud9
+	cp -a ${S}/attic ${D}${localstatedir}/lib/cloud9
 	cp -a ${S}/LICENSE ${D}${localstatedir}/lib/cloud9
 	cp -a ${S}/README.md ${D}${localstatedir}/lib/cloud9
 
