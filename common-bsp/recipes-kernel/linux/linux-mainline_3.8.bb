@@ -639,6 +639,7 @@ SRC_URI += " \
 	file://resources/0013-capes-LCD-capes-updated-with-timing-fixes.patch \
 	file://resources/0014-Fix-mmc2-being-enabled-when-eMMC-is-disabled.patch \
 	file://resources/0015-capes-LCD7-fix-vsync-len-off-by-one.patch \
+	file://resources/0016-LCD-capes-set-default-brightness-to-100.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://defconfig \
