@@ -1,4 +1,4 @@
-From e7cd4c3d5e0203cc82c9093fc5ff41c12d9e4401 Mon Sep 17 00:00:00 2001
+From 2aca7e7b307f8c0422e28b77fcca8390672fbffa Mon Sep 17 00:00:00 2001
 From: Jan Luebbe <jlu@pengutronix.de>
 Date: Mon, 6 May 2013 12:48:59 +0200
 Subject: [PATCH 16/16] iio: adc: ti_am335x_adc: make tiadc_read_raw() more
@@ -89,5 +89,5 @@ index 620cc0c..4b764a9 100644
  		.pm	= TIADC_PM_OPS,
  	},
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,4 +1,4 @@
-From f0e5e9a93ae5f1d359b43db02a50518db6dc4d99 Mon Sep 17 00:00:00 2001
+From 62315d3ed86ddbb73b6e88f67bfbe8cd48ea2134 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 24 Jan 2013 03:45:11 +0000
 Subject: [PATCH 07/16] IIO: ti_am335x_adc: Add DT support
@@ -64,5 +64,5 @@ index cd030e1..8e7b089 100644
  	indio_dev->dev.parent = &pdev->dev;
  	indio_dev->name = dev_name(&pdev->dev);
 -- 
-1.8.1.4
+1.8.2.1
 

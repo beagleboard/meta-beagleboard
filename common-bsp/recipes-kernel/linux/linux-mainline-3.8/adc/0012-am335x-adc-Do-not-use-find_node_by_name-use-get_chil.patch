@@ -1,4 +1,4 @@
-From d2263fd0f8a294eb6752de3fceb982d442bde02d Mon Sep 17 00:00:00 2001
+From 7b5771f084e8b2e9a4c625d87d16632bf9254b6e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 30 Jan 2013 13:29:59 +0200
 Subject: [PATCH 12/16] am335x-adc: Do not use find_node_by_name, use
@@ -27,5 +27,5 @@ index d8bc836..ee20c0c 100644
  			return  -EINVAL;
  		else {
 -- 
-1.8.1.4
+1.8.2.1
 

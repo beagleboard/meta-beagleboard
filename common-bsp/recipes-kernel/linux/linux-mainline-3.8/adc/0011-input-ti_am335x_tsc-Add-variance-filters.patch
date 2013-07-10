@@ -1,4 +1,4 @@
-From 8517f7d5758ea8e42c4b741f47681e51b4004472 Mon Sep 17 00:00:00 2001
+From 399c602a14653c78f62229b80b5f6301468c3a4b Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Mon, 22 Oct 2012 10:15:18 +0000
 Subject: [PATCH 11/16] input: ti_am335x_tsc: Add variance filters
@@ -77,5 +77,5 @@ index edba36b..2461631 100644
  			input_report_abs(input_dev, ABS_PRESSURE, 0);
  			input_sync(input_dev);
 -- 
-1.8.1.4
+1.8.2.1
 

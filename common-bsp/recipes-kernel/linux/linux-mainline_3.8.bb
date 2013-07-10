@@ -68,22 +68,26 @@ SRC_URI += " \
 	file://pinctrl/0003-beaglebone-DT-set-default-triggers-for-LEDS.patch \
 	file://pinctrl/0004-beaglebone-add-a-cpu-led-trigger.patch \
 	file://cpufreq/0001-am33xx-DT-add-commented-out-OPP-values-for-ES2.0.patch \
-	file://adc/0001-input-ti_am335x_tsc-Step-enable-bits-made-configurab.patch \
-	file://adc/0002-input-ti_am335x_tsc-Order-of-TSC-wires-made-configur.patch \
-	file://adc/0003-input-touchscreen-ti_tsc-remove-unwanted-fifo-flush.patch \
-	file://adc/0004-MFD-ti_am335x_tscadc-add-device-tree-binding-informa.patch \
-	file://adc/0005-MFD-ti_am335x_tscadc-Add-DT-support.patch \
-	file://adc/0006-input-ti_am335x_tsc-Add-DT-support.patch \
-	file://adc/0007-IIO-ti_am335x_adc-Add-DT-support.patch \
-	file://adc/0008-arm-dts-AM335x-evm-Add-TSC-ADC-MFD-device-support.patch \
-	file://adc/0009-ti_tscadc-Update-with-IIO-map-interface-deal-with-pa.patch \
-	file://adc/0010-ti_tscadc-Match-mfd-sub-devices-to-regmap-interface.patch \
-	file://adc/0011-input-ti_am335x_tsc-Add-variance-filters.patch \
-	file://adc/0012-am335x-adc-Do-not-use-find_node_by_name-use-get_chil.patch \
-	file://adc/0013-am335x-tsc-Do-not-use-find_node_by_name-use-get_chil.patch \
-	file://adc/0014-am335x-tscadc-Do-not-use-find_node_by_name-use-get_c.patch \
-	file://adc/0015-iio-adc-ti_am335x_adc-revert-info_mask-removal.patch \
-	file://adc/0016-iio-adc-ti_am335x_adc-make-tiadc_read_raw-more-robus.patch \
+	file://adc/0001-mfd-input-iio-ti_am335x_adc-use-one-structure-for-ti.patch \
+	file://adc/0002-input-ti_am33x_tsc-Step-enable-bits-made-configurabl.patch \
+	file://adc/0003-input-ti_am33x_tsc-Order-of-TSC-wires-made-configura.patch \
+	file://adc/0004-input-ti_am33x_tsc-remove-unwanted-fifo-flush.patch \
+	file://adc/0005-input-ti_am33x_tsc-Add-DT-support.patch \
+	file://adc/0006-iio-ti_am335x_adc-Add-DT-support.patch \
+	file://adc/0007-arm-dts-AM335x-evm-Add-TSC-ADC-MFD-device-support.patch \
+	file://adc/0008-mfd-ti_am335x_tscadc-Add-DT-support.patch \
+	file://adc/0009-iio-ti_tscadc-provide-datasheet_name-and-scan_type.patch \
+	file://adc/0010-mfd-ti_tscadc-deal-with-partial-activation.patch \
+	file://adc/0011-input-ti_am335x_adc-use-only-FIFO0-and-clean-up-a-li.patch \
+	file://adc/0012-input-ti_am335x_tsc-ACK-the-HW_PEN-irq-in-ISR.patch \
+	file://adc/0013-input-ti_am335x_tsc-return-IRQ_NONE-if-there-was-no-.patch \
+	file://adc/0014-iio-ti_am335x_adc-Allow-to-specify-input-line.patch \
+	file://adc/0015-iio-ti_am335x_adc-check-if-we-found-the-value.patch \
+	file://adc/0016-MFD-ti_tscadc-disable-TSC-control.patch \
+	file://adc/0017-IIO-ADC-ti_adc-Fix-1st-sample-read.patch \
+	file://adc/0018-input-ti_tsc-Enable-shared-IRQ-TSC.patch \
+	file://adc/0019-Revert.-Backport-IIO.patch \
+	file://adc/0020-iio-ti_am335x_adc-Added-iio_voltageX_scale.patch \
 	file://i2c/0001-pinctrl-pinctrl-single-must-be-initialized-early.patch \
 	file://i2c/0002-Bone-DTS-working-i2c2-i2c3-in-the-tree.patch \
 	file://i2c/0003-am33xx-Convert-I2C-from-omap-to-am33xx-names.patch \
@@ -640,8 +644,14 @@ SRC_URI += " \
 	file://resources/0014-Fix-mmc2-being-enabled-when-eMMC-is-disabled.patch \
 	file://resources/0015-capes-LCD7-fix-vsync-len-off-by-one.patch \
 	file://resources/0016-LCD-capes-set-default-brightness-to-100.patch \
+	file://resources/0017-lcd-capes-update-adc-channels.patch \
+	file://resources/0018-bone-renamed-adafruit-RTC-cape.patch \
+	file://resources/0019-bone-add-PPS-to-BB-BONE-RTC-cape.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
+	file://pps/0001-drivers-pps-clients-pps-gpio.c-convert-to-module_pla.patch \
+	file://pps/0002-drivers-pps-clients-pps-gpio.c-convert-to-devm_-help.patch \
+	file://pps/0003-pps-gpio-add-device-tree-binding-and-support.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
