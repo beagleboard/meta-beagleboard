@@ -647,6 +647,7 @@ SRC_URI += " \
 	file://resources/0017-lcd-capes-update-adc-channels.patch \
 	file://resources/0018-bone-renamed-adafruit-RTC-cape.patch \
 	file://resources/0019-bone-add-PPS-to-BB-BONE-RTC-cape.patch \
+	file://resources/0020-firmware-remove-rule-for-cape-bone-adafruit-lcd-00A0.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://pps/0001-drivers-pps-clients-pps-gpio.c-convert-to-module_pla.patch \
