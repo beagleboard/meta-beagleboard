@@ -27,6 +27,12 @@ else
 	fi
 fi
 
+if ! [ -e /dev/mmcblk1 ] ; then
+	echo "eMMC device not found!"
+	exit
+fi
+
+blockdev --flushbufs /dev/mmcblk1
 
 echo "Paritioning eMMC"
 dd if=/dev/zero of=/dev/mmcblk1 bs=16M count=16
@@ -45,6 +51,7 @@ echo "optargs=quiet drm.debug=7" >> ${PART1MOUNT}/uEnv.txt
 umount /dev/mmcblk1p1
 
 sync
+blockdev --flushbufs /dev/mmcblk1
 
 echo "Extracting rootfs"
 tar zxf Angstrom-Cloud9-IDE-GNOME-eglibc-ipk-v2012.12-beaglebone.rootfs.tar.gz -C ${PART2MOUNT}
@@ -101,6 +108,7 @@ fi
 umount ${PART2MOUNT}
 
 sync
+blockdev --flushbufs /dev/mmcblk1
 
 # verification stage
 
@@ -142,6 +150,10 @@ if [ "${BGMD5SUM_VALID}" != "${BGMD5SUM}" ] ; then
 	ERROR="${ERROR}, bgmd5"
 fi
 umount ${PART2MOUNT}
+blockdev --flushbufs /dev/mmcblk1
+
+# force writeback of eMMC buffers
+dd if=/dev/mmcblk1 of=/dev/null count=100000
 
 if [ -z "$ERROR" ] ; then
 	if [ -e /sys/class/leds/beaglebone\:green\:usr0/trigger ] ; then
