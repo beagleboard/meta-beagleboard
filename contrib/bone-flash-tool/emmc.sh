@@ -57,7 +57,7 @@ echo "Extracting rootfs"
 tar zxf Angstrom-Cloud9-IDE-GNOME-eglibc-ipk-v2012.12-beaglebone.rootfs.tar.gz -C ${PART2MOUNT}
 
 echo "Populating VFAT partition"
-mount /dev/mmcblk1p1 ${PART1MOUNT} -o sync
+mount /dev/mmcblk1p1 ${PART1MOUNT} -o async
 if [ -d ${PART2MOUNT}/usr/share/beaglebone-getting-started ] ; then
 	cp -r ${PART2MOUNT}/usr/share/beaglebone-getting-started/* ${PART1MOUNT}
 fi
