@@ -653,6 +653,15 @@ SRC_URI += " \
 	file://pps/0001-drivers-pps-clients-pps-gpio.c-convert-to-module_pla.patch \
 	file://pps/0002-drivers-pps-clients-pps-gpio.c-convert-to-devm_-help.patch \
 	file://pps/0003-pps-gpio-add-device-tree-binding-and-support.patch \
+	file://leds/0001-leds-leds-pwm-Convert-to-use-devm_get_pwm.patch \
+	file://leds/0002-leds-leds-pwm-Preparing-the-driver-for-device-tree-s.patch \
+	file://leds/0003-leds-leds-pwm-Simplify-cleanup-code.patch \
+	file://leds/0004-leds-leds-pwm-Add-device-tree-bindings.patch \
+	file://leds/0005-leds-leds-pwm-Defer-led_pwm_set-if-PWM-can-sleep.patch \
+	file://leds/0006-leds-pwm-Enable-compilation-on-this-version-of-the-k.patch \
+	file://capes/0001-capes-Add-bacon-cape.patch \
+	file://capes/0002-cape-bacon-Cosmetic-change-of-the-adc-helper-name.patch \
+	file://capes/0003-cape-bacon-educational-edition.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
