@@ -10,7 +10,8 @@ SCRATCHDIR="/build/images"
 
 EMMCSCRIPT="/build/v2012.12/sources/meta-beagleboard/contrib/bone-flash-tool/emmc.sh"
 
-DATE="$(date +'%Y.%m.%d')-DO-NOT-USE-FOR-PRODUCTION"
+DATE="$(ls -o  --time-style +' %Y.%m.%d' ${DEPLOYDIR}/${FLASHIMG} | awk '{print $5}')-DO-NOT-USE-FOR-PRODUCTION"
+#DATE="$(date +'%Y.%m.%d')-DO-NOT-USE-FOR-PRODUCTION"
 
 if [ -e ${IMAGE}.xz ] ; then
 	echo "uncompressing image"

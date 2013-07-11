@@ -38,6 +38,8 @@ mount ${MOUNTPOINT1}
 echo "Mounting /dev/mapper/${LOOPFILE}p1"
 mount /dev/mapper/${LOOPFILE}p1 ${MOUNTPOINT1} || exit 1
 
+rm -rf ${MOUNTPOINT1}/*
+
 echo "BeagleBone ${DATE}" > ${MOUNTPOINT1}/ID.txt
 
 echo "Copying over bootloader"
@@ -64,13 +66,14 @@ mount /dev/mapper/${LOOPFILE}p2 ${MOUNTPOINT} || exit 1
 
 echo "Untarring contents"
 tar zxf ${DEPLOYDIR}${FLASHIMG} -C ${MOUNTPOINT}
+rm -f ${MOUNTPOINT}/etc/network/interfaces
 
 sync && sleep 1
 
 echo "Ummounting ${MOUNTPOINT}"
 umount ${MOUNTPOINT}
 
-sleep 1
+sync && sleep 2
 
 echo "detaching loopfile"
 kpartx -d -v ${IMAGE}
