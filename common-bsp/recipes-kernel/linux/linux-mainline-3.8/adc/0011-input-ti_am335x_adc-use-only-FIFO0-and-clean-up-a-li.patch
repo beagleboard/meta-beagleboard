@@ -1,7 +1,7 @@
-From c0b1b245e0d01be3909c585a328f81f94324aad6 Mon Sep 17 00:00:00 2001
+From e46b9a85e38d65de6be38792770fbb0cecc1315d Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:18 +0200
-Subject: [PATCH 11/20] input: ti_am335x_adc: use only FIFO0 and clean up a
+Subject: [PATCH 11/21] input: ti_am335x_adc: use only FIFO0 and clean up a
  little
 
 The driver programs a threshold of "coordinate_readouts" say 5. The

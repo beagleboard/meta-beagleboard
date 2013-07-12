@@ -1,7 +1,7 @@
-From d1fb28250ce9f37b1dc8db5a22a6c952c6831040 Mon Sep 17 00:00:00 2001
+From a7015ab4acc6dd626b9becd58ad00f4f46242474 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:05 +0200
-Subject: [PATCH 04/20] input: ti_am33x_tsc: remove unwanted fifo flush
+Subject: [PATCH 04/21] input: ti_am33x_tsc: remove unwanted fifo flush
 
 When touchscreen and ADC are used together, this
 unwanted fifo flush leads to loss of ADC data.

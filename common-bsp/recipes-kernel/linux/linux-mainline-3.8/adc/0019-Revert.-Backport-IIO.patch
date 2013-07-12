@@ -1,7 +1,7 @@
-From c363e9734a04972fa35ca948255f8667be5dc561 Mon Sep 17 00:00:00 2001
+From 2fbc63f2a9a228f0bfdaa4d0d3bea6b6321cf74b Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubair.lutfullah@gmail.com>
 Date: Sat, 29 Jun 2013 00:07:44 +0100
-Subject: [PATCH 19/20] Revert. Backport IIO
+Subject: [PATCH 19/21] Revert. Backport IIO
 
 Touchscreen side of things reverted to 3.8 compatible iio.
 

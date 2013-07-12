@@ -1,7 +1,7 @@
-From f48b5e1b0532e4478012e91c0bcd4f41b51247f8 Mon Sep 17 00:00:00 2001
+From 4e8d94d95f2b0809f6e961f6b82c4896617f3a34 Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:21 +0200
-Subject: [PATCH 14/20] iio: ti_am335x_adc: Allow to specify input line
+Subject: [PATCH 14/21] iio: ti_am335x_adc: Allow to specify input line
 
 The TSC part allows to specify the input lines. The IIO part assumes
 that it usues always the last few, that means if IIO has adc-channels

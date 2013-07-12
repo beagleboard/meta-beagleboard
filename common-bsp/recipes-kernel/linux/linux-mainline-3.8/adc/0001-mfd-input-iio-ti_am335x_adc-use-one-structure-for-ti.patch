@@ -1,7 +1,7 @@
-From 8d65bbc54995e0e8659f44f774313ce5b85bfc88 Mon Sep 17 00:00:00 2001
+From f8b21d5cf74a8bab2ba5424207cca914428164fe Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:02 +0200
-Subject: [PATCH 01/20] mfd: input: iio: ti_am335x_adc: use one structure for
+Subject: [PATCH 01/21] mfd: input: iio: ti_am335x_adc: use one structure for
  ti_tscadc_dev
 
 The mfd driver creates platform data for the child devices and it is the

@@ -1,7 +1,7 @@
-From 8cf26885057890acf76ecac00a099080ae2e910c Mon Sep 17 00:00:00 2001
+From f46a6bc8f2fe461a3a6e20d096478966b6ab1324 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:06 +0200
-Subject: [PATCH 05/20] input: ti_am33x_tsc: Add DT support
+Subject: [PATCH 05/21] input: ti_am33x_tsc: Add DT support
 
 This patch adds DT support to touch driver. It also provides a binding
 document which is used by the MFD and IIO part of the device.

@@ -1,7 +1,7 @@
-From 2b22b1ee54fff1513b9f2cc67fe948110a9d8e6b Mon Sep 17 00:00:00 2001
+From 809bc977ea5fefe98e9f4850909d4ff29316b9ae Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:03 +0200
-Subject: [PATCH 02/20] input: ti_am33x_tsc: Step enable bits made configurable
+Subject: [PATCH 02/21] input: ti_am33x_tsc: Step enable bits made configurable
 
 Current code has hard coded value written to
 step enable bits. Now the bits are updated based

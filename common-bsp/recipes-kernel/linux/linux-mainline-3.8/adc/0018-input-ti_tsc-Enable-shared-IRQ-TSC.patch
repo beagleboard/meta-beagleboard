@@ -1,7 +1,7 @@
-From d5269dd3e43188ed828bc1aa552ac62dcbce3cc8 Mon Sep 17 00:00:00 2001
+From 8713aefb4818e907fa1f6d924c55a6d5af7257d5 Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubairlk@zubairlk-HP-G62-Notebook-PC.(none)>
 Date: Fri, 28 Jun 2013 00:45:20 +0100
-Subject: [PATCH 18/20] input : ti_tsc : Enable shared IRQ TSC
+Subject: [PATCH 18/21] input : ti_tsc : Enable shared IRQ TSC
 
 Touchscreen and ADC share the same IRQ line from parent MFD core.
 

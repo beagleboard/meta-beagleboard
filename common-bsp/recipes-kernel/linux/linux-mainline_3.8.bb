@@ -88,6 +88,7 @@ SRC_URI += " \
 	file://adc/0018-input-ti_tsc-Enable-shared-IRQ-TSC.patch \
 	file://adc/0019-Revert.-Backport-IIO.patch \
 	file://adc/0020-iio-ti_am335x_adc-Added-iio_voltageX_scale.patch \
+	file://adc/0021-iio-ti_am335x_adc-Add-the-in-kernel-IIO-map-interfac.patch \
 	file://i2c/0001-pinctrl-pinctrl-single-must-be-initialized-early.patch \
 	file://i2c/0002-Bone-DTS-working-i2c2-i2c3-in-the-tree.patch \
 	file://i2c/0003-am33xx-Convert-I2C-from-omap-to-am33xx-names.patch \
@@ -452,6 +453,14 @@ SRC_URI += " \
 	file://pru/0006-am33xx-pru-Very-simple-led-cape-via-GPO-of-the-PRU.patch \
 	file://pru/0007-PRU-remote-proc-wip.patch \
 	file://pru/0008-Add-sysfs-entry-for-DDR-sync.patch \
+	file://pru/0009-virtio-ring-Introduce-dma-mapping-for-real-devices.patch \
+	file://pru/0010-virtio_console-Simplify-virtio_console-for-h-w-devic.patch \
+	file://pru/0011-rpmsg-Make-the-buffers-number-and-size-configurable.patch \
+	file://pru/0012-remoteproc-Use-driver-ops-for-allocation-of-virtqueu.patch \
+	file://pru/0013-rproc-core-Allow-bootup-without-resources.patch \
+	file://pru/0014-tools-virtio-fix-build-for-3.8.patch \
+	file://pru/0015-rproc-pru-PRU-remoteproc-updated-to-work-with-virtio.patch \
+	file://pru/0016-capes-pru-Update-with-PRU-03-PRU-04.patch \
 	file://usb/0001-drivers-usb-phy-add-a-new-driver-for-usb-part-of-con.patch \
 	file://usb/0002-drivers-usb-start-using-the-control-module-driver.patch \
 	file://usb/0003-usb-otg-Add-an-API-to-bind-the-USB-controller-and-PH.patch \
@@ -662,6 +671,7 @@ SRC_URI += " \
 	file://capes/0001-capes-Add-bacon-cape.patch \
 	file://capes/0002-cape-bacon-Cosmetic-change-of-the-adc-helper-name.patch \
 	file://capes/0003-cape-bacon-educational-edition.patch \
+	file://capes/0004-capes-bacon-Update-with-new-ADC-driver-method.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \

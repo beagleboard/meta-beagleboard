@@ -1,7 +1,7 @@
-From c812cd79d9cf7bd15d8ce660385b1080faf01ee8 Mon Sep 17 00:00:00 2001
+From 3266a8b7a462c618dcc256e39b14c7039a93dd12 Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:19 +0200
-Subject: [PATCH 12/20] input: ti_am335x_tsc: ACK the HW_PEN irq in ISR
+Subject: [PATCH 12/21] input: ti_am335x_tsc: ACK the HW_PEN irq in ISR
 
 The interrupt source IRQENB_HW_PEN is enabled in suspend and suposed to
 be used as a wake up source. Once this interrupt source is unmaksed, the

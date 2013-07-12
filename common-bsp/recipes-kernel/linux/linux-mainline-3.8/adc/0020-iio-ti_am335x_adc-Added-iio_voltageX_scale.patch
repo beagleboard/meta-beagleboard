@@ -1,7 +1,7 @@
-From 9510dd3cc2d0365fd72a0f1287924ff6d8bc7e78 Mon Sep 17 00:00:00 2001
+From 7e800a3b87861c9637586886177981aac32615a7 Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubair.lutfullah@gmail.com>
 Date: Sat, 29 Jun 2013 19:05:54 +0100
-Subject: [PATCH 20/20] iio: ti_am335x_adc: Added iio_voltageX_scale
+Subject: [PATCH 20/21] iio: ti_am335x_adc: Added iio_voltageX_scale
 
 The bone-helper driver tried to display the voltage in the range 1800mV
 which represents the actual ADC range of the BBB. This feature is available

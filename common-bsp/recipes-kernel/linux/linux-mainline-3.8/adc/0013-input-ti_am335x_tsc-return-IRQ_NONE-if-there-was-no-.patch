@@ -1,7 +1,7 @@
-From 3116a05125d502b205e6d2a77774bf9c7b2eaeb3 Mon Sep 17 00:00:00 2001
+From 16a6f3cac3f2d04871a0f1e50e8391e64acad405 Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:20 +0200
-Subject: [PATCH 13/20] input: ti_am335x_tsc: return IRQ_NONE if there was no
+Subject: [PATCH 13/21] input: ti_am335x_tsc: return IRQ_NONE if there was no
  IRQ for us
 
 The previous patch ("input/ti_am335x_tsc: ACK the HW_PEN irq in ISR")

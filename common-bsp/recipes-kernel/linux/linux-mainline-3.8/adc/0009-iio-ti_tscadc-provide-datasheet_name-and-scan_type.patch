@@ -1,7 +1,7 @@
-From 230b9fe1aa6951867dd5c7979a294a5387909ad1 Mon Sep 17 00:00:00 2001
+From f7156edcd3a5f9e10da313f23d2a6ff93eb978b5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 12 Jun 2013 18:58:12 +0200
-Subject: [PATCH 09/20] iio: ti_tscadc: provide datasheet_name and scan_type
+Subject: [PATCH 09/21] iio: ti_tscadc: provide datasheet_name and scan_type
 
 This patch provides the members "datasheet_name" and scan_type. This is
 the remaining part of the earlier patch where I (bigeasy) removed iio_map
