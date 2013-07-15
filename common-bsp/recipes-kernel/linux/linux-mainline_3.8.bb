@@ -461,6 +461,8 @@ SRC_URI += " \
 	file://pru/0014-tools-virtio-fix-build-for-3.8.patch \
 	file://pru/0015-rproc-pru-PRU-remoteproc-updated-to-work-with-virtio.patch \
 	file://pru/0016-capes-pru-Update-with-PRU-03-PRU-04.patch \
+	file://pru/0017-rproc-PRU-Add-downcall-RPC-capability.patch \
+	file://pru/0018-rproc-pru-Implement-a-software-defined-PWM-channel-s.patch \
 	file://usb/0001-drivers-usb-phy-add-a-new-driver-for-usb-part-of-con.patch \
 	file://usb/0002-drivers-usb-start-using-the-control-module-driver.patch \
 	file://usb/0003-usb-otg-Add-an-API-to-bind-the-USB-controller-and-PH.patch \
