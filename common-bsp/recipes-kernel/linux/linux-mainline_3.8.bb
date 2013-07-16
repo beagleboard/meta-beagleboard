@@ -675,6 +675,7 @@ SRC_URI += " \
 	file://capes/0002-cape-bacon-Cosmetic-change-of-the-adc-helper-name.patch \
 	file://capes/0003-cape-bacon-educational-edition.patch \
 	file://capes/0004-capes-bacon-Update-with-new-ADC-driver-method.patch \
+	file://capes/0005-capes-BACON-Educational-cape-with-free-form-muxing.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
