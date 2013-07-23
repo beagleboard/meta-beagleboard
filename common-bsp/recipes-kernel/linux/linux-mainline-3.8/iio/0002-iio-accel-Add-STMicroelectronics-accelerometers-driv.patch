@@ -1,7 +1,7 @@
-From 9ac408d5481259d1da764d7b35b11d676d2cdaf3 Mon Sep 17 00:00:00 2001
+From a3e4606e4b8f67ebff97ca61fbf69ff620540ec6 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
-Subject: [PATCH 2/6] iio:accel: Add STMicroelectronics accelerometers driver
+Subject: [PATCH 02/11] iio:accel: Add STMicroelectronics accelerometers driver
 
 This patch adds a generic accelerometer driver for STMicroelectronics
 accelerometers, currently it supports:
@@ -950,5 +950,5 @@ index 0000000..dbd45c0
 +MODULE_DESCRIPTION("STMicroelectronics accelerometers spi driver");
 +MODULE_LICENSE("GPL v2");
 -- 
-1.8.1.4
+1.8.2.1
 

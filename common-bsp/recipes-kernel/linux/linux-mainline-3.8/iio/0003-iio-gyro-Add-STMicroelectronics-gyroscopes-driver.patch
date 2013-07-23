@@ -1,7 +1,7 @@
-From 44e1b095a95bd9e986465c7ea07430ea2b0d62db Mon Sep 17 00:00:00 2001
+From a9334ae2f6ca85f8158c6bce94185ef72388e995 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@gmail.com>
 Date: Fri, 25 Jan 2013 23:44:00 +0000
-Subject: [PATCH 3/6] iio:gyro: Add STMicroelectronics gyroscopes driver
+Subject: [PATCH 03/11] iio:gyro: Add STMicroelectronics gyroscopes driver
 
 This patch adds a generic gyroscope driver for STMicroelectronics
 gyroscopes, currently it supports:
@@ -801,5 +801,5 @@ index 0000000..8b4dcc5
 +MODULE_DESCRIPTION("STMicroelectronics gyroscopes spi driver");
 +MODULE_LICENSE("GPL v2");
 -- 
-1.8.1.4
+1.8.2.1
 

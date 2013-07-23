@@ -484,10 +484,12 @@ SRC_URI += " \
 	file://iio/0003-iio-gyro-Add-STMicroelectronics-gyroscopes-driver.patch \
 	file://iio/0004-iio-magnetometer-Add-STMicroelectronics-magnetometer.patch \
 	file://iio/0005-iio-magn-Add-sensors_supported-in-st_magn_sensors.patch \
-	file://iio/0006-pwm-pca9685-skeleton-i2c-client-driver-for-PCA9685-1.patch \
-	file://iio/0007-Invensense-MPU6050-Device-Driver.patch \
-	file://iio/0008-iio-imu-inv_mpu6050-depends-on-IIO_BUFFER.patch \
-	file://iio/0009-using-kfifo_in_spinlocked-instead-of-separate-code.patch \
+	file://iio/0006-Invensense-MPU6050-Device-Driver.patch \
+	file://iio/0007-iio-imu-inv_mpu6050-depends-on-IIO_BUFFER.patch \
+	file://iio/0008-using-kfifo_in_spinlocked-instead-of-separate-code.patch \
+	file://iio/0009-pwm-add-pca9685-driver.patch \
+	file://iio/0010-pwm-Fill-in-missing-.owner-fields.patch \
+	file://iio/0011-pwm-pca9685-Fix-wrong-argument-to-set-MODE1_SLEEP-bi.patch \
 	file://w1/0001-W1-w1-gpio-switch-to-using-dev_pm_ops.patch \
 	file://w1/0002-W1-w1-gpio-guard-DT-IDs-with-CONFIG_OF.patch \
 	file://w1/0003-W1-w1-gpio-rework-handling-of-platform-data.patch \

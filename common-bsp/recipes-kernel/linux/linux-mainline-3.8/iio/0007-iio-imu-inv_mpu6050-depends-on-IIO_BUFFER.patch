@@ -1,7 +1,7 @@
-From 73ed0937f2951c67459bae0c84e40f4a8204eb7a Mon Sep 17 00:00:00 2001
+From 481855b392a1ef1143e911414b2c7021b64f6bda Mon Sep 17 00:00:00 2001
 From: Guenter Roeck <linux@roeck-us.net>
 Date: Fri, 1 Mar 2013 15:21:00 +0000
-Subject: [PATCH 8/9] iio/imu: inv_mpu6050 depends on IIO_BUFFER
+Subject: [PATCH 07/11] iio/imu: inv_mpu6050 depends on IIO_BUFFER
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
