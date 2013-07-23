@@ -32,8 +32,10 @@ if ! [ -e /dev/mapper/${LOOPFILE}p1 ] ; then
 	exit 1
 fi
 
-umount ${MOUNTPOINT1} >& /dev/null
-mount ${MOUNTPOINT1}
+if grep -q "${MOUNTPOINT1}" /etc/mtab ; then
+        echo "${MOUNTPOINT1} already mounted, trying to unmount"
+        umount ${MOUNTPOINT1}
+fi
 
 echo "Mounting /dev/mapper/${LOOPFILE}p1"
 mount /dev/mapper/${LOOPFILE}p1 ${MOUNTPOINT1} || exit 1
@@ -41,6 +43,7 @@ mount /dev/mapper/${LOOPFILE}p1 ${MOUNTPOINT1} || exit 1
 rm -rf ${MOUNTPOINT1}/*
 
 echo "BeagleBone ${DATE}" > ${MOUNTPOINT1}/ID.txt
+echo "optargs=quiet" > ${MOUNTPOINT1}/uEnv.txt
 
 echo "Copying over bootloader"
 cp -vf ${DEPLOYDIR}/MLO ${MOUNTPOINT1} && cp -vf ${DEPLOYDIR}/u-boot.img ${MOUNTPOINT1}
@@ -73,7 +76,7 @@ sync && sleep 1
 echo "Ummounting ${MOUNTPOINT}"
 umount ${MOUNTPOINT}
 
-sync && sleep 2
+sync && sleep 10
 
 echo "detaching loopfile"
 kpartx -d -v ${IMAGE}
