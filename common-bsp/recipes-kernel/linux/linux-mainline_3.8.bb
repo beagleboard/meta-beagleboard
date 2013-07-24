@@ -681,6 +681,7 @@ SRC_URI += " \
 	file://capes/0005-capes-BACON-Educational-cape-with-free-form-muxing.patch \
 	file://capes/0006-firmware-add-BeBoPr-cape.patch \
 	file://capes/0007-Add-support-for-Beaglebone-Audio-Amplifier-Cape.patch \
+	file://capes/0008-capemgr-Priority-on-capemgr.enable_partno-option.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
