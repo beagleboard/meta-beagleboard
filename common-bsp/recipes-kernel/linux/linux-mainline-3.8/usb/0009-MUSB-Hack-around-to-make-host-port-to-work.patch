@@ -1,4 +1,4 @@
-From 40e7043f53489e94a7a824cf1d9b409defe42758 Mon Sep 17 00:00:00 2001
+From dce3816a4a9192e2dba5c055ef315074f2215ff4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 22 Jan 2013 22:25:06 +0200
 Subject: [PATCH 09/13] MUSB: Hack around to make host port to work.
@@ -234,5 +234,5 @@ index e9f0fd9..86442a2 100644
  
  static int musb_bus_resume(struct usb_hcd *hcd)
 -- 
-1.8.1.4
+1.8.2.1
 

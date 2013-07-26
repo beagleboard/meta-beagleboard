@@ -1,4 +1,4 @@
-From 896ee62353ff80a855894a53f67b0858c1edf582 Mon Sep 17 00:00:00 2001
+From e756771b3971c7d4af94f51bb2f4d9117a6d2c1c Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 15:20:53 -0600
 Subject: [PATCH 10/39] ARM: OMAP2+: Simplify code configuring ONENAND devices
@@ -103,5 +103,5 @@ index 428cb19..b7f73c5 100644
  	ret = gpmc_set_sync_mode(gpmc_onenand_data->cs, &t);
  	if (IS_ERR_VALUE(ret))
 -- 
-1.8.1.4
+1.8.2.1
 

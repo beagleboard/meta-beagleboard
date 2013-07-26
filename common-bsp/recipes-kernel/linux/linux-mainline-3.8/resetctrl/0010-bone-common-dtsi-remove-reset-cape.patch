@@ -1,4 +1,4 @@
-From 11b121edc24c9a177c630b55bee332e7c344b809 Mon Sep 17 00:00:00 2001
+From 853a1278ef3cc7c956f001ac187a80165a4072f8 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 2 May 2013 14:15:13 +0200
 Subject: [PATCH 10/11] bone-common dtsi: remove reset cape
@@ -30,5 +30,5 @@ index 327e592..ae407c3 100644
  			slot@5 {
  				ti,cape-override;
 -- 
-1.8.1.4
+1.8.2.1
 

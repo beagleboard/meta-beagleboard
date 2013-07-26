@@ -1,7 +1,7 @@
-From 80f0a21b7f41112fef1da20472cf94b67a46d7cb Mon Sep 17 00:00:00 2001
+From 5de686a082942fc8cade0a1eab80e3b18880bf4b Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 13 Feb 2013 20:43:31 +0100
-Subject: [PATCH 099/177] beaglebone: switch eMMC to 8bit mode
+Subject: [PATCH 099/184] beaglebone: switch eMMC to 8bit mode
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -36,5 +36,5 @@ index e2a4a46..17ea449 100644
  			status = "okay";
  			reset-gpios = <&gpio2 20 1>;	/* active low */
 -- 
-1.8.1.4
+1.8.2.1
 

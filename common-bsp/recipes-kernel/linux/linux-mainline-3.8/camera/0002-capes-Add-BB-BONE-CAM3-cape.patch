@@ -1,4 +1,4 @@
-From 4b3ae079510971d2670fad66cb12a1b60791f98b Mon Sep 17 00:00:00 2001
+From 6c91326a2d631c87109652a636b6e2cfcb5bc38c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 16:51:56 +0300
 Subject: [PATCH 02/10] capes: Add BB-BONE-CAM3 cape
@@ -202,5 +202,5 @@ index 0000000..97bdcfd
 +
 +};
 -- 
-1.8.1.4
+1.8.2.1
 

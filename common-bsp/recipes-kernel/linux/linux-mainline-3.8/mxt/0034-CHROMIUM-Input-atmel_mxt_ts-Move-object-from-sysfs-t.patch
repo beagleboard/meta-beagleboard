@@ -1,4 +1,4 @@
-From 87936d296b390bff0e5bfe43bd5e17ac26069a10 Mon Sep 17 00:00:00 2001
+From 90889351aa63aa2b6d80a9609fe5436b680e1184 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Thu, 10 May 2012 16:19:04 -0400
 Subject: [PATCH 34/57] CHROMIUM: Input: atmel_mxt_ts - Move object from sysfs
@@ -372,5 +372,5 @@ index 0804795..3ea35d1 100644
  	free_irq(data->irq, data);
  	if (data->input_dev)
 -- 
-1.8.1.4
+1.8.2.1
 

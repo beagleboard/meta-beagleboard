@@ -1,4 +1,4 @@
-From 223dc8041d30bb328cb719c627f5d233e0a14ccc Mon Sep 17 00:00:00 2001
+From 5a38de2dbdf0ed3cc82cb564bbfcded6d786a91c Mon Sep 17 00:00:00 2001
 From: Vladimir Pantelic <vladoman@gmail.com>
 Date: Mon, 18 Mar 2013 13:48:33 +0100
 Subject: [PATCH 10/13] make sure we register/unregister the NOP xceiver only
@@ -47,5 +47,5 @@ index 85a4502..077c1e7 100644
  	return 0;
  }
 -- 
-1.8.1.4
+1.8.2.1
 

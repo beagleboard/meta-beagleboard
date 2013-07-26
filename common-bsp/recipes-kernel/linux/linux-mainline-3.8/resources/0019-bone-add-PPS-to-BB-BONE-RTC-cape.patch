@@ -1,7 +1,7 @@
-From b6338ab10d8cd2c1e025ca461753ac35c332091f Mon Sep 17 00:00:00 2001
+From d9dab3bd4f148a1d583785d30034dceafef0a5f3 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Sat, 29 Jun 2013 23:51:37 +0000
-Subject: [PATCH 19/19] bone: add PPS to BB-BONE-RTC cape
+Subject: [PATCH 19/23] bone: add PPS to BB-BONE-RTC cape
 
 Added PPS input from SQW pin on the DS1307
 

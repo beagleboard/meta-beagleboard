@@ -1,4 +1,4 @@
-From bb65fc7ea82be365eb42e768edea155557e03c81 Mon Sep 17 00:00:00 2001
+From fea14e2ea7a45b5f1f02a84c96ca6a5cfbe1e228 Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 15 Jan 2013 08:42:52 +0000
 Subject: [PATCH 01/13] drivers: usb: phy: add a new driver for usb part of
@@ -377,5 +377,5 @@ index 0000000..fbc7407
 +
 +#endif	/* __OMAP_CONTROL_USB_H__ */
 -- 
-1.8.1.4
+1.8.2.1
 

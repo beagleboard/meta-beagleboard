@@ -1,7 +1,7 @@
-From 6beae212e23af0b23494ea1ec4197e4578315284 Mon Sep 17 00:00:00 2001
+From bc05a5ae5ebbfdfe520a0c5ec9c19f29501f18e5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 3 May 2013 16:11:53 +0300
-Subject: [PATCH 04/21] tilcdc: Prune modes that can't support audio.
+Subject: [PATCH 04/22] tilcdc: Prune modes that can't support audio.
 
 If the connector supports audio, prune all the display modes that
 don't support it.
@@ -240,5 +240,5 @@ index 9d9796f..c71f955 100644
  
  static struct drm_encoder *tfp410_connector_best_encoder(
 -- 
-1.8.1.4
+1.8.2.1
 

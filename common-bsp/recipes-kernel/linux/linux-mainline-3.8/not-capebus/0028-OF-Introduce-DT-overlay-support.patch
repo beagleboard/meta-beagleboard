@@ -1,7 +1,7 @@
-From 1a1545e22187e6a5360222b6b4d87d3e3d2e157b Mon Sep 17 00:00:00 2001
+From bfe068911b8d617b014baf90dda8e8e2eeb7c03b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:23:07 +0200
-Subject: [PATCH 028/177] OF: Introduce DT overlay support.
+Subject: [PATCH 028/184] OF: Introduce DT overlay support.
 
 Introduce DT overlay support.
 Using this functionality it is possible to dynamically overlay a part of
@@ -1186,5 +1186,5 @@ index ab52243..8a908f0 100644
 +
  #endif /* _LINUX_OF_H */
 -- 
-1.8.1.4
+1.8.2.1
 

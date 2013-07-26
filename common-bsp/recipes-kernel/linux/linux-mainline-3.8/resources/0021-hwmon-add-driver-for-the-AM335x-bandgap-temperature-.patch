@@ -1,7 +1,7 @@
-From 5a778932331650937df2e536e1bac7edf0cd0a91 Mon Sep 17 00:00:00 2001
+From 081804a132de6802f64daf8af6704b21abeb86eb Mon Sep 17 00:00:00 2001
 From: Jan Luebbe <jlu@pengutronix.de>
 Date: Sun, 21 Jul 2013 00:27:27 +0200
-Subject: [PATCH 21/21] hwmon: add driver for the AM335x bandgap temperature
+Subject: [PATCH 21/23] hwmon: add driver for the AM335x bandgap temperature
  sensor
 
 Signed-off-by: Jan Luebbe <jlu@pengutronix.de>

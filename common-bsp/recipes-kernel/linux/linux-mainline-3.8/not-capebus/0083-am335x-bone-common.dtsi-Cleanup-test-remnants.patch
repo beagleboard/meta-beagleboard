@@ -1,7 +1,7 @@
-From e03d7dbcfa95523530c0ce5e289973a155940db5 Mon Sep 17 00:00:00 2001
+From 7a5f3225e07036b543219ab8cd48b614c73be5b8 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 18 Jan 2013 14:10:49 +0200
-Subject: [PATCH 083/177] am335x-bone-common.dtsi: Cleanup test remnants
+Subject: [PATCH 083/184] am335x-bone-common.dtsi: Cleanup test remnants
 
 Cleanup various test remnants.
 
@@ -52,5 +52,5 @@ index c45daa2..4787d8c 100644
  			ti,system-power-controller;
  		};
 -- 
-1.8.1.4
+1.8.2.1
 

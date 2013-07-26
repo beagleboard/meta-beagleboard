@@ -1,7 +1,7 @@
-From 4ae472317fcd0cbcec80ed444de8300bac7cfd6f Mon Sep 17 00:00:00 2001
+From a88b26a9bb8d77162943e2f23380903b3940a26e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 27 Feb 2013 18:35:09 +0200
-Subject: [PATCH 104/177] bone-capemgr: Fix crash when trying to remove
+Subject: [PATCH 104/184] bone-capemgr: Fix crash when trying to remove
  non-existant slot
 
 Wrong test for not-found case lead to crash. Fix.
@@ -36,5 +36,5 @@ index 2656e3a..9f8da94 100644
  		mutex_unlock(&info->slots_list_mutex);
  
 -- 
-1.8.1.4
+1.8.2.1
 

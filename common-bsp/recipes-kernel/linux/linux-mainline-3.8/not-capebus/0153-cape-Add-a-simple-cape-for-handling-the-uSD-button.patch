@@ -1,7 +1,7 @@
-From ac714f7e5a9f6883f5aa0c4b84d0cfddd387be9d Mon Sep 17 00:00:00 2001
+From 9c1925637baaba0b1716eef9c055f35078befb1d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 29 Mar 2013 17:44:02 +0200
-Subject: [PATCH 153/177] cape: Add a simple cape for handling the uSD button.
+Subject: [PATCH 153/184] cape: Add a simple cape for handling the uSD button.
 
 Doesn't work ofcourse due to conflict with the HDMI.
 
@@ -84,5 +84,5 @@ index 0000000..f32d6f5
 +	};
 +};
 -- 
-1.8.1.4
+1.8.2.1
 

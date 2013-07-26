@@ -1,4 +1,4 @@
-From 8713aefb4818e907fa1f6d924c55a6d5af7257d5 Mon Sep 17 00:00:00 2001
+From 9f693e0892bfb54fdd93d6859e76004aa564fd45 Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubairlk@zubairlk-HP-G62-Notebook-PC.(none)>
 Date: Fri, 28 Jun 2013 00:45:20 +0100
 Subject: [PATCH 18/21] input : ti_tsc : Enable shared IRQ TSC

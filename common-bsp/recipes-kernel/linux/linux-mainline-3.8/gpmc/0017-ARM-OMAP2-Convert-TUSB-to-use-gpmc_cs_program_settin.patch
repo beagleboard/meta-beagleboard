@@ -1,4 +1,4 @@
-From 9830061de76669f01da853a4c7928bea055218c5 Mon Sep 17 00:00:00 2001
+From 259ed3d92cdf40d6d9ada6ad6aa8bb2094b30565 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:01:47 -0600
 Subject: [PATCH 17/39] ARM: OMAP2+: Convert TUSB to use
@@ -99,5 +99,5 @@ index faaf96d..e832bc7 100644
  	/* IRQ */
  	status = gpio_request_one(irq, GPIOF_IN, "TUSB6010 irq");
 -- 
-1.8.1.4
+1.8.2.1
 

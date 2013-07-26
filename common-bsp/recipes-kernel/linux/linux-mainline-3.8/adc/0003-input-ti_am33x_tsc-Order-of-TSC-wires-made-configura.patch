@@ -1,4 +1,4 @@
-From 68c3ebd909cf496e324dfd961c25a48a900cff1e Mon Sep 17 00:00:00 2001
+From ecdf414ca83e069645acd69b2f1dcc9655d092c1 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:04 +0200
 Subject: [PATCH 03/21] input: ti_am33x_tsc: Order of TSC wires, made

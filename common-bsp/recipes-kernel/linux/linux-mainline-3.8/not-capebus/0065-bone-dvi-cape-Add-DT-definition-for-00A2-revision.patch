@@ -1,7 +1,7 @@
-From 8f7b4733cfebea670e316dbdf1e0a62287671147 Mon Sep 17 00:00:00 2001
+From 02fc7109f7b5ae4eabe1e014b7466182b84a6955 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 12:25:42 +0200
-Subject: [PATCH 065/177] bone-dvi-cape: Add DT definition for 00A2 revision
+Subject: [PATCH 065/184] bone-dvi-cape: Add DT definition for 00A2 revision
 
 Add cape definition for the 00A2 revision of the DVI cape.
 
@@ -23,5 +23,5 @@ index 600640a..256f8d4 100644
  
  # the geiger cape
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,7 +1,7 @@
-From 751eb1005ec8f2d39e997a75b9c1dcfe42532ba5 Mon Sep 17 00:00:00 2001
+From 35edc2945a33e235b68b3796cfaaf5bcc0af66c7 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 29 Mar 2013 19:32:29 +0200
-Subject: [PATCH 152/177] tilcdc: Enable pinmux states
+Subject: [PATCH 152/184] tilcdc: Enable pinmux states
 
 Things like the boot switch are on the LCD data pins.
 Allows us to change pinmuxing on runtime.
@@ -492,5 +492,5 @@ index 02bcb93..ee36d0e 100644
  
  			fb {
 -- 
-1.8.1.4
+1.8.2.1
 

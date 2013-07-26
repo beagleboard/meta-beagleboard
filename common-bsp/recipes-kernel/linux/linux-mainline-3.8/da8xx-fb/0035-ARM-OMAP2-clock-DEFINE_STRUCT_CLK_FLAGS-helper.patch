@@ -1,4 +1,4 @@
-From 22b3dd438356e18b9796c26dfcf89de29ea3e199 Mon Sep 17 00:00:00 2001
+From 730b9a37e9412a491c891ad40e68b7a05f209e39 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Tue, 22 Jan 2013 15:42:00 +0530
 Subject: [PATCH 35/48] ARM: OMAP2+: clock: DEFINE_STRUCT_CLK_FLAGS helper
@@ -35,5 +35,5 @@ index b402048..60ddd86 100644
  	static struct clk_hw_omap _name##_hw = {		\
  		.hw = {						\
 -- 
-1.8.1.4
+1.8.2.1
 

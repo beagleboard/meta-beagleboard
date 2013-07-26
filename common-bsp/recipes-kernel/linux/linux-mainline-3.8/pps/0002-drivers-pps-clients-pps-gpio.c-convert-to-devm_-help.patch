@@ -1,4 +1,4 @@
-From ec5b92f492c6ba9454065598b19c48a5890e278e Mon Sep 17 00:00:00 2001
+From 8a52342a9a3b22cbdee9501ed09e37ead3b111ca Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Mon, 17 Jun 2013 20:30:29 +0000
 Subject: [PATCH 2/3] drivers/pps/clients/pps-gpio.c: convert to devm_* helpers

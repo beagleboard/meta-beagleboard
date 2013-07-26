@@ -1,4 +1,4 @@
-From 816c19dfc59ef912603fab3a46da7f9b3469d770 Mon Sep 17 00:00:00 2001
+From 3b870f51aaa4a5d6ba92cba45780d21ddb224e4c Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Mon, 25 Feb 2013 11:37:58 -0600
 Subject: [PATCH 23/39] ARM: OMAP2+: Convert ONENAND to retrieve GPMC settings
@@ -122,5 +122,5 @@ index dae6e05..1a2b84e 100644
  	omap2_onenand_calc_sync_timings(&t, gpmc_onenand_data->flags, freq);
  
 -- 
-1.8.1.4
+1.8.2.1
 

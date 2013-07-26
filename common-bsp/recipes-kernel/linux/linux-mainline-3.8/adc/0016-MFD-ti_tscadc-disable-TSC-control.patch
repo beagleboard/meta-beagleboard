@@ -1,4 +1,4 @@
-From 5dc982aeb59b0a3ab13ec49d5e4150d9f32b5ad5 Mon Sep 17 00:00:00 2001
+From 9087263347756bec2603ac1314315a3768056928 Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubair.lutfullah@gmail.com>
 Date: Thu, 27 Jun 2013 22:47:13 +0100
 Subject: [PATCH 16/21] MFD: ti_tscadc: disable TSC control

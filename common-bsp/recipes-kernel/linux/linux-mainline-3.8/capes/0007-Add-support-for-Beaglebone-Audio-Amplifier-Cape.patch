@@ -1,7 +1,7 @@
-From b6578d738783a96349989ee9253ee98751e83443 Mon Sep 17 00:00:00 2001
+From 317a7ebf1658456025ed5d5272b50b9d5b3b18f0 Mon Sep 17 00:00:00 2001
 From: Daniel Nilsson <daniel@dnil.se>
 Date: Wed, 17 Jul 2013 22:13:18 +0200
-Subject: [PATCH 7/7] Add support for Beaglebone Audio Amplifier Cape
+Subject: [PATCH 7/8] Add support for Beaglebone Audio Amplifier Cape
 
 Signed-off-by: Daniel Nilsson <daniel@dnil.se>
 ---

@@ -1,4 +1,4 @@
-From 82f215043cca882ad81373fe107e6454a345c0f5 Mon Sep 17 00:00:00 2001
+From 76ea0a37e17eec0dc5eaa257179c27027fbde688 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 2 May 2012 20:21:12 -0700
 Subject: [PATCH 09/57] CHROMIUM: Input: atmel_mxt_ts - wait for CHG after
@@ -84,5 +84,5 @@ index d0f91ff..ef867d3 100644
  	ret = mxt_unlock_bootloader(client);
  	if (ret)
 -- 
-1.8.1.4
+1.8.2.1
 

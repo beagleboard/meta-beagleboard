@@ -1,7 +1,7 @@
-From 02815c92cd29b3f0408424ab996122d6c7ec6ad9 Mon Sep 17 00:00:00 2001
+From 56e702be78c1db47600e52e776ef84e3f54863ec Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Jul 2013 19:38:54 +0300
-Subject: [PATCH 15/16] rproc: pru: PRU remoteproc updated to work with virtio
+Subject: [PATCH 15/19] rproc: pru: PRU remoteproc updated to work with virtio
  + complex h/w setup
 
 Major update for the PRU rproc driver. Implemented logic for interrupt event

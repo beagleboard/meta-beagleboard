@@ -1,4 +1,4 @@
-From 218e35b469334753a244b5e088d960ae0cb308c0 Mon Sep 17 00:00:00 2001
+From 01da57da1c6701c5ab5fa048a1fe4360d99d9c7c Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubair.lutfullah@gmail.com>
 Date: Thu, 27 Jun 2013 23:49:41 +0100
 Subject: [PATCH 17/21] IIO: ADC: ti_adc: Fix 1st sample read

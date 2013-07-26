@@ -1,7 +1,7 @@
-From 06650b1a55e722c00d21402eceb5c1de12bf35d7 Mon Sep 17 00:00:00 2001
+From 56aad5db03624bb31ca2d02c1f4e8342aede8ada Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 15 Jul 2013 23:00:35 +0300
-Subject: [PATCH 5/5] capes: BACON Educational cape with free form muxing
+Subject: [PATCH 5/8] capes: BACON Educational cape with free form muxing
 
 ---
  firmware/Makefile                       |   3 +-

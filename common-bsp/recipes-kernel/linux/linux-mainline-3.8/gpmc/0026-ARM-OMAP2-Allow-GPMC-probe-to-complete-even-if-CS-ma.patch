@@ -1,4 +1,4 @@
-From d9c4b184e19034b7091b582e1f2a629f96e16b4e Mon Sep 17 00:00:00 2001
+From de66d375dddf3e46267adcbc3605eaaee371b176 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Wed, 6 Mar 2013 14:36:47 -0600
 Subject: [PATCH 26/39] ARM: OMAP2+: Allow GPMC probe to complete even if CS
@@ -79,5 +79,5 @@ index 3f87752..5482d23 100644
  	if (IS_ERR_VALUE(gpmc_setup_irq()))
  		dev_warn(gpmc_dev, "gpmc_setup_irq failed\n");
 -- 
-1.8.1.4
+1.8.2.1
 

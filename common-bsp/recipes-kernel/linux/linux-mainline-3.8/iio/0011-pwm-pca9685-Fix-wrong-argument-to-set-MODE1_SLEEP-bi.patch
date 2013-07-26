@@ -1,4 +1,4 @@
-From c242387d8fb90f18f27488799287fb815d81b9eb Mon Sep 17 00:00:00 2001
+From ef938d0156e1914d6280658284651f68ef48a1a9 Mon Sep 17 00:00:00 2001
 From: Axel Lin <axel.lin@ingics.com>
 Date: Thu, 20 Jun 2013 01:27:27 +0800
 Subject: [PATCH 11/11] pwm: pca9685: Fix wrong argument to set MODE1_SLEEP bit
@@ -15,7 +15,7 @@ Signed-off-by: Thierry Reding <thierry.reding@gmail.com>
  1 file changed, 3 insertions(+), 2 deletions(-)
 
 diff --git a/drivers/pwm/pwm-pca9685.c b/drivers/pwm/pwm-pca9685.c
-index c9f9e65..3fb775d 100644
+index 2cef2bd..77b4e05 100644
 --- a/drivers/pwm/pwm-pca9685.c
 +++ b/drivers/pwm/pwm-pca9685.c
 @@ -190,7 +190,7 @@ static void pca9685_pwm_free(struct pwm_chip *chip, struct pwm_device *pwm)

@@ -1,4 +1,4 @@
-From a375dd1616bb9442d22f94984394ab53e6c04fc1 Mon Sep 17 00:00:00 2001
+From 9eb44b88870b47ea6dc83bda3197f4b9908c9a64 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 10 Jul 2013 23:50:05 +0300
 Subject: [PATCH 6/6] leds: pwm: Enable compilation on this version of the

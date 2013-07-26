@@ -1,7 +1,7 @@
-From f6774213de160a34fe5e085eba3978877c3febcc Mon Sep 17 00:00:00 2001
+From e10465ed01358c721351bc84a5a5e0e520bba30d Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Thu, 24 Jan 2013 15:39:19 -0600
-Subject: [PATCH 06/11] drm/i2c: give i2c it's own Kconfig
+Subject: [PATCH 06/12] drm/i2c: give i2c it's own Kconfig
 
 Move this out of nouveau directory.  As we start to add more encoder
 slaves used by other drivers, it makes sense to put the Kconfig bits in
@@ -88,5 +88,5 @@ index 8a55bee..47ccc1a 100644
 -
 -endmenu
 -- 
-1.8.1.4
+1.8.2.1
 

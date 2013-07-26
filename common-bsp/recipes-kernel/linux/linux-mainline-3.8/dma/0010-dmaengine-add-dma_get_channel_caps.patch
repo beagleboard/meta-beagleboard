@@ -1,4 +1,4 @@
-From 07d6d5284d7587cad8e4c99f26b610e3c93f9ded Mon Sep 17 00:00:00 2001
+From d9f944c5900180e402ea44aa594fe67e0dc056fc Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 18 Oct 2012 21:07:28 -0400
 Subject: [PATCH 10/35] dmaengine: add dma_get_channel_caps()
@@ -96,5 +96,5 @@ index c88f302..9fd0c5b 100644
  #ifdef CONFIG_DMA_ENGINE
  enum dma_status dma_wait_for_async_tx(struct dma_async_tx_descriptor *tx);
 -- 
-1.8.1.4
+1.8.2.1
 

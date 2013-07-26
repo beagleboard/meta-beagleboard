@@ -1,4 +1,4 @@
-From 8ca0379ef8afdc6329a89be3865a7fd016cc4dfc Mon Sep 17 00:00:00 2001
+From 5ee89b964a5b09c2a26f848972177004b19d288e Mon Sep 17 00:00:00 2001
 From: Vinod Koul <vinod.koul@linux.intel.com>
 Date: Tue, 25 Sep 2012 16:18:55 +0530
 Subject: [PATCH 08/35] dmaengine: fix build failure due to missing semi-colon
@@ -23,5 +23,5 @@ index 8cd0e25..c88f302 100644
  static inline void dma_release_channel(struct dma_chan *chan)
  {
 -- 
-1.8.1.4
+1.8.2.1
 

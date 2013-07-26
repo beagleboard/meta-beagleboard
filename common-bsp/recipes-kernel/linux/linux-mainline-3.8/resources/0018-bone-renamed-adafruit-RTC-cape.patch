@@ -1,7 +1,7 @@
-From c3ac11cff845b1ef9f1482ddfc310fbc93613d24 Mon Sep 17 00:00:00 2001
+From 1cd6d3395a2c0d7272f6f07fb3acf965b3759866 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Sat, 29 Jun 2013 23:51:36 +0000
-Subject: [PATCH 18/19] bone: renamed adafruit RTC cape
+Subject: [PATCH 18/23] bone: renamed adafruit RTC cape
 
 rename RTC protocape to a more consistent naming
 
@@ -29,7 +29,7 @@ index aa95810..ff4b5d2 100644
  			};
  
 diff --git a/firmware/Makefile b/firmware/Makefile
-index 0de40d98..c11bed4 100644
+index 182de29..e6d178e 100644
 --- a/firmware/Makefile
 +++ b/firmware/Makefile
 @@ -155,6 +155,7 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
@@ -40,7 +40,7 @@ index 0de40d98..c11bed4 100644
  	BB-BONE-RS232-00A0.dtbo \
  	BB-BONE-SERL-01-00A1.dtbo \
  	cape-bone-iio-00A0.dtbo \
-@@ -184,8 +185,7 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
+@@ -186,8 +187,7 @@ fw-shipped-$(CONFIG_CAPE_BEAGLEBONE) += \
  	BB-BONE-RST2-00A0.dtbo \
  	BB-BONE-CAM3-01-00A2.dtbo \
  	TT3201-001-01.dtbo \

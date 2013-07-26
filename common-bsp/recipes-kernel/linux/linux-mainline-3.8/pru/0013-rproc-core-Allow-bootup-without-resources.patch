@@ -1,7 +1,7 @@
-From 444b8cfbca75f9a5c49a1b7489f10fffd6281120 Mon Sep 17 00:00:00 2001
+From d8278a0d255e31d00acfb8e24100290a266f054d Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 10 Jul 2013 00:13:03 +0300
-Subject: [PATCH 13/16] rproc: core: Allow bootup without resources
+Subject: [PATCH 13/19] rproc: core: Allow bootup without resources
 
 Not every core has a need to communicate with the host via VDEVS.
 Allow booting without a resource table.

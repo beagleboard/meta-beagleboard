@@ -1,4 +1,4 @@
-From 0151183af54c31ae6505b7a80e07c897a1c9da56 Mon Sep 17 00:00:00 2001
+From 41b0b28959570262489775d679535425c29d4404 Mon Sep 17 00:00:00 2001
 From: Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>
 Date: Tue, 25 Oct 2011 10:06:39 +0200
 Subject: [PATCH 2/2] ti-st/st-kim: fixing firmware path
@@ -32,5 +32,5 @@ index 83269f1..d48b9e0 100644
  	int cmd_size;
  	unsigned long timeout;
 -- 
-1.8.1.4
+1.8.2.1
 

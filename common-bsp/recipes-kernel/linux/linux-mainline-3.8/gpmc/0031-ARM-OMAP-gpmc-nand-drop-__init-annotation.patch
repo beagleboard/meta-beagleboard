@@ -1,4 +1,4 @@
-From f71cb767738417ef86987e749d55ae8393adcf09 Mon Sep 17 00:00:00 2001
+From 9df17aedf39db04fa5236ad03d28507857a139d8 Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 11:36:42 +0100
 Subject: [PATCH 31/39] ARM: OMAP: gpmc-nand: drop __init annotation
@@ -39,5 +39,5 @@ index 026785c..b966784 100644
  	int err	= 0;
  	struct gpmc_settings s;
 -- 
-1.8.1.4
+1.8.2.1
 

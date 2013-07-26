@@ -1,4 +1,4 @@
-From 39de49532c5c9f32cec54261bfc33a83288f9949 Mon Sep 17 00:00:00 2001
+From c80e37d39b6871bf3ee101c4a154991f7608d3fc Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Fri, 25 May 2012 13:55:26 -0400
 Subject: [PATCH 22/57] CHROMIUM: Input: atmel_mxt_ts - Report TOUCH MAJOR in
@@ -147,5 +147,5 @@ index 95abf18..66b6f70 100644
  			     0, data->max_x, 0, 0);
  	input_set_abs_params(input_dev, ABS_MT_POSITION_Y,
 -- 
-1.8.1.4
+1.8.2.1
 

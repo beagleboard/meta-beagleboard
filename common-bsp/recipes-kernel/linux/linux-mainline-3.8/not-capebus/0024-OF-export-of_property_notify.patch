@@ -1,7 +1,7 @@
-From 8e25de3e7e3d08570f3c592d38dc3c627ca527b1 Mon Sep 17 00:00:00 2001
+From 3515bb295743f557ec3606a27c2ce620ba5a7ad1 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 11:46:39 +0200
-Subject: [PATCH 024/177] OF: export of_property_notify
+Subject: [PATCH 024/184] OF: export of_property_notify
 
 of_property_notify can be utilized by other users too, export it.
 
@@ -60,5 +60,5 @@ index 2ff35b5..aea3694 100644
  extern int of_alias_get_id(struct device_node *np, const char *stem);
  
 -- 
-1.8.1.4
+1.8.2.1
 

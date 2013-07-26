@@ -1,4 +1,4 @@
-From cfa7ba2bc716a2cfcb56c41511e10c6a21740c2c Mon Sep 17 00:00:00 2001
+From 285e04afda7d71a6f71e01adc514b8defd454d7d Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 1 May 2012 17:31:04 -0400
 Subject: [PATCH 31/57] CHROMIUM: Input: atmel_mxt_ts - Remove matrix size
@@ -65,5 +65,5 @@ index 8dfdba9..71a5317 100644
  			"Family ID: %u Variant ID: %u Major.Minor.Build: %u.%u.%02X\n",
  			info->family_id, info->variant_id, info->version >> 4,
 -- 
-1.8.1.4
+1.8.2.1
 

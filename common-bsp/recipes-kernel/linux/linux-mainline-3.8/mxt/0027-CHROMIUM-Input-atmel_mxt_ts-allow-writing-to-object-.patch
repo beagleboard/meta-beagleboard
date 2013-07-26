@@ -1,4 +1,4 @@
-From 42155ca89dbc9ca5fdf51c8959edf79fafcd77ed Mon Sep 17 00:00:00 2001
+From 83d99628beed0e06510768ac580cecc192f4e0a9 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 19 Mar 2012 09:39:12 +0800
 Subject: [PATCH 27/57] CHROMIUM: Input: atmel_mxt_ts - allow writing to object
@@ -108,5 +108,5 @@ index d07732d..120d766 100644
  
  static struct attribute *mxt_attrs[] = {
 -- 
-1.8.1.4
+1.8.2.1
 

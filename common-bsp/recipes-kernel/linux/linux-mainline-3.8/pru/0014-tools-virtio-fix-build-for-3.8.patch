@@ -1,7 +1,7 @@
-From 27e9b92ac462b682800e6856dea38a94d5ca2619 Mon Sep 17 00:00:00 2001
+From f67491687dfd67cf834a82b16fadff335e6b93ca Mon Sep 17 00:00:00 2001
 From: "Michael S. Tsirkin" <mst@redhat.com>
 Date: Mon, 18 Mar 2013 13:22:18 +1030
-Subject: [PATCH 14/16] tools/virtio: fix build for 3.8
+Subject: [PATCH 14/19] tools/virtio: fix build for 3.8
 
 Signed-off-by: Michael S. Tsirkin <mst@redhat.com>
 Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>

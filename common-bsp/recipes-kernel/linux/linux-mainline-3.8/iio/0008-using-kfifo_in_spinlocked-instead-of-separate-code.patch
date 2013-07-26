@@ -1,4 +1,4 @@
-From e4b5a3fc2f57999a85a88f77e368e1be9fc1690b Mon Sep 17 00:00:00 2001
+From 912d701a9838bdc10d42f7224f840868c6610450 Mon Sep 17 00:00:00 2001
 From: Ge Gao <ggao@invensense.com>
 Date: Mon, 4 Mar 2013 23:27:00 +0000
 Subject: [PATCH 08/11] using kfifo_in_spinlocked instead of separate code.

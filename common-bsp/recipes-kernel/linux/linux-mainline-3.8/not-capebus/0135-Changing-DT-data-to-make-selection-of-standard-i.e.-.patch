@@ -1,7 +1,7 @@
-From 0a576bd9947bbe6243e8ce1846a5d5a5bc2cb3cb Mon Sep 17 00:00:00 2001
+From 57d0acfee6b9c192f5ef665a0e77a7e123644858 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Thu, 21 Mar 2013 13:53:54 -0500
-Subject: [PATCH 135/177] Changing DT data to make selection of standard (i.e.
+Subject: [PATCH 135/184] Changing DT data to make selection of standard (i.e.
  non-reduced blanking) modes the default
 
 ---
@@ -21,5 +21,5 @@ index b080907..02bcb93 100644
  
  		};
 -- 
-1.8.1.4
+1.8.2.1
 

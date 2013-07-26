@@ -1,4 +1,4 @@
-From 997e8ead9f973099608e748bce3e75e67d72162f Mon Sep 17 00:00:00 2001
+From 4e27cade61c9c54862722df2837ed3c1d707566d Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 12:42:22 -0600
 Subject: [PATCH 37/39] ARM: OMAP2+: Convert ONENAND to use
@@ -44,5 +44,5 @@ index 3df9230..64b5a83 100644
  
  	set_onenand_cfg(onenand_base);
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,7 +1,7 @@
-From 72a11fdfa5ce3eccd0f8b7878001fc81fffccac9 Mon Sep 17 00:00:00 2001
+From dfefcb92e6d2a74f207c2d62956b85af859303f9 Mon Sep 17 00:00:00 2001
 From: Bas Laarhoven <sjml@xs4all.nl>
 Date: Mon, 10 Jun 2013 13:53:35 +0200
-Subject: [PATCH 14/15] Fix mmc2 being enabled when eMMC is disabled.
+Subject: [PATCH 14/23] Fix mmc2 being enabled when eMMC is disabled.
 
 Signed-off-by: Bas Laarhoven <sjml@xs4all.nl>
 ---
@@ -22,5 +22,5 @@ index 1545cca..a7eb55b 100644
  	reset = <&rstctl 0 0>;
  	reset-names = "eMMC_RSTn-CONSUMER";
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,7 +1,7 @@
-From 328d25986b1752ae6bee1b626b8e0aac004a66a2 Mon Sep 17 00:00:00 2001
+From d5a919d8edfbb65838735d7342b2bc20362e12db Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 12 Jul 2013 20:51:16 +0300
-Subject: [PATCH 18/18] rproc: pru: Implement a software defined PWM channel
+Subject: [PATCH 18/19] rproc: pru: Implement a software defined PWM channel
  set
 
 Implement a fully working PWM software defined peripheral.

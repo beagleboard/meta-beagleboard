@@ -1,4 +1,4 @@
-From 7b0147b9c85761ffb5ddc7a14ca2bdb92cd2bfa8 Mon Sep 17 00:00:00 2001
+From c2cb3071e8749979472e1dd14125e2e042e66eaf Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Wed, 16 May 2012 14:52:02 -0400
 Subject: [PATCH 37/57] CHROMIUM: Input: atmel_mxt_ts - Wait on auto
@@ -117,5 +117,5 @@ index 3dbaa3c..bac30d1f 100644
  		/* Enable wake from IRQ */
  		data->irq_wake = (enable_irq_wake(data->irq) == 0);
 -- 
-1.8.1.4
+1.8.2.1
 

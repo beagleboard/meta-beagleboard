@@ -1,4 +1,4 @@
-From 3fa20601f48d0ddf98ee1e04b4dc2c6650f7de46 Mon Sep 17 00:00:00 2001
+From 3875638c1e87f7e365d937126e5773d84f902d49 Mon Sep 17 00:00:00 2001
 From: Dmitry Torokhov <dmitry.torokhov@gmail.com>
 Date: Sun, 24 Feb 2013 22:59:35 -0800
 Subject: [PATCH 2/4] W1: w1-gpio - guard DT IDs with CONFIG_OF
@@ -49,5 +49,5 @@ index c45b9ae..aa97a96 100644
  {
  	struct w1_bus_master *master;
 -- 
-1.8.1.4
+1.8.2.1
 

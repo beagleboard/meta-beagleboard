@@ -1,4 +1,4 @@
-From fb1c9538ee37b106b276dbf6c45dbc6275955599 Mon Sep 17 00:00:00 2001
+From 47877897dd1f70357c357f51c5f512c493b694c7 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 17 Oct 2012 10:48:22 -0400
 Subject: [PATCH 31/35] misc: add gpevt driver
@@ -218,5 +218,5 @@ index 0000000..4fe256c
 +MODULE_AUTHOR("Matt Porter <mporter@ti.com>");
 +MODULE_LICENSE("GPL");
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,4 +1,4 @@
-From 9c10a8e3c2ce11d507c5de390510f1199a38c7d2 Mon Sep 17 00:00:00 2001
+From 7ce1c44504c01773397d5258e705dd284edd86db Mon Sep 17 00:00:00 2001
 From: Florian Vaussard <florian.vaussard@epfl.ch>
 Date: Mon, 28 Jan 2013 06:00:59 -0800
 Subject: [PATCH 5/6] leds: leds-pwm: Defer led_pwm_set() if PWM can sleep

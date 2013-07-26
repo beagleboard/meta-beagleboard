@@ -1,4 +1,4 @@
-From e46b9a85e38d65de6be38792770fbb0cecc1315d Mon Sep 17 00:00:00 2001
+From 7697c887db6cb3ae90daec1a8d86992a0521b9ff Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:18 +0200
 Subject: [PATCH 11/21] input: ti_am335x_adc: use only FIFO0 and clean up a

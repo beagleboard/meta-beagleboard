@@ -1,4 +1,4 @@
-From 87919faf6a84525f1ed4c112a1719c4492d080f0 Mon Sep 17 00:00:00 2001
+From d9c5d829c1e11d572d36fae5e9f8b0d43a7253f9 Mon Sep 17 00:00:00 2001
 From: Thierry Reding <thierry.reding@gmail.com>
 Date: Wed, 12 Jun 2013 13:18:29 +0200
 Subject: [PATCH 10/11] pwm: Fill in missing .owner fields
@@ -526,7 +526,7 @@ index 7ec345f..c58e2f6 100644
  	},
  	.probe = mxs_pwm_probe,
 diff --git a/drivers/pwm/pwm-pca9685.c b/drivers/pwm/pwm-pca9685.c
-index 2afc904..c9f9e65 100644
+index 9d6903b..2cef2bd 100644
 --- a/drivers/pwm/pwm-pca9685.c
 +++ b/drivers/pwm/pwm-pca9685.c
 @@ -199,6 +199,7 @@ static const struct pwm_ops pca9685_pwm_ops = {

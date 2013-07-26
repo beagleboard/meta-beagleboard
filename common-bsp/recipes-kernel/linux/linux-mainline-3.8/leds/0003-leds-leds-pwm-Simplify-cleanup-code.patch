@@ -1,4 +1,4 @@
-From 05d410f2296c1a90bad86cd9fa6ccf832fedad59 Mon Sep 17 00:00:00 2001
+From fa9cc7158f0bad7ff6856e4b0fbc6fe23162998d Mon Sep 17 00:00:00 2001
 From: Peter Ujfalusi <peter.ujfalusi@ti.com>
 Date: Fri, 21 Dec 2012 01:44:00 -0800
 Subject: [PATCH 3/6] leds: leds-pwm: Simplify cleanup code

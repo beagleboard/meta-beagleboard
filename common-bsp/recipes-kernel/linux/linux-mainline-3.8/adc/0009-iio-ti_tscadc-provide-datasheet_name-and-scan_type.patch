@@ -1,4 +1,4 @@
-From f7156edcd3a5f9e10da313f23d2a6ff93eb978b5 Mon Sep 17 00:00:00 2001
+From eaefac3adda3c0d86407e7755127a51b5be625ca Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 12 Jun 2013 18:58:12 +0200
 Subject: [PATCH 09/21] iio: ti_tscadc: provide datasheet_name and scan_type

@@ -1,4 +1,4 @@
-From c61b25109c9d2ad3e696d477d1c9e0eb5ebfd9ff Mon Sep 17 00:00:00 2001
+From 13e4c3536ad37af98317862d3821ce650e304fc5 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime.ripard@free-electrons.com>
 Date: Tue, 26 Feb 2013 11:39:52 +0100
 Subject: [PATCH 2/5] ssd1307fb: Rework the communication functions
@@ -111,5 +111,5 @@ index 95f76e2..85e0860 100644
  
  static void ssd1307fb_update_display(struct ssd1307fb_par *par)
 -- 
-1.8.1.4
+1.8.2.1
 

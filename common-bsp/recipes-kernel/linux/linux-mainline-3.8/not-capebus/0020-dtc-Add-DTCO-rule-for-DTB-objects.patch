@@ -1,7 +1,7 @@
-From 63abb1ce9c56abd03b69d12e0ba22466aac19aeb Mon Sep 17 00:00:00 2001
+From beb3fe226dc5536db62118a2f24d17383f885427 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 14 Dec 2012 12:57:13 +0200
-Subject: [PATCH 020/177] dtc: Add DTCO rule for DTB objects
+Subject: [PATCH 020/184] dtc: Add DTCO rule for DTB objects
 
 Add a rule for compiling DTS files as objects.
 
@@ -26,5 +26,5 @@ index bdf42fd..72ac3eb 100644
  # ---------------------------------------------------------------------------
  
 -- 
-1.8.1.4
+1.8.2.1
 

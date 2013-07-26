@@ -1,7 +1,7 @@
-From 19591947f237370234ffb5b0d93289ed5009ebcb Mon Sep 17 00:00:00 2001
+From 08f767e312bc2314ee641686b4157f79bec84e89 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Mon, 8 Jul 2013 12:56:56 +0200
-Subject: [PATCH 17/19] lcd capes: update adc channels
+Subject: [PATCH 17/23] lcd capes: update adc channels
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

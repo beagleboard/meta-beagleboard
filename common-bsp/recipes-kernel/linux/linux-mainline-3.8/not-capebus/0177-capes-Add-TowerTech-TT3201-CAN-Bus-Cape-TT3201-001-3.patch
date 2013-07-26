@@ -1,7 +1,7 @@
-From 085dcac8c2f2ec408612f27927a70624cf309c1e Mon Sep 17 00:00:00 2001
+From 8368440fc9a66de4f8a12874e51a1e291f8322b7 Mon Sep 17 00:00:00 2001
 From: Alessandro Zummo <a.zummo@towertech.it>
 Date: Sat, 25 May 2013 19:18:07 +0200
-Subject: [PATCH 177/177] capes: Add TowerTech TT3201 CAN Bus Cape (TT3201-001,
+Subject: [PATCH 177/184] capes: Add TowerTech TT3201 CAN Bus Cape (TT3201-001,
  3 channels) Rev 01 and 02
 
 --
@@ -175,5 +175,5 @@ index 0000000..d1f950c
 +};
 +
 -- 
-1.8.1.4
+1.8.2.1
 

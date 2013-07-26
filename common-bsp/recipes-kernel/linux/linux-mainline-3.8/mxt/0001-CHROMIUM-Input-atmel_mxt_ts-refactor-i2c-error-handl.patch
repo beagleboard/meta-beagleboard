@@ -1,4 +1,4 @@
-From e8e5aa28aad1055945cf162b6b89b914d0f81adc Mon Sep 17 00:00:00 2001
+From b1823401fdfe22a1d817cef5810faa08fa92affc Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Wed, 19 Dec 2012 17:22:16 +0800
 Subject: [PATCH 01/57] CHROMIUM: Input: atmel_mxt_ts - refactor i2c error
@@ -164,5 +164,5 @@ index d04f810..a222bd8 100644
  	return ret;
  }
 -- 
-1.8.1.4
+1.8.2.1
 

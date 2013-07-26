@@ -1,4 +1,4 @@
-From a8dc81f6bf08a696afac49a147489941870e8e61 Mon Sep 17 00:00:00 2001
+From d959368aef34d74bddd603875aaf2f5ae43e51e0 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 9 Oct 2012 16:51:52 -0400
 Subject: [PATCH 48/57] CHROMIUM: Input: atmel_mxt_ts - release all fingers on
@@ -126,5 +126,5 @@ index d7cd1a5..b964430 100644
  
  	enable_irq(data->irq);
 -- 
-1.8.1.4
+1.8.2.1
 

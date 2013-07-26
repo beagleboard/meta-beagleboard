@@ -1,7 +1,7 @@
-From 01898c3b151443348ca1ae366a84c66bc0ba08c8 Mon Sep 17 00:00:00 2001
+From e6d9fe9a0862ef58a0c1e2e36bade52e85f187cd Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 15 Jan 2013 11:17:59 +0200
-Subject: [PATCH 051/177] regulator: DUMMY_REGULATOR should work for OF too
+Subject: [PATCH 051/184] regulator: DUMMY_REGULATOR should work for OF too
 
 Dummy regulator should work when using Device Tree.
 So don't set has_full_constraints when it is set.
@@ -32,5 +32,5 @@ index 8e7ec07..b160fcc 100644
  	mutex_lock(&regulator_list_mutex);
  
 -- 
-1.8.1.4
+1.8.2.1
 

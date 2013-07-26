@@ -1,4 +1,4 @@
-From 9ca5fc80516a2024f270fa065833b1ca5be8a13e Mon Sep 17 00:00:00 2001
+From f85df4dca607f2bad0532fcd5d6956ac18ed593b Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 23 Apr 2012 12:33:12 +0800
 Subject: [PATCH 13/57] CHROMIUM: Input: atmel_mxt_ts - add sysfs entry to read
@@ -82,5 +82,5 @@ index 00968a1..a03a0c4 100644
  	&dev_attr_hw_version.attr,
  	&dev_attr_object.attr,
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,4 +1,4 @@
-From c7d802e7661e70d4c55cfb5fcf28b273561ec791 Mon Sep 17 00:00:00 2001
+From 055178910d6f0c05dbdddefd99a21e8c7480c6a0 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:46:22 -0600
 Subject: [PATCH 12/39] ARM: OMAP2+: Add structure for storing GPMC settings
@@ -323,5 +323,5 @@ index c5a3c6f..faaf96d 100644
  	return gpmc_cs_set_timings(sync_cs, &t);
  }
 -- 
-1.8.1.4
+1.8.2.1
 

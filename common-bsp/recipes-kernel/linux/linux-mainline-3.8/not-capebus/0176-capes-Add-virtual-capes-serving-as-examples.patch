@@ -1,7 +1,7 @@
-From f396d89d929534eb6473eb1b9f2ab4defc9091a1 Mon Sep 17 00:00:00 2001
+From fa9d9e4c6942d2aaf321b236f77b8012bb9e373a Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 30 May 2013 15:44:07 +0300
-Subject: [PATCH 176/177] capes: Add virtual capes serving as examples
+Subject: [PATCH 176/184] capes: Add virtual capes serving as examples
 
 Example capes for UART/I2C/SPI.
 
@@ -676,5 +676,5 @@ index 0000000..e067068
 +	};
 +};
 -- 
-1.8.1.4
+1.8.2.1
 

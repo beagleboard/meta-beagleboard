@@ -1,7 +1,7 @@
-From c84025134c161373cece5b8bee5bdf1590c03823 Mon Sep 17 00:00:00 2001
+From 85cf77799acbeb84ba52e5e8d1b10757e902d3ae Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 20:01:09 +0200
-Subject: [PATCH 01/11] am33xx: Add clock for the lcdc DRM driver
+Subject: [PATCH 01/12] am33xx: Add clock for the lcdc DRM driver
 
 Update the clocks with the lcdc DRM's driver definition.
 
@@ -23,5 +23,5 @@ index 743dce4..7e29317 100644
  
  
 -- 
-1.8.1.4
+1.8.2.1
 

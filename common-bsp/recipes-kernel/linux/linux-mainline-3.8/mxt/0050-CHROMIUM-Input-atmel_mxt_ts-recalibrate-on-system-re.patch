@@ -1,4 +1,4 @@
-From 2c1a3182b3f604a468f5b41eadc6f1a98d7bc5a3 Mon Sep 17 00:00:00 2001
+From 3374805a333e49917ff3716fe2edb3a17c28488d Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Wed, 14 Nov 2012 16:13:59 -0500
 Subject: [PATCH 50/57] CHROMIUM: Input: atmel_mxt_ts - recalibrate on system
@@ -81,5 +81,5 @@ index 8ca5288..9196e94 100644
  }
  #endif
 -- 
-1.8.1.4
+1.8.2.1
 

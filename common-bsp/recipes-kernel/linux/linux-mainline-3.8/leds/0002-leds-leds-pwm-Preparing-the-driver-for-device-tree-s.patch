@@ -1,4 +1,4 @@
-From e503f4af211e37bcdf0606bf12eee654380d6cde Mon Sep 17 00:00:00 2001
+From d2bf90d1f565d9347428848a70c42713dd89cd65 Mon Sep 17 00:00:00 2001
 From: Peter Ujfalusi <peter.ujfalusi@ti.com>
 Date: Fri, 21 Dec 2012 01:43:56 -0800
 Subject: [PATCH 2/6] leds: leds-pwm: Preparing the driver for device tree

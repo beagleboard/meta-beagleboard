@@ -1,4 +1,4 @@
-From f8b21d5cf74a8bab2ba5424207cca914428164fe Mon Sep 17 00:00:00 2001
+From 3886890a7badc052212d7b6936bdc5a3e142dcd7 Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:02 +0200
 Subject: [PATCH 01/21] mfd: input: iio: ti_am335x_adc: use one structure for

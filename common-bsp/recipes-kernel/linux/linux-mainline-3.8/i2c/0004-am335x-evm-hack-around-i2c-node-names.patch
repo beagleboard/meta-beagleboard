@@ -1,7 +1,7 @@
-From a856fcaa86ea734cceb205006863547094ac3008 Mon Sep 17 00:00:00 2001
+From 5921e73de6d2aa285d7f0723920895f1e7322d3d Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 13 Dec 2012 14:13:31 +0100
-Subject: [PATCH 4/4] am335x-evm*: hack around i2c node names
+Subject: [PATCH 4/5] am335x-evm*: hack around i2c node names
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---
@@ -10,7 +10,7 @@ Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
  2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/arch/arm/boot/dts/am335x-evm.dts b/arch/arm/boot/dts/am335x-evm.dts
-index 132b59d..d4dd1af 100644
+index 7ef38f6..f4a07f8 100644
 --- a/arch/arm/boot/dts/am335x-evm.dts
 +++ b/arch/arm/boot/dts/am335x-evm.dts
 @@ -70,7 +70,7 @@
@@ -36,5 +36,5 @@ index f050c46..2546724 100644
  			clock-frequency = <400000>;
  
 -- 
-1.8.1.4
+1.8.2.1
 

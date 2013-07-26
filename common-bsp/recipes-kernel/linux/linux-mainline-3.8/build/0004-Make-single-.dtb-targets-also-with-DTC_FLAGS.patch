@@ -1,4 +1,4 @@
-From cc931dcc0dea3e493060d4e10611375b253ab316 Mon Sep 17 00:00:00 2001
+From f2a9753c90dc174eb96956788aea051a60114ef2 Mon Sep 17 00:00:00 2001
 From: Phil Eichinger <phil@zankapfel.net>
 Date: Wed, 5 Jun 2013 15:32:04 +0200
 Subject: [PATCH 4/4] Make single .dtb targets also with DTC_FLAGS
@@ -21,5 +21,5 @@ index e9729a4..d5935c0 100644
  dtbs: scripts
  	$(Q)$(MAKE) $(build)=$(boot)/dts MACHINE=$(MACHINE) DTC_FLAGS=$(DTC_FLAGS) dtbs
 -- 
-1.8.1.4
+1.8.2.1
 

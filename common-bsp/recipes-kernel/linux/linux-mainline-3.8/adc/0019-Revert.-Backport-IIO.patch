@@ -1,4 +1,4 @@
-From 2fbc63f2a9a228f0bfdaa4d0d3bea6b6321cf74b Mon Sep 17 00:00:00 2001
+From 4c0a53d58b94f479282dd7f9cb2c6cd19574feed Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubair.lutfullah@gmail.com>
 Date: Sat, 29 Jun 2013 00:07:44 +0100
 Subject: [PATCH 19/21] Revert. Backport IIO

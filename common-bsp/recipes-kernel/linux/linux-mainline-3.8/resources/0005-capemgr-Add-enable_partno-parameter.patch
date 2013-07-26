@@ -1,7 +1,7 @@
-From e20123ebf66f07887aaaeec81df54020122532c7 Mon Sep 17 00:00:00 2001
+From fdb913d9a84782b44f772fed2d42fdcce50b489e Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 4 Jun 2013 19:42:45 +0300
-Subject: [PATCH 5/8] capemgr: Add enable_partno parameter
+Subject: [PATCH 05/23] capemgr: Add enable_partno parameter
 
 Add analogous option to disable_partno; this one doesn't require the presence of
 a base dts override.
@@ -114,5 +114,5 @@ index 2820e39..b1a8b65 100644
  
  		/* if matches the disabled ones skip */
 -- 
-1.8.1.4
+1.8.2.1
 

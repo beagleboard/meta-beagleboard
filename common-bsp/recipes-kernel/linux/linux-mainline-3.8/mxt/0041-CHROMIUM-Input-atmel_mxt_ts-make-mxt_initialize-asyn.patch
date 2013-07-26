@@ -1,4 +1,4 @@
-From d42d02145a69f6f577892a647d04d1a9ee159fd7 Mon Sep 17 00:00:00 2001
+From 1f0afe23969ee634947e58d4061c8a55c9ddfda8 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Tue, 30 Oct 2012 16:06:51 -0400
 Subject: [PATCH 41/57] CHROMIUM: Input: atmel_mxt_ts - make mxt_initialize
@@ -224,5 +224,5 @@ index 8f1a33f..315dcb9 100644
  	kfree(data->fw_file);
  err_free_mem:
 -- 
-1.8.1.4
+1.8.2.1
 

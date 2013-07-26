@@ -1,4 +1,4 @@
-From 725254965a875e62f7e6405678a738f61cfa14ea Mon Sep 17 00:00:00 2001
+From 373cef24fff688fe9d3c94896ef8440938e31e13 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Wed, 25 Apr 2012 23:08:12 -0700
 Subject: [PATCH 08/57] CHROMIUM: Input: atmel_mxt_ts - wait for CHG assert in
@@ -170,5 +170,5 @@ index be96be3..d0f91ff 100644
  
  	if (mxt_in_bootloader(data)) {
 -- 
-1.8.1.4
+1.8.2.1
 

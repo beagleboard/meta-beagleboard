@@ -1,4 +1,4 @@
-From 432c757c690b2484eb593b0e7a650e2eaec0e906 Mon Sep 17 00:00:00 2001
+From b6c0aae93f55b6516a643e9882257f4c4fe7289e Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 15 Jan 2013 08:42:55 +0000
 Subject: [PATCH 02/13] drivers: usb: start using the control module driver
@@ -404,5 +404,5 @@ index 0ea17f8..3db9b53 100644
  
  #if defined(CONFIG_OMAP_USB2) || defined(CONFIG_OMAP_USB2_MODULE)
 -- 
-1.8.1.4
+1.8.2.1
 

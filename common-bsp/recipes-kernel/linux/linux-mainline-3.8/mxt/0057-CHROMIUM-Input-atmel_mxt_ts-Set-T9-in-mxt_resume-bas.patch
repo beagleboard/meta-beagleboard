@@ -1,4 +1,4 @@
-From e06f948687dcbd63362c8bdc017b126edee1239e Mon Sep 17 00:00:00 2001
+From 093d21e2a74be8fe21477111692482955361c2b8 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Mon, 28 Jan 2013 15:26:25 -0800
 Subject: [PATCH 57/57] CHROMIUM: Input: atmel_mxt_ts - Set T9 in mxt_resume
@@ -73,5 +73,5 @@ index 0865842..ca94635 100644
  	if (data->T9_ctrl_valid) {
  		ret = mxt_set_regs(data, MXT_TOUCH_MULTI_T9, 0, 0,
 -- 
-1.8.1.4
+1.8.2.1
 

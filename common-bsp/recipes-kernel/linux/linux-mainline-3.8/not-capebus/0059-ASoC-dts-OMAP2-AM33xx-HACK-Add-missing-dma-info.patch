@@ -1,7 +1,7 @@
-From 8c3ff04b95034296a6b42280d065b9edd03d351b Mon Sep 17 00:00:00 2001
+From 8ffc404a253ebc643db70097c4cb055e43a19da4 Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Fri, 10 Aug 2012 20:38:09 +0530
-Subject: [PATCH 059/177] ASoC/dts: OMAP2+: AM33xx: [HACK] Add missing dma info
+Subject: [PATCH 059/184] ASoC/dts: OMAP2+: AM33xx: [HACK] Add missing dma info
 
 This patch adds dma related  dt entries and functions that later will be
 replaced by actual DMA porting
@@ -91,5 +91,5 @@ index 83d96eb..621ce30 100644
  
  	res = platform_get_resource(pdev, IORESOURCE_DMA, 1);
 -- 
-1.8.1.4
+1.8.2.1
 

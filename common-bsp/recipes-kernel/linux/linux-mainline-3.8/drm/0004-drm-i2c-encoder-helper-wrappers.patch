@@ -1,7 +1,7 @@
-From 84aa3e1466e4bcf26a59a3ee0cac659ceb1b353e Mon Sep 17 00:00:00 2001
+From 77af3ee7a0aeb68dd9097d02d7a359db213cbad1 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 8 Jan 2013 17:50:48 -0600
-Subject: [PATCH 04/11] drm: i2c encoder helper wrappers
+Subject: [PATCH 04/12] drm: i2c encoder helper wrappers
 
 Simplify life for drivers using an encoder-slave, so that they can make
 their drm_encoder_helper_funcs const, rather than needing to dynamically
@@ -114,5 +114,5 @@ index b0c11a7..8b9cc36 100644
 +
  #endif
 -- 
-1.8.1.4
+1.8.2.1
 

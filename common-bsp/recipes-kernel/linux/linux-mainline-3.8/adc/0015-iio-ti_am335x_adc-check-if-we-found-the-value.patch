@@ -1,4 +1,4 @@
-From 19a14c9633a27614bbcb7ba87419438e1a37bea9 Mon Sep 17 00:00:00 2001
+From 40d6e940d145145488727b4f9155ca26b82a7a8f Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:22 +0200
 Subject: [PATCH 15/21] iio: ti_am335x_adc: check if we found the value

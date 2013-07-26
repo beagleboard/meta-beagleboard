@@ -1,4 +1,4 @@
-From a23e324c01f042b4f4830e10aa8f9394b99ee6f0 Mon Sep 17 00:00:00 2001
+From 808bc874bdde53973de3ed33a0707e2ebdfbdc16 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Thu, 28 Mar 2013 11:10:40 +0100
 Subject: [PATCH 5/6] add proper db.txt for CRDA
@@ -830,5 +830,5 @@ index a2fc3a0..c5861b8 100644
 +	(2402 - 2482 @ 40), (N/A, 20)
 +
 -- 
-1.8.1.4
+1.8.2.1
 

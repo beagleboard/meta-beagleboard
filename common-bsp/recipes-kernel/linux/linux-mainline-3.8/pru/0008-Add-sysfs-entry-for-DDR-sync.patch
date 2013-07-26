@@ -1,7 +1,7 @@
-From 8b1c37b60401a5b5be5135a80ba58efdde0a0f66 Mon Sep 17 00:00:00 2001
+From cb98f021e00e0ee2b6450f56ddbf618a8f095d39 Mon Sep 17 00:00:00 2001
 From: Chris Micali <chrismicali@gmail.com>
 Date: Mon, 20 May 2013 13:10:58 -0400
-Subject: [PATCH 08/16] Add sysfs entry for DDR sync
+Subject: [PATCH 08/19] Add sysfs entry for DDR sync
 
 ---
  drivers/uio/uio_pruss.c | 31 +++++++++++++++++++++++++++++++

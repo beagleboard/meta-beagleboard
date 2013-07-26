@@ -1,4 +1,4 @@
-From bc7dd6b9411efd2f8896e2fba64c5be7c41da284 Mon Sep 17 00:00:00 2001
+From 759e6bfdd7f1bebacc47474ad57c6cd9f7f4a760 Mon Sep 17 00:00:00 2001
 From: Javier Martinez Canillas <javier.martinez@collabora.co.uk>
 Date: Thu, 14 Mar 2013 16:09:21 +0100
 Subject: [PATCH 28/39] ARM: OMAP2+: rename gpmc_probe_nor_child() to
@@ -52,5 +52,5 @@ index e20c6d0..780cb12 100644
  			of_node_put(child);
  			return ret;
 -- 
-1.8.1.4
+1.8.2.1
 

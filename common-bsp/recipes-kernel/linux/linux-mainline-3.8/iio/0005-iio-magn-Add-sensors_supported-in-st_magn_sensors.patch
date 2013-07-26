@@ -1,4 +1,4 @@
-From 578f3541e080d78462fa0f5a03aa137fabe48d92 Mon Sep 17 00:00:00 2001
+From 887c6851f42facff32a06b7ea22e787285718699 Mon Sep 17 00:00:00 2001
 From: Denis Ciocca <denis.ciocca@st.com>
 Date: Tue, 29 Jan 2013 12:27:30 +0100
 Subject: [PATCH 05/11] iio:magn: Add sensors_supported in st_magn_sensors

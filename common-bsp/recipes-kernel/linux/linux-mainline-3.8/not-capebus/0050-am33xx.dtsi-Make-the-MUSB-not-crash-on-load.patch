@@ -1,7 +1,7 @@
-From ba8b5d99a9f532f55150fd51abef114f90c3f49e Mon Sep 17 00:00:00 2001
+From a39b483f6b35eb0cda0bb424632cf50efbf8ee09 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 10 Jan 2013 16:22:59 +0200
-Subject: [PATCH 050/177] am33xx.dtsi: Make the MUSB not crash on load
+Subject: [PATCH 050/184] am33xx.dtsi: Make the MUSB not crash on load
 
 Two entries for the same musb instance end up with a crash.
 Remove the duplicate, but it still doesn't work.
@@ -104,5 +104,5 @@ index c9eee93..9142e54 100644
  			ti,hwmods = "usb_otg_hs";
  		};
 -- 
-1.8.1.4
+1.8.2.1
 

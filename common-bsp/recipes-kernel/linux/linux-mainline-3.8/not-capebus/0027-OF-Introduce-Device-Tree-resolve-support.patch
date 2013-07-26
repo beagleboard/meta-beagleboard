@@ -1,7 +1,7 @@
-From 46f0ce20d8234053124ccc90c9038412727d447b Mon Sep 17 00:00:00 2001
+From abecaf5a3cff42727de497586b98d2ce1c954344 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 3 Jan 2013 12:18:25 +0200
-Subject: [PATCH 027/177] OF: Introduce Device Tree resolve support.
+Subject: [PATCH 027/184] OF: Introduce Device Tree resolve support.
 
 Introduce support for dynamic device tree resolution.
 Using it, it is possible to prepare a device tree that's
@@ -504,5 +504,5 @@ index c38e41a..ab52243 100644
 +
  #endif /* _LINUX_OF_H */
 -- 
-1.8.1.4
+1.8.2.1
 

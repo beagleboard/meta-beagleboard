@@ -1,4 +1,4 @@
-From 5568902cf35517a1dfb09b1aebbbc3b3e8100350 Mon Sep 17 00:00:00 2001
+From 84e8bb22fb6acde52e4958521c6f7f7acf8f22f9 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 6 Sep 2012 17:42:35 -0400
 Subject: [PATCH 16/35] dmaengine: edma: enable build for AM33XX
@@ -24,5 +24,5 @@ index d4c1218..20ef955 100644
  	select DMA_VIRTUAL_CHANNELS
  	default n
 -- 
-1.8.1.4
+1.8.2.1
 

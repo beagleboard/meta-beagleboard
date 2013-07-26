@@ -1,4 +1,4 @@
-From 3c6859885e85b8617a8469dae6ae0b9b9b6d68de Mon Sep 17 00:00:00 2001
+From 26b2a893bd76af1477a7989f43fac8a30d3eb853 Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:12 +0000
 Subject: [PATCH 06/13] drivers: usb: musb: omap: make use of the new PHY lib
@@ -73,5 +73,5 @@ index 2152ce4..46c79c6 100644
  	platform_set_drvdata(pdev, phy);
  
 -- 
-1.8.1.4
+1.8.2.1
 

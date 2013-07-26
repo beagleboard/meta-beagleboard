@@ -1,7 +1,7 @@
-From d0ec5eea5e5ab39f2dc20c69419780abbd971897 Mon Sep 17 00:00:00 2001
+From 8384ade1cfd03f9c81d98624a25ad86cf138d71b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Fri, 12 Jul 2013 19:05:58 +0300
-Subject: [PATCH 17/18] rproc: PRU: Add downcall RPC capability.
+Subject: [PATCH 17/19] rproc: PRU: Add downcall RPC capability.
 
 Let's face it, using queues to do stuff like configuration is a drag.
 Instead use the new downcall capability to communicate with the PRU

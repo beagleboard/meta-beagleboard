@@ -1,4 +1,4 @@
-From e07285a7310e9ea233b3d4e8d9b1b9dbfd6c7226 Mon Sep 17 00:00:00 2001
+From cd92181d2ec9b7dd4922eb24887f4880d4d10047 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 6 Sep 2012 17:47:21 -0400
 Subject: [PATCH 20/35] mmc: omap_hsmmc: convert to
@@ -45,5 +45,5 @@ index bc58078..e79b12d 100644
  		dev_err(mmc_dev(host->mmc), "unable to obtain TX DMA engine channel %u\n", tx_req);
  		ret = -ENXIO;
 -- 
-1.8.1.4
+1.8.2.1
 

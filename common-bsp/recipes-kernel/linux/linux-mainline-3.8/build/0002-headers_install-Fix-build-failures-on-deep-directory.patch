@@ -1,7 +1,7 @@
-From 253de5f7b158d1ee4ed8df3639d9fca66a9d20c0 Mon Sep 17 00:00:00 2001
+From 16918f336a4f9c6631158567d5943f326883bc45 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 8 Apr 2013 19:45:48 +0000
-Subject: [PATCH 2/2] headers_install: Fix build failures on deep directory
+Subject: [PATCH 2/4] headers_install: Fix build failures on deep directory
  hierarchy
 
 Make headers_install croaks when we're on a deep directory hierarchy
@@ -56,5 +56,5 @@ index e253917..c399133 100644
  PHONY += __headersinst __headerscheck
  
 -- 
-1.8.1.4
+1.8.2.1
 

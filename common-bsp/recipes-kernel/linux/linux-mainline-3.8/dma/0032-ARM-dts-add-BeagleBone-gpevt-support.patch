@@ -1,4 +1,4 @@
-From f19bc08a0239e407ec22e35e5aa2e4eb642dc0ff Mon Sep 17 00:00:00 2001
+From 1663e5e3b0037a75fe8a4fa25dee422cfc57a8f9 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 17 Oct 2012 17:12:45 -0400
 Subject: [PATCH 32/35] ARM: dts: add BeagleBone gpevt support
@@ -57,5 +57,5 @@ index 8ac3ae4..8f35a81 100644
 +	ti,edma-xbar-event-map = <32 12>;
 +};
 -- 
-1.8.1.4
+1.8.2.1
 

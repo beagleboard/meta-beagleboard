@@ -1,7 +1,7 @@
-From 0885abc4e613561aa11b20651e0f7021dc0b9878 Mon Sep 17 00:00:00 2001
+From a28e8f579dc8e03fbcf709c6e200a36e6f0d6a5b Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Thu, 17 Jan 2013 16:02:47 -0800
-Subject: [PATCH 01/16] uio: uio_pruss: port to AM33xx
+Subject: [PATCH 01/19] uio: uio_pruss: port to AM33xx
 
 Add ifdefery hacks to only use SRAM on Davinci. This
 needs to be cleaned up with a sane generic SRAM allocator

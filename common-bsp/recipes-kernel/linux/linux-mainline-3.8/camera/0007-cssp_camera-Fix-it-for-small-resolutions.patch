@@ -1,4 +1,4 @@
-From f2d8619a9cd8eb857c5e1533e7fe3c6aa7079b2e Mon Sep 17 00:00:00 2001
+From f6ab97c87d5ea31c87bb9e546de7c0736b473191 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 9 May 2013 23:01:53 +0300
 Subject: [PATCH 07/10] cssp_camera: Fix it for small resolutions
@@ -932,5 +932,5 @@ index 788acc4..62d8702 100644
  MODULE_DESCRIPTION("QuickLogic Camera Interface driver");
  
 -- 
-1.8.1.4
+1.8.2.1
 

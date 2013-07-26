@@ -1,4 +1,4 @@
-From 9c2c1d6d13bafa4a74568e49fd53348014f48e6c Mon Sep 17 00:00:00 2001
+From c43c27ca0a0955245d4be364ce7b9ee970fcc45d Mon Sep 17 00:00:00 2001
 From: "Philip, Avinash" <avinashphilip@ti.com>
 Date: Tue, 17 Jul 2012 21:35:11 +0530
 Subject: [PATCH 3/9] pwm: pwm_test: Driver support for PWM module testing
@@ -369,5 +369,5 @@ index 0000000..d9948db
 +MODULE_LICENSE("GPL");
 +MODULE_ALIAS("platform:pwm_test");
 -- 
-1.8.1.4
+1.8.2.1
 

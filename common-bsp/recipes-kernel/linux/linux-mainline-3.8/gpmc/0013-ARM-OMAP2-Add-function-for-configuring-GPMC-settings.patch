@@ -1,4 +1,4 @@
-From a86cd8a44bbc02145b0b7fcd29b00dfe5581ad40 Mon Sep 17 00:00:00 2001
+From 47e6376ec5c5292dec4cacb6778a1ee2ba75ccb5 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 15:25:23 -0600
 Subject: [PATCH 13/39] ARM: OMAP2+: Add function for configuring GPMC settings
@@ -176,5 +176,5 @@ index 39e4e04..ce6ae21 100644
  extern void gpmc_cs_free(int cs);
  extern void omap3_gpmc_save_context(void);
 -- 
-1.8.1.4
+1.8.2.1
 

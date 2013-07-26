@@ -1,4 +1,4 @@
-From 9f5aadb619a827d703af848ed4b7196b0944df7a Mon Sep 17 00:00:00 2001
+From d784504bd93dbfb08a2a2c923b12b5960929d79b Mon Sep 17 00:00:00 2001
 From: Alan Ott <alan@signal11.us>
 Date: Mon, 18 Mar 2013 00:39:48 -0400
 Subject: [PATCH 06/23] mrf24j40: pinctrl support
@@ -43,5 +43,5 @@ index 3f2c7aa..3106895 100644
  	if (spi->max_speed_hz > MAX_SPI_SPEED_HZ)
  		spi->max_speed_hz = MAX_SPI_SPEED_HZ;
 -- 
-1.8.1.4
+1.8.2.1
 

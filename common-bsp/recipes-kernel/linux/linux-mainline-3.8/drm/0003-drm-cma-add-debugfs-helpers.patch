@@ -1,7 +1,7 @@
-From ea10c8a589158f5040a080be25c253613f1c7843 Mon Sep 17 00:00:00 2001
+From 274cc121dc8d666c24ef1a15a69bd2b153b44c60 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Mon, 10 Dec 2012 10:46:43 -0600
-Subject: [PATCH 03/11] drm/cma: add debugfs helpers
+Subject: [PATCH 03/12] drm/cma: add debugfs helpers
 
 Add helper to display fb's which can be used directly in drm_info_list:
 
@@ -144,5 +144,5 @@ index f0f6b1a..63397ce 100644
 +
  #endif /* __DRM_GEM_CMA_HELPER_H__ */
 -- 
-1.8.1.4
+1.8.2.1
 

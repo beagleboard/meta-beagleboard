@@ -1,4 +1,4 @@
-From 407df1d4131f22f6524dd988ead2fbe6ae2ffb5b Mon Sep 17 00:00:00 2001
+From 4be5ca8f1e8ec44ef654288bfb2b6bc4ec1b3aac Mon Sep 17 00:00:00 2001
 From: Ge Gao <ggao@invensense.com>
 Date: Sat, 2 Feb 2013 00:26:00 +0000
 Subject: [PATCH 06/11] Invensense MPU6050 Device Driver.

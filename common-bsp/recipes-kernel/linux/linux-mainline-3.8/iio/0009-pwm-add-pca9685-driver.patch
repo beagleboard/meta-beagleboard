@@ -1,4 +1,4 @@
-From b5fff65a9b433f7e84628c87100de7db41244be0 Mon Sep 17 00:00:00 2001
+From c9fdbcb666194a7562347345eece9655533c4296 Mon Sep 17 00:00:00 2001
 From: Steffen Trumtrar <s.trumtrar@pengutronix.de>
 Date: Thu, 30 May 2013 09:50:12 +0200
 Subject: [PATCH 09/11] pwm: add pca9685 driver
@@ -88,7 +88,7 @@ index 8ddb432..92ec413 100644
  obj-$(CONFIG_PWM_SAMSUNG)	+= pwm-samsung.o
 diff --git a/drivers/pwm/pwm-pca9685.c b/drivers/pwm/pwm-pca9685.c
 new file mode 100644
-index 0000000..2afc904
+index 0000000..9d6903b
 --- /dev/null
 +++ b/drivers/pwm/pwm-pca9685.c
 @@ -0,0 +1,298 @@

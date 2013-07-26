@@ -1,4 +1,4 @@
-From 303bbcb3f282bbde4cd3aa87213dfb7a70d9b5bd Mon Sep 17 00:00:00 2001
+From 11447ea8b177f836614a914187dea9b21cb625e7 Mon Sep 17 00:00:00 2001
 From: Russell Hay <russell.hay@gmail.com>
 Date: Tue, 11 Dec 2012 06:53:58 -0600
 Subject: [PATCH 08/10] Beagle: expansion: add spidev
@@ -29,5 +29,5 @@ index 3b939eb..598e4d6 100644
  	{
  	#if defined(CONFIG_TOUCHSCREEN_TSC2007) || defined(CONFIG_TOUCHSCREEN_TSC2007_MODULE)
 -- 
-1.8.1.4
+1.8.2.1
 

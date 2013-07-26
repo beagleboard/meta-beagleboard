@@ -1,7 +1,7 @@
-From 98a6059154007ba9d3094d6531ee2cc8bbf7b2f7 Mon Sep 17 00:00:00 2001
+From cd7de5fedb7408c3ad2819a9f7c075c5a90f1e0f Mon Sep 17 00:00:00 2001
 From: maximilian attems <max@xxxxxxx>
 Date: Thu, 6 Sep 2012 15:22:02 +0200
-Subject: [PATCH 1/2] deb-pkg: Simplify architecture matching for cross
+Subject: [PATCH 1/4] deb-pkg: Simplify architecture matching for cross
  building
 
 No point in invoking dpkg to get the archticture of the host
@@ -136,5 +136,5 @@ index acb8650..a5f197b 100644
   This is useful for people who need to build external modules
  EOF
 -- 
-1.8.1.4
+1.8.2.1
 

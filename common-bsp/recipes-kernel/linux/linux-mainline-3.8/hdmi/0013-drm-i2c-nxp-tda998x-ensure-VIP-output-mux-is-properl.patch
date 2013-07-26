@@ -1,7 +1,7 @@
-From 69eeb36bc1bf1fd73f8e403745c00c62f5e934fb Mon Sep 17 00:00:00 2001
+From 17fe527278bc8aeb3eb842237546c59eeb66c674 Mon Sep 17 00:00:00 2001
 From: Russell King <rmk+kernel@arm.linux.org.uk>
 Date: Thu, 16 May 2013 19:26:18 +0000
-Subject: [PATCH 13/21] drm/i2c: nxp-tda998x: ensure VIP output mux is properly
+Subject: [PATCH 13/22] drm/i2c: nxp-tda998x: ensure VIP output mux is properly
  set
 
 When switching between various drivers for this device, it's possible
@@ -40,5 +40,5 @@ index 9ac4ed9..37094fd 100644
  		reg_write(encoder, REG_ENA_AP, 0x03);
  		reg_write(encoder, REG_ENA_VP_0, 0xff);
 -- 
-1.8.1.4
+1.8.2.1
 

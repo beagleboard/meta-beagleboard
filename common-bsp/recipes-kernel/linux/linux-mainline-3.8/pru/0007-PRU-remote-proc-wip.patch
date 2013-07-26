@@ -1,7 +1,7 @@
-From 1d55f4292511f29525c0fd694917d0d2b266f43d Mon Sep 17 00:00:00 2001
+From 44c01dacbf1d3165fd5c70f6279d337df7ef5bc2 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 16 May 2013 10:37:39 +0300
-Subject: [PATCH 07/16] PRU remote proc wip
+Subject: [PATCH 07/19] PRU remote proc wip
 
 ---
  drivers/remoteproc/Kconfig             |  11 ++

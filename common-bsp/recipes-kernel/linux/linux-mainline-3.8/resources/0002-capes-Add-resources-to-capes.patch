@@ -1,7 +1,7 @@
-From fb3e1d5d07957eed999f2b9ee2c35192f03a7653 Mon Sep 17 00:00:00 2001
+From 78b126d4227d1ba360a2dce3179af819b8c3a98c Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 16 May 2013 18:13:19 +0300
-Subject: [PATCH 2/8] capes: Add resources to capes.
+Subject: [PATCH 02/23] capes: Add resources to capes.
 
 Start adding the resource list of each cape.
 ---
@@ -490,7 +490,7 @@ index a3cd39d..d5c49bb 100644
  	/* identification */
  	part-number = "BB-BONE-DVID-01";
 diff --git a/firmware/capes/cape-bone-lcd3-00A0.dts b/firmware/capes/cape-bone-lcd3-00A0.dts
-index cf692b2..616ae46 100644
+index 1ac8462..a2f8b35 100644
 --- a/firmware/capes/cape-bone-lcd3-00A0.dts
 +++ b/firmware/capes/cape-bone-lcd3-00A0.dts
 @@ -15,6 +15,47 @@
@@ -542,7 +542,7 @@ index cf692b2..616ae46 100644
  		target = <&am33xx_pinmux>;
  		__overlay__ {
 diff --git a/firmware/capes/cape-bone-lcd3-00A2.dts b/firmware/capes/cape-bone-lcd3-00A2.dts
-index fc1adb7..6728466 100644
+index 9c7bb17..c2cdedc 100644
 --- a/firmware/capes/cape-bone-lcd3-00A2.dts
 +++ b/firmware/capes/cape-bone-lcd3-00A2.dts
 @@ -15,6 +15,45 @@
@@ -592,7 +592,7 @@ index fc1adb7..6728466 100644
  		target = <&am33xx_pinmux>;
  		__overlay__ {
 diff --git a/firmware/capes/cape-bone-tester-00A0.dts b/firmware/capes/cape-bone-tester-00A0.dts
-index 46f39bc..1aee7af9 100644
+index 4d7dc68..b5b1be8 100644
 --- a/firmware/capes/cape-bone-tester-00A0.dts
 +++ b/firmware/capes/cape-bone-tester-00A0.dts
 @@ -9,7 +9,7 @@
@@ -705,5 +705,5 @@ index e5f714a..5fdbd9e 100644
  		target = <&am33xx_pinmux>;
  		__overlay__ {
 -- 
-1.8.1.4
+1.8.2.1
 

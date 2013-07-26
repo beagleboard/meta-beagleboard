@@ -1,7 +1,7 @@
-From f35c4f272f79c3e37f9d7ce86a8c3706147bc858 Mon Sep 17 00:00:00 2001
+From abb21a5b326b3d10f8c9bd8d428872dd63345172 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 3 Apr 2013 15:59:07 +0200
-Subject: [PATCH 155/177] beaglebone: remove audio section from DVID rev 2 and
+Subject: [PATCH 155/184] beaglebone: remove audio section from DVID rev 2 and
  3 capes
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
@@ -91,5 +91,5 @@ index 34ced98..a3cd39d 100644
 -	};
  };
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,4 +1,4 @@
-From 9460f57d8e22d19ede8f778f10ab35dd6a4ee617 Mon Sep 17 00:00:00 2001
+From d0b8dcdb51dfba88bd8ba818e82164b4d6514788 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Wed, 3 Apr 2013 13:25:38 -0500
 Subject: [PATCH 11/13] ARM: OMAP: am335x: musb use 250 for power
@@ -42,5 +42,5 @@ index 4a5ae29..c6ac8bf 100644
  	status = "okay";
  };
 -- 
-1.8.1.4
+1.8.2.1
 

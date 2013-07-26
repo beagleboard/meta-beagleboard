@@ -1,4 +1,4 @@
-From d6af12a93ccd202441e2552c7778de51a60cdc07 Mon Sep 17 00:00:00 2001
+From 734acbe656ceae5b44692c97b9b080b57320b9dd Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Mon, 22 Apr 2013 17:11:17 +0300
 Subject: [PATCH 02/11] capemgr: Implement cape priorities
@@ -276,5 +276,5 @@ index 5d87088..820852d 100644
  
  	bone_capemgr_info_sysfs_unregister(info);
 -- 
-1.8.1.4
+1.8.2.1
 

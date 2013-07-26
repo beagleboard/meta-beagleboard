@@ -1,7 +1,7 @@
-From 3da938f1fe77fe7387b9349949a01671647bbd10 Mon Sep 17 00:00:00 2001
+From 6b220604bf6cc77eb332c26b15258e744c91d6e6 Mon Sep 17 00:00:00 2001
 From: Jack Mitchell <jack.mitchell@dbbroadcast.co.uk>
 Date: Fri, 8 Mar 2013 11:21:52 +0000
-Subject: [PATCH 3/3] libtraceevent: Remove hard coded include to
+Subject: [PATCH 3/4] libtraceevent: Remove hard coded include to
  /usr/local/include in Makefile
 
 having /usr/local/include hardcoded into the makefile is not necessary
@@ -33,5 +33,5 @@ index a20e320..0b0a907 100644
  # Set compile option CFLAGS if not set elsewhere
  CFLAGS ?= -g -Wall
 -- 
-1.8.1.4
+1.8.2.1
 

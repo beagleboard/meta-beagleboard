@@ -1,4 +1,4 @@
-From 21c069591b3facc38dd3e4a9d2ac5e8dda78a689 Mon Sep 17 00:00:00 2001
+From add5f675a37576a5cff7d754618287738ea2c3af Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Thu, 10 Jan 2013 19:13:30 -0500
 Subject: [PATCH 29/35] ARM: dts: enable spi1 node and pinmux on BeagleBone
@@ -49,5 +49,5 @@ index a154ce0..ccff86a 100644
 +	status = "okay";
 +};
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,4 +1,4 @@
-From 43c8488a916020cbcd39262e3b6e869a24b75c7e Mon Sep 17 00:00:00 2001
+From caf258a09dfbe7f302dabf087adb115415eb56e7 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime.ripard@free-electrons.com>
 Date: Fri, 13 Jul 2012 15:16:12 +0200
 Subject: [PATCH 4/5] ssd1307fb: Make use of horizontal addressing mode
@@ -105,5 +105,5 @@ index 676241b..6594458 100644
  	ret = ssd1307fb_write_cmd(par->client, SSD1307FB_DISPLAY_ON);
  	if (ret < 0)
 -- 
-1.8.1.4
+1.8.2.1
 

@@ -1,7 +1,7 @@
-From bdc19999537f3819cbe5eeb39a18e9f286abcbdc Mon Sep 17 00:00:00 2001
+From e4ba36bd539f1d24dea6373b66630f1d9baf0efd Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Tue, 19 Mar 2013 17:04:06 +0000
-Subject: [PATCH 129/177] beaglebone: Add Adafruit RTC prototype cape
+Subject: [PATCH 129/184] beaglebone: Add Adafruit RTC prototype cape
 
 Add support for a DS1307 RTC prototype cape with level logic
 shifted output. Some applications need an early RTC value and this
@@ -122,5 +122,5 @@ index 0000000..9436fd4
 +	};
 +};
 -- 
-1.8.1.4
+1.8.2.1
 

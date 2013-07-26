@@ -1,4 +1,4 @@
-From 97ceac4225a21e1e40c7d518191097b74fe84db1 Mon Sep 17 00:00:00 2001
+From 01810c998042b42333154bb3510879f7c4b20166 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Jan=20L=C3=BCbbe?= <jlu@pengutronix.de>
 Date: Mon, 17 Jun 2013 20:30:30 +0000
 Subject: [PATCH 3/3] pps-gpio: add device-tree binding and support

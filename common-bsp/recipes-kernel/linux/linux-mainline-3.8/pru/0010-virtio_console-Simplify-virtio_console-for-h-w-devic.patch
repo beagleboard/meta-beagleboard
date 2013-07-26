@@ -1,7 +1,7 @@
-From 5405c0a8e2c8373e023a47a2601c19bddd05015b Mon Sep 17 00:00:00 2001
+From a3ce8a3e90d0cfe570ae6142d68eaadf13bd8789 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 2 Jul 2013 22:15:02 +0300
-Subject: [PATCH 10/16] virtio_console: Simplify virtio_console for h/w
+Subject: [PATCH 10/19] virtio_console: Simplify virtio_console for h/w
  devices.
 
 Now that virtio_ring properly maps the buffers there is no need

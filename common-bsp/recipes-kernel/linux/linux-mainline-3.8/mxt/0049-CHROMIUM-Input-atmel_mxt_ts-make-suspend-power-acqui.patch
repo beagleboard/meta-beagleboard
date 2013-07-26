@@ -1,4 +1,4 @@
-From d31822cd0150481192aee6a37dfeffb4c368dd4b Mon Sep 17 00:00:00 2001
+From 382aefac9ac98cea99834f1f6863b99610900d24 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Mon, 12 Nov 2012 14:21:10 -0500
 Subject: [PATCH 49/57] CHROMIUM: Input: atmel_mxt_ts - make suspend power
@@ -167,5 +167,5 @@ index b964430..8ca5288 100644
  	const u8 *power_config;
  	int ret;
 -- 
-1.8.1.4
+1.8.2.1
 

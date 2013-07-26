@@ -1,4 +1,4 @@
-From 37e0ebbefd7728b57f80e4d3902e9cd2e1a57884 Mon Sep 17 00:00:00 2001
+From 92aed8a1bcedba88774e81f270e6ce601eb4819f Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Jul 2013 20:53:00 +0300
 Subject: [PATCH 21/21] iio: ti_am335x_adc: Add the in-kernel IIO map interface

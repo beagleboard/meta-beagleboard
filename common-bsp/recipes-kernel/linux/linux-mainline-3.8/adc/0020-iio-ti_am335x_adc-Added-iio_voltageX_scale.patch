@@ -1,4 +1,4 @@
-From 7e800a3b87861c9637586886177981aac32615a7 Mon Sep 17 00:00:00 2001
+From 4341d9a3c9d2cc9b8372d6b506b84c4a8d5822f1 Mon Sep 17 00:00:00 2001
 From: ZubairLK <zubair.lutfullah@gmail.com>
 Date: Sat, 29 Jun 2013 19:05:54 +0100
 Subject: [PATCH 20/21] iio: ti_am335x_adc: Added iio_voltageX_scale

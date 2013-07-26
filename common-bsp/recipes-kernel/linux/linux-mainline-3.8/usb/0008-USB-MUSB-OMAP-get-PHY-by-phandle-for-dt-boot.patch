@@ -1,4 +1,4 @@
-From faf91d25263f29c6a480227ea1d7c478e935d981 Mon Sep 17 00:00:00 2001
+From 7eb87e4a804fbe3ca01ac5a5401615a4c92dce74 Mon Sep 17 00:00:00 2001
 From: Kishon Vijay Abraham I <kishon@ti.com>
 Date: Tue, 22 Jan 2013 09:58:14 +0000
 Subject: [PATCH 08/13] USB: MUSB: OMAP: get PHY by phandle for dt boot
@@ -29,5 +29,5 @@ index 97ae52e..05ab371 100644
  		pr_err("HS USB OTG: no transceiver configured\n");
  		return -EPROBE_DEFER;
 -- 
-1.8.1.4
+1.8.2.1
 

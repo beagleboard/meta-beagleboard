@@ -1,4 +1,4 @@
-From 4e3b1e0b9cc8c34e0443de51a1564bf4ebb1cdc4 Mon Sep 17 00:00:00 2001
+From 9b9716b583e0288ecb518be007c23cb2a0147760 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 19 Sep 2012 10:49:48 -0400
 Subject: [PATCH 07/35] of: dma: fix typos in generic dma binding definition
@@ -68,5 +68,5 @@ index a4f59a5..8f504e6 100644
  3. A device with three channels, one of which has two alternatives:
  
 -- 
-1.8.1.4
+1.8.2.1
 

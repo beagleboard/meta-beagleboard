@@ -1,7 +1,7 @@
-From f211c7fcc875ed5aa252568918db1f063476d763 Mon Sep 17 00:00:00 2001
+From cc77317bacf4e1401400218e894ad0371aee9346 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 18 Dec 2012 17:34:16 -0600
-Subject: [PATCH 10/11] drm/tilcdc: add support for LCD panels (v5)
+Subject: [PATCH 10/12] drm/tilcdc: add support for LCD panels (v5)
 
 Add an output panel driver for LCD panels.  Tested with LCD3 cape on
 beaglebone.
@@ -557,5 +557,5 @@ index 0000000..7db40aa
 +
 +#endif /* __TILCDC_PANEL_H__ */
 -- 
-1.8.1.4
+1.8.2.1
 

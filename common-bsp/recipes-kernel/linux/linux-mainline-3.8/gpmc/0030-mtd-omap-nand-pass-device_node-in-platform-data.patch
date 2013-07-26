@@ -1,4 +1,4 @@
-From 281825224b3196b13618dc03366224ae8122dfac Mon Sep 17 00:00:00 2001
+From 8d19fb6a1756adc7a14c90acb16577b2af4e4e9e Mon Sep 17 00:00:00 2001
 From: Daniel Mack <zonque@gmail.com>
 Date: Fri, 14 Dec 2012 11:36:41 +0100
 Subject: [PATCH 30/39] mtd: omap-nand: pass device_node in platform data
@@ -56,5 +56,5 @@ index 24d32ca..6bf9ef4 100644
 +};
  #endif
 -- 
-1.8.1.4
+1.8.2.1
 

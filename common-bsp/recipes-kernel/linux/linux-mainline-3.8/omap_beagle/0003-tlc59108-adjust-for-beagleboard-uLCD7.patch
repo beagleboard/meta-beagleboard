@@ -1,4 +1,4 @@
-From 22d9b4ecf3bf2c6819844a59751d6764cfe9e4ca Mon Sep 17 00:00:00 2001
+From cf37c503ecc3f290a69add8faf0f17fee7d9d9ad Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Fri, 27 Apr 2012 21:30:00 +0200
 Subject: [PATCH 3/5] tlc59108: adjust for beagleboard+uLCD7
@@ -120,5 +120,5 @@ index 4f4ea34..40a21e7 100644
 -MODULE_LICENSE("GPL v2");
 +MODULE_LICENSE("GPL");
 -- 
-1.8.1.4
+1.8.2.1
 

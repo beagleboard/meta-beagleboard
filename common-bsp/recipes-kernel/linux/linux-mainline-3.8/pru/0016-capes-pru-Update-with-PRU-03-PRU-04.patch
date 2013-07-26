@@ -1,7 +1,7 @@
-From 11a3007c2de79f2944a06fe7965c00fb4200b845 Mon Sep 17 00:00:00 2001
+From 46458fb3fdc4fca63af3e888b0ba2bf248a348e0 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 11 Jul 2013 19:41:07 +0300
-Subject: [PATCH 16/16] capes: pru: Update with PRU-03 & PRU-04
+Subject: [PATCH 16/19] capes: pru: Update with PRU-03 & PRU-04
 
 Complex PRU capes.
 

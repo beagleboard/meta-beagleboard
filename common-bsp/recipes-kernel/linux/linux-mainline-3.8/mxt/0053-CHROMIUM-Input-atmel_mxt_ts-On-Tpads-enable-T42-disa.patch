@@ -1,4 +1,4 @@
-From d5e8944a7c90a5f245d22d5099829002737ce3b3 Mon Sep 17 00:00:00 2001
+From 43d64a02c0abc319c8a0d746fe26f42a0fb88489 Mon Sep 17 00:00:00 2001
 From: Benson Leung <bleung@chromium.org>
 Date: Fri, 18 Jan 2013 17:35:19 -0800
 Subject: [PATCH 53/57] CHROMIUM: Input: atmel_mxt_ts : On Tpads, enable T42,
@@ -118,5 +118,5 @@ index fdf61b8..8077000 100644
  		/* Recalibration in case of environment change */
  		ret = mxt_write_object(data, MXT_GEN_COMMAND_T6,
 -- 
-1.8.1.4
+1.8.2.1
 

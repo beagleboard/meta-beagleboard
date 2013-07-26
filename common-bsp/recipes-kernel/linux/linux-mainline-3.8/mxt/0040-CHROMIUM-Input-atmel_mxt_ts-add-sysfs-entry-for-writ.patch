@@ -1,4 +1,4 @@
-From 1f5417f2fff0125e662dc5ee0e1d68f8fc5262cd Mon Sep 17 00:00:00 2001
+From 2849a6a88b208419ab61c951b708a383efbe5788 Mon Sep 17 00:00:00 2001
 From: Yufeng Shen <miletus@chromium.org>
 Date: Fri, 18 May 2012 16:04:06 -0400
 Subject: [PATCH 40/57] CHROMIUM: Input: atmel_mxt_ts - add sysfs entry for
@@ -408,5 +408,5 @@ index dbabc89..8f1a33f 100644
  	NULL
  };
 -- 
-1.8.1.4
+1.8.2.1
 

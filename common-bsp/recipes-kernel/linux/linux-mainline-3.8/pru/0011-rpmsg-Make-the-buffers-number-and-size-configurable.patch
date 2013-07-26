@@ -1,7 +1,7 @@
-From 997181fb4376fa6cf6564cb96bc6b4fe2bcd52ad Mon Sep 17 00:00:00 2001
+From 5d384c191c2bbb838171b8be59ad6a3352ed0cb4 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 23 May 2013 20:22:52 +0300
-Subject: [PATCH 11/16] rpmsg: Make the buffers number and size configurable
+Subject: [PATCH 11/19] rpmsg: Make the buffers number and size configurable
 
 The defaults are just too much for small devices. Make them
 configurable (by a kernel config option for now).

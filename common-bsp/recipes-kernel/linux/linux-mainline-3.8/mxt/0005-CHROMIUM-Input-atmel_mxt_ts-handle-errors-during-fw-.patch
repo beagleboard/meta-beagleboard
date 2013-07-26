@@ -1,4 +1,4 @@
-From c3a17e97314631a211f2943d02b1b41119c2fb01 Mon Sep 17 00:00:00 2001
+From ccbc1786de0106bc641d895f2479e453e6f5993a Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Thu, 20 Dec 2012 23:16:35 +0800
 Subject: [PATCH 05/57] CHROMIUM: Input: atmel_mxt_ts - handle errors during fw
@@ -74,5 +74,5 @@ index 6c2c712..76a25d3 100644
  	return ret;
  }
 -- 
-1.8.1.4
+1.8.2.1
 

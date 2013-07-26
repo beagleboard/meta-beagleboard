@@ -1,4 +1,4 @@
-From 61768895fe21cd6f3fb436b0fbdff24a8ddef2b1 Mon Sep 17 00:00:00 2001
+From 1b1c89a2de898facbfd78a7b5c7a0bf5d1ed4ab4 Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Wed, 6 Mar 2013 14:12:59 -0600
 Subject: [PATCH 25/39] ARM: OMAP2+: Remove unnecesssary GPMC definitions and
@@ -52,5 +52,5 @@ index 9fed934..3f87752 100644
  
  	/* Reserve all regions that has been set up by bootloader */
 -- 
-1.8.1.4
+1.8.2.1
 

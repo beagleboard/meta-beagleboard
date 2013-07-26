@@ -1,4 +1,4 @@
-From ad01eb62927c5162db7ddaf5d98a557f5c6b0bce Mon Sep 17 00:00:00 2001
+From 97e938fc7a1bc3e8446b87ad7765491bde387ddb Mon Sep 17 00:00:00 2001
 From: Jon Hunter <jon-hunter@ti.com>
 Date: Thu, 21 Feb 2013 13:01:37 -0600
 Subject: [PATCH 16/39] ARM: OMAP2+: Convert SMC91x to use
@@ -81,5 +81,5 @@ index 4b78338..61a0635 100644
  		ret = gpmc_cfg->retime();
  		if (ret != 0)
 -- 
-1.8.1.4
+1.8.2.1
 

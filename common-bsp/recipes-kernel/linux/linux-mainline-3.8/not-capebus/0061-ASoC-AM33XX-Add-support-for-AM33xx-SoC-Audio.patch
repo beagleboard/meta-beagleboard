@@ -1,7 +1,7 @@
-From dcbf77c1fba8773aed70b41d259a3637d8e29b3d Mon Sep 17 00:00:00 2001
+From 14671204c4160c5af89db5cec9a473950fc7cd3e Mon Sep 17 00:00:00 2001
 From: "Hebbar, Gururaja" <gururaja.hebbar@ti.com>
 Date: Wed, 1 Aug 2012 12:04:22 +0530
-Subject: [PATCH 061/177] ASoC: AM33XX: Add support for AM33xx SoC Audio
+Subject: [PATCH 061/184] ASoC: AM33XX: Add support for AM33xx SoC Audio
 
 AM33xx uses same McASP IP as the Davinci Platform. This patch updates
 Kconfig and makefile to enable build or McASP, PCM & Codec drivers
@@ -55,5 +55,5 @@ index a93679d..3e07a53 100644
  obj-$(CONFIG_SND_DA830_SOC_EVM) += snd-soc-evm.o
  obj-$(CONFIG_SND_DA850_SOC_EVM) += snd-soc-evm.o
 -- 
-1.8.1.4
+1.8.2.1
 

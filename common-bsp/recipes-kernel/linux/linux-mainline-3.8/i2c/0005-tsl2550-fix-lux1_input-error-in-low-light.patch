@@ -1,4 +1,4 @@
-From 879d157d32e3344e57d05a09ae8fac24696de1de Mon Sep 17 00:00:00 2001
+From 1faf737f058aff6d25b5d525e28f99c4eec3b65e Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Mon, 3 Jun 2013 22:38:49 +0000
 Subject: [PATCH 5/5] tsl2550: fix lux1_input error in low light
@@ -31,5 +31,5 @@ index 1e7bc0e..9255074 100644
  	/* LUX range check */
  	return lux > TSL2550_MAX_LUX ? TSL2550_MAX_LUX : lux;
 -- 
-1.8.1.4
+1.8.2.1
 

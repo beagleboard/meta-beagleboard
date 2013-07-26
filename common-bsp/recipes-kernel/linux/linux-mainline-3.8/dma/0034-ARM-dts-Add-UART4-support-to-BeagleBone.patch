@@ -1,4 +1,4 @@
-From a698ed89b1b722be636a81af66c808adcae1d518 Mon Sep 17 00:00:00 2001
+From 52441e2748ac524ffccbd2c028bd20ba6db94673 Mon Sep 17 00:00:00 2001
 From: Matt Porter <mporter@ti.com>
 Date: Wed, 9 Jan 2013 16:57:15 -0500
 Subject: [PATCH 34/35] ARM: dts: Add UART4 support to BeagleBone
@@ -24,5 +24,5 @@ index 8f35a81..b338f5b 100644
  			status = "okay";
  			clock-frequency = <400000>;
 -- 
-1.8.1.4
+1.8.2.1
 

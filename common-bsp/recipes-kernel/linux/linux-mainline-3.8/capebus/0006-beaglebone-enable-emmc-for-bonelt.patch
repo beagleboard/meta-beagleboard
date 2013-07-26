@@ -1,4 +1,4 @@
-From 6c70d6539be444666ce91c3fd27ff90b5770d6e7 Mon Sep 17 00:00:00 2001
+From 5468b6a676638b04283263c95a259923b42e9ade Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 24 Oct 2012 11:47:13 +0200
 Subject: [PATCH 6/7] beaglebone: enable emmc for bonelt
@@ -48,5 +48,5 @@ index cdc3dd0..6cb2a51 100644
  	vmmc-supply = <&ldo3_reg>;
  	bus-width = <4>;
 -- 
-1.8.1.4
+1.8.2.1
 

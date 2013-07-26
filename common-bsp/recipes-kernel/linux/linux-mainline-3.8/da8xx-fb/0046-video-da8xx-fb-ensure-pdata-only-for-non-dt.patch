@@ -1,4 +1,4 @@
-From 5b345f9659d63c4b21ce3d0761fdcb94aa58cea3 Mon Sep 17 00:00:00 2001
+From f565cc0f54c1ce8e4e2b8a66ec34d6ed53066829 Mon Sep 17 00:00:00 2001
 From: Afzal Mohammed <afzal@ti.com>
 Date: Mon, 31 Dec 2012 14:37:16 +0530
 Subject: [PATCH 46/48] video: da8xx-fb: ensure pdata only for non-dt
@@ -25,5 +25,5 @@ index 0c68712..1c1a616 100644
  		return -ENOENT;
  	}
 -- 
-1.8.1.4
+1.8.2.1
 

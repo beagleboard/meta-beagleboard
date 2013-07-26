@@ -1,7 +1,7 @@
-From a083868e833abf5ae69d413028d80f3530198e3e Mon Sep 17 00:00:00 2001
+From 506b2d4c4a0832cee362dd9df7593aa465e801c3 Mon Sep 17 00:00:00 2001
 From: Koen Kooi <koen@dominion.thruhere.net>
 Date: Wed, 17 Jul 2013 09:05:27 +0200
-Subject: [PATCH 6/6] firmware: add BeBoPr cape
+Subject: [PATCH 6/8] firmware: add BeBoPr cape
 
 Signed-off-by: Koen Kooi <koen@dominion.thruhere.net>
 ---

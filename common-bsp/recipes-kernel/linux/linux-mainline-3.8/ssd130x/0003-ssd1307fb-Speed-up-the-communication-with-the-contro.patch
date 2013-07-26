@@ -1,4 +1,4 @@
-From a595bcd67814d1a7f34ecad25923325e93691b79 Mon Sep 17 00:00:00 2001
+From 5fa937351bb49d0acca0f534f7365325b03f9cf5 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime.ripard@free-electrons.com>
 Date: Tue, 26 Feb 2013 11:46:40 +0100
 Subject: [PATCH 3/5] ssd1307fb: Speed up the communication with the controller
@@ -53,5 +53,5 @@ index 85e0860..676241b 100644
  }
  
 -- 
-1.8.1.4
+1.8.2.1
 

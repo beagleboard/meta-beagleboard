@@ -1,7 +1,7 @@
-From 3aa70222ad405bad4d55207884b630893165b9ec Mon Sep 17 00:00:00 2001
+From 9c45af096e3a3291b2695bf6ffe4a200ed411ed9 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Sat, 9 Mar 2013 18:19:11 +0200
-Subject: [PATCH 119/177] cape-adafruit: Use the correct spi bus (spi1 no spi0)
+Subject: [PATCH 119/184] cape-adafruit: Use the correct spi bus (spi1 no spi0)
 
 Use the correct SPI bus.
 
@@ -24,5 +24,5 @@ index f891917..6fe5dcf 100644
  		__overlay__ {
  			#address-cells = <1>;
 -- 
-1.8.1.4
+1.8.2.1
 

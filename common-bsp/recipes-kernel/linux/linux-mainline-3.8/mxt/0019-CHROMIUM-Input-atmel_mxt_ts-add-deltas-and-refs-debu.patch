@@ -1,4 +1,4 @@
-From eac23020a8657ee2a259e834c977b2a2a323b3f9 Mon Sep 17 00:00:00 2001
+From 37068d2a8e22a350831a7419ae534dc24feabce3 Mon Sep 17 00:00:00 2001
 From: Daniel Kurtz <djkurtz@chromium.org>
 Date: Mon, 17 Dec 2012 17:32:59 +0800
 Subject: [PATCH 19/57] CHROMIUM: Input: atmel_mxt_ts - add deltas and refs
@@ -338,5 +338,5 @@ index 311959d..9a8cfd2 100644
  	free_irq(data->irq, data);
  	if (data->input_dev)
 -- 
-1.8.1.4
+1.8.2.1
 

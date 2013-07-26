@@ -1,4 +1,4 @@
-From 4657a0d05120d334b47a8dfd2bca584c19b49caa Mon Sep 17 00:00:00 2001
+From 0d36cd57f37e2f2f1f2a0017352834cdb7df23c1 Mon Sep 17 00:00:00 2001
 From: Robert Nelson <robertcnelson@gmail.com>
 Date: Tue, 27 Nov 2012 10:53:23 -0600
 Subject: [PATCH 4/9] ARM: OMAP2: PWM: limit am33xx_register_ehrpwm to
@@ -26,5 +26,5 @@ index 8ca1520..f5c71ac 100644
  }
  arch_initcall(omap2_init_devices);
 -- 
-1.8.1.4
+1.8.2.1
 

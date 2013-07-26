@@ -1,7 +1,7 @@
-From 0d237557a826961848afa5cab41b244c97afb8bf Mon Sep 17 00:00:00 2001
+From a45182d63170c5da217650b7a14174a5befd742b Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 8 Jan 2013 15:19:52 +0200
-Subject: [PATCH 015/177] omap: Avoid crashes in the case of hwmod
+Subject: [PATCH 015/184] omap: Avoid crashes in the case of hwmod
  misconfiguration
 
 omap hwmod is really sensitive to hwmod misconfiguration.
@@ -80,5 +80,5 @@ index 4653efb..2b58e21 100644
  		oc->_clk = c;
  		/*
 -- 
-1.8.1.4
+1.8.2.1
 

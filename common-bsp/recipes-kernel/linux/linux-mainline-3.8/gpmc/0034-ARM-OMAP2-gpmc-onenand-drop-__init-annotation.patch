@@ -1,4 +1,4 @@
-From 1f314e97bfde577c246d3c6c60573236c77a9692 Mon Sep 17 00:00:00 2001
+From 15d676923ae120efc5cfddb34de69d4ca4d10376 Mon Sep 17 00:00:00 2001
 From: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
 Date: Fri, 25 Jan 2013 09:23:10 -0300
 Subject: [PATCH 34/39] ARM: OMAP2+: gpmc-onenand: drop __init annotation
@@ -26,5 +26,5 @@ index 1a2b84e..3df9230 100644
  	int err;
  	struct device *dev = &gpmc_onenand_device.dev;
 -- 
-1.8.1.4
+1.8.2.1
 

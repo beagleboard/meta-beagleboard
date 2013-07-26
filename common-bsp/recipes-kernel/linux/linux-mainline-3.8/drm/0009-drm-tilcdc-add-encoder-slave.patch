@@ -1,7 +1,7 @@
-From b123b0788562cbd20dd1e7d4135a22af50907863 Mon Sep 17 00:00:00 2001
+From 461f2ccf1d8a8e110f312a496bbf86d034ea4b35 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 22 Jan 2013 16:02:21 -0600
-Subject: [PATCH 09/11] drm/tilcdc: add encoder slave
+Subject: [PATCH 09/12] drm/tilcdc: add encoder slave
 
 Add output panel driver for i2c encoder slaves.
 
@@ -475,5 +475,5 @@ index 0000000..2f85048
 +
 +#endif /* __TILCDC_SLAVE_H__ */
 -- 
-1.8.1.4
+1.8.2.1
 

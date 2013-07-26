@@ -1,7 +1,7 @@
-From a106878f5d4019efcb65d74f8a78235b5623cb79 Mon Sep 17 00:00:00 2001
+From 17c5689b040b3fb169f7f7b4ee84225b0954e9b5 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 1 May 2013 18:32:29 +0300
-Subject: [PATCH 172/177] omap-clk: Add adjustable clkout2
+Subject: [PATCH 172/184] omap-clk: Add adjustable clkout2
 
 The way clkout2 work is no good for external devices needing the clock.
 A way to select rate, that translates to selecting a parent clock is
@@ -276,5 +276,5 @@ index 7e29317..c028220 100644
  
  
 -- 
-1.8.1.4
+1.8.2.1
 

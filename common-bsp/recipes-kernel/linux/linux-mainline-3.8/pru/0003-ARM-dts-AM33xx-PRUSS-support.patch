@@ -1,7 +1,7 @@
-From 4ad80c86190c28c467d91729641922f5b3a577c8 Mon Sep 17 00:00:00 2001
+From f71bab81bbc1b19cdba27bd87fa2fd77539e8095 Mon Sep 17 00:00:00 2001
 From: Matt Ranostay <mranostay@gmail.com>
 Date: Thu, 17 Jan 2013 16:02:49 -0800
-Subject: [PATCH 03/16] ARM: dts: AM33xx PRUSS support
+Subject: [PATCH 03/19] ARM: dts: AM33xx PRUSS support
 
 Adds a pruss node and an example of use on Beaglebone.
 

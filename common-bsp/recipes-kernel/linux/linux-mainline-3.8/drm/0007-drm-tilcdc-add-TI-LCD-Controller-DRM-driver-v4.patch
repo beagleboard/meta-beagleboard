@@ -1,7 +1,7 @@
-From 8e734badd2cb56de1f409aa15c20bda45be9ee6a Mon Sep 17 00:00:00 2001
+From f110ff2cb193f275f41d435c0c4ddb2308e154f3 Mon Sep 17 00:00:00 2001
 From: Rob Clark <robdclark@gmail.com>
 Date: Tue, 8 Jan 2013 15:04:28 -0600
-Subject: [PATCH 07/11] drm/tilcdc: add TI LCD Controller DRM driver (v4)
+Subject: [PATCH 07/12] drm/tilcdc: add TI LCD Controller DRM driver (v4)
 
 A simple DRM/KMS driver for the TI LCD Controller found in various
 smaller TI parts (AM33xx, OMAPL138, etc).  This driver uses the
@@ -2089,5 +2089,5 @@ index 0000000..5b800f1
 +
 +#endif /* __TILCDC_TFP410_H__ */
 -- 
-1.8.1.4
+1.8.2.1
 
