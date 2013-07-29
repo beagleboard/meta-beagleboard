@@ -83,12 +83,11 @@ SRC_URI += " \
 	file://adc/0013-input-ti_am335x_tsc-return-IRQ_NONE-if-there-was-no-.patch \
 	file://adc/0014-iio-ti_am335x_adc-Allow-to-specify-input-line.patch \
 	file://adc/0015-iio-ti_am335x_adc-check-if-we-found-the-value.patch \
-	file://adc/0016-MFD-ti_tscadc-disable-TSC-control.patch \
+	file://adc/0016-MFD-ti_tscadc-disable-TSC-control-register-bits-when.patch \
 	file://adc/0017-IIO-ADC-ti_adc-Fix-1st-sample-read.patch \
 	file://adc/0018-input-ti_tsc-Enable-shared-IRQ-TSC.patch \
-	file://adc/0019-Revert.-Backport-IIO.patch \
-	file://adc/0020-iio-ti_am335x_adc-Added-iio_voltageX_scale.patch \
-	file://adc/0021-iio-ti_am335x_adc-Add-the-in-kernel-IIO-map-interfac.patch \
+	file://adc/0019-iio-ti_am335x_adc-Add-continuous-sampling-and-trigge.patch \
+	file://adc/0020-iio-ti_am335x_adc-Add-IIO-map-interface.patch \
 	file://i2c/0001-pinctrl-pinctrl-single-must-be-initialized-early.patch \
 	file://i2c/0002-Bone-DTS-working-i2c2-i2c3-in-the-tree.patch \
 	file://i2c/0003-am33xx-Convert-I2C-from-omap-to-am33xx-names.patch \

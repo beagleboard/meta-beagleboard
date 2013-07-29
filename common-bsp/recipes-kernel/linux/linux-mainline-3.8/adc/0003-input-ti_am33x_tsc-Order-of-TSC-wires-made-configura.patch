@@ -1,7 +1,7 @@
-From ecdf414ca83e069645acd69b2f1dcc9655d092c1 Mon Sep 17 00:00:00 2001
+From b604bdd3a1ffe156ff4af3727a4b41f53d74f59f Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:04 +0200
-Subject: [PATCH 03/21] input: ti_am33x_tsc: Order of TSC wires, made
+Subject: [PATCH 03/20] input: ti_am33x_tsc: Order of TSC wires, made
  configurable
 
 The current driver expected touchscreen input

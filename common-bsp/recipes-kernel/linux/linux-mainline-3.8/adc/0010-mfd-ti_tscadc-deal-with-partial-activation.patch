@@ -1,7 +1,7 @@
-From f3ee6909ffadfeaab0a58d370a6a1f97148934da Mon Sep 17 00:00:00 2001
+From 6031f385fce745ea82eae4e6d90ca947c525c894 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 12 Jun 2013 18:58:13 +0200
-Subject: [PATCH 10/21] mfd: ti_tscadc: deal with partial activation
+Subject: [PATCH 10/20] mfd: ti_tscadc: deal with partial activation
 
 Fix the mfd device in the case where a subdevice might not be activated.
 

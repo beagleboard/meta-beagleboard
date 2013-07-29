@@ -1,7 +1,7 @@
-From 278ef38f56f4bef6d58e700ece5b82fefcd18a02 Mon Sep 17 00:00:00 2001
+From 2b31b8d198760d91e051508ba9e8ca59bd927e13 Mon Sep 17 00:00:00 2001
 From: "Patil, Rachna" <rachna@ti.com>
 Date: Wed, 12 Jun 2013 18:58:10 +0200
-Subject: [PATCH 08/21] mfd: ti_am335x_tscadc: Add DT support
+Subject: [PATCH 08/20] mfd: ti_am335x_tscadc: Add DT support
 
 Add DT support in the MFD core driver. The node name is "am3359" because
 it was tested on this platform.

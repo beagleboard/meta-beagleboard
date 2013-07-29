@@ -1,18 +1,13 @@
-From 01da57da1c6701c5ab5fa048a1fe4360d99d9c7c Mon Sep 17 00:00:00 2001
-From: ZubairLK <zubair.lutfullah@gmail.com>
+From 804d873767a531a1416b8b49d2b6bad75d07ef06 Mon Sep 17 00:00:00 2001
+From: "Patil, Rachna" <rachna@ti.com>
 Date: Thu, 27 Jun 2013 23:49:41 +0100
-Subject: [PATCH 17/21] IIO: ADC: ti_adc: Fix 1st sample read
+Subject: [PATCH 17/20] IIO: ADC: ti_adc: Fix 1st sample read
 
 Previously we tried to read data form ADC even before ADC sequencer
-
 finished sampling. This led to wrong samples.
-
 We now wait on ADC status register idle bit to be set.
 
-Original Commit in Arago tree : 663aa2e74f36a5a8000224b37a74c11ee729550d
-ZubairLK Forward ported the changes to 3.8
-
-Signed-off-by: Zubair Lutfullah  <zubair.lutfullah@gmail.com>
+Signed-off-by: Patil, Rachna <rachna@ti.com>
 ---
  drivers/iio/adc/ti_am335x_adc.c      | 29 +++++++++++++++++++++--------
  include/linux/mfd/ti_am335x_tscadc.h | 17 +++++++++++++++++

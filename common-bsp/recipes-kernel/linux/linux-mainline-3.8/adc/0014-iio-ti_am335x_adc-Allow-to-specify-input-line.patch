@@ -1,7 +1,7 @@
-From 324c8c9a9f5876516f12b5fd7c6f342e239d9c9c Mon Sep 17 00:00:00 2001
+From 7ca49ab23dac589d5edf4acc1add016e2be6a1ce Mon Sep 17 00:00:00 2001
 From: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
 Date: Wed, 12 Jun 2013 18:58:21 +0200
-Subject: [PATCH 14/21] iio: ti_am335x_adc: Allow to specify input line
+Subject: [PATCH 14/20] iio: ti_am335x_adc: Allow to specify input line
 
 The TSC part allows to specify the input lines. The IIO part assumes
 that it usues always the last few, that means if IIO has adc-channels
@@ -14,9 +14,6 @@ now AINx where x is the channel number i.e. for AIN6 we would have 6.
 Prior this, it always started counting at 0 which is confusing. In
 addition to this, it also checks for correct step number during reading
 and does not rely on proper FIFO depth.
-
-ZubairLK Tweaked channel info mask for old iio. Tweaked surrounding
-code to make it patch the 3.8 tree
 
 Acked-by: Jonathan Cameron <jic23@kernel.org>
 Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
