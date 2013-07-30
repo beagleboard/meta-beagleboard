@@ -664,6 +664,7 @@ SRC_URI += " \
 	file://resources/0021-hwmon-add-driver-for-the-AM335x-bandgap-temperature-.patch \
 	file://resources/0022-fw-Make-firmware-timeout-loading-value-configurable.patch \
 	file://resources/0023-capemgr-Retry-loading-when-failure-to-find-firmware.patch \
+	file://resources/0024-arm-bone-dts-add-CD-for-mmc1.patch \
 	file://pmic/0001-tps65217-Enable-KEY_POWER-press-on-AC-loss-PWR_BUT.patch \
 	file://pmic/0002-dt-bone-common-Add-interrupt-for-PMIC.patch \
 	file://pps/0001-drivers-pps-clients-pps-gpio.c-convert-to-module_pla.patch \
