@@ -670,6 +670,7 @@ SRC_URI += " \
 	file://pps/0001-drivers-pps-clients-pps-gpio.c-convert-to-module_pla.patch \
 	file://pps/0002-drivers-pps-clients-pps-gpio.c-convert-to-devm_-help.patch \
 	file://pps/0003-pps-gpio-add-device-tree-binding-and-support.patch \
+	file://pps/0004-pps-gpio-add-pinctrl-suppport.patch \
 	file://leds/0001-leds-leds-pwm-Convert-to-use-devm_get_pwm.patch \
 	file://leds/0002-leds-leds-pwm-Preparing-the-driver-for-device-tree-s.patch \
 	file://leds/0003-leds-leds-pwm-Simplify-cleanup-code.patch \
