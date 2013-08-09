@@ -686,6 +686,7 @@ SRC_URI += " \
 	file://capes/0007-Add-support-for-Beaglebone-Audio-Amplifier-Cape.patch \
 	file://capes/0008-capemgr-Priority-on-capemgr.enable_partno-option.patch \
 	file://capes/0009-bone-add-protocape-GPS.patch \
+	file://capes/0010-capes-make-SPI-overlays-SPIDEV-by-default.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
