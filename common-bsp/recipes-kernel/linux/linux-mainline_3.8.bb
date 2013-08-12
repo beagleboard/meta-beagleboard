@@ -687,6 +687,12 @@ SRC_URI += " \
 	file://capes/0008-capemgr-Priority-on-capemgr.enable_partno-option.patch \
 	file://capes/0009-bone-add-protocape-GPS.patch \
 	file://capes/0010-capes-make-SPI-overlays-SPIDEV-by-default.patch \
+	file://capes/0011-Removed-old-wrong-BeBoPr-2191-R2-overlay.patch \
+	file://capes/0012-Workaround-for-bug-in-tscadc-code-that-oopses-with-B.patch \
+	file://capes/0013-DT-overlay-for-BeBoPr-and-BeagleBone-white-.-Loaded-.patch \
+	file://capes/0014-Added-alias-for-BeBoPrs-with-old-EEPROM-device-id-21.patch \
+	file://capes/0015-DT-overlay-for-BeBoPr-with-enable-patch-and-BeagleBo.patch \
+	file://capes/0016-DT-overlay-for-BeBoPr-Bridge-and-BeagleBone-any-colo.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
