@@ -1,7 +1,7 @@
-From e4319abffe3c23e0c927f2445f665e0e341a4728 Mon Sep 17 00:00:00 2001
+From f146dd0ce125d9fafb26a4a3294df42b85d42914 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Wed, 5 Jun 2013 19:48:59 +0300
-Subject: [PATCH 15/22] drm: tilcdc: Clear bits of register we're going to set.
+Subject: [PATCH 15/27] drm: tilcdc: Clear bits of register we're going to set.
 
 Bits weren't cleared so resolution changes didn't work.
 

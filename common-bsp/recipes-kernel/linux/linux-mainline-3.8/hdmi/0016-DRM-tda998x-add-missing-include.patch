@@ -1,7 +1,7 @@
-From 3511922d770ac554e4fc2151ad53dc5dc09b47df Mon Sep 17 00:00:00 2001
+From b0134867f523f4110097b2062a6932a4fc3cca4d Mon Sep 17 00:00:00 2001
 From: Sebastian Hesselbarth <sebastian.hesselbarth@gmail.com>
 Date: Sat, 18 May 2013 17:12:19 +0000
-Subject: [PATCH 16/22] DRM: tda998x: add missing include
+Subject: [PATCH 16/27] DRM: tda998x: add missing include
 
 The RFC sent by Russell King was missing an include for tda998x. This
 is just a compatible clone to remember Russell to add that later.

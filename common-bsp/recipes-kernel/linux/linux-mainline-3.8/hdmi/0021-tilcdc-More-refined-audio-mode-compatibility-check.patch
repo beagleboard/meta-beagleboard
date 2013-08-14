@@ -1,7 +1,7 @@
-From f609267a51007ec900f641be8e4dfc40eb46f9d4 Mon Sep 17 00:00:00 2001
+From a774989da6914958b9e61c48b284419dc93a0110 Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 6 Jun 2013 22:55:04 +0300
-Subject: [PATCH 21/22] tilcdc: More refined audio mode compatibility check.
+Subject: [PATCH 21/27] tilcdc: More refined audio mode compatibility check.
 
 Allow audio modes more selectively. This should end up in DT instead
 but it will do for release.

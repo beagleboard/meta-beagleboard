@@ -1,7 +1,7 @@
-From c0fb8c0155648110ed2be7cf1ed7175b52cb915f Mon Sep 17 00:00:00 2001
+From 882b4438cee1e54dbff78b3d207fa7c0ab7564db Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Fri, 19 Apr 2013 13:18:14 -0500
-Subject: [PATCH 03/22] Clean up some formating and debug in Davinci MCASP
+Subject: [PATCH 03/27] Clean up some formating and debug in Davinci MCASP
  driver
 
 ---

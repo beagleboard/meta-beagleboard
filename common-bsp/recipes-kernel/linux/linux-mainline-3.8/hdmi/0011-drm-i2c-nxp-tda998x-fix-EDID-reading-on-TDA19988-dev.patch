@@ -1,7 +1,7 @@
-From 99fd64ceeefb6e0fe8e6071c81633423d095c860 Mon Sep 17 00:00:00 2001
+From f35574ad3fc70d28d8b681ae6a6c09d62e3e3ab3 Mon Sep 17 00:00:00 2001
 From: Russell King <rmk+kernel@arm.linux.org.uk>
 Date: Thu, 16 May 2013 19:25:58 +0000
-Subject: [PATCH 11/22] drm/i2c: nxp-tda998x: fix EDID reading on TDA19988
+Subject: [PATCH 11/27] drm/i2c: nxp-tda998x: fix EDID reading on TDA19988
  devices
 
 TDA19988 devices need their RAM enabled in order to read EDID

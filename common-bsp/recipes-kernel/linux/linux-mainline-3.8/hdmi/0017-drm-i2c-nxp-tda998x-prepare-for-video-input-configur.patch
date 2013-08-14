@@ -1,7 +1,7 @@
-From b3f19e1b6f081d5cc80abd6c0a1a5ab4ff408b06 Mon Sep 17 00:00:00 2001
+From fe9f5fafcf9a4955c028091b436e025f7922960c Mon Sep 17 00:00:00 2001
 From: Russell King <rmk+kernel@arm.linux.org.uk>
 Date: Thu, 16 May 2013 19:26:58 +0000
-Subject: [PATCH 17/22] drm/i2c: nxp-tda998x: prepare for video input
+Subject: [PATCH 17/27] drm/i2c: nxp-tda998x: prepare for video input
  configuration
 
 Signed-off-by: Russell King <rmk+kernel@arm.linux.org.uk>

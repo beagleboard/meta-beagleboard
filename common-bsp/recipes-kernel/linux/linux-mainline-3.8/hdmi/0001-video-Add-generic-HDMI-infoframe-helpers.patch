@@ -1,7 +1,7 @@
-From ead28d762a66dd08fb2f389a0c45696bf7431cfc Mon Sep 17 00:00:00 2001
+From b74b8d739bbe6b561899a61282aa79e8d34edd37 Mon Sep 17 00:00:00 2001
 From: Thierry Reding <thierry.reding@avionic-design.de>
 Date: Fri, 22 Feb 2013 07:03:26 +0000
-Subject: [PATCH 01/22] video: Add generic HDMI infoframe helpers
+Subject: [PATCH 01/27] video: Add generic HDMI infoframe helpers
 
 Add generic helpers to pack HDMI infoframes into binary buffers.
 

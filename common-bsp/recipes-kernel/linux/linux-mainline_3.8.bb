@@ -619,7 +619,12 @@ SRC_URI += " \
 	file://hdmi/0019-tilcdc-Slave-panel-settings-read-from-DT-now.patch \
 	file://hdmi/0020-drm-tda998x-Revert-WIP-to-previous-state.patch \
 	file://hdmi/0021-tilcdc-More-refined-audio-mode-compatibility-check.patch \
-	file://hdmi/0022-drm-tilcdc-Implement-whitelist-blacklist-mode-suppor.patch \
+	file://hdmi/0022-drm-tilcdc-fixing-i2c-slave-initialization-race.patch \
+	file://hdmi/0023-drm-tilcdc-increase-allowable-supported-resolution.patch \
+	file://hdmi/0024-drm-i2c-tda998x-fix-sync-generation-and-calculation.patch \
+	file://hdmi/0025-drm-tilcdc-fixup-mode-to-workaound-sync-for-tda998x.patch \
+	file://hdmi/0026-Documentation-for-tilcdc-Devicetree-Bindings.patch \
+	file://hdmi/0027-drm-tilcdc-adding-more-guards-to-prevent-selecting-i.patch \
 	file://resetctrl/0001-boneblack-Remove-default-pinmuxing-for-MMC1.patch \
 	file://resetctrl/0002-capemgr-Implement-cape-priorities.patch \
 	file://resetctrl/0003-rstctl-Reset-control-subsystem.patch \
@@ -693,6 +698,7 @@ SRC_URI += " \
 	file://capes/0014-Added-alias-for-BeBoPrs-with-old-EEPROM-device-id-21.patch \
 	file://capes/0015-DT-overlay-for-BeBoPr-with-enable-patch-and-BeagleBo.patch \
 	file://capes/0016-DT-overlay-for-BeBoPr-Bridge-and-BeagleBone-any-colo.patch \
+	file://capes/0017-Removed-Whitelist-and-Blacklist-Modes-From-HDMI-Devi.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \

@@ -1,7 +1,7 @@
-From 294efce677c359a0928dd5adb75ee035e42bd3e0 Mon Sep 17 00:00:00 2001
+From 5681e3c12e2183d345548124a8a932507b3ee6e4 Mon Sep 17 00:00:00 2001
 From: Darren Etheridge <detheridge@ti.com>
 Date: Wed, 8 May 2013 16:15:40 -0500
-Subject: [PATCH 06/22] drm: am335x: add support for 2048 lines vertical
+Subject: [PATCH 06/27] drm: am335x: add support for 2048 lines vertical
 
 Add extra mode that enables 1920x1080@24, this now works
 with 2048 lines vertical support and EMIF setting of

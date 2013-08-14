@@ -1,7 +1,7 @@
-From cd2910795320b2b201d9461532738edfba18da72 Mon Sep 17 00:00:00 2001
+From 6476b075050d52a685c7ee5f047645836fe12aba Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Thu, 6 Jun 2013 11:45:28 +0300
-Subject: [PATCH 19/22] tilcdc: Slave panel settings read from DT now
+Subject: [PATCH 19/27] tilcdc: Slave panel settings read from DT now
 
 Turns out that we really need those panel settings.
 

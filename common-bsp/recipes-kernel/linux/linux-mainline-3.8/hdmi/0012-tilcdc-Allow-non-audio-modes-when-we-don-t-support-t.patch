@@ -1,7 +1,7 @@
-From 517715c6a45bb60a96be37b4d4853855abb6c0d8 Mon Sep 17 00:00:00 2001
+From ae368349118a324f183031c35cbbbab5748402df Mon Sep 17 00:00:00 2001
 From: Pantelis Antoniou <panto@antoniou-consulting.com>
 Date: Tue, 4 Jun 2013 17:53:07 +0300
-Subject: [PATCH 12/22] tilcdc: Allow non-audio modes when we don't support
+Subject: [PATCH 12/27] tilcdc: Allow non-audio modes when we don't support
  them.
 
 Allow non-audio modes on an audio capable monitor if we explicitly
