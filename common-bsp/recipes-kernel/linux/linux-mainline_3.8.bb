@@ -220,6 +220,7 @@ SRC_URI += " \
 	file://arm/0002-Without-MACH_-option-Early-printk-DEBUG_LL.patch \
 	file://arm/0003-ARM-7668-1-fix-memset-related-crashes-caused-by-rece.patch \
 	file://arm/0004-ARM-7670-1-fix-the-memset-fix.patch \
+	file://arm/0005-ARM-DTS-AM33XX-Add-PMU-support.patch \
 	file://omap/0001-regulator-core-if-voltage-scaling-fails-restore-orig.patch \
 	file://omap/0002-omap2-twl-common-Add-default-power-configuration.patch \
 	file://omap/0003-omap2-irq-fix-interrupt-latency.patch \
