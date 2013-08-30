@@ -54,7 +54,7 @@ sync
 blockdev --flushbufs /dev/mmcblk1
 
 echo "Extracting rootfs"
-tar zxf Angstrom-Cloud9-IDE-GNOME-eglibc-ipk-v2012.12-beaglebone.rootfs.tar.gz -C ${PART2MOUNT}
+tar zxf Angstrom-Cloud9-IDE-GNOME-eglibc-ipk-v2013.06-beaglebone.rootfs.tar.gz -C ${PART2MOUNT}
 
 echo "Populating VFAT partition"
 mount /dev/mmcblk1p1 ${PART1MOUNT} -o async
