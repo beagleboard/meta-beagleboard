@@ -75,6 +75,9 @@ if [ "${HOSTARCH}" = "armv7l" ] ; then
 	echo "Running Postinsts"
 	cpufreq-set -g performance
 	systemd-nspawn -D ${PART2MOUNT} /usr/bin/opkg-cl configure
+	if [ -e /etc/rcS.d/S98run-postinsts ] ; then 
+		/etc/rcS.d/S98run-postinsts
+	fi
 	cpufreq-set -g ondemand
 
 	# Hack to get some space back
