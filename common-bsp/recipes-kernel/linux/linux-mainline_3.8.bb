@@ -700,6 +700,7 @@ SRC_URI += " \
 	file://capes/0016-DT-overlay-for-BeBoPr-Bridge-and-BeagleBone-any-colo.patch \
 	file://capes/0017-Removed-Whitelist-and-Blacklist-Modes-From-HDMI-Devi.patch \
 	file://fixes/0001-sync-don-t-block-the-flusher-thread-waiting-on-IO.patch \
+	file://fixes/0002-USB-Fix-USB-device-disconnects-on-resume.patch \
 	file://defconfig \
   file://am335x-pm-firmware.bin \
   file://logo_linux_clut224.ppm \
