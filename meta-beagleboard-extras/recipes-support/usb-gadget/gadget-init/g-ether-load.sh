@@ -37,7 +37,7 @@ function reverse_bytes()
 
 mac_address="/proc/device-tree/ocp/ethernet@4a100000/slave@4a100300/mac-address"
 if [ -f ${mac_address} ] ; then
-	DEV_ADDR=$(hexdump -e '1/1 "%02X" ":"' ${mac_address} | sed 's/.$//')
+	DEV_ADDR=$(hexdump -v -e '1/1 "%02X" ":"' ${mac_address} | sed 's/.$//')
 else
 	DEVMEM_ADDR_LO=$(get_devmem 0x44e10638|bc)
 	DEVMEM_ADDR_LO=$(reverse_bytes ${DEVMEM_ADDR_LO})
