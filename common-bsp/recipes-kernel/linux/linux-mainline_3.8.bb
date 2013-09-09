@@ -700,6 +700,7 @@ SRC_URI += " \
 	file://capes/0015-DT-overlay-for-BeBoPr-with-enable-patch-and-BeagleBo.patch \
 	file://capes/0016-DT-overlay-for-BeBoPr-Bridge-and-BeagleBone-any-colo.patch \
 	file://capes/0017-Removed-Whitelist-and-Blacklist-Modes-From-HDMI-Devi.patch \
+	file://capes/0018-beaglebone-capes-add-replicape-A2-and-A3-support.patch \
 	file://fixes/0001-sync-don-t-block-the-flusher-thread-waiting-on-IO.patch \
 	file://fixes/0002-USB-Fix-USB-device-disconnects-on-resume.patch \
 	file://defconfig \
