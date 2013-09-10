@@ -13,18 +13,22 @@ EMMCSCRIPT="/build/v2012.12/sources/meta-beagleboard/contrib/bone-flash-tool/emm
 DATE="$(ls -o  --time-style +' %Y.%m.%d' ${DEPLOYDIR}/${FLASHIMG} | awk '{print $5}')-DO-NOT-USE-FOR-PRODUCTION"
 #DATE="$(date +'%Y.%m.%d')-DO-NOT-USE-FOR-PRODUCTION"
 
-if [ -e ${IMAGE}.xz ] ; then
+echo "Using ${DATE} as identifier"
+
+IMAGENAME="$(basename ${IMAGE} .img)-${DATE}"
+
+if ! [ -e ${IMAGENAME} ] ; then
 	echo "uncompressing image"
-	xz -d -v ${IMAGE}.xz
+	xz -k -d -v -c ${IMAGE}.xz > ${IMAGENAME}
 fi
 
-if ! [ -e ${IMAGE} ] ; then
-	echo "${IMAGE} not found!"
+if ! [ -e ${IMAGENAME} ] ; then
+	echo "${IMAGENAME} not found!"
 	exit 1
 fi
 
 echo "Trying to attach image file"
-LOOPFILE="$(kpartx -a -v ${IMAGE} | grep /dev | grep p2 | tail -n1 | awk '{print $8}' | sed s:/dev/::)"
+LOOPFILE="$(kpartx -a -v ${IMAGENAME} | grep /dev | grep p2 | tail -n1 | awk '{print $8}' | sed s:/dev/::)"
 
 echo "Loopdev: ${LOOPFILE}"
 
@@ -100,8 +104,8 @@ umount ${MOUNTPOINT}
 sleep 1
 
 echo "detaching loopfile"
-kpartx -d -v ${IMAGE}
+kpartx -d -v ${IMAGENAME}
 
 echo "Compressing image"
-xz -v -z -T0 -e -9 ${IMAGE} 
-cp -f ${IMAGE}.xz /build/dominion/beaglebone/test-${IMAGE}.xz
+xz -f -v -z -T0 -e -9 ${IMAGENAME} 
+cp -f ${IMAGE}.xz /build/dominion/beaglebone/${IMAGENAME}.xz
